@@ -9,7 +9,7 @@
       "toggleLabel": "Toggle menu"
     },
     "footer": {
-      "brand": "A holding company building and operating a growing index of ventures across software, marketing, talent, hospitality technology and privacy-first computing — grown from an original mobile-first studio founded in Moscow.",
+      "brand": "A holding company building and operating a growing index of ventures across software, marketing, talent, hospitality technology, privacy-first computing and website hosting — grown from an original mobile-first studio founded in Moscow.",
       "companyHeading": "Company",
       "companyLinks": {
         "about": "About",
@@ -31,17 +31,17 @@
   "index": {
     "meta": {
       "title": "Glazni — A Holding Company of Ventures",
-      "description": "Glazni is a holding company operating a growing index of ventures across software, marketing, talent, hospitality technology and privacy-first computing — grown from an original mobile-first studio founded in Moscow."
+      "description": "Glazni is a holding company operating a growing index of ventures across software, marketing, talent, hospitality technology, privacy-first computing and website hosting — grown from an original mobile-first studio founded in Moscow."
     },
     "hero": {
       "eyebrow": "Glazni — Moscow · Berlin · Europe-wide",
       "titleHtml": "AAAAAOne holding company.<br><span>An index of ventures.</span>",
-      "sub": "Glazni began as a mobile-first software studio, building premium, privacy-focused iOS and Android apps for clients across Russia, Germany and the rest of Europe. Today it's the holding company behind a growing index of independent ventures — spanning software, marketing, talent, hospitality technology and privacy-first computing.",
+      "sub": "Glazni began as a mobile-first software studio, building premium, privacy-focused iOS and Android apps for clients across Russia, Germany and the rest of Europe. Today it's the holding company behind a growing index of independent ventures — spanning software, marketing, talent, hospitality technology, privacy-first computing and website hosting.",
       "ctaExplore": "Explore the ventures",
       "ctaRoles": "See open roles",
       "orbitLabel": "INDEX OF VENTURES",
       "stats": [
-        { "num": "6 ventures", "desc": "Software, marketing, talent, hospitality & privacy tech" },
+        { "num": "7 ventures", "desc": "Software, marketing, talent, hospitality, privacy & hosting tech" },
         { "num": "6+ yrs", "desc": "Building in production, since our first studio" },
         { "num": "Moscow · Berlin", "desc": "Engineering roots & European hub" }
       ]
@@ -62,11 +62,12 @@
       "talent": { "tag": "People" },
       "dine": { "tag": "Hospitality tech" },
       "studio": { "tag": "Design" },
-      "degoogle": { "tag": "Privacy-first devices" }
+      "degoogle": { "tag": "Privacy-first devices" },
+      "migrate": { "tag": "Website hosting" }
     },
     "ventures": {
       "eyebrow": "Index of ventures",
-      "title": "One holding company. Six ventures.",
+      "title": "One holding company. Seven ventures.",
       "desc": "Each venture ships its own roadmap and owns its own P&L — while sharing the same Glazni backbone.",
       "pillars": {
         "apps": {
@@ -90,14 +91,18 @@
         "degoogle": {
           "desc": "GrapheneOS guides, our own privacy-first apps, and de-googled phones we build and sell.",
           "link": "Learn more →"
+        },
+        "migrate": {
+          "desc": "We rebuild websites off subscription website builders and host them ourselves, typically around half the ongoing cost.",
+          "link": "See how it works →"
         }
       }
     },
     "about": {
       "eyebrow": "About",
       "title": "From a single studio to an index of ventures.",
-      "desc": "Same craft and ownership standards, now spread across six teams instead of one.",
-      "copy": "Glazni started as a mobile-first software studio in Moscow, building fast, native-feeling Android and iOS apps — plus the websites, desktop tools, and infrastructure around them — for clients across Russia, Germany and the rest of Europe. As that studio grew, the teams around it — marketing, talent, hospitality tech, design, and privacy-first computing — grew into ventures of their own. Glazni is now the holding company that sits above all of them: still rooted in Moscow, with Berlin as its European hub and remote coverage across the rest of the continent.",
+      "desc": "Same craft and ownership standards, now spread across seven teams instead of one.",
+      "copy": "Glazni started as a mobile-first software studio in Moscow, building fast, native-feeling Android and iOS apps — plus the websites, desktop tools, and infrastructure around them — for clients across Russia, Germany and the rest of Europe. As that studio grew, the teams around it — marketing, talent, hospitality tech, design, privacy-first computing, and website migration — grew into ventures of their own. Glazni is now the holding company that sits above all of them: still rooted in Moscow, with Berlin as its European hub and remote coverage across the rest of the continent.",
       "culture": [
         { "title": "Independently run", "desc": "Each venture owns its own roadmap and its own P&L. Nobody waits on a parent company's queue." },
         { "title": "Shared backbone", "desc": "Recruiting and people operations are built once — in Glazni Talent — and every venture in the index draws on the same hiring pipeline." },

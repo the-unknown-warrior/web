@@ -96,6 +96,41 @@ h1,h2,h3,.font-display{
   outline-offset: 3px;
 }
 
+/* ---------- page transitions (slide navigation) ----------
+   Opts every page into the native Cross-Document View Transitions API:
+   whenever you follow a same-site link, the new page slides in from the
+   right while the old one slides out to the left, like a mobile "push"
+   nav. Nothing to wire up per-link — the browser intercepts normal
+   <a href> navigations on its own once this is declared.
+   Supported in Chromium browsers (Chrome/Edge 126+) as of writing; other
+   browsers just fall back to a normal, un-animated page load — no JS
+   dependency, nothing to break. */
+@view-transition{
+  navigation: auto;
+}
+
+::view-transition-old(root){
+  animation: 420ms var(--ease) both slide-out-left;
+}
+::view-transition-new(root){
+  animation: 420ms var(--ease) both slide-in-right;
+}
+
+@keyframes slide-in-right{
+  from{ transform:translateX(100%); }
+}
+@keyframes slide-out-left{
+  to{ transform:translateX(-100%); }
+}
+
+@media (prefers-reduced-motion: reduce){
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*){
+    animation:none !important;
+  }
+}
+
 /* ---------- buttons ---------- */
 .btn{
   display:inline-flex;
@@ -142,7 +177,7 @@ h1,h2,h3,.font-display{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  padding:20px 32px;
+  padding:20px 0px;
   max-width:var(--maxw);
   margin:0 auto;
 }
