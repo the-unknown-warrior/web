@@ -1,0 +1,194 @@
+{
+  "shared": {
+    "nav": {
+      "ventures": "Ventures",
+      "careers": "Careers",
+      "about": "About",
+      "contact": "Contact",
+      "getInTouch": "Get in touch",
+      "toggleLabel": "Toggle menu"
+    },
+    "footer": {
+      "brand": "A holding company building and operating a growing index of ventures across software, marketing, talent, hospitality technology and privacy-first computing — grown from an original mobile-first studio founded in Moscow.",
+      "companyHeading": "Company",
+      "companyLinks": {
+        "about": "About",
+        "ventures": "Ventures",
+        "careers": "Careers",
+        "contact": "Contact"
+      },
+      "venturesHeading": "Ventures",
+      "legalHeading": "Legal",
+      "legalLinks": {
+        "privacy": "Privacy policy",
+        "terms": "Terms of service"
+      },
+      "copyright": "Glazni. All rights reserved.",
+      "builtBy": "Built in-house by the Glazni team."
+    }
+  },
+
+  "index": {
+    "meta": {
+      "title": "Glazni — A Holding Company of Ventures",
+      "description": "Glazni is a holding company operating a growing index of ventures across software, marketing, talent, hospitality technology and privacy-first computing — grown from an original mobile-first studio founded in Moscow."
+    },
+    "hero": {
+      "eyebrow": "Glazni — Moscow · Berlin · Europe-wide",
+      "titleHtml": "One holding company.<br><span>An index of ventures.</span>",
+      "sub": "Glazni began as a mobile-first software studio, building premium, privacy-focused iOS and Android apps for clients across Russia, Germany and the rest of Europe. Today it's the holding company behind a growing index of independent ventures — spanning software, marketing, talent, hospitality technology and privacy-first computing.",
+      "ctaExplore": "Explore the ventures",
+      "ctaRoles": "See open roles",
+      "orbitLabel": "INDEX OF VENTURES",
+      "stats": [
+        { "num": "6 ventures", "desc": "Software, marketing, talent, hospitality & privacy tech" },
+        { "num": "6+ yrs", "desc": "Building in production, since our first studio" },
+        { "num": "Moscow · Berlin", "desc": "Engineering roots & European hub" }
+      ]
+    },
+    "media": {
+      "apps": { "sub": "Mobile & web engineering" },
+      "degoogle": { "sub": "Privacy-first devices" },
+      "dine": { "sub": "Restaurant & delivery tech" },
+      "talent": { "sub": "Global hiring" }
+    },
+    "ticker": {
+      "moscow": { "place": "Moscow", "tag": "Engineering HQ" },
+      "berlin": { "place": "Berlin", "tag": "European hub" },
+      "europe": { "place": "Europe-wide", "tag": "Remote coverage" },
+      "founded": { "text": "Founded in Moscow", "tag": "6+ years ago" },
+      "apps": { "tag": "Mobile & web" },
+      "growth": { "tag": "Marketing" },
+      "talent": { "tag": "People" },
+      "dine": { "tag": "Hospitality tech" },
+      "studio": { "tag": "Design" },
+      "degoogle": { "tag": "Privacy-first devices" }
+    },
+    "ventures": {
+      "eyebrow": "Index of ventures",
+      "title": "One holding company. Six ventures.",
+      "desc": "Each venture ships its own roadmap and owns its own P&L — while sharing the same Glazni backbone.",
+      "pillars": {
+        "apps": {
+          "desc": "Where it started. Premium, privacy-focused iOS and Android apps, most built for clients under NDA.",
+          "link": "See how it works →"
+        },
+        "growth": {
+          "desc": "Performance marketing and brand strategy — for the ventures, and for outside clients."
+        },
+        "talent": {
+          "desc": "Recruiting and people operations — including access to skilled hires across global talent markets.",
+          "link": "Learn more →"
+        },
+        "dine": {
+          "desc": "Software for restaurants and hospitality operators, sold as ready-made packages.",
+          "link": "Compare packages →"
+        },
+        "studio": {
+          "desc": "Product design across the index, from first sketch to shipped screen."
+        },
+        "degoogle": {
+          "desc": "GrapheneOS guides, our own privacy-first apps, and de-googled phones we build and sell.",
+          "link": "Learn more →"
+        }
+      }
+    },
+    "about": {
+      "eyebrow": "About",
+      "title": "From a single studio to an index of ventures.",
+      "desc": "Same craft and ownership standards, now spread across six teams instead of one.",
+      "copy": "Glazni started as a mobile-first software studio in Moscow, building fast, native-feeling Android and iOS apps — plus the websites, desktop tools, and infrastructure around them — for clients across Russia, Germany and the rest of Europe. As that studio grew, the teams around it — marketing, talent, hospitality tech, design, and privacy-first computing — grew into ventures of their own. Glazni is now the holding company that sits above all of them: still rooted in Moscow, with Berlin as its European hub and remote coverage across the rest of the continent.",
+      "culture": [
+        { "title": "Independently run", "desc": "Each venture owns its own roadmap and its own P&L. Nobody waits on a parent company's queue." },
+        { "title": "Shared backbone", "desc": "Recruiting and people operations are built once — in Glazni Talent — and every venture in the index draws on the same hiring pipeline." },
+        { "title": "Same roots", "desc": "Every venture is held to the craft and ownership standards the original Moscow studio was built on." }
+      ]
+    },
+    "process": {
+      "eyebrow": "How it grows",
+      "title": "Four steps from idea to venture.",
+      "desc": "The same path every venture in the index has taken so far.",
+      "steps": [
+        { "title": "Identify", "desc": "We look for problems worth solving — usually ones a team inside Glazni has already run into first-hand." },
+        { "title": "Build", "desc": "A small team ships a working product the way the original studio did: fast, and in production." },
+        { "title": "Operate", "desc": "Once it's proven, the team runs it as its own venture — own name, own roadmap, own hiring." },
+        { "title": "Scale", "desc": "The venture draws on Glazni Talent and the shared engineering backbone so it can grow without rebuilding the basics." }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Join the index",
+      "title": "We're always looking for people who want to run something real.",
+      "desc": "Every venture is hiring — see what's open, or write to us about the next one.",
+      "ctaRoles": "See open roles",
+      "ctaEmail": "Email hello@glazni.com"
+    },
+    "contact": {
+      "eyebrow": "Get in touch",
+      "title": "Tell us what you're building.",
+      "desc": "About an existing venture, a new one, or something else entirely.",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "submit": "Send message",
+        "note": "This opens your email client with the message pre-filled — we usually reply within a business day."
+      },
+      "info": {
+        "general": { "label": "GENERAL", "desc": "Usually a reply within a business day" },
+        "careers": { "label": "CAREERS", "desc": "Open roles across every venture" },
+        "moscow": { "label": "MOSCOW", "title": "Engineering HQ" },
+        "berlin": { "label": "BERLIN", "title": "European hub" },
+        "europe": { "label": "EUROPE", "title": "Remote coverage" }
+      }
+    }
+  },
+
+  "apps": {
+    "meta": {
+      "title": "Glazni Apps — Mobile & Web Engineering",
+      "description": "Glazni Apps is where the company started — premium, privacy-focused iOS and Android engineering, built mostly for clients under NDA."
+    },
+    "hero": {
+      "eyebrow": "Venture 01 — Glazni Apps",
+      "title": "Where Glazni started, and where most of it still runs.",
+      "sub": "Before there was a holding company, there was a small studio in Moscow building fast, native-feeling iOS and Android apps. That's still what Glazni Apps does — for clients, and occasionally for ourselves.",
+      "ctaTalk": "Talk to us about a build",
+      "ctaRoles": "See open roles"
+    },
+    "build": {
+      "eyebrow": "What we build",
+      "title": "Native apps, built the way the original studio built them.",
+      "p1": "The team behind Glazni Apps ships production iOS and Android software on Flutter, Golang and AWS — the same stack the studio was founded on. A number of these apps are live on the App Store and Google Play today, and several more are in active development.",
+      "p2": "Most of what we build is commissioned work: client products we design, ship and maintain under our own name or theirs. What's public and what isn't is a decision each client makes, not us.",
+      "imgAlt": "Mobile engineering at Glazni Apps"
+    },
+    "private": {
+      "eyebrow": "Private, by design",
+      "title": "We don't list or link to our own apps here.",
+      "desc": "If you already have a link to one of our apps, that link works. This site just won't hand it to you.",
+      "noticeLabel": "Why:",
+      "notice": "most of what we build is client work, and several of our own apps are still early or invite-based. Rather than publish a partial, half-public list, we simply don't route traffic to any Glazni-built app from this website. If you were sent a Play Store or App Store link directly, it's valid — go ahead and open it. Nothing here will redirect you to one."
+    },
+    "rebuild": {
+      "eyebrow": "Also available",
+      "title": "Already have a product? We'll rebuild it properly.",
+      "p1": "Not every engagement starts from a blank page. A good share of our client work is re-engineering: taking an existing website, app or internal tool that's grown slow, brittle or outdated, and rebuilding it on a stack that can actually be maintained.",
+      "p2": "If that's what you need, this is the venture to talk to — same team, same standards, applied to something that already exists.",
+      "imgAlt": "Rebuilding an existing product"
+    },
+    "announce": {
+      "eyebrow": "New announcements",
+      "title": "What the team is building right now",
+      "tag": "In development",
+      "itemTitle": "A language-learning app",
+      "itemDesc": "We're building a language-learning app in-house. It's early — no public link yet, and no date to share — but it'll follow the same privacy-first approach as everything else Glazni ships."
+    },
+    "cta": {
+      "eyebrow": "Building something?",
+      "title": "Tell us whether it's new, or whether it needs rebuilding.",
+      "desc": "Either way, it starts with the same conversation.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaContact": "Contact the team"
+    }
+  }
+}

@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glazni — A Holding Company of Ventures</title>
+<meta name="description" content="Glazni is a holding company operating a growing index of ventures across software, marketing, talent, hospitality technology and privacy-first computing — grown from an original mobile-first studio founded in Moscow.">
+<link rel="icon" href="small_logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="index">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-logo-plate"><img src="logo.png" alt="Glazni" class="brand-logo"></span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#ventures" data-i18n="nav.ventures">Ventures</a></li>
+      <li><a href="careers.html" data-i18n="nav.careers">Careers</a></li>
+      <li><a href="#about" data-i18n="nav.about">About</a></li>
+      <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#contact" class="btn btn-ghost" data-i18n="nav.getInTouch">Get in touch</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" data-i18n-attr="aria-label:nav.toggleLabel">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 4.5H16M2 9H16M2 13.5H16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow reveal visible" data-i18n="hero.eyebrow">Glazni — Moscow · Berlin · Europe-wide</div>
+        <h1 class="reveal visible" data-i18n-html="hero.titleHtml">One holding company.<br><span>An index of ventures.</span></h1>
+        <p class="hero-sub reveal visible" data-i18n="hero.sub">Glazni began as a mobile-first software studio, building premium, privacy-focused iOS and Android apps for clients across Russia, Germany and the rest of Europe. Today it's the holding company behind a growing index of independent ventures — spanning software, marketing, talent, hospitality technology and privacy-first computing.</p>
+        <div class="hero-actions reveal visible">
+          <a href="#ventures" class="btn btn-primary"><span data-i18n="hero.ctaExplore">Explore the ventures</span>
+            <svg viewBox="0 0 14 14" fill="none"><path d="M7 2V12M7 12L2.5 7.5M7 12L11.5 7.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="careers.html" class="btn btn-ghost" data-i18n="hero.ctaRoles">See open roles</a>
+        </div>
+        <div class="hero-foot reveal visible">
+          <div><strong data-i18n="hero.stats.0.num">6 ventures</strong><span data-i18n="hero.stats.0.desc">Software, marketing, talent, hospitality &amp; privacy tech</span></div>
+          <div><strong data-i18n="hero.stats.1.num">6+ yrs</strong><span data-i18n="hero.stats.1.desc">Building in production, since our first studio</span></div>
+          <div><strong data-i18n="hero.stats.2.num">Moscow · Berlin</strong><span data-i18n="hero.stats.2.desc">Engineering roots &amp; European hub</span></div>
+        </div>
+      </div>
+
+      <div class="orbit-stage">
+        <div class="orbit-ring"></div>
+        <div class="orbit-ring r2"></div>
+        <div class="orbit-ring r3"></div>
+        <div class="orbit-core">GZ<small data-i18n="hero.orbitLabel">INDEX OF VENTURES</small></div>
+        <div class="orbit-nodes" data-radius="46">
+          <div class="orbit-node"><div class="pin"><div class="badge">AP</div></div></div>
+          <div class="orbit-node"><div class="pin"><div class="badge">GR</div></div></div>
+          <div class="orbit-node"><div class="pin"><div class="badge">TL</div></div></div>
+          <div class="orbit-node"><div class="pin"><div class="badge">DN</div></div></div>
+          <div class="orbit-node"><div class="pin"><div class="badge">ST</div></div></div>
+          <div class="orbit-node"><div class="pin"><div class="badge">DG</div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MEDIA STRIP ================= -->
+<section class="media-strip">
+  <div class="media-strip-inner">
+    <a href="apps.html" class="media-tile">
+      <img src="https://picsum.photos/seed/glazni-apps-tile/640/480" alt="Glazni Apps">
+      <div class="media-tile-label">Glazni Apps<span data-i18n="media.apps.sub">Mobile &amp; web engineering</span></div>
+    </a>
+    <a href="degoogle.html" class="media-tile">
+      <img src="https://picsum.photos/seed/glazni-degoogle-tile/640/480" alt="Glazni DeGoogle">
+      <div class="media-tile-label">Glazni DeGoogle<span data-i18n="media.degoogle.sub">Privacy-first devices</span></div>
+    </a>
+    <a href="dine.html" class="media-tile">
+      <img src="https://picsum.photos/seed/glazni-dine-tile/640/480" alt="Glazni Dine">
+      <div class="media-tile-label">Glazni Dine<span data-i18n="media.dine.sub">Restaurant &amp; delivery tech</span></div>
+    </a>
+    <a href="talent.html" class="media-tile">
+      <img src="https://picsum.photos/seed/glazni-talent-tile/640/480" alt="Glazni Talent">
+      <div class="media-tile-label">Glazni Talent<span data-i18n="media.talent.sub">Global hiring</span></div>
+    </a>
+  </div>
+</section>
+
+<!-- ================= TICKER ================= -->
+<section class="ticker">
+  <div class="ticker-track">
+    <span class="ticker-item"><span data-i18n="ticker.moscow.place">Moscow</span> <b data-i18n="ticker.moscow.tag">Engineering HQ</b></span>
+    <span class="ticker-item"><span data-i18n="ticker.berlin.place">Berlin</span> <b data-i18n="ticker.berlin.tag">European hub</b></span>
+    <span class="ticker-item"><span data-i18n="ticker.europe.place">Europe-wide</span> <b data-i18n="ticker.europe.tag">Remote coverage</b></span>
+    <span class="ticker-item"><span data-i18n="ticker.founded.text">Founded in Moscow</span> <b data-i18n="ticker.founded.tag">6+ years ago</b></span>
+    <span class="ticker-item">Glazni Apps <b data-i18n="ticker.apps.tag">Mobile &amp; web</b></span>
+    <span class="ticker-item">Glazni Growth <b data-i18n="ticker.growth.tag">Marketing</b></span>
+    <span class="ticker-item">Glazni Talent <b data-i18n="ticker.talent.tag">People</b></span>
+    <span class="ticker-item">Glazni Dine <b data-i18n="ticker.dine.tag">Hospitality tech</b></span>
+    <span class="ticker-item">Glazni Studio <b data-i18n="ticker.studio.tag">Design</b></span>
+    <span class="ticker-item">Glazni DeGoogle <b data-i18n="ticker.degoogle.tag">Privacy-first devices</b></span>
+  </div>
+</section>
+
+<!-- ================= VENTURES ================= -->
+<section class="section reveal" id="ventures">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow" data-i18n="ventures.eyebrow">Index of ventures</div>
+        <h2 class="section-title" data-i18n="ventures.title">One holding company. Six ventures.</h2>
+      </div>
+      <p class="section-desc" data-i18n="ventures.desc">Each venture ships its own roadmap and owns its own P&amp;L — while sharing the same Glazni backbone.</p>
+    </div>
+    <div class="pillars">
+      <div class="pillar">
+        <div class="mono">01</div>
+        <h3>Glazni Apps</h3>
+        <p><span data-i18n="ventures.pillars.apps.desc">Where it started. Premium, privacy-focused iOS and Android apps, most built for clients under NDA.</span> <a href="apps.html" style="color:var(--teal);" data-i18n="ventures.pillars.apps.link">See how it works →</a></p>
+      </div>
+      <div class="pillar">
+        <div class="mono">02</div>
+        <h3>Glazni Growth</h3>
+        <p data-i18n="ventures.pillars.growth.desc">Performance marketing and brand strategy — for the ventures, and for outside clients.</p>
+      </div>
+      <div class="pillar">
+        <div class="mono">03</div>
+        <h3>Glazni Talent</h3>
+        <p><span data-i18n="ventures.pillars.talent.desc">Recruiting and people operations — including access to skilled hires across global talent markets.</span> <a href="talent.html" style="color:var(--teal);" data-i18n="ventures.pillars.talent.link">Learn more →</a></p>
+      </div>
+      <div class="pillar">
+        <div class="mono">04</div>
+        <h3>Glazni Dine</h3>
+        <p><span data-i18n="ventures.pillars.dine.desc">Software for restaurants and hospitality operators, sold as ready-made packages.</span> <a href="dine.html" style="color:var(--teal);" data-i18n="ventures.pillars.dine.link">Compare packages →</a></p>
+      </div>
+      <div class="pillar">
+        <div class="mono">05</div>
+        <h3>Glazni Studio</h3>
+        <p data-i18n="ventures.pillars.studio.desc">Product design across the index, from first sketch to shipped screen.</p>
+      </div>
+      <div class="pillar">
+        <div class="mono">06</div>
+        <h3>Glazni DeGoogle</h3>
+        <p><span data-i18n="ventures.pillars.degoogle.desc">GrapheneOS guides, our own privacy-first apps, and de-googled phones we build and sell.</span> <a href="degoogle.html" style="color:var(--teal);" data-i18n="ventures.pillars.degoogle.link">Learn more →</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section reveal" id="about">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow" data-i18n="about.eyebrow">About</div>
+        <h2 class="section-title" data-i18n="about.title">From a single studio to an index of ventures.</h2>
+      </div>
+      <p class="section-desc" data-i18n="about.desc">Same craft and ownership standards, now spread across six teams instead of one.</p>
+    </div>
+    <p class="about-copy" data-i18n="about.copy">Glazni started as a mobile-first software studio in Moscow, building fast, native-feeling Android and iOS apps — plus the websites, desktop tools, and infrastructure around them — for clients across Russia, Germany and the rest of Europe. As that studio grew, the teams around it — marketing, talent, hospitality tech, design, and privacy-first computing — grew into ventures of their own. Glazni is now the holding company that sits above all of them: still rooted in Moscow, with Berlin as its European hub and remote coverage across the rest of the continent.</p>
+    <div class="culture">
+      <div class="culture-card">
+        <div class="mono">01</div>
+        <h3 data-i18n="about.culture.0.title">Independently run</h3>
+        <p data-i18n="about.culture.0.desc">Each venture owns its own roadmap and its own P&amp;L. Nobody waits on a parent company's queue.</p>
+      </div>
+      <div class="culture-card">
+        <div class="mono">02</div>
+        <h3 data-i18n="about.culture.1.title">Shared backbone</h3>
+        <p data-i18n="about.culture.1.desc">Recruiting and people operations are built once — in Glazni Talent — and every venture in the index draws on the same hiring pipeline.</p>
+      </div>
+      <div class="culture-card">
+        <div class="mono">03</div>
+        <h3 data-i18n="about.culture.2.title">Same roots</h3>
+        <p data-i18n="about.culture.2.desc">Every venture is held to the craft and ownership standards the original Moscow studio was built on.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT GROWS ================= -->
+<section class="section reveal">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow" data-i18n="process.eyebrow">How it grows</div>
+        <h2 class="section-title" data-i18n="process.title">Four steps from idea to venture.</h2>
+      </div>
+      <p class="section-desc" data-i18n="process.desc">The same path every venture in the index has taken so far.</p>
+    </div>
+    <div class="process">
+      <div class="process-step">
+        <div class="process-num">01</div>
+        <h3 data-i18n="process.steps.0.title">Identify</h3>
+        <p data-i18n="process.steps.0.desc">We look for problems worth solving — usually ones a team inside Glazni has already run into first-hand.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">02</div>
+        <h3 data-i18n="process.steps.1.title">Build</h3>
+        <p data-i18n="process.steps.1.desc">A small team ships a working product the way the original studio did: fast, and in production.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">03</div>
+        <h3 data-i18n="process.steps.2.title">Operate</h3>
+        <p data-i18n="process.steps.2.desc">Once it's proven, the team runs it as its own venture — own name, own roadmap, own hiring.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">04</div>
+        <h3 data-i18n="process.steps.3.title">Scale</h3>
+        <p data-i18n="process.steps.3.desc">The venture draws on Glazni Talent and the shared engineering backbone so it can grow without rebuilding the basics.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-band">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center" data-i18n="cta.eyebrow">Join the index</div>
+    <h2 style="margin-top:16px;" data-i18n="cta.title">We're always looking for people who want to run something real.</h2>
+    <p data-i18n="cta.desc">Every venture is hiring — see what's open, or write to us about the next one.</p>
+    <div class="cta-actions">
+      <a href="careers.html" class="btn btn-primary" data-i18n="cta.ctaRoles">See open roles</a>
+      <a href="mailto:hello@glazni.com" class="btn btn-ghost" data-i18n="cta.ctaEmail">Email hello@glazni.com</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section reveal" id="contact">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow" data-i18n="contact.eyebrow">Get in touch</div>
+        <h2 class="section-title" data-i18n="contact.title">Tell us what you're building.</h2>
+      </div>
+      <p class="section-desc" data-i18n="contact.desc">About an existing venture, a new one, or something else entirely.</p>
+    </div>
+    <div class="contact-panel">
+      <form id="contact-form">
+        <div class="field">
+          <label for="c-name" data-i18n="contact.form.name">Name</label>
+          <input type="text" id="c-name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="c-email" data-i18n="contact.form.email">Email</label>
+          <input type="email" id="c-email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="c-message" data-i18n="contact.form.message">Message</label>
+          <textarea id="c-message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit">Send message</button>
+        <p class="form-note" data-i18n="contact.form.note">This opens your email client with the message pre-filled — we usually reply within a business day.</p>
+      </form>
+      <ul class="contact-info">
+        <li>
+          <span class="mono" data-i18n="contact.info.general.label">GENERAL</span>
+          <div><strong>hello@glazni.com</strong><span data-i18n="contact.info.general.desc">Usually a reply within a business day</span></div>
+        </li>
+        <li>
+          <span class="mono" data-i18n="contact.info.careers.label">CAREERS</span>
+          <div><strong>careers@glazni.com</strong><span data-i18n="contact.info.careers.desc">Open roles across every venture</span></div>
+        </li>
+        <li>
+          <span class="mono" data-i18n="contact.info.moscow.label">MOSCOW</span>
+          <div><strong data-i18n="contact.info.moscow.title">Engineering HQ</strong><span>55.7558° N · 37.6173° E</span></div>
+        </li>
+        <li>
+          <span class="mono" data-i18n="contact.info.berlin.label">BERLIN</span>
+          <div><strong data-i18n="contact.info.berlin.title">European hub</strong><span>52.5200° N · 13.4050° E</span></div>
+        </li>
+        <li>
+          <span class="mono" data-i18n="contact.info.europe.label">EUROPE</span>
+          <div><strong data-i18n="contact.info.europe.title">Remote coverage</strong><span>CET / CEST time zones</span></div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand"><span class="brand-logo-plate"><img src="logo.png" alt="Glazni" class="brand-logo"></span></div>
+        <p data-i18n="footer.brand">A holding company building and operating a growing index of ventures across software, marketing, talent, hospitality technology and privacy-first computing — grown from an original mobile-first studio founded in Moscow.</p>
+        <div class="socials" style="margin-top:22px;">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="X / Twitter">x</a>
+          <a href="#" aria-label="Instagram">ig</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.companyHeading">Company</h4>
+        <ul>
+          <li><a href="#about" data-i18n="footer.companyLinks.about">About</a></li>
+          <li><a href="#ventures" data-i18n="footer.companyLinks.ventures">Ventures</a></li>
+          <li><a href="careers.html" data-i18n="footer.companyLinks.careers">Careers</a></li>
+          <li><a href="#contact" data-i18n="footer.companyLinks.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.venturesHeading">Ventures</h4>
+        <ul>
+          <li><a href="apps.html">Glazni Apps</a></li>
+          <li><a href="#ventures">Glazni Growth</a></li>
+          <li><a href="talent.html">Glazni Talent</a></li>
+          <li><a href="dine.html">Glazni Dine</a></li>
+          <li><a href="#ventures">Glazni Studio</a></li>
+          <li><a href="degoogle.html">Glazni DeGoogle</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.legalHeading">Legal</h4>
+        <ul>
+          <li><a href="#" data-i18n="footer.legalLinks.privacy">Privacy policy</a></li>
+          <li><a href="#" data-i18n="footer.legalLinks.terms">Terms of service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span class="js-year"></span> <span data-i18n="footer.copyright">Glazni. All rights reserved.</span></span>
+      <span data-i18n="footer.builtBy">Built in-house by the Glazni team.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
