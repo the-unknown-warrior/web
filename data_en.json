@@ -107,6 +107,13 @@
         { "title": "Independently run", "desc": "Each venture owns its own roadmap and its own P&L. Nobody waits on a parent company's queue." },
         { "title": "Shared backbone", "desc": "Recruiting and people operations are built once — in Glazni Talent — and every venture in the index draws on the same hiring pipeline." },
         { "title": "Same roots", "desc": "Every venture is held to the craft and ownership standards the original Moscow studio was built on." }
+      ],
+      "foundersEyebrow": "Founders",
+      "foundersTitle": "Built by two people, not a boardroom.",
+      "foundersDesc": "The original studio was one person's plan. The index of ventures is two people's build.",
+      "founders": [
+        { "name": "Aleksandr Gabushev", "desc": "Founder. Aleksandr set the original direction for Glazni — the Moscow mobile studio first, and later the idea of growing it into an index of independent ventures." },
+        { "name": "Franz Graaf", "desc": "Co-founder. Franz joined after that initial direction was set, and helped turn the index-of-ventures model into the operating company it is today." }
       ]
     },
     "process": {
@@ -139,10 +146,10 @@
         "note": "This opens your email client with the message pre-filled — we usually reply within a business day."
       },
       "info": {
-        "general": { "label": "GENERAL", "desc": "Usually a reply within a business day" },
+        "general": { "label": "GENERAL", "desc": "Usually a reply within a business day", "phone": "+7 495 100 00 10" },
         "careers": { "label": "CAREERS", "desc": "Open roles across every venture" },
-        "moscow": { "label": "MOSCOW", "title": "Engineering HQ" },
-        "berlin": { "label": "BERLIN", "title": "European hub" },
+        "moscow": { "label": "MOSCOW", "title": "Engineering HQ", "address": "Tverskaya St. 22, Moscow, 125009, Russia", "phone": "+7 495 100 20 30" },
+        "berlin": { "label": "BERLIN", "title": "European hub", "address": "Torstraße 140, 10119 Berlin, Germany", "phone": "+49 30 2200 4410" },
         "europe": { "label": "EUROPE", "title": "Remote coverage" }
       }
     }

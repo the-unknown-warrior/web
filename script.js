@@ -128,20 +128,43 @@ document.querySelectorAll('.orbit-nodes').forEach(ring => {
 
 // ---------- careers: role filters ----------
 const filterBtns = document.querySelectorAll('.filter-btn');
-const roleRows = document.querySelectorAll('.role-row');
+const roleEntries = document.querySelectorAll('.role-entry');
 if (filterBtns.length) {
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       filterBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const dept = btn.dataset.filter;
-      roleRows.forEach(row => {
-        const show = dept === 'all' || row.dataset.dept === dept;
-        row.classList.toggle('show', show);
+      roleEntries.forEach(entry => {
+        const show = dept === 'all' || entry.dataset.dept === dept;
+        entry.classList.toggle('show', show);
+        if (!show) closeRoleEntry(entry);
       });
     });
   });
 }
+
+// ---------- careers: expand/collapse job descriptions ----------
+function closeRoleEntry(entry) {
+  const toggle = entry.querySelector('.registry-toggle');
+  const panel = entry.querySelector('.role-detail');
+  if (!toggle || !panel) return;
+  toggle.setAttribute('aria-expanded', 'false');
+  panel.hidden = true;
+  entry.classList.remove('is-open');
+}
+
+document.querySelectorAll('.registry-toggle').forEach(toggle => {
+  toggle.addEventListener('click', () => {
+    const entry = toggle.closest('.role-entry');
+    const panel = document.getElementById(toggle.getAttribute('aria-controls'));
+    if (!entry || !panel) return;
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!expanded));
+    panel.hidden = expanded;
+    entry.classList.toggle('is-open', !expanded);
+  });
+});
 
 // ---------- contact form (no backend — mailto handoff) ----------
 const contactForm = document.getElementById('contact-form');
