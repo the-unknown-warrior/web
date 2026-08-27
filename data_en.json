@@ -797,30 +797,6 @@
       },
       "moreRoles": "+ more roles open as new ventures join the index — write to us anyway",
       "items": {
-        "gz101": {
-          "name": "Senior Mobile Engineer",
-          "venture": "Glazni Apps",
-          "meta": "Remote · Full-time",
-          "about": "You'll own end-to-end delivery of client and in-house iOS/Android apps — architecture through App Store and Play Store release — on the same stack the original studio was founded on. Some of what you build will carry a client's name, some will carry ours, including the in-house language-learning app currently in development.",
-          "whatYouDo": [
-            "Build and ship production Flutter apps for iOS and Android, writing native Kotlin/Swift modules where the platform demands it",
-            "Design and maintain Golang APIs and services on AWS that back those apps",
-            "Model and evolve PostgreSQL schemas for apps carrying real production traffic",
-            "Work directly with clients on architecture decisions — this isn't a ticket queue"
-          ],
-          "whatWeLookFor": [
-            "4+ years shipping Flutter (or comparable cross-platform) apps to production",
-            "Comfortable writing backend services in Golang, not just consuming someone else's API",
-            "Working knowledge of AWS (EC2, S3 at minimum) and Docker-based deployments",
-            "Bonus: exposure to gRPC, or to LLM tooling like LangChain"
-          ],
-          "facts": {
-            "venture": "Glazni Apps",
-            "location": "Remote",
-            "type": "Full-time"
-          },
-          "apply": "Apply for GZ-101"
-        },
         "gz102": {
           "name": "Platform / DevOps Engineer",
           "venture": "Glazni Apps",
@@ -830,13 +806,15 @@
             "Run and scale Kubernetes clusters, with Karpenter handling node autoscaling, across client and in-house workloads",
             "Build and maintain CI/CD pipelines in Jenkins for Golang and Flutter builds",
             "Keep local dev environments reproducible with Kind, so \"works on my machine\" stops being a real problem",
-            "Own core AWS infrastructure — EC2, S3, and the networking between them"
+            "Own core AWS infrastructure — EC2, S3, and the networking between them",
+            "Run monitoring and logging with Prometheus, Grafana and the EFK stack (Elasticsearch, Fluentd, Kibana) across every environment"
           ],
           "whatWeLookFor": [
             "Production experience running Kubernetes at more than toy scale",
             "Comfortable scripting infrastructure in Golang, not just writing YAML",
             "Real AWS experience beyond the console — cost awareness, incident response",
-            "Bonus: Bazel or CMake experience from a past build-systems role"
+            "Bonus: Bazel or CMake experience from a past build-systems role",
+            "Hands-on experience with Prometheus/Grafana-based monitoring and centralized logging (EFK or ELK)"
           ],
           "facts": {
             "venture": "Glazni Apps",
@@ -946,12 +924,14 @@
             "Design flows and screens for Flutter apps, React admin panels and marketing sites across every venture",
             "Build and maintain a shared design system engineers can actually implement",
             "Sit in on engineering handoff and stay involved through build, not just at kickoff",
-            "Review shipped builds against design intent before release"
+            "Review shipped builds against design intent before release",
+            "Create vector assets in Inkscape and build Lottie animations for onboarding flows and marketing sites"
           ],
           "whatWeLookFor": [
             "A portfolio spanning both mobile and web product design",
             "Comfortable enough in HTML/CSS or Tailwind to speak the same language as engineering",
-            "Experience building or maintaining a design system, not just individual screens"
+            "Experience building or maintaining a design system, not just individual screens",
+            "Comfortable in Figma for interface design, Inkscape for vector/icon work, and Lottie for lightweight animation"
           ],
           "facts": {
             "venture": "Glazni Studio",
@@ -1074,6 +1054,126 @@
             "type": "Full-time"
           },
           "apply": "Apply for GZ-113"
+        },
+        "gz114": {
+          "name": "Senior Flutter Developer",
+          "venture": "Glazni Apps",
+          "meta": "Remote · Full-time",
+          "about": "You'll own Flutter app architecture end to end for client and in-house builds, setting the patterns the rest of the mobile team follows and mentoring them along the way.",
+          "whatYouDo": [
+            "Architect and ship production Flutter apps for iOS and Android, setting the patterns the rest of the team follows",
+            "Write native Kotlin/Swift modules where the platform demands it",
+            "Review mobile pull requests and mentor middle and junior Flutter developers",
+            "Work directly with clients on architecture decisions for their apps"
+          ],
+          "whatWeLookFor": [
+            "5+ years shipping Flutter apps to production, with at least one app you've owned end to end",
+            "Comfortable mentoring less experienced engineers and setting technical direction",
+            "Working knowledge of native iOS/Android development (Kotlin/Swift)",
+            "Bonus: exposure to Golang, gRPC, or CI/CD pipelines for mobile releases"
+          ],
+          "facts": {
+            "venture": "Glazni Apps",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-114"
+        },
+        "gz115": {
+          "name": "Middle Flutter Developer",
+          "venture": "Glazni Apps",
+          "meta": "Remote · Full-time",
+          "about": "You'll build and maintain production Flutter features for client and in-house apps, working within an architecture a senior engineer has already set.",
+          "whatYouDo": [
+            "Build and ship Flutter features for iOS and Android across client and in-house apps",
+            "Write clean, testable Dart code against the existing app architecture",
+            "Fix bugs and improve performance on apps already live in production",
+            "Pair with senior engineers on trickier native integrations"
+          ],
+          "whatWeLookFor": [
+            "2-4 years shipping Flutter apps to production",
+            "Comfortable with state management (Bloc, Riverpod or Provider)",
+            "Some exposure to native Kotlin/Swift is a plus",
+            "Bonus: exposure to Golang, or to consuming REST/gRPC APIs"
+          ],
+          "facts": {
+            "venture": "Glazni Apps",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-115"
+        },
+        "gz116": {
+          "name": "Junior Flutter Developer",
+          "venture": "Glazni Apps",
+          "meta": "Remote · Full-time",
+          "about": "You'll get hands-on experience shipping real Flutter apps to production, working closely with senior engineers who'll review your code and bring you up to speed.",
+          "whatYouDo": [
+            "Build UI screens and small features in Flutter under senior guidance",
+            "Fix bugs and write tests for existing app codebases",
+            "Learn the app's architecture and gradually take on bigger pieces",
+            "Sit in on client calls and architecture discussions to learn the process"
+          ],
+          "whatWeLookFor": [
+            "0-2 years of Flutter/Dart experience, including personal or bootcamp projects",
+            "Eager to learn production practices, not just tutorials",
+            "Comfortable receiving and acting on code review feedback",
+            "Bonus: any exposure to Golang or backend APIs"
+          ],
+          "facts": {
+            "venture": "Glazni Apps",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-116"
+        },
+        "gz117": {
+          "name": "Golang Developer",
+          "venture": "Glazni Apps",
+          "meta": "Remote · Full-time",
+          "about": "You'll build and maintain the Golang services and APIs that power Glazni Apps' client and in-house Flutter apps.",
+          "whatYouDo": [
+            "Design and build Golang APIs and services deployed on AWS",
+            "Model and evolve PostgreSQL schemas for apps carrying real production traffic",
+            "Write and maintain gRPC services where they fit an app's architecture",
+            "Work with mobile engineers to shape the APIs their apps depend on"
+          ],
+          "whatWeLookFor": [
+            "3+ years writing production Golang services",
+            "Comfortable designing and evolving PostgreSQL schemas",
+            "Working knowledge of AWS (EC2, S3) and Docker-based deployments",
+            "Bonus: exposure to gRPC or Kubernetes"
+          ],
+          "facts": {
+            "venture": "Glazni Apps",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-117"
+        },
+        "gz118": {
+          "name": "Email Marketing Specialist",
+          "venture": "Glazni Growth",
+          "meta": "Remote · Full-time",
+          "about": "You'll own lifecycle and campaign email across every venture in the index, from welcome flows to newsletters that keep customers coming back.",
+          "whatYouDo": [
+            "Build and manage lifecycle email flows in Brevo and Mailchimp",
+            "Write and schedule campaign and newsletter sends per venture",
+            "Segment lists and personalize sends based on customer behavior",
+            "Report open, click and conversion rates back through HubSpot"
+          ],
+          "whatWeLookFor": [
+            "Hands-on experience with at least one major ESP (Brevo, Mailchimp, or similar)",
+            "Comfortable writing copy as well as building the flow itself",
+            "Track record improving open and click-through rates, not just sending on schedule",
+            "Bonus: exposure to Apollo for combining email with outbound lead generation"
+          ],
+          "facts": {
+            "venture": "Glazni Growth",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-118"
         }
       }
     },
