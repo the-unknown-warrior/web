@@ -777,7 +777,6 @@
       "registryHead": {
         "code": "Code",
         "role": "Role",
-        "venture": "Venture",
         "location": "Location"
       },
       "detailsLabel": "Details",
@@ -791,7 +790,6 @@
         "focus": "Focus"
       },
       "factsLabels": {
-        "venture": "Venture",
         "location": "Location",
         "type": "Type"
       },
@@ -799,7 +797,6 @@
       "items": {
         "gz102": {
           "name": "Platform / DevOps Engineer",
-          "venture": "Glazni Apps",
           "meta": "Remote · Full-time",
           "about": "You'll build and run the infrastructure every Glazni Apps build ships on — from a developer's first local build to the cluster that serves it in production, and eventually the infra other ventures like Migrate lean on too.",
           "whatYouDo": [
@@ -817,107 +814,13 @@
             "Hands-on experience with Prometheus/Grafana-based monitoring and centralized logging (EFK or ELK)"
           ],
           "facts": {
-            "venture": "Glazni Apps",
             "location": "Remote",
             "type": "Full-time"
           },
           "apply": "Apply for GZ-102"
         },
-        "gz103": {
-          "name": "Performance Marketing Manager",
-          "venture": "Glazni Growth",
-          "meta": "Remote · Full-time",
-          "about": "You'll run paid acquisition and lifecycle email across every venture in the index — and for outside clients who come to Glazni Growth directly. Each venture has a different funnel; you'll own the reporting that makes sense of all of them at once.",
-          "whatYouDo": [
-            "Plan and run paid acquisition campaigns per venture, reporting on CAC and LTV as you go",
-            "Build and manage lifecycle email flows in Brevo and Mailchimp",
-            "Use HubSpot as the system of record for pipeline and campaign performance",
-            "Run outbound prospecting sequences through Apollo for B2B ventures like Dine and Migrate"
-          ],
-          "whatWeLookFor": [
-            "Track record running paid and lifecycle marketing with real budget ownership",
-            "Hands-on HubSpot experience, plus at least one ESP (Brevo or Mailchimp)",
-            "Comfortable reporting performance across several very different products at once"
-          ],
-          "facts": {
-            "venture": "Glazni Growth",
-            "location": "Remote",
-            "type": "Full-time"
-          },
-          "apply": "Apply for GZ-103"
-        },
-        "gz104": {
-          "name": "Content & Brand Strategist",
-          "venture": "Glazni Growth",
-          "meta": "Remote · Full-time",
-          "about": "You'll set the voice for a company that has to sound coherent across seven genuinely different ventures — and run the content and backlink program that drives organic growth for the ones that depend on it most.",
-          "whatYouDo": [
-            "Set editorial direction and voice across every venture's content, from GrapheneOS guides to landing pages",
-            "Run link-building and backlink outreach to grow organic search for content-heavy ventures",
-            "Manage content calendars and publishing inside HubSpot",
-            "Partner with the Performance Marketing Manager on content that needs to support a lead-gen push"
-          ],
-          "whatWeLookFor": [
-            "Proven SEO content strategy experience — writing that's built to rank, not just read",
-            "Real backlink and outreach experience: you know how to earn links, not just request them",
-            "Comfortable owning brand voice across genuinely different products at once"
-          ],
-          "facts": {
-            "venture": "Glazni Growth",
-            "location": "Remote",
-            "type": "Full-time"
-          },
-          "apply": "Apply for GZ-104"
-        },
-        "gz105": {
-          "name": "Talent Acquisition Partner",
-          "venture": "Glazni Talent",
-          "meta": "Remote · Full-time",
-          "about": "You'll recruit for every venture in the index and for outside companies who come to Glazni Talent to hire — with a sourcing pipeline centered on India and other emerging markets.",
-          "whatYouDo": [
-            "Source, screen and shortlist candidates across engineering, marketing and operations roles",
-            "Run the full recruiting pipeline for internal Glazni roles and for outside EOR and sourcing clients",
-            "Build out sourcing pipelines in new markets as the index grows",
-            "Support onboarding for hires placed through the Employer of Record service"
-          ],
-          "whatWeLookFor": [
-            "Experience recruiting technical roles as well as ops and marketing roles",
-            "Familiarity with cross-border hiring, EOR structures or global contractor compliance is a strong plus",
-            "Comfortable running candidate pipelines across multiple time zones"
-          ],
-          "facts": {
-            "venture": "Glazni Talent",
-            "location": "Remote",
-            "type": "Full-time"
-          },
-          "apply": "Apply for GZ-105"
-        },
-        "gz106": {
-          "name": "Full-Stack Developer",
-          "venture": "Glazni Dine",
-          "meta": "Remote · Full-time",
-          "about": "You'll build across all three legs of the Dine platform — the customer delivery app, the admin panel, and the partner app — on the same underlying build that every restaurant theme sits on top of.",
-          "whatYouDo": [
-            "Build and maintain the Flutter delivery and partner apps",
-            "Build the admin panel in React and Tailwind, with HTMX for a few lighter-weight internal views",
-            "Design Golang services and PostgreSQL schemas shared across all three apps and every theme",
-            "Ship new restaurant themes without touching the platform underneath"
-          ],
-          "whatWeLookFor": [
-            "Full-stack experience spanning a mobile client, a web admin panel and a backend API",
-            "Comfortable in Golang on the backend and React/Tailwind (or similar) on the frontend",
-            "Bonus: Flutter experience, or exposure to HTMX for simpler server-rendered views"
-          ],
-          "facts": {
-            "venture": "Glazni Dine",
-            "location": "Remote",
-            "type": "Full-time"
-          },
-          "apply": "Apply for GZ-106"
-        },
         "gz107": {
           "name": "Product Designer",
-          "venture": "Glazni Studio",
           "meta": "Remote · Full-time",
           "about": "You'll design across the index — mobile, web, and the marketing sites in between — working directly with each venture's engineers rather than handing off a file and moving on.",
           "whatYouDo": [
@@ -934,107 +837,13 @@
             "Comfortable in Figma for interface design, Inkscape for vector/icon work, and Lottie for lightweight animation"
           ],
           "facts": {
-            "venture": "Glazni Studio",
             "location": "Remote",
             "type": "Full-time"
           },
           "apply": "Apply for GZ-107"
         },
-        "gz109": {
-          "name": "Business Operations Associate",
-          "venture": "Corporate",
-          "meta": "Remote · Full-time",
-          "about": "You'll help keep the index running day to day — the finance, vendor and coordination work that sits above any single venture, reporting directly to the founders.",
-          "whatYouDo": [
-            "Own recurring finance operations: invoicing, vendor payments, expense tracking across ventures",
-            "Coordinate cross-venture initiatives that need someone outside any single team's day-to-day",
-            "Maintain the operational documentation every new venture inherits",
-            "Support the founders directly on whatever the index needs next"
-          ],
-          "whatWeLookFor": [
-            "Operations or finance-adjacent experience in a fast-moving, multi-team environment",
-            "Sharp with spreadsheets and comfortable building lightweight process from scratch",
-            "Bonus: experience operating across more than one business line at once"
-          ],
-          "facts": {
-            "venture": "Corporate",
-            "location": "Remote",
-            "type": "Full-time"
-          },
-          "apply": "Apply for GZ-109"
-        },
-        "gz110": {
-          "name": "Android / AOSP Engineer",
-          "venture": "Glazni DeGoogle",
-          "meta": "Remote · Full-time",
-          "about": "You'll work at the AOSP level on the hardening that goes into every phone we ship, plus the Kotlin app suite — Contacts, Notes, Tasks, Keyboard and Photo Journal — that runs on top of it.",
-          "whatYouDo": [
-            "Work at the AOSP level: build flags, hardening patches, and the Bazel/CMake build pipeline",
-            "Write and maintain Kotlin for the DeGoogle app suite, with C++ where performance or hardware access demands it",
-            "Use Rust for the handful of components where memory safety at the OS boundary actually matters",
-            "Keep the flashing and build pipeline reproducible in Docker for the hardware fulfillment team"
-          ],
-          "whatWeLookFor": [
-            "Real AOSP or embedded Android build experience — not app-layer Kotlin alone",
-            "Comfortable in C++, with some exposure to Rust",
-            "Genuine interest in the privacy and de-googled space, not just a resume line"
-          ],
-          "facts": {
-            "venture": "Glazni DeGoogle",
-            "location": "Remote",
-            "type": "Full-time"
-          },
-          "apply": "Apply for GZ-110"
-        },
-        "gz111": {
-          "name": "Hardware & Fulfillment Specialist",
-          "venture": "Glazni DeGoogle",
-          "meta": "Remote · Full-time",
-          "about": "You'll physically flash, harden and ship every phone that goes out the door for Glazni DeGoogle — the last set of hands a device passes through before it reaches a customer.",
-          "whatYouDo": [
-            "Source supported handsets and run the GrapheneOS flashing pipeline on each one",
-            "Follow, and help improve, the hardening checklist before a phone ships",
-            "Manage inventory, stock levels and fulfillment logistics",
-            "Package and ship orders, and handle the occasional support question after the sale"
-          ],
-          "whatWeLookFor": [
-            "Comfortable with hands-on hardware work and repeatable technical processes",
-            "Basic scripting (Bash or Python) to help automate parts of the flashing pipeline is a strong plus",
-            "Reliable and detail-oriented — a skipped step here ships to a customer"
-          ],
-          "facts": {
-            "venture": "Glazni DeGoogle",
-            "location": "Remote",
-            "type": "Full-time"
-          },
-          "apply": "Apply for GZ-111"
-        },
-        "gz112": {
-          "name": "Website Migration Engineer",
-          "venture": "Glazni Migrate",
-          "meta": "Remote · Full-time",
-          "about": "You'll rebuild client sites currently running on subscription website builders and get them running on infrastructure we operate ourselves — usually landing around half the client's ongoing cost.",
-          "whatYouDo": [
-            "Rebuild client sites in plain HTML/CSS/JS or HTMX/React, depending on complexity",
-            "Stand up hosting on our own AWS infrastructure and migrate domains and email over",
-            "Rebuild forms, booking widgets and anything else visitors interact with",
-            "Handle the full migration end to end, including cutover, with zero downtime as the goal"
-          ],
-          "whatWeLookFor": [
-            "Comfortable rebuilding a site starting from \"here's the URL,\" not just a design file",
-            "Real hosting and infra experience — AWS, DNS, Docker",
-            "Bonus: HTMX experience for keeping rebuilds simple where a full SPA isn't warranted"
-          ],
-          "facts": {
-            "venture": "Glazni Migrate",
-            "location": "Remote",
-            "type": "Full-time"
-          },
-          "apply": "Apply for GZ-112"
-        },
         "gz113": {
           "name": "SEO & Lead Generation Specialist",
-          "venture": "Glazni Growth",
           "meta": "Remote · Full-time",
           "about": "You'll own organic growth and outbound lead generation for the ventures that run on a real sales pipeline — Dine, Migrate and Talent chief among them.",
           "whatYouDo": [
@@ -1049,7 +858,6 @@
             "Comfortable owning a number, not just a list of tasks"
           ],
           "facts": {
-            "venture": "Glazni Growth",
             "location": "Remote",
             "type": "Full-time"
           },
@@ -1057,7 +865,6 @@
         },
         "gz114": {
           "name": "Senior Flutter Developer",
-          "venture": "Glazni Apps",
           "meta": "Remote · Full-time",
           "about": "You'll own Flutter app architecture end to end for client and in-house builds, setting the patterns the rest of the mobile team follows and mentoring them along the way.",
           "whatYouDo": [
@@ -1073,7 +880,6 @@
             "Bonus: exposure to Golang, gRPC, or CI/CD pipelines for mobile releases"
           ],
           "facts": {
-            "venture": "Glazni Apps",
             "location": "Remote",
             "type": "Full-time"
           },
@@ -1081,7 +887,6 @@
         },
         "gz115": {
           "name": "Middle Flutter Developer",
-          "venture": "Glazni Apps",
           "meta": "Remote · Full-time",
           "about": "You'll build and maintain production Flutter features for client and in-house apps, working within an architecture a senior engineer has already set.",
           "whatYouDo": [
@@ -1097,7 +902,6 @@
             "Bonus: exposure to Golang, or to consuming REST/gRPC APIs"
           ],
           "facts": {
-            "venture": "Glazni Apps",
             "location": "Remote",
             "type": "Full-time"
           },
@@ -1105,7 +909,6 @@
         },
         "gz116": {
           "name": "Junior Flutter Developer",
-          "venture": "Glazni Apps",
           "meta": "Remote · Full-time",
           "about": "You'll get hands-on experience shipping real Flutter apps to production, working closely with senior engineers who'll review your code and bring you up to speed.",
           "whatYouDo": [
@@ -1121,7 +924,6 @@
             "Bonus: any exposure to Golang or backend APIs"
           ],
           "facts": {
-            "venture": "Glazni Apps",
             "location": "Remote",
             "type": "Full-time"
           },
@@ -1129,7 +931,6 @@
         },
         "gz117": {
           "name": "Golang Developer",
-          "venture": "Glazni Apps",
           "meta": "Remote · Full-time",
           "about": "You'll build and maintain the Golang services and APIs that power Glazni Apps' client and in-house Flutter apps.",
           "whatYouDo": [
@@ -1145,7 +946,6 @@
             "Bonus: exposure to gRPC or Kubernetes"
           ],
           "facts": {
-            "venture": "Glazni Apps",
             "location": "Remote",
             "type": "Full-time"
           },
@@ -1153,7 +953,6 @@
         },
         "gz118": {
           "name": "Email Marketing Specialist",
-          "venture": "Glazni Growth",
           "meta": "Remote · Full-time",
           "about": "You'll own lifecycle and campaign email across every venture in the index, from welcome flows to newsletters that keep customers coming back.",
           "whatYouDo": [
@@ -1169,7 +968,6 @@
             "Bonus: exposure to Apollo for combining email with outbound lead generation"
           ],
           "facts": {
-            "venture": "Glazni Growth",
             "location": "Remote",
             "type": "Full-time"
           },

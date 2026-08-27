@@ -359,7 +359,7 @@ section{ position:relative; }
 .registry{ border-top:1px solid var(--line); }
 .registry-row{
   display:grid;
-  grid-template-columns:70px 1.2fr 1fr 2fr 90px;
+  grid-template-columns:70px 1.2fr 2fr 90px;
   gap:24px;
   align-items:center;
   padding:22px 0;
@@ -369,13 +369,12 @@ section{ position:relative; }
 .registry-row:hover{ background:rgba(231,236,243,0.02); padding-left:10px; }
 .registry-code{ font-family:'IBM Plex Mono', monospace; color:var(--amber); font-size:13px; }
 .registry-name{ font-family:'Orbitron', sans-serif; font-size:15.5px; font-weight:600; }
-.registry-cat{ font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--teal); letter-spacing:.05em; text-transform:uppercase; }
 .registry-desc{ color:var(--ink-dim); font-size:14px; }
 .registry-arrow{ justify-self:end; color:var(--ink-faint); transition:transform .2s var(--ease), color .2s var(--ease); }
 .registry-row:hover .registry-arrow{ transform:translateX(4px); color:var(--teal); }
 .registry-head-row{
   display:grid;
-  grid-template-columns:70px 1.2fr 1fr 2fr 90px;
+  grid-template-columns:70px 1.2fr 2fr 90px;
   gap:24px;
   padding-bottom:14px;
   border-bottom:1px solid var(--line-strong);
@@ -394,8 +393,8 @@ section{ position:relative; }
 }
 @media (max-width:760px){
   .registry-row, .registry-head-row{ grid-template-columns:44px 1fr; row-gap:6px; }
-  .registry-cat, .registry-desc, .registry-arrow{ grid-column:2; }
-  .registry-head-row span:nth-child(3), .registry-head-row span:nth-child(4), .registry-head-row span:nth-child(5){ display:none; }
+  .registry-desc, .registry-arrow{ grid-column:2; }
+  .registry-head-row span:nth-child(3), .registry-head-row span:nth-child(4){ display:none; }
 }
 
 /* ---------- role entries (careers: expandable job descriptions) ---------- */
