@@ -27,7 +27,6 @@
       "builtBy": "Built in-house by the Glazni team."
     }
   },
-
   "index": {
     "meta": {
       "title": "Glazni — A Holding Company of Ventures",
@@ -41,29 +40,72 @@
       "ctaRoles": "See open roles",
       "orbitLabel": "INDEX OF VENTURES",
       "stats": [
-        { "num": "7 ventures", "desc": "Software, marketing, talent, hospitality, privacy & hosting tech" },
-        { "num": "6+ yrs", "desc": "Building in production, since our first studio" },
-        { "num": "Moscow · Berlin", "desc": "Engineering roots & European hub" }
+        {
+          "num": "7 ventures",
+          "desc": "Software, marketing, talent, hospitality, privacy & hosting tech"
+        },
+        {
+          "num": "6+ yrs",
+          "desc": "Building in production, since our first studio"
+        },
+        {
+          "num": "Moscow · Berlin",
+          "desc": "Engineering roots & European hub"
+        }
       ]
     },
     "media": {
-      "apps": { "sub": "Mobile & web engineering" },
-      "degoogle": { "sub": "Privacy-first devices" },
-      "dine": { "sub": "Restaurant & delivery tech" },
-      "talent": { "sub": "Global hiring" }
+      "apps": {
+        "sub": "Mobile & web engineering"
+      },
+      "degoogle": {
+        "sub": "Privacy-first devices"
+      },
+      "dine": {
+        "sub": "Restaurant & delivery tech"
+      },
+      "talent": {
+        "sub": "Global hiring"
+      }
     },
     "ticker": {
-      "moscow": { "place": "Moscow", "tag": "Engineering HQ" },
-      "berlin": { "place": "Berlin", "tag": "European hub" },
-      "europe": { "place": "Europe-wide", "tag": "Remote coverage" },
-      "founded": { "text": "Founded in Moscow", "tag": "6+ years ago" },
-      "apps": { "tag": "Mobile & web" },
-      "growth": { "tag": "Marketing" },
-      "talent": { "tag": "People" },
-      "dine": { "tag": "Hospitality tech" },
-      "studio": { "tag": "Design" },
-      "degoogle": { "tag": "Privacy-first devices" },
-      "migrate": { "tag": "Website hosting" }
+      "moscow": {
+        "place": "Moscow",
+        "tag": "Engineering HQ"
+      },
+      "berlin": {
+        "place": "Berlin",
+        "tag": "European hub"
+      },
+      "europe": {
+        "place": "Europe-wide",
+        "tag": "Remote coverage"
+      },
+      "founded": {
+        "text": "Founded in Moscow",
+        "tag": "6+ years ago"
+      },
+      "apps": {
+        "tag": "Mobile & web"
+      },
+      "growth": {
+        "tag": "Marketing"
+      },
+      "talent": {
+        "tag": "People"
+      },
+      "dine": {
+        "tag": "Hospitality tech"
+      },
+      "studio": {
+        "tag": "Design"
+      },
+      "degoogle": {
+        "tag": "Privacy-first devices"
+      },
+      "migrate": {
+        "tag": "Website hosting"
+      }
     },
     "ventures": {
       "eyebrow": "Index of ventures",
@@ -104,16 +146,31 @@
       "desc": "Same craft and ownership standards, now spread across seven teams instead of one.",
       "copy": "Glazni started as a mobile-first software studio in Moscow, building fast, native-feeling Android and iOS apps — plus the websites, desktop tools, and infrastructure around them — for clients across Russia, Germany and the rest of Europe. As that studio grew, the teams around it — marketing, talent, hospitality tech, design, privacy-first computing, and website migration — grew into ventures of their own. Glazni is now the holding company that sits above all of them: still rooted in Moscow, with Berlin as its European hub and remote coverage across the rest of the continent.",
       "culture": [
-        { "title": "Independently run", "desc": "Each venture owns its own roadmap and its own P&L. Nobody waits on a parent company's queue." },
-        { "title": "Shared backbone", "desc": "Recruiting and people operations are built once — in Glazni Talent — and every venture in the index draws on the same hiring pipeline." },
-        { "title": "Same roots", "desc": "Every venture is held to the craft and ownership standards the original Moscow studio was built on." }
+        {
+          "title": "Independently run",
+          "desc": "Each venture owns its own roadmap and its own P&L. Nobody waits on a parent company's queue."
+        },
+        {
+          "title": "Shared backbone",
+          "desc": "Recruiting and people operations are built once — in Glazni Talent — and every venture in the index draws on the same hiring pipeline."
+        },
+        {
+          "title": "Same roots",
+          "desc": "Every venture is held to the craft and ownership standards the original Moscow studio was built on."
+        }
       ],
       "foundersEyebrow": "Founders",
       "foundersTitle": "Built by two people, not a boardroom.",
       "foundersDesc": "The original studio was one person's plan. The index of ventures is two people's build.",
       "founders": [
-        { "name": "Aleksandr Gabushev", "desc": "Founder. Aleksandr set the original direction for Glazni — the Moscow mobile studio first, and later the idea of growing it into an index of independent ventures." },
-        { "name": "Franz Graaf", "desc": "Co-founder. Franz joined after that initial direction was set, and helped turn the index-of-ventures model into the operating company it is today." }
+        {
+          "name": "Aleksandr Gabushev",
+          "desc": "Founder. Aleksandr set the original direction for Glazni — the Moscow mobile studio first, and later the idea of growing it into an index of independent ventures."
+        },
+        {
+          "name": "Franz Graaf",
+          "desc": "Co-founder. Franz joined after that initial direction was set, and helped turn the index-of-ventures model into the operating company it is today."
+        }
       ]
     },
     "process": {
@@ -121,10 +178,22 @@
       "title": "Four steps from idea to venture.",
       "desc": "The same path every venture in the index has taken so far.",
       "steps": [
-        { "title": "Identify", "desc": "We look for problems worth solving — usually ones a team inside Glazni has already run into first-hand." },
-        { "title": "Build", "desc": "A small team ships a working product the way the original studio did: fast, and in production." },
-        { "title": "Operate", "desc": "Once it's proven, the team runs it as its own venture — own name, own roadmap, own hiring." },
-        { "title": "Scale", "desc": "The venture draws on Glazni Talent and the shared engineering backbone so it can grow without rebuilding the basics." }
+        {
+          "title": "Identify",
+          "desc": "We look for problems worth solving — usually ones a team inside Glazni has already run into first-hand."
+        },
+        {
+          "title": "Build",
+          "desc": "A small team ships a working product the way the original studio did: fast, and in production."
+        },
+        {
+          "title": "Operate",
+          "desc": "Once it's proven, the team runs it as its own venture — own name, own roadmap, own hiring."
+        },
+        {
+          "title": "Scale",
+          "desc": "The venture draws on Glazni Talent and the shared engineering backbone so it can grow without rebuilding the basics."
+        }
       ]
     },
     "cta": {
@@ -146,15 +215,34 @@
         "note": "This opens your email client with the message pre-filled — we usually reply within a business day."
       },
       "info": {
-        "general": { "label": "GENERAL", "desc": "Usually a reply within a business day", "phone": "+7 495 100 00 10" },
-        "careers": { "label": "CAREERS", "desc": "Open roles across every venture" },
-        "moscow": { "label": "MOSCOW", "title": "Engineering HQ", "address": "Tverskaya St. 22, Moscow, 125009, Russia", "phone": "+7 495 100 20 30" },
-        "berlin": { "label": "BERLIN", "title": "European hub", "address": "Torstraße 140, 10119 Berlin, Germany", "phone": "+49 30 2200 4410" },
-        "europe": { "label": "EUROPE", "title": "Remote coverage" }
+        "general": {
+          "label": "GENERAL",
+          "desc": "Usually a reply within a business day",
+          "phone": "+7 495 100 00 10"
+        },
+        "careers": {
+          "label": "CAREERS",
+          "desc": "Open roles across every venture"
+        },
+        "moscow": {
+          "label": "MOSCOW",
+          "title": "Engineering HQ",
+          "address": "Tverskaya St. 22, Moscow, 125009, Russia",
+          "phone": "+7 495 100 20 30"
+        },
+        "berlin": {
+          "label": "BERLIN",
+          "title": "European hub",
+          "address": "Torstraße 140, 10119 Berlin, Germany",
+          "phone": "+49 30 2200 4410"
+        },
+        "europe": {
+          "label": "EUROPE",
+          "title": "Remote coverage"
+        }
       }
     }
   },
-
   "apps": {
     "meta": {
       "title": "Glazni Apps — Mobile & Web Engineering",
@@ -191,14 +279,1121 @@
     "announce": {
       "eyebrow": "New announcements",
       "title": "What the team is building right now",
+      "desc": "A handful of our own apps, built the same way as everything else — small, private by default, and public once they're ready.",
       "tag": "In development",
-      "itemTitle": "A language-learning app",
+      "photoJournal": {
+        "title": "Photo Journal",
+        "desc": "One photo a day, building into a visual autobiography — and a record for the people who come looking after you're gone.",
+        "status": "In development"
+      },
+      "resumeBuilder": {
+        "title": "Resume Builder",
+        "desc": "Premium, professionally designed resumes, offered free or almost free instead of gated behind a subscription.",
+        "status": "In development"
+      },
+      "journal": {
+        "title": "Journal",
+        "desc": "A plain daily journal — write, close the app, come back tomorrow. No prompts, no streaks, no photo required.",
+        "status": "In development"
+      },
+      "tasks": {
+        "title": "Tasks",
+        "desc": "A short list of what needs doing today, kept short on purpose — nothing synced, nothing gamified.",
+        "status": "In development"
+      },
+      "contactsExporter": {
+        "title": "Contacts Exporter",
+        "desc": "Every contact, out of Google and into a CSV you keep locally — ready for whatever phone comes next.",
+        "status": "In development"
+      },
+      "backgroundChanger": {
+        "title": "Background Changer",
+        "desc": "A wallpaper that shifts with morning, evening and night, circling through your own collection automatically.",
+        "status": "In development"
+      },
+      "phone": {
+        "title": "Phone",
+        "desc": "A dialer and address book in one app instead of two, running fully offline with nothing synced to the cloud.",
+        "status": "In development"
+      },
+      "messages": {
+        "title": "Messages",
+        "desc": "SMS and MMS sent straight over your carrier, completely offline, with no account and no cloud relay.",
+        "status": "In development"
+      },
+      "ideas": {
+        "title": "Ideas",
+        "desc": "Start an idea, then drop every note and thought about it underneath — one subheading per idea, nothing to file.",
+        "status": "In development"
+      },
+      "itemTitle": "Language Learning",
       "itemDesc": "We're building a language-learning app in-house. It's early — no public link yet, and no date to share — but it'll follow the same privacy-first approach as everything else Glazni ships."
     },
     "cta": {
       "eyebrow": "Building something?",
       "title": "Tell us whether it's new, or whether it needs rebuilding.",
       "desc": "Either way, it starts with the same conversation.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaContact": "Contact the team"
+    }
+  },
+  "contactsExporter": {
+    "meta": {
+      "title": "Contacts Exporter — Glazni Apps",
+      "description": "Contacts Exporter is a Glazni Apps project: pull every contact off your phone into a plain CSV file you own, so switching phones never means losing them — or needing Google to carry them for you."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Contacts Exporter",
+      "status": "In development",
+      "title": "Every contact, out of Google and into a file you actually own.",
+      "sub": "Contacts Exporter does one job: read every contact stored on your phone and turn it into a plain CSV file, saved locally. No account to create, no cloud sync to trust, nothing left behind in someone else's database. Next time you switch phones — or ecosystems entirely — your contacts move with you, not with a login.",
+      "ctaDownload": "Download APK",
+      "ctaBack": "← Back to Glazni Apps",
+      "meta": {
+        "platformLabel": "Platform",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Status",
+        "statusValue": "In development",
+        "iosLabel": "iOS",
+        "iosValue": "Not yet — on the roadmap"
+      }
+    },
+    "idea": {
+      "eyebrow": "The idea",
+      "title": "Your address book shouldn't only exist inside someone else's account.",
+      "p1": "For most people, \"backing up contacts\" quietly means \"trusting Google to keep them forever.\" That's fine right up until you want to leave — a new phone, a new operating system, a decision to de-Google — and discover your own address book was never really a file you could just take with you.",
+      "p2": "Contacts Exporter fixes that by producing the most boring, portable format there is: a CSV. Names, numbers, emails — one row per contact, readable by literally anything, forever. It's not trying to replace Google Contacts. It's just making sure you don't need it to.",
+      "frameLabel": "Screenshot placeholder",
+      "frameSub": "Export screen goes here"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Three steps, no account required",
+      "desc": "The app never phones home with your address book — the whole point is that it doesn't have to.",
+      "steps": [
+        {
+          "title": "Read",
+          "desc": "With your permission, the app reads the contacts already stored on your phone — nothing added, nothing changed."
+        },
+        {
+          "title": "Convert",
+          "desc": "Every contact becomes a row in a clean CSV file: name, numbers, emails and the rest, laid out plainly."
+        },
+        {
+          "title": "Keep",
+          "desc": "Save the file locally, back it up wherever you like, or import it straight into your next phone — with or without Google in the middle."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Screens",
+      "title": "What it looks like",
+      "desc": "Real screenshots are going in these three slots as the build lands.",
+      "list": {
+        "label": "Contact list",
+        "sub": "Everything the app found on-device, before anything's touched"
+      },
+      "review": {
+        "label": "Review before export",
+        "sub": "Check what's going into the file before it's written"
+      },
+      "export": {
+        "label": "Your CSV file",
+        "sub": "Saved locally, ready to move anywhere"
+      }
+    },
+    "download": {
+      "eyebrow": "Get it",
+      "title": "Install it directly, for now",
+      "cardTitle": "Contacts Exporter — Android APK",
+      "cardMeta": "Version pending · file goes live once it's uploaded",
+      "cta": "Download APK",
+      "note": "Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android."
+    },
+    "cta": {
+      "eyebrow": "Building something like this too?",
+      "title": "This is one app from Glazni Apps — there's more where it came from.",
+      "desc": "Talk to us about a build, or see what else the studio is shipping.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaApps": "Back to Glazni Apps"
+    }
+  },
+  "degoogle": {
+    "meta": {
+      "title": "Glazni DeGoogle — Privacy-First Guides, Apps & Phones",
+      "description": "Glazni DeGoogle publishes comprehensive GrapheneOS guides, builds its own privacy-first apps, and de-googles phones to order."
+    },
+    "hero": {
+      "eyebrow": "Venture 06 — Glazni DeGoogle",
+      "title": "We're huge DeGoogle fans. So we made it a venture.",
+      "sub": "GrapheneOS guides written to actually be followed, our own privacy-first apps, and phones we de-google ourselves before they ship to you.",
+      "ctaPhones": "See de-googled phones",
+      "ctaGuides": "Read the guides"
+    },
+    "guides": {
+      "eyebrow": "GrapheneOS guides",
+      "title": "Comprehensive, step-by-step, kept up to date.",
+      "p1": "We write and maintain in-depth guides for installing and living on GrapheneOS — from flashing your first Pixel to sandboxing Google Play services, choosing alternative app stores, and hardening the OS beyond its defaults.",
+      "p2": "No sponsored placements, no affiliate detours. Just the steps, written by people who run this setup daily.",
+      "imgAlt": "GrapheneOS setup guide"
+    },
+    "ownApps": {
+      "eyebrow": "Our own apps",
+      "title": "Small, private-by-default tools",
+      "desc": "Built for the DeGoogle stack — no Google services required, no tracking, no account needed to get started.",
+      "items": {
+        "contacts": {
+          "name": "Contacts",
+          "desc": "A local-first contacts app with no cloud sync required by default.",
+          "status": "In development"
+        },
+        "notes": {
+          "name": "Notes",
+          "desc": "Fast, offline notes with optional end-to-end encrypted backup.",
+          "status": "In development"
+        },
+        "tasks": {
+          "name": "Tasks",
+          "desc": "A minimal task manager for people who don't want another dashboard.",
+          "status": "In development"
+        },
+        "keyboard": {
+          "name": "Keyboard",
+          "desc": "An offline keyboard with no network permission at all — nothing to leak.",
+          "status": "In development"
+        },
+        "photoJournal": {
+          "name": "Photo Journal",
+          "desc": "A private, offline photo diary. Our first app to ship publicly.",
+          "status": "Live on Google Play"
+        }
+      },
+      "noticeLabel": "Note:",
+      "notice": "these app names are working titles used internally — none of them ship under the \"Glazni\" name. Final branding is decided per app closer to release."
+    },
+    "phones": {
+      "eyebrow": "De-googled phones",
+      "title": "We flash them, harden them, and ship them ready to use.",
+      "p1": "We source supported handsets, install GrapheneOS ourselves, strip Google services out, and set up sane defaults before the phone ever reaches you — no setup guide required on your end, though we'll happily walk you through it.",
+      "p2": "Available models depend on current stock. Get in touch and we'll confirm what's ready to ship.",
+      "ctaAvailability": "Ask about availability",
+      "imgAlt": "A de-googled phone ready to ship"
+    },
+    "cta": {
+      "eyebrow": "Going private?",
+      "title": "Start with a guide, or start with a phone that's already done.",
+      "desc": "Either way, we're happy to point you in the right direction.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaContact": "Contact the team"
+    }
+  },
+  "dine": {
+    "meta": {
+      "title": "Glazni Dine — Restaurant & Delivery Software",
+      "description": "Glazni Dine packages restaurant and delivery software into ready-made combinations — delivery app, admin panel and partner app — each available in multiple visual themes."
+    },
+    "hero": {
+      "eyebrow": "Venture 04 — Glazni Dine",
+      "title": "Restaurant software, packaged the way restaurants actually buy it.",
+      "sub": "Not every restaurant needs the same thing on day one. Glazni Dine is sold as a set of ready-made packages — pick the pieces you need now, and grow into the rest — each available in a choice of visual themes.",
+      "ctaPackages": "See packages",
+      "ctaThemes": "Browse themes"
+    },
+    "packages": {
+      "eyebrow": "Packages",
+      "title": "Three ways to buy in",
+      "desc": "Every package is the same underlying platform — you're choosing how much of it you need switched on.",
+      "items": {
+        "starter": {
+          "eyebrow": "Starter",
+          "name": "Delivery App",
+          "includesHtml": [
+            "<b>Customer delivery app</b> for iOS and Android",
+            "Menu, ordering and checkout, branded to your restaurant",
+            "Order notifications straight to your existing setup"
+          ],
+          "cta": "Ask about this package"
+        },
+        "standard": {
+          "eyebrow": "Standard",
+          "name": "Delivery + Admin",
+          "includesHtml": [
+            "Everything in <b>Delivery App</b>",
+            "<b>Admin panel</b> for menu, pricing and order management",
+            "Live order tracking and basic sales reporting"
+          ],
+          "cta": "Ask about this package"
+        },
+        "complete": {
+          "eyebrow": "Complete",
+          "name": "Full Suite",
+          "includesHtml": [
+            "Everything in <b>Delivery + Admin</b>",
+            "<b>Partner app</b> for drivers or in-house delivery staff",
+            "Route handoff between admin panel and partner app"
+          ],
+          "cta": "Ask about this package"
+        }
+      }
+    },
+    "themes": {
+      "eyebrow": "Themes",
+      "title": "Pick a visual style, keep the platform underneath",
+      "desc": "Every package above ships in any of these looks — swap the theme without touching the underlying build.",
+      "gallery": {
+        "minimal": {
+          "name": "Minimal",
+          "desc": "Clean, neutral, works for almost any menu"
+        },
+        "bistro": {
+          "name": "Bistro Warm",
+          "desc": "Earthy tones, built for sit-down restaurants"
+        },
+        "fastcasual": {
+          "name": "Fast-Casual",
+          "desc": "High-contrast and quick to scan on mobile"
+        },
+        "noir": {
+          "name": "Fine Dining Noir",
+          "desc": "Dark, editorial, for higher-end menus"
+        },
+        "bakery": {
+          "name": "Bakery Pastel",
+          "desc": "Soft palette, built for cafés and bakeries"
+        },
+        "cloud": {
+          "name": "Cloud Kitchen",
+          "desc": "Utilitarian, tuned for delivery-only kitchens"
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Not sure which package fits?",
+      "title": "Tell us about your restaurant and we'll suggest a starting point.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaContact": "Contact the team"
+    }
+  },
+  "backgroundChanger": {
+    "meta": {
+      "title": "Background Changer — Glazni Apps",
+      "description": "Background Changer is a Glazni Apps project: a wallpaper that shifts with morning, evening and night, cycling through your own collection automatically."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Background Changer",
+      "status": "In development",
+      "title": "A wallpaper that knows what time it is.",
+      "sub": "Background Changer swaps your wallpaper as the day moves — morning, evening, night — so your phone looks like itself at 8am and 8pm without you touching a setting. Add your own collection and it keeps circling through it, timed to the day.",
+      "ctaDownload": "Download APK",
+      "ctaBack": "← Back to Glazni Apps",
+      "meta": {
+        "platformLabel": "Platform",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Status",
+        "statusValue": "In development",
+        "iosLabel": "iOS",
+        "iosValue": "Not yet — on the roadmap"
+      }
+    },
+    "idea": {
+      "eyebrow": "The idea",
+      "title": "Set it once, and your wallpaper does the rest.",
+      "p1": "Most phones show the same static wallpaper whether it's sunrise or midnight. Background Changer treats the wallpaper as something that should move with the day — brighter, warmer tones in the morning, something calmer once it's dark.",
+      "p2": "Add your own photos or pick from a built-in set, and the app keeps circling through them on its own schedule, tied to morning, evening and night — no manual switching, no third-party widget to babysit.",
+      "frameLabel": "Screenshot placeholder",
+      "frameSub": "Time-of-day preview screen goes here"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Three settings, then it runs itself",
+      "desc": "Build the collection once — the schedule takes it from there.",
+      "steps": [
+        {
+          "title": "Add",
+          "desc": "Drop in your own wallpapers, or start from the built-in collection — as many or as few as you want in rotation."
+        },
+        {
+          "title": "Schedule",
+          "desc": "The app tags each wallpaper for morning, evening or night, and switches automatically as the time of day changes."
+        },
+        {
+          "title": "Circle",
+          "desc": "Inside each time slot, it keeps cycling through everything you've added, so it never looks the same two days running."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Screens",
+      "title": "What it looks like",
+      "desc": "Real screenshots are going in these three slots as the build lands.",
+      "today": {
+        "label": "Now showing",
+        "sub": "The current wallpaper and which time slot it's in"
+      },
+      "collection": {
+        "label": "Your collection",
+        "sub": "Every wallpaper you've added, sorted by time slot"
+      },
+      "schedule": {
+        "label": "The schedule",
+        "sub": "Set when morning, evening and night begin"
+      }
+    },
+    "download": {
+      "eyebrow": "Get it",
+      "title": "Install it directly, for now",
+      "cardTitle": "Background Changer — Android APK",
+      "cardMeta": "Version pending · file goes live once it's uploaded",
+      "cta": "Download APK",
+      "note": "Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android."
+    },
+    "cta": {
+      "eyebrow": "Building something like this too?",
+      "title": "This is one app from Glazni Apps — there's more where it came from.",
+      "desc": "Talk to us about a build, or see what else the studio is shipping.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaApps": "Back to Glazni Apps"
+    }
+  },
+  "careers": {
+    "meta": {
+      "title": "Careers — Glazni",
+      "description": "Open roles across Glazni's index of ventures — engineering, marketing, talent, hospitality tech, privacy-first devices, and operations. Remote-first."
+    },
+    "hero": {
+      "eyebrow": "Careers at Glazni",
+      "title": "Work on more than one problem worth solving.",
+      "sub": "Every venture in the index is staffed by people who wanted more than one lane — engineers who ship, marketers who build systems, and operators who run real teams across every market we hire from.",
+      "ctaRoles": "See open roles",
+      "ctaProcess": "How hiring works"
+    },
+    "culture": {
+      "eyebrow": "How we work",
+      "title": "Three things stay true across every venture",
+      "items": [
+        {
+          "title": "Ownership over instructions",
+          "desc": "You'll be trusted to run a real piece of a venture, not just execute a ticket. We hire people who want that."
+        },
+        {
+          "title": "Craft over speed alone",
+          "desc": "We move fast, but a shipped feature still has to work, look right, and hold up under real use."
+        },
+        {
+          "title": "Global by default",
+          "desc": "Our teams span time zones on purpose. Remote-first isn't a policy here — it's how the company was built."
+        }
+      ]
+    },
+    "rolesSection": {
+      "eyebrow": "Open roles",
+      "title": "Positions across the index",
+      "desc": "Don't see an exact fit? Send us a note anyway — new roles open as new ventures join the index.",
+      "filters": {
+        "all": "All roles",
+        "eng": "Engineering",
+        "growth": "Marketing & Growth",
+        "talent": "Talent & People",
+        "dine": "Hospitality Tech",
+        "degoogle": "DeGoogle",
+        "migrate": "Migrate",
+        "ops": "Design & Ops"
+      },
+      "registryHead": {
+        "code": "Code",
+        "role": "Role",
+        "venture": "Venture",
+        "location": "Location"
+      },
+      "detailsLabel": "Details",
+      "headings": {
+        "about": "About the role",
+        "whatYouDo": "What you'll do",
+        "whatWeLookFor": "What we're looking for",
+        "quickFacts": "Quick facts",
+        "techTools": "Tech & tools",
+        "tools": "Tools",
+        "focus": "Focus"
+      },
+      "factsLabels": {
+        "venture": "Venture",
+        "location": "Location",
+        "type": "Type"
+      },
+      "moreRoles": "+ more roles open as new ventures join the index — write to us anyway",
+      "items": {
+        "gz101": {
+          "name": "Senior Mobile Engineer",
+          "venture": "Glazni Apps",
+          "meta": "Remote · Full-time",
+          "about": "You'll own end-to-end delivery of client and in-house iOS/Android apps — architecture through App Store and Play Store release — on the same stack the original studio was founded on. Some of what you build will carry a client's name, some will carry ours, including the in-house language-learning app currently in development.",
+          "whatYouDo": [
+            "Build and ship production Flutter apps for iOS and Android, writing native Kotlin/Swift modules where the platform demands it",
+            "Design and maintain Golang APIs and services on AWS that back those apps",
+            "Model and evolve PostgreSQL schemas for apps carrying real production traffic",
+            "Work directly with clients on architecture decisions — this isn't a ticket queue"
+          ],
+          "whatWeLookFor": [
+            "4+ years shipping Flutter (or comparable cross-platform) apps to production",
+            "Comfortable writing backend services in Golang, not just consuming someone else's API",
+            "Working knowledge of AWS (EC2, S3 at minimum) and Docker-based deployments",
+            "Bonus: exposure to gRPC, or to LLM tooling like LangChain"
+          ],
+          "facts": {
+            "venture": "Glazni Apps",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-101"
+        },
+        "gz102": {
+          "name": "Platform / DevOps Engineer",
+          "venture": "Glazni Apps",
+          "meta": "Remote · Full-time",
+          "about": "You'll build and run the infrastructure every Glazni Apps build ships on — from a developer's first local build to the cluster that serves it in production, and eventually the infra other ventures like Migrate lean on too.",
+          "whatYouDo": [
+            "Run and scale Kubernetes clusters, with Karpenter handling node autoscaling, across client and in-house workloads",
+            "Build and maintain CI/CD pipelines in Jenkins for Golang and Flutter builds",
+            "Keep local dev environments reproducible with Kind, so \"works on my machine\" stops being a real problem",
+            "Own core AWS infrastructure — EC2, S3, and the networking between them"
+          ],
+          "whatWeLookFor": [
+            "Production experience running Kubernetes at more than toy scale",
+            "Comfortable scripting infrastructure in Golang, not just writing YAML",
+            "Real AWS experience beyond the console — cost awareness, incident response",
+            "Bonus: Bazel or CMake experience from a past build-systems role"
+          ],
+          "facts": {
+            "venture": "Glazni Apps",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-102"
+        },
+        "gz103": {
+          "name": "Performance Marketing Manager",
+          "venture": "Glazni Growth",
+          "meta": "Remote · Full-time",
+          "about": "You'll run paid acquisition and lifecycle email across every venture in the index — and for outside clients who come to Glazni Growth directly. Each venture has a different funnel; you'll own the reporting that makes sense of all of them at once.",
+          "whatYouDo": [
+            "Plan and run paid acquisition campaigns per venture, reporting on CAC and LTV as you go",
+            "Build and manage lifecycle email flows in Brevo and Mailchimp",
+            "Use HubSpot as the system of record for pipeline and campaign performance",
+            "Run outbound prospecting sequences through Apollo for B2B ventures like Dine and Migrate"
+          ],
+          "whatWeLookFor": [
+            "Track record running paid and lifecycle marketing with real budget ownership",
+            "Hands-on HubSpot experience, plus at least one ESP (Brevo or Mailchimp)",
+            "Comfortable reporting performance across several very different products at once"
+          ],
+          "facts": {
+            "venture": "Glazni Growth",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-103"
+        },
+        "gz104": {
+          "name": "Content & Brand Strategist",
+          "venture": "Glazni Growth",
+          "meta": "Remote · Full-time",
+          "about": "You'll set the voice for a company that has to sound coherent across seven genuinely different ventures — and run the content and backlink program that drives organic growth for the ones that depend on it most.",
+          "whatYouDo": [
+            "Set editorial direction and voice across every venture's content, from GrapheneOS guides to landing pages",
+            "Run link-building and backlink outreach to grow organic search for content-heavy ventures",
+            "Manage content calendars and publishing inside HubSpot",
+            "Partner with the Performance Marketing Manager on content that needs to support a lead-gen push"
+          ],
+          "whatWeLookFor": [
+            "Proven SEO content strategy experience — writing that's built to rank, not just read",
+            "Real backlink and outreach experience: you know how to earn links, not just request them",
+            "Comfortable owning brand voice across genuinely different products at once"
+          ],
+          "facts": {
+            "venture": "Glazni Growth",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-104"
+        },
+        "gz105": {
+          "name": "Talent Acquisition Partner",
+          "venture": "Glazni Talent",
+          "meta": "Remote · Full-time",
+          "about": "You'll recruit for every venture in the index and for outside companies who come to Glazni Talent to hire — with a sourcing pipeline centered on India and other emerging markets.",
+          "whatYouDo": [
+            "Source, screen and shortlist candidates across engineering, marketing and operations roles",
+            "Run the full recruiting pipeline for internal Glazni roles and for outside EOR and sourcing clients",
+            "Build out sourcing pipelines in new markets as the index grows",
+            "Support onboarding for hires placed through the Employer of Record service"
+          ],
+          "whatWeLookFor": [
+            "Experience recruiting technical roles as well as ops and marketing roles",
+            "Familiarity with cross-border hiring, EOR structures or global contractor compliance is a strong plus",
+            "Comfortable running candidate pipelines across multiple time zones"
+          ],
+          "facts": {
+            "venture": "Glazni Talent",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-105"
+        },
+        "gz106": {
+          "name": "Full-Stack Developer",
+          "venture": "Glazni Dine",
+          "meta": "Remote · Full-time",
+          "about": "You'll build across all three legs of the Dine platform — the customer delivery app, the admin panel, and the partner app — on the same underlying build that every restaurant theme sits on top of.",
+          "whatYouDo": [
+            "Build and maintain the Flutter delivery and partner apps",
+            "Build the admin panel in React and Tailwind, with HTMX for a few lighter-weight internal views",
+            "Design Golang services and PostgreSQL schemas shared across all three apps and every theme",
+            "Ship new restaurant themes without touching the platform underneath"
+          ],
+          "whatWeLookFor": [
+            "Full-stack experience spanning a mobile client, a web admin panel and a backend API",
+            "Comfortable in Golang on the backend and React/Tailwind (or similar) on the frontend",
+            "Bonus: Flutter experience, or exposure to HTMX for simpler server-rendered views"
+          ],
+          "facts": {
+            "venture": "Glazni Dine",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-106"
+        },
+        "gz107": {
+          "name": "Product Designer",
+          "venture": "Glazni Studio",
+          "meta": "Remote · Full-time",
+          "about": "You'll design across the index — mobile, web, and the marketing sites in between — working directly with each venture's engineers rather than handing off a file and moving on.",
+          "whatYouDo": [
+            "Design flows and screens for Flutter apps, React admin panels and marketing sites across every venture",
+            "Build and maintain a shared design system engineers can actually implement",
+            "Sit in on engineering handoff and stay involved through build, not just at kickoff",
+            "Review shipped builds against design intent before release"
+          ],
+          "whatWeLookFor": [
+            "A portfolio spanning both mobile and web product design",
+            "Comfortable enough in HTML/CSS or Tailwind to speak the same language as engineering",
+            "Experience building or maintaining a design system, not just individual screens"
+          ],
+          "facts": {
+            "venture": "Glazni Studio",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-107"
+        },
+        "gz109": {
+          "name": "Business Operations Associate",
+          "venture": "Corporate",
+          "meta": "Remote · Full-time",
+          "about": "You'll help keep the index running day to day — the finance, vendor and coordination work that sits above any single venture, reporting directly to the founders.",
+          "whatYouDo": [
+            "Own recurring finance operations: invoicing, vendor payments, expense tracking across ventures",
+            "Coordinate cross-venture initiatives that need someone outside any single team's day-to-day",
+            "Maintain the operational documentation every new venture inherits",
+            "Support the founders directly on whatever the index needs next"
+          ],
+          "whatWeLookFor": [
+            "Operations or finance-adjacent experience in a fast-moving, multi-team environment",
+            "Sharp with spreadsheets and comfortable building lightweight process from scratch",
+            "Bonus: experience operating across more than one business line at once"
+          ],
+          "facts": {
+            "venture": "Corporate",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-109"
+        },
+        "gz110": {
+          "name": "Android / AOSP Engineer",
+          "venture": "Glazni DeGoogle",
+          "meta": "Remote · Full-time",
+          "about": "You'll work at the AOSP level on the hardening that goes into every phone we ship, plus the Kotlin app suite — Contacts, Notes, Tasks, Keyboard and Photo Journal — that runs on top of it.",
+          "whatYouDo": [
+            "Work at the AOSP level: build flags, hardening patches, and the Bazel/CMake build pipeline",
+            "Write and maintain Kotlin for the DeGoogle app suite, with C++ where performance or hardware access demands it",
+            "Use Rust for the handful of components where memory safety at the OS boundary actually matters",
+            "Keep the flashing and build pipeline reproducible in Docker for the hardware fulfillment team"
+          ],
+          "whatWeLookFor": [
+            "Real AOSP or embedded Android build experience — not app-layer Kotlin alone",
+            "Comfortable in C++, with some exposure to Rust",
+            "Genuine interest in the privacy and de-googled space, not just a resume line"
+          ],
+          "facts": {
+            "venture": "Glazni DeGoogle",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-110"
+        },
+        "gz111": {
+          "name": "Hardware & Fulfillment Specialist",
+          "venture": "Glazni DeGoogle",
+          "meta": "Remote · Full-time",
+          "about": "You'll physically flash, harden and ship every phone that goes out the door for Glazni DeGoogle — the last set of hands a device passes through before it reaches a customer.",
+          "whatYouDo": [
+            "Source supported handsets and run the GrapheneOS flashing pipeline on each one",
+            "Follow, and help improve, the hardening checklist before a phone ships",
+            "Manage inventory, stock levels and fulfillment logistics",
+            "Package and ship orders, and handle the occasional support question after the sale"
+          ],
+          "whatWeLookFor": [
+            "Comfortable with hands-on hardware work and repeatable technical processes",
+            "Basic scripting (Bash or Python) to help automate parts of the flashing pipeline is a strong plus",
+            "Reliable and detail-oriented — a skipped step here ships to a customer"
+          ],
+          "facts": {
+            "venture": "Glazni DeGoogle",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-111"
+        },
+        "gz112": {
+          "name": "Website Migration Engineer",
+          "venture": "Glazni Migrate",
+          "meta": "Remote · Full-time",
+          "about": "You'll rebuild client sites currently running on subscription website builders and get them running on infrastructure we operate ourselves — usually landing around half the client's ongoing cost.",
+          "whatYouDo": [
+            "Rebuild client sites in plain HTML/CSS/JS or HTMX/React, depending on complexity",
+            "Stand up hosting on our own AWS infrastructure and migrate domains and email over",
+            "Rebuild forms, booking widgets and anything else visitors interact with",
+            "Handle the full migration end to end, including cutover, with zero downtime as the goal"
+          ],
+          "whatWeLookFor": [
+            "Comfortable rebuilding a site starting from \"here's the URL,\" not just a design file",
+            "Real hosting and infra experience — AWS, DNS, Docker",
+            "Bonus: HTMX experience for keeping rebuilds simple where a full SPA isn't warranted"
+          ],
+          "facts": {
+            "venture": "Glazni Migrate",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-112"
+        },
+        "gz113": {
+          "name": "SEO & Lead Generation Specialist",
+          "venture": "Glazni Growth",
+          "meta": "Remote · Full-time",
+          "about": "You'll own organic growth and outbound lead generation for the ventures that run on a real sales pipeline — Dine, Migrate and Talent chief among them.",
+          "whatYouDo": [
+            "Run technical and content SEO across venture sites, including the backlink program",
+            "Build outbound lead-gen sequences in Apollo for B2B ventures",
+            "Coordinate door-to-door and local outreach campaigns for Dine's restaurant sales motion",
+            "Report pipeline and organic growth numbers back through HubSpot"
+          ],
+          "whatWeLookFor": [
+            "Demonstrated SEO results — real ranking movement, not just an audit",
+            "Outbound or lead-gen tooling experience (Apollo or similar)",
+            "Comfortable owning a number, not just a list of tasks"
+          ],
+          "facts": {
+            "venture": "Glazni Growth",
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-113"
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "How hiring works",
+      "title": "Four steps, start to offer",
+      "desc": "No surprise rounds. You'll know what's next after every conversation.",
+      "steps": [
+        {
+          "title": "Apply",
+          "desc": "Send your details and a note on what you'd want to work on — through a role above or a general note to careers@glazni.com."
+        },
+        {
+          "title": "Intro call",
+          "desc": "A 30-minute conversation about your background and the venture you'd be joining."
+        },
+        {
+          "title": "Working session",
+          "desc": "A practical, paid conversation around real work — no throwaway take-homes."
+        },
+        {
+          "title": "Offer",
+          "desc": "If it's a fit on both sides, you'll have an offer within days, not weeks."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Don't see your role?",
+      "title": "We're indexing new ventures often — and hiring for each one.",
+      "desc": "Send us a note. We keep every application on file for the next venture that fits.",
+      "ctaEmail": "Email careers@glazni.com",
+      "ctaContact": "Contact the team"
+    }
+  },
+  "ideas": {
+    "meta": {
+      "title": "Ideas — Glazni Apps",
+      "description": "Ideas is a Glazni Apps project: start an idea, then drop every note and thought you have on it underneath — one running page per idea, instead of a maze of folders and tags."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Ideas",
+      "status": "In development",
+      "title": "One idea. Everything you think about it, in one place.",
+      "sub": "Ideas skips the folders, tags and databases most note apps make you set up first. Start an idea — that's the only structure there is — and every thought you have about it afterward becomes a note stacked underneath that one heading. No filing, no deciding where something belongs. It already belongs.",
+      "ctaDownload": "Download APK",
+      "ctaBack": "← Back to Glazni Apps",
+      "meta": {
+        "platformLabel": "Platform",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Status",
+        "statusValue": "In development",
+        "iosLabel": "iOS",
+        "iosValue": "Not yet — on the roadmap"
+      }
+    },
+    "idea": {
+      "eyebrow": "The idea",
+      "title": "Most note apps make you organize before you've thought anything yet.",
+      "p1": "The usual note app asks you to pick a notebook, a folder or a tag before you've even written the thought down — so the good ones get lost hunting for the right place to put them. Ideas removes that step. You create one idea, once, as a single heading. Every note you add after that — a line, a link, a half-formed thought at 2am — drops straight underneath it, in order, with nothing else to decide.",
+      "p2": "There's no second level. Notes don't get their own sub-notes, and ideas don't nest inside other ideas. If a thought belongs to an idea, it goes under that idea's heading and stays there — a running page per idea instead of a tree you have to maintain.",
+      "frameLabel": "Screenshot placeholder",
+      "frameSub": "An idea with its notes stacked underneath goes here"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Start it, feed it, find it again",
+      "desc": "The whole app is three steps, and the third one is just scrolling.",
+      "steps": [
+        {
+          "title": "Start an idea",
+          "desc": "Give it a name and nothing else. That name becomes the one subheading everything about it will live under."
+        },
+        {
+          "title": "Drop in notes",
+          "desc": "Whenever a thought about it shows up, open the idea and add it as a note. No new screen, no picking a folder — it just gets added to the pile."
+        },
+        {
+          "title": "Come back to it",
+          "desc": "Open the idea any time and every note is right there, in the order you thought of it — the whole shape of the idea at a glance."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Screens",
+      "title": "What it looks like",
+      "desc": "Real screenshots are going in these three slots as the build lands.",
+      "list": {
+        "label": "All ideas",
+        "sub": "Every idea you've started, one row each"
+      },
+      "notes": {
+        "label": "One idea, opened",
+        "sub": "Its subheading at the top, every note stacked below"
+      },
+      "capture": {
+        "label": "Quick capture",
+        "sub": "Add a note to an idea in two taps, from anywhere"
+      }
+    },
+    "download": {
+      "eyebrow": "Get it",
+      "title": "Install it directly, for now",
+      "cardTitle": "Ideas — Android APK",
+      "cardMeta": "Version pending · file goes live once it's uploaded",
+      "cta": "Download APK",
+      "note": "Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android."
+    },
+    "cta": {
+      "eyebrow": "Building something like this too?",
+      "title": "This is one app from Glazni Apps — there's more where it came from.",
+      "desc": "Talk to us about a build, or see what else the studio is shipping.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaApps": "Back to Glazni Apps"
+    }
+  },
+  "journal": {
+    "meta": {
+      "title": "Journal — Glazni Apps",
+      "description": "Journal is a Glazni Apps project: one plain entry a day, dated automatically — no prompts, no streaks, no photo required."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Journal",
+      "status": "In development",
+      "title": "A blank page, once a day.",
+      "sub": "Journal is exactly what it sounds like — a plain text entry, dated automatically, with nothing else asked of you. No mood trackers, no prompts, no streak counter guilting you into writing. Just a place to put down what happened, or what you're thinking, whenever you feel like it.",
+      "ctaDownload": "Download APK",
+      "ctaBack": "← Back to Glazni Apps",
+      "meta": {
+        "platformLabel": "Platform",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Status",
+        "statusValue": "In development",
+        "iosLabel": "iOS",
+        "iosValue": "Not yet — on the roadmap"
+      }
+    },
+    "idea": {
+      "eyebrow": "The idea",
+      "title": "Not everything needs a feature.",
+      "p1": "Most journaling apps compete on prompts, mood graphs and streaks — extra layers between you and just writing something down. Journal skips all of it. Open the app, there's today's blank entry, and you write in it or you don't.",
+      "p2": "Entries are plain text, sorted by date, nothing more. Miss a day and there's no broken streak to feel bad about — just an empty day sitting in the timeline, and tomorrow's entry waiting underneath it.",
+      "frameLabel": "Screenshot placeholder",
+      "frameSub": "Today's entry screen goes here"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Three things, that's the whole app",
+      "desc": "No settings to configure before you can start writing.",
+      "steps": [
+        {
+          "title": "Write",
+          "desc": "Open the app to today's entry and start typing. It saves as you go — there's no save button to remember."
+        },
+        {
+          "title": "Browse",
+          "desc": "Every past entry lines up by date underneath, plain text, easy to skim or search back through."
+        },
+        {
+          "title": "Keep",
+          "desc": "Export the whole journal as a plain text backup any time — it's yours, not locked to the app."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Screens",
+      "title": "What it looks like",
+      "desc": "Real screenshots are going in these three slots as the build lands.",
+      "today": {
+        "label": "Today's entry",
+        "sub": "A blank page for today, dated automatically"
+      },
+      "entries": {
+        "label": "Past entries",
+        "sub": "Every day you've written, in order"
+      },
+      "search": {
+        "label": "Search",
+        "sub": "Find a word or a date across every past entry"
+      }
+    },
+    "download": {
+      "eyebrow": "Get it",
+      "title": "Install it directly, for now",
+      "cardTitle": "Journal — Android APK",
+      "cardMeta": "Version pending · file goes live once it's uploaded",
+      "cta": "Download APK",
+      "note": "Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android."
+    },
+    "cta": {
+      "eyebrow": "Building something like this too?",
+      "title": "This is one app from Glazni Apps — there's more where it came from.",
+      "desc": "Talk to us about a build, or see what else the studio is shipping.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaApps": "Back to Glazni Apps"
+    }
+  },
+  "messages": {
+    "meta": {
+      "title": "Messages — Glazni Apps",
+      "description": "Messages is a Glazni Apps project: a texting app that runs completely offline, sending and receiving SMS and MMS without a cloud relay or an account attached."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Messages",
+      "status": "In development",
+      "title": "Texting that never touches the internet.",
+      "sub": "Messages sends and receives SMS and MMS straight over your carrier — no cloud relay, no account to sign into, nothing syncing your conversations anywhere else. It runs entirely offline, so what's in a thread stays between the phones sending it.",
+      "ctaDownload": "Download APK",
+      "ctaBack": "← Back to Glazni Apps",
+      "meta": {
+        "platformLabel": "Platform",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Status",
+        "statusValue": "In development",
+        "iosLabel": "iOS",
+        "iosValue": "Not yet — on the roadmap"
+      }
+    },
+    "idea": {
+      "eyebrow": "The idea",
+      "title": "A text is just a text — it shouldn't need a server.",
+      "p1": "Plenty of messaging apps route ordinary texts through company servers, or hold onto delivery metadata even when the message itself is a plain SMS. Messages doesn't have a server to route through — it talks to your carrier's SMS and MMS network directly, the same way texting has worked for two decades, and nothing about that requires a cloud account.",
+      "p2": "Like Phone, it's built to run completely offline. No sign-in, no background sync, no message content ever leaving the device except over the network already carrying your calls — which is what makes it a real degoogle replacement rather than a different company holding the same data.",
+      "frameLabel": "Screenshot placeholder",
+      "frameSub": "Conversation thread screen goes here"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Nothing between you and the message",
+      "desc": "No account, no relay, no data connection required.",
+      "steps": [
+        {
+          "title": "Write",
+          "desc": "Pick a contact — pulled straight from Phone if you're using both — and start a thread the way texting has always worked."
+        },
+        {
+          "title": "Send",
+          "desc": "Messages go out over SMS or MMS through your carrier directly — no app server in the middle, no data connection needed."
+        },
+        {
+          "title": "Keep",
+          "desc": "Every thread stays stored on the device, not a cloud backup, so it's there only for as long as you decide to keep it."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Screens",
+      "title": "What it looks like",
+      "desc": "Real screenshots are going in these three slots as the build lands.",
+      "list": {
+        "label": "Conversations",
+        "sub": "Every thread, newest first, stored locally"
+      },
+      "thread": {
+        "label": "Thread",
+        "sub": "A single conversation, sent straight over SMS/MMS"
+      },
+      "compose": {
+        "label": "Compose",
+        "sub": "Start a new message, no data connection required"
+      }
+    },
+    "download": {
+      "eyebrow": "Get it",
+      "title": "Install it directly, for now",
+      "cardTitle": "Messages — Android APK",
+      "cardMeta": "Version pending · file goes live once it's uploaded",
+      "cta": "Download APK",
+      "note": "Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android."
+    },
+    "cta": {
+      "eyebrow": "Building something like this too?",
+      "title": "This is one app from Glazni Apps — there's more where it came from.",
+      "desc": "Talk to us about a build, or see what else the studio is shipping.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaApps": "Back to Glazni Apps"
+    }
+  },
+  "talent": {
+    "meta": {
+      "title": "Glazni Talent — Global Hiring",
+      "description": "Glazni Talent handles recruiting and people operations, including access to skilled hires across global talent markets at a lower cost."
+    },
+    "hero": {
+      "eyebrow": "Venture 03 — Glazni Talent",
+      "title": "Build a team abroad, without opening an entity yourself.",
+      "sub": "Glazni Talent runs recruiting and people operations for every venture in the index — and for outside companies who want to hire in global talent markets like India without the overhead of a local entity. We work as your Employer of Record, help you stand up your own branch office, or simply source and vet the hire — so you get skilled talent at a fraction of the cost of hiring locally.",
+      "ctaTalk": "Talk to us about hiring",
+      "ctaServices": "See our services"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "We source, vet and manage the hire — you choose the structure.",
+      "p1": "We built Glazni Talent to solve our own hiring first: sourcing skilled engineers, marketers and operators from emerging markets — India chief among them — at a cost far below hiring the same skill set locally. Once the model worked for us, we opened it up.",
+      "p2": "From there you choose how deep you want to go: hire through us as an Employer of Record with no entity required, bring on a sourced and vetted hire directly, or let us help you set up and staff your own branch office if you're ready to put down roots in-market.",
+      "imgAlt": "Global hiring at Glazni Talent"
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "Three ways to build a team abroad",
+      "desc": "Every engagement starts with the same sourcing and vetting — you decide how much structure you need around it.",
+      "packages": {
+        "sourcing": {
+          "eyebrow": "Lightest touch",
+          "name": "Talent Sourcing & Vetting",
+          "includes": [
+            "We source, screen and shortlist candidates, starting in India and other emerging markets",
+            "You interview, hire and manage the person directly",
+            "No entity required, no ongoing commitment from us"
+          ],
+          "cta": "Ask about this service"
+        },
+        "eor": {
+          "eyebrow": "Most popular",
+          "name": "Employer of Record (EOR)",
+          "includes": [
+            "We legally employ the hire on your behalf — <b>no local entity needed</b>",
+            "Payroll, compliance and local labor law handled for you",
+            "You manage the day-to-day work, we manage the paperwork"
+          ],
+          "cta": "Ask about this service"
+        },
+        "branch": {
+          "eyebrow": "Long-term",
+          "name": "Branch Office Setup",
+          "includes": [
+            "We help you register and stand up your own local office",
+            "Ongoing HR and people-ops support once it's running",
+            "Best for teams planning a lasting presence in-market"
+          ],
+          "cta": "Ask about this service"
+        }
+      },
+      "noticeLabel": "Where we hire:",
+      "notice": "Our strongest sourcing pipeline today is in India, across engineering, marketing and operations roles, with additional emerging-market coverage as the index grows."
+    },
+    "cta": {
+      "eyebrow": "Hiring for a role?",
+      "title": "Tell us the role, and we'll tell you what's possible.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaContact": "Contact the team"
+    }
+  },
+  "migrate": {
+    "meta": {
+      "title": "Glazni Migrate — Website Rebuilds & Hosting",
+      "description": "Glazni Migrate rebuilds websites currently running on subscription website builders and hosts them independently — typically around half the ongoing cost, priced per client."
+    },
+    "hero": {
+      "eyebrow": "Venture 07 — Glazni Migrate",
+      "title": "Same website. Half the bill.",
+      "sub": "If your site lives on a subscription website builder, we'll rebuild it properly and host it ourselves — usually landing around half of what you're paying today.",
+      "ctaQuote": "Get a migration quote",
+      "ctaHow": "See how it works"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "We rebuild it, then we host it.",
+      "p1": "Send us a link to your current site. We rebuild the same pages on infrastructure we run ourselves — same content, same look if you want it kept, or a refresh if you don't — with no page-builder subscription sitting in the middle anymore.",
+      "p2": "Once the rebuilt version is live on our hosting, you cancel the old plan. Editing and managing the site day to day doesn't get harder — if anything, it gets faster, since it's no longer running inside someone else's platform.",
+      "imgAlt": "Rebuilding a website off a subscription builder"
+    },
+    "whatMoves": {
+      "eyebrow": "What moves over",
+      "title": "Everything your visitors already use, rebuilt properly",
+      "desc": "A migration covers the parts of the site people actually interact with, not just the pages.",
+      "items": {
+        "design": {
+          "name": "Design",
+          "desc": "Your existing layout and branding, carried over as closely as you want — or refreshed, if you'd rather use the move as a chance to update it."
+        },
+        "content": {
+          "name": "Content & pages",
+          "desc": "Every page, post and piece of copy on the current site gets carried across, checked, and put back in place."
+        },
+        "forms": {
+          "name": "Forms & bookings",
+          "desc": "Contact forms, booking widgets and anything else visitors submit are rebuilt to work the same way, or better."
+        },
+        "domain": {
+          "name": "Domain & email",
+          "desc": "We handle pointing your domain at the new hosting and make sure email tied to that domain keeps working through the switch."
+        }
+      }
+    },
+    "pricing": {
+      "eyebrow": "Pricing",
+      "title": "Roughly half of what you're paying now — worked out with you.",
+      "desc": "Every current site is different, so every quote is too. There's no calculator on this page for a reason.",
+      "noticeLabel": "As a rough guide:",
+      "notice": "a site running around $20/month on a typical subscription website builder tends to land near $10/month once it's rebuilt and hosted with us — about half. That's a starting point for a conversation, not an automatic price. We'll look at your actual site, its traffic and what it needs before we agree on a number together."
+    },
+    "cta": {
+      "eyebrow": "Thinking about switching?",
+      "title": "Send us a link to your current site.",
+      "desc": "We'll tell you what a rebuild would take, and talk through what it'd cost.",
       "ctaEmail": "Email hello@glazni.com",
       "ctaContact": "Contact the team"
     }

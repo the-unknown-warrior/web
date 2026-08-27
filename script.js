@@ -1,13 +1,4 @@
-// ---------- i18n: load all page text from data_en.json ----------
-// The HTML that ships in the repo already contains the English copy, so if this
-// fetch fails (e.g. opened straight from disk, where fetch() of local files is
-// blocked by the browser) the page still reads fine — the JSON is the source of
-// truth, the inline HTML text is just the fallback.
-//
-// To ship another language later: copy data_en.json to e.g. data_ru.json,
-// translate the values (keep the keys as-is), and change DATA_FILE below
-// (or make it a query param / <html lang> switch) to point at it.
-const DATA_FILE = 'data_en.json';
+const DATA_FILE = 'data_ru.json';
 
 function getI18nValue(dict, key) {
   return key.split('.').reduce((obj, part) => (obj && obj[part] !== undefined ? obj[part] : undefined), dict);
