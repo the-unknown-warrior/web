@@ -86,12 +86,27 @@ window.addEventListener('scroll', () => {
   else nav.classList.remove('is-scrolled');
 }, { passive: true });
 
+function closeNavMenu() {
+  navLinks.classList.remove('open');
+  nav.classList.remove('menu-open');
+  navToggle.setAttribute('aria-expanded', 'false');
+}
+
 if (navToggle) {
-  navToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('open');
-    navToggle.setAttribute('aria-expanded', navLinks.classList.contains('open'));
+  navToggle.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = navLinks.classList.toggle('open');
+    nav.classList.toggle('menu-open', isOpen);
+    navToggle.setAttribute('aria-expanded', String(isOpen));
   });
-  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNavMenu));
+
+  // Close the menu on a click/tap outside of it.
+  document.addEventListener('click', (e) => {
+    if (!navLinks.classList.contains('open')) return;
+    if (navLinks.contains(e.target) || navToggle.contains(e.target)) return;
+    closeNavMenu();
+  });
 }
 
 // ---------- scroll reveal ----------

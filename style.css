@@ -228,8 +228,11 @@ h1,h2,h3,.font-display{
   .nav-links{
     position:fixed; inset:64px 0 0 0;
     background:var(--navy-950);
+    display:flex;
     flex-direction:column;
+    align-items:center;
     justify-content:flex-start;
+    text-align:center;
     padding:36px 32px;
     gap:26px;
     transform:translateY(-8px);
@@ -242,6 +245,14 @@ h1,h2,h3,.font-display{
   .nav-links a{ font-size:15px; }
   .nav-toggle{ display:flex; }
   .nav-cta .btn-ghost{ display:none; }
+
+  /* Keep the header strip itself solid while the dropdown is open — otherwise
+     the panel below is opaque but the bar above it (logo/toggle row) stays
+     see-through until the page is scrolled, which reads as a glitch. */
+  .nav.menu-open{
+    background:var(--navy-950);
+    border-bottom-color:var(--line);
+  }
 }
 
 /* ---------- section scaffolding ---------- */
