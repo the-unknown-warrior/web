@@ -1,0 +1,45 @@
+<svg width="680" height="680" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
+<title>Resume builder app icon</title>
+<desc>A layered app icon showing a stack of resume documents with a suited profile avatar, skill progress bars, and a gold checkmark badge, on a dark navy rounded square background with gold accents.</desc>
+<defs>
+<clipPath id="iconMask"><rect x="0" y="0" width="680" height="680" rx="150"/></clipPath>
+<clipPath id="avatarClip"><circle cx="340" cy="215" r="44"/></clipPath>
+</defs>
+<rect x="0" y="0" width="680" height="680" rx="150" fill="#12172B"/>
+<g clip-path="url(#iconMask)">
+<line x1="40" y1="680" x2="680" y2="380" stroke="#D4AF37" stroke-width="4" stroke-linecap="round" opacity="0.1"/>
+<line x1="40" y1="680" x2="680" y2="280" stroke="#D4AF37" stroke-width="4" stroke-linecap="round" opacity="0.1"/>
+<line x1="40" y1="680" x2="620" y2="0" stroke="#D4AF37" stroke-width="4" stroke-linecap="round" opacity="0.1"/>
+<line x1="40" y1="680" x2="480" y2="0" stroke="#D4AF37" stroke-width="4" stroke-linecap="round" opacity="0.1"/>
+<line x1="40" y1="680" x2="340" y2="0" stroke="#D4AF37" stroke-width="4" stroke-linecap="round" opacity="0.1"/>
+<rect x="185" y="125" width="310" height="430" rx="22" fill="#232B45" transform="rotate(-9 340 340)"/>
+<rect x="185" y="125" width="310" height="430" rx="22" fill="#384467" transform="rotate(6 340 340)"/>
+<rect x="185" y="125" width="310" height="430" rx="22" fill="#FFFFFF"/>
+<polygon points="463,127 493,127 493,157" fill="#EDEFF3"/>
+<line x1="463" y1="127" x2="493" y2="157" stroke="#C7CCD6" stroke-width="1.5"/>
+<circle cx="340" cy="215" r="44" fill="#1F2A44"/>
+<g clip-path="url(#avatarClip)">
+<circle cx="340" cy="200" r="16" fill="#FFFFFF"/>
+<ellipse cx="340" cy="260" rx="38" ry="32" fill="#FFFFFF"/>
+<polygon points="322,215 340,222 328,235" fill="#1F2A44"/>
+<polygon points="358,215 340,222 352,235" fill="#1F2A44"/>
+<polygon points="336,222 344,222 340,248" fill="#D4AF37"/>
+</g>
+<rect x="272" y="284" width="136" height="18" rx="9" fill="#1F2A44"/>
+<rect x="288" y="310" width="104" height="12" rx="6" fill="#C9A227"/>
+<rect x="207" y="340" width="266" height="2" fill="#E6E9EF"/>
+<rect x="207" y="362" width="266" height="10" rx="5" fill="#B9C1CE"/>
+<rect x="207" y="386" width="266" height="10" rx="5" fill="#B9C1CE"/>
+<rect x="207" y="410" width="206" height="10" rx="5" fill="#B9C1CE"/>
+<rect x="207" y="436" width="266" height="2" fill="#E6E9EF"/>
+<rect x="207" y="458" width="266" height="9" rx="4.5" fill="#E9ECF1"/>
+<rect x="207" y="478" width="266" height="9" rx="4.5" fill="#E9ECF1"/>
+<rect x="207" y="498" width="266" height="9" rx="4.5" fill="#E9ECF1"/>
+<rect x="207" y="458" width="226" height="9" rx="4.5" fill="#D4AF37"/>
+<rect x="207" y="478" width="170" height="9" rx="4.5" fill="#1F2A44"/>
+<rect x="207" y="498" width="246" height="9" rx="4.5" fill="#D4AF37"/>
+<circle cx="463" cy="528" r="42" fill="#D4AF37" stroke="#12172B" stroke-width="5"/>
+<path d="M444 528 L459 543 L484 511" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="18" y="18" width="644" height="644" rx="134" fill="none" stroke="#D4AF37" stroke-width="3" opacity="0.5"/>
+</g>
+</svg>
