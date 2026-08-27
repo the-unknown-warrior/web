@@ -48,6 +48,15 @@ function initTicker() {
   });
 }
 
+// data-page attributes are hyphenated (e.g. "background-changer") but the
+// JSON dictionaries key their per-page strings in camelCase (e.g.
+// "backgroundChanger"), matching normal JS property naming. Convert before
+// looking the page up, or hyphenated multi-word pages silently get no
+// translations and fall back to the hardcoded English in the HTML.
+function toCamelCase(slug) {
+  return slug.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase());
+}
+
 async function loadI18n() {
   const page = document.body.dataset.page;
   if (page) {
@@ -56,7 +65,7 @@ async function loadI18n() {
       if (!res.ok) throw new Error(`${DATA_FILE} responded with ${res.status}`);
       const data = await res.json();
       // Merge page-agnostic strings (nav, footer) with this page's own strings.
-      const dict = Object.assign({}, data.shared, data[page]);
+      const dict = Object.assign({}, data.shared, data[toCamelCase(page)]);
       applyI18n(dict);
     } catch (err) {
       console.warn(`Could not load ${DATA_FILE}, keeping the built-in page text.`, err);

@@ -1478,5 +1478,248 @@
       "ctaEmail": "Email hello@glazni.com",
       "ctaContact": "Contact the team"
     }
+  },
+  "photoJournal": {
+    "meta": {
+      "title": "Photo Journal — Glazni Apps",
+      "description": "Photo Journal is a Glazni Apps project: one photo a day, building into a visual autobiography — and a record of a life for the people who come looking after you're gone."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Photo Journal",
+      "status": "In development",
+      "title": "One photo a day. A life you can actually look back on.",
+      "sub": "Photo Journal only asks one thing: a single picture, once a day. No captions to write, no streak to keep beyond that. String enough days together and it becomes something a journal rarely manages — a visual autobiography you didn't have to sit down and write, and one day, a way for the people who loved you to see how you actually lived.",
+      "ctaDownload": "Download APK",
+      "ctaBack": "← Back to Glazni Apps",
+      "meta": {
+        "platformLabel": "Platform",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Status",
+        "statusValue": "In development",
+        "iosLabel": "iOS",
+        "iosValue": "Not yet — on the roadmap"
+      }
+    },
+    "idea": {
+      "eyebrow": "The idea",
+      "title": "A single frame is easier to keep than a paragraph.",
+      "p1": "Most journaling fails for the same reason: the blank page. Photo Journal removes it. Once a day, open the app, take or pick one photo, done. It doesn't ask why the day mattered — most days you won't know until years later, looking back.",
+      "p2": "Every entry drops into a running timeline, one frame per day, in order. Scroll back a year from now and you're not reading notes about your life — you're looking at it. It's the raw material for an autobiography you never had to write a first draft of.",
+      "frameLabel": "Screenshot placeholder",
+      "frameSub": "Today's capture screen goes here"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Three habits, not a hundred",
+      "desc": "The whole app is small on purpose — the archive is the point, not the features.",
+      "steps": [
+        {
+          "title": "Capture",
+          "desc": "Once a day, the app nudges you. Snap a new photo or pick one already on your camera roll — whatever the day actually looked like."
+        },
+        {
+          "title": "Collect",
+          "desc": "Each entry lines up on a single timeline, oldest to newest. No feed, no likes, no algorithm — just the order you actually lived them in."
+        },
+        {
+          "title": "Keep",
+          "desc": "Your archive exports as a file you own outright, so it survives app updates, phone changes, and eventually, you — a private legacy, not a platform's growth metric."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Screens",
+      "title": "What it looks like",
+      "desc": "Real screenshots are going in these three slots as the build lands.",
+      "today": {
+        "label": "Today's capture",
+        "sub": "One tap, one photo, done for the day"
+      },
+      "timeline": {
+        "label": "The timeline",
+        "sub": "Every day, in order, scrolling back as far as you've kept it"
+      },
+      "detail": {
+        "label": "One day, opened",
+        "sub": "The photo, the date, nothing else in the way"
+      }
+    },
+    "download": {
+      "eyebrow": "Get it",
+      "title": "Install it directly, for now",
+      "cardTitle": "Photo Journal — Android APK",
+      "cardMeta": "Version pending · file goes live once it's uploaded",
+      "cta": "Download APK",
+      "note": "Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android."
+    },
+    "cta": {
+      "eyebrow": "Building something like this too?",
+      "title": "This is one app from Glazni Apps — there's more where it came from.",
+      "desc": "Talk to us about a build, or see what else the studio is shipping.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaApps": "Back to Glazni Apps"
+    }
+  },
+  "resumeBuilder": {
+    "meta": {
+      "title": "Resume Builder — Glazni Apps",
+      "description": "Resume Builder is a Glazni Apps project: premium, professionally designed resumes made free or almost free, so a great resume isn't gated behind a paywall."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Resume Builder",
+      "status": "In development",
+      "title": "A genuinely good resume, without the paywall.",
+      "sub": "Resume Builder puts the kind of resume design normally sold as a premium template — clean layouts, real typography, formatting that survives an ATS — in front of anyone who needs one, for free or close to it. Answer a few prompts, pick a layout, export something you'd actually be proud to send.",
+      "ctaDownload": "Download APK",
+      "ctaBack": "← Back to Glazni Apps",
+      "meta": {
+        "platformLabel": "Platform",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Status",
+        "statusValue": "In development",
+        "iosLabel": "iOS",
+        "iosValue": "Not yet — on the roadmap"
+      }
+    },
+    "idea": {
+      "eyebrow": "The idea",
+      "title": "Good design shouldn't be the part you have to pay to unlock.",
+      "p1": "Most resume tools give you one free layout and hide the rest — the fonts, the spacing, the export formats — behind a subscription, right when you can least afford one. Resume Builder flips that: the premium layouts are the default, not the upsell.",
+      "p2": "You fill in your experience once. The app handles the layout, the hierarchy, the margins — the parts that actually make a resume look considered instead of copy-pasted from a Word template.",
+      "frameLabel": "Screenshot placeholder",
+      "frameSub": "Resume editor screen goes here"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Three steps to a finished resume",
+      "desc": "No design decisions required — just your information and a layout you like.",
+      "steps": [
+        {
+          "title": "Fill",
+          "desc": "Enter your experience, education and skills once, in plain fields — no formatting to fight with as you type."
+        },
+        {
+          "title": "Choose",
+          "desc": "Pick from a set of premium layouts, all built to stay clean on screen, on paper and when parsed by an ATS."
+        },
+        {
+          "title": "Export",
+          "desc": "Download a finished PDF, free or for a token fee — no recurring subscription just to get your own resume out."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Screens",
+      "title": "What it looks like",
+      "desc": "Real screenshots are going in these three slots as the build lands.",
+      "editor": {
+        "label": "The editor",
+        "sub": "Fill in your details, see the layout update live"
+      },
+      "templates": {
+        "label": "Template picker",
+        "sub": "A gallery of premium layouts, swap any time"
+      },
+      "export": {
+        "label": "Export",
+        "sub": "A finished, print-ready PDF, ready to send"
+      }
+    },
+    "download": {
+      "eyebrow": "Get it",
+      "title": "Install it directly, for now",
+      "cardTitle": "Resume Builder — Android APK",
+      "cardMeta": "Version pending · file goes live once it's uploaded",
+      "cta": "Download APK",
+      "note": "Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android."
+    },
+    "cta": {
+      "eyebrow": "Building something like this too?",
+      "title": "This is one app from Glazni Apps — there's more where it came from.",
+      "desc": "Talk to us about a build, or see what else the studio is shipping.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaApps": "Back to Glazni Apps"
+    }
+  },
+  "tasks": {
+    "meta": {
+      "title": "Tasks — Glazni Apps",
+      "description": "Tasks is a Glazni Apps project: a plain to-do list — add what needs doing, check it off, done. No boards, no labels, no productivity system."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Tasks",
+      "status": "In development",
+      "title": "A short list, not a system.",
+      "sub": "Tasks is a plain to-do list — add what needs doing, check it off, done. No projects, no labels, no productivity system to maintain, just today's list and whatever's still open from before.",
+      "ctaDownload": "Download APK",
+      "ctaBack": "← Back to Glazni Apps",
+      "meta": {
+        "platformLabel": "Platform",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Status",
+        "statusValue": "In development",
+        "iosLabel": "iOS",
+        "iosValue": "Not yet — on the roadmap"
+      }
+    },
+    "idea": {
+      "eyebrow": "The idea",
+      "title": "The list is the whole app.",
+      "p1": "Most task apps grow into project managers — boards, tags, recurring rules, reminders stacked on reminders. Tasks stays a list: add an item, check it off when it's done, delete it if it isn't happening.",
+      "p2": "Nothing rolls over automatically and nothing nags you. What's left at the end of the day is still there tomorrow, exactly where you left it.",
+      "frameLabel": "Screenshot placeholder",
+      "frameSub": "Today's list screen goes here"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Three things, that's the whole app",
+      "desc": "Nothing to configure before you can start adding to the list.",
+      "steps": [
+        {
+          "title": "Add",
+          "desc": "Type a task and it's on the list — no due date, priority or project to assign unless you want to write it into the text."
+        },
+        {
+          "title": "Check",
+          "desc": "Tap to mark something done. It stays visible, struck through, until you clear it."
+        },
+        {
+          "title": "Clear",
+          "desc": "Clear finished tasks whenever you want a fresh list — nothing disappears on its own."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Screens",
+      "title": "What it looks like",
+      "desc": "Real screenshots are going in these three slots as the build lands.",
+      "today": {
+        "label": "Today's list",
+        "sub": "Everything open right now, in the order you added it"
+      },
+      "done": {
+        "label": "Done",
+        "sub": "What you've already checked off, kept until you clear it"
+      },
+      "add": {
+        "label": "Add",
+        "sub": "Type a task and it's on the list"
+      }
+    },
+    "download": {
+      "eyebrow": "Get it",
+      "title": "Install it directly, for now",
+      "cardTitle": "Tasks — Android APK",
+      "cardMeta": "Version pending · file goes live once it's uploaded",
+      "cta": "Download APK",
+      "note": "Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android."
+    },
+    "cta": {
+      "eyebrow": "Building something like this too?",
+      "title": "This is one app from Glazni Apps — there's more where it came from.",
+      "desc": "Talk to us about a build, or see what else the studio is shipping.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaApps": "Back to Glazni Apps"
+    }
   }
 }
