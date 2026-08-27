@@ -259,9 +259,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development",
-        "iosLabel": "iOS",
-        "iosValue": "Not yet — on the roadmap"
+        "statusValue": "Planning"
       }
     },
     "idea": {
@@ -434,9 +432,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development",
-        "iosLabel": "iOS",
-        "iosValue": "Not yet — on the roadmap"
+        "statusValue": "In development"
       }
     },
     "idea": {
@@ -671,9 +667,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development",
-        "iosLabel": "iOS",
-        "iosValue": "Not yet — on the roadmap"
+        "statusValue": "In development"
       }
     },
     "idea": {
@@ -1130,9 +1124,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development",
-        "iosLabel": "iOS",
-        "iosValue": "Not yet — on the roadmap"
+        "statusValue": "Planning"
       }
     },
     "idea": {
@@ -1211,9 +1203,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development",
-        "iosLabel": "iOS",
-        "iosValue": "Not yet — on the roadmap"
+        "statusValue": "Planning"
       }
     },
     "idea": {
@@ -1292,9 +1282,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development",
-        "iosLabel": "iOS",
-        "iosValue": "Not yet — on the roadmap"
+        "statusValue": "Concept"
       }
     },
     "idea": {
@@ -1495,9 +1483,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development",
-        "iosLabel": "iOS",
-        "iosValue": "Not yet — on the roadmap"
+        "statusValue": "Released"
       }
     },
     "idea": {
@@ -1576,9 +1562,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development",
-        "iosLabel": "iOS",
-        "iosValue": "Not yet — on the roadmap"
+        "statusValue": "In development"
       }
     },
     "idea": {
@@ -1657,9 +1641,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development",
-        "iosLabel": "iOS",
-        "iosValue": "Not yet — on the roadmap"
+        "statusValue": "Planning"
       }
     },
     "idea": {
