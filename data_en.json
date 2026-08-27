@@ -243,6 +243,87 @@
       }
     }
   },
+  "phone": {
+    "meta": {
+      "title": "Phone — Glazni Apps",
+      "description": "Phone is a Glazni Apps project: a dialer and address book in one app, running fully offline, so calling someone and keeping their details never needs a Google account or a data connection."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Phone",
+      "status": "In development",
+      "title": "One app for calls and contacts. Nothing else touches it.",
+      "sub": "Phone is a dialer and an address book built as a single app, not two. No account to sign in with, no contact sync running in the background, no data leaving the device — dialing a number and looking someone up happen in the same screen, entirely offline.",
+      "ctaDownload": "Download APK",
+      "ctaBack": "← Back to Glazni Apps",
+      "meta": {
+        "platformLabel": "Platform",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Status",
+        "statusValue": "In development",
+        "iosLabel": "iOS",
+        "iosValue": "Not yet — on the roadmap"
+      }
+    },
+    "idea": {
+      "eyebrow": "The idea",
+      "title": "Your dialer and your address book were never meant to be two apps.",
+      "p1": "Google ships a Phone app and a Contacts app. Fossify does too. So does almost everyone else — two separate apps, two separate permission prompts, and a contact list that has to sync between them to work at all. Phone drops that split entirely: the dialer, the call log and the full contact list live in one app, so adding a number, naming it and calling it happen without switching screens.",
+      "p2": "It also runs completely offline. No account, no cloud contact sync, nothing phoning home to Google or anyone else — your contacts and call history stay on the device they're stored on, which is the whole point if you're trying to degoogle a phone rather than just rearrange which company holds the same data.",
+      "frameLabel": "Screenshot placeholder",
+      "frameSub": "Combined dialer and contact screen goes here"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "One app, three things it does well",
+      "desc": "No second app to install, sign into or keep in sync.",
+      "steps": [
+        {
+          "title": "Dial",
+          "desc": "Type a number or search your contacts from the same screen — there's no separate app to flip to first."
+        },
+        {
+          "title": "Save",
+          "desc": "Add or edit a contact straight from the call log or a missed call, with everything stored locally on the device."
+        },
+        {
+          "title": "Call",
+          "desc": "Dialing and looking someone up work exactly the same with the data connection off — nothing here depends on the internet."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Screens",
+      "title": "What it looks like",
+      "desc": "Real screenshots are going in these three slots as the build lands.",
+      "contacts": {
+        "label": "Contacts",
+        "sub": "Your whole address book, stored on the device only"
+      },
+      "dialer": {
+        "label": "Dialer",
+        "sub": "Type a number or search a name from the same pad"
+      },
+      "log": {
+        "label": "Call log",
+        "sub": "Missed, answered and outgoing calls, tied to the contact"
+      }
+    },
+    "download": {
+      "eyebrow": "Get it",
+      "title": "Install it directly, for now",
+      "cardTitle": "Phone — Android APK",
+      "cardMeta": "Version pending · file goes live once it's uploaded",
+      "cta": "Download APK",
+      "note": "Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android."
+    },
+    "cta": {
+      "eyebrow": "Building something like this too?",
+      "title": "This is one app from Glazni Apps — there's more where it came from.",
+      "desc": "Talk to us about a build, or see what else the studio is shipping.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaApps": "Back to Glazni Apps"
+    }
+  },
   "apps": {
     "meta": {
       "title": "Glazni Apps — Mobile & Web Engineering",
