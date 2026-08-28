@@ -521,6 +521,7 @@ footer{ border-top:1px solid var(--line); padding:70px 0 30px; }
 /* ---------- page hero (careers / inner pages) ---------- */
 .page-hero{ padding:170px 0 80px; border-bottom:1px solid var(--line); }
 .page-hero h1{ font-size:clamp(34px,5vw,58px); margin-top:18px; max-width:760px; }
+.page-hero h1 span{ color:var(--teal); }
 .page-hero p{ color:var(--ink-dim); max-width:520px; margin-top:22px; font-size:16px; }
 
 /* ---------- about copy ---------- */
