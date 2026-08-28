@@ -324,36 +324,36 @@
   },
   "apps": {
     "meta": {
-      "title": "Glazni Apps — Mobile & Web Engineering",
-      "description": "Glazni Apps is where the company started — premium, privacy-focused iOS and Android engineering, built mostly for clients under NDA."
+      "title": "Glazni Apps — Apps We Build For Ourselves",
+      "description": "Glazni Apps is where we design, build and ship our own privacy-focused mobile apps — no clients, no briefs, just products we build for ourselves and try to make profitable."
     },
     "hero": {
       "eyebrow": "Venture 01 — Glazni Apps",
-      "title": "Where Glazni started, and where most of it still runs.",
-      "sub": "Before there was a holding company, there was a small studio in Moscow building fast, native-feeling iOS and Android apps. That's still what Glazni Apps does — for clients, and occasionally for ourselves.",
-      "ctaTalk": "Talk to us about a build",
+      "titleHtml": "We make Premium, <span>Privacy-focused</span><br>Mobile applications",
+      "sub": "No briefs, no NDAs, no one paying us to build these. We pick a small problem we actually have, build a focused, privacy-first app to solve it, put it on the store, and try to make it work as a real product — on its own.",
+      "ctaSee": "See what we're building",
       "ctaRoles": "See open roles"
     },
     "build": {
       "eyebrow": "What we build",
-      "title": "Native apps, built the way the original studio built them.",
-      "p1": "The team behind Glazni Apps ships production iOS and Android software on Flutter, Golang and AWS — the same stack the studio was founded on. A number of these apps are live on the App Store and Google Play today, and several more are in active development.",
-      "p2": "Most of what we build is commissioned work: client products we design, ship and maintain under our own name or theirs. What's public and what isn't is a decision each client makes, not us.",
-      "imgAlt": "Mobile engineering at Glazni Apps"
+      "title": "Premium, privacy-first apps — built for one job each.",
+      "p1": "Every app on this page exists because someone on the team wanted it. Tech Stack includes — Flutter, Golang, HTMX and AWS — along with a few other things as necessary. Every project is different: pick one job, do it well, keep it private and simple by default.",
+      "p2Html": "We fund and ship these ourselves, on our own timeline. Some will stay free, some may carry a small one-time price or a light subscription — whatever makes sense for that app to keep existing. <br><br>NOTE: If what you actually want is something built to your spec, that's a different venture: see Glazni Studio.",
+      "imgAlt": "Building our own apps at Glazni Apps"
     },
     "private": {
       "eyebrow": "Private, by design",
-      "title": "We don't list or link to our own apps here.",
+      "title": "We don't list or link to our own apps here — yet.",
       "desc": "If you already have a link to one of our apps, that link works. This site just won't hand it to you.",
       "noticeLabel": "Why:",
-      "notice": "most of what we build is client work, and several of our own apps are still early or invite-based. Rather than publish a partial, half-public list, we simply don't route traffic to any Glazni-built app from this website. If you were sent a Play Store or App Store link directly, it's valid — go ahead and open it. Nothing here will redirect you to one."
+      "notice": "most of what's below is still early, invite-based, or mid-build. Rather than publish a partial, half-public list, we simply don't route traffic to any Glazni app from this website. If you were sent a Play Store or App Store link directly, it's valid — go ahead and open it. Nothing here will redirect you to one."
     },
-    "rebuild": {
-      "eyebrow": "Also available",
-      "title": "Already have a product? We'll rebuild it properly.",
-      "p1": "Not every engagement starts from a blank page. A good share of our client work is re-engineering: taking an existing website, app or internal tool that's grown slow, brittle or outdated, and rebuilding it on a stack that can actually be maintained.",
-      "p2": "If that's what you need, this is the venture to talk to — same team, same standards, applied to something that already exists.",
-      "imgAlt": "Rebuilding an existing product"
+    "studioPointer": {
+      "eyebrow": "Not what you're looking for?",
+      "title": "Need something built to your spec instead?",
+      "p1": "Everything on this page is ours — our idea, our budget, our call on when it ships. If you're looking to commission an app or a website, that's a different part of the company.",
+      "p2Html": "<a href=\"studio.html\">Glazni Studio</a> is our client-work venture: the same team, the same standards, building mobile apps and websites for people who are paying us to build them.",
+      "imgAlt": "Glazni Studio builds for clients"
     },
     "announce": {
       "eyebrow": "New announcements",
@@ -363,7 +363,7 @@
       "photoJournal": {
         "title": "Photo Journal",
         "desc": "One photo a day, building into a visual autobiography — and a record for the people who come looking after you're gone.",
-        "status": "In development"
+        "status": "Published"
       },
       "resumeBuilder": {
         "title": "Resume Builder",
@@ -409,9 +409,113 @@
       "itemDesc": "We're building a language-learning app in-house. It's early — no public link yet, and no date to share — but it'll follow the same privacy-first approach as everything else Glazni ships."
     },
     "cta": {
+      "eyebrow": "Got an idea this size?",
+      "title": "We're always looking for the next small problem worth solving.",
+      "desc": "We're not taking client work here — but if you've got a good idea for a focused, privacy-first app, we're happy to hear it.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaStudio": "Looking to commission a build? Visit Glazni Studio"
+    }
+  },
+  "studio": {
+    "meta": {
+      "title": "Glazni Studio — Mobile-First Software Engineering",
+      "description": "Glazni Studio builds mobile apps, websites, desktop software and internal tools — mobile-first, on Flutter, Golang and AWS."
+    },
+    "hero": {
+      "eyebrow": "Venture 05 — Glazni Studio",
+      "title": "Software built to your spec — mobile first.",
+      "sub": "Glazni Studio builds mobile apps, websites, desktop software and internal tools for businesses. We started as a mobile-first studio in Moscow, but have since moved towards web, desktop and internal tools including CLI applications.",
+      "ctaTalk": "Start a project",
+      "ctaStack": "See our stack"
+    },
+    "build": {
+      "mobile": {
+        "title": "Mobile apps",
+        "desc": "Android and iOS from one Flutter codebase, with Kotlin and Swift written in wherever native features are required.",
+        "status": "Primary focus"
+      },
+      "web": {
+        "title": "Websites",
+        "desc": "Lean, server-rendered interfaces — fast to load, simple to maintain, no framework for its own sake."
+      },
+      "desktop": {
+        "title": "Desktop apps",
+        "desc": "Today we only build Linux applications. Debien, RHEL, Arch. Windows coming soon."
+      },
+      "internal": {
+        "title": "Internal software",
+        "desc": "Custom tools built for your own team to use. Eg CLI tools, OCR tools etc. That helps improve effeciency & speed of your organisation"
+      }
+    },
+    "stack": {
+      "eyebrow": "How we build it",
+      "title": "Three tools, most of the work.",
+      "desc": "Everything else in the stack exists to support these three — the rest is chosen per project, not by default.",
+      "flutter": {
+        "title": "Flutter",
+        "desc": "A single codebase for Android and iOS that still feels native on both — our default starting point for mobile work.",
+        "tag": "01 · Frontend"
+      },
+      "golang": {
+        "title": "Golang",
+        "desc": "Typed, fast, boring in the best way — the backend language we reach for when a service has to stay up.",
+        "tag": "02 · Server"
+      },
+      "aws": {
+        "title": "AWS",
+        "desc": "Infrastructure that scales with usage instead of ahead of it, provisioned and monitored as code.",
+        "tag": "03 · Infra"
+      }
+    },
+    "arsenal": {
+      "eyebrow": "The rest of the arsenal",
+      "title": "Chosen per project, not by default.",
+      "native": {
+        "title": "Mobile",
+        "desc": "Flutter, Kotlin, Swift."
+      },
+      "backend": {
+        "title": "Backend & AI",
+        "desc": "Golang, Node.js, Java Spring Boot, Langchain."
+      },
+      "data": {
+        "title": "Data",
+        "desc": "PostgreSQL, SQLite, Firebase, Neo4j, Metabase, Apache Superset."
+      },
+      "cloud": {
+        "title": "Cloud & ops",
+        "desc": "AWS, Google Cloud, Kubernetes, DevOps, Terraform."
+      },
+      "observability": {
+        "title": "Observability",
+        "desc": "Prometheus, Grafana, EFK Stack, Fluent Bit."
+      },
+      "web": {
+        "title": "Web",
+        "desc": "HTMX, HTML, CSS, JS."
+      }
+    },
+    "geo": {
+      "eyebrow": "Where we operate",
+      "title": "Distributed by design.",
+      "desc": "No single office to route everything through — just teams positioned where the work is.",
+      "moscow": {
+        "title": "Moscow, Russia",
+        "desc": "Where Glazni started, and where most of the engineering team is based."
+      },
+      "berlin": {
+        "title": "Berlin, Germany",
+        "desc": "Our hub for European projects and on-the-ground meetings."
+      },
+      "europe": {
+        "title": "Europe-wide",
+        "desc": "Remote-first delivery anywhere else on the continent."
+      }
+    },
+    "cta": {
       "eyebrow": "Building something?",
-      "title": "Tell us whether it's new, or whether it needs rebuilding.",
-      "desc": "Either way, it starts with the same conversation.",
+      "title": "Tell us what you're building.",
+      "desc": "It starts with a conversation.",
       "ctaEmail": "Email hello@glazni.com",
       "ctaContact": "Contact the team"
     }
