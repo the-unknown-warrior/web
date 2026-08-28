@@ -822,19 +822,18 @@
         "gz107": {
           "name": "Product Designer",
           "meta": "Remote · Full-time",
-          "about": "You'll design across the index — mobile, web, and the marketing sites in between — working directly with each venture's engineers rather than handing off a file and moving on.",
+          "about": "You'll design products from a blank page to a finished 0-to-1 experience across the index — mobile, web, and the marketing sites in between — then keep refining each one as feedback comes in.",
           "whatYouDo": [
-            "Design flows and screens for Flutter apps, React admin panels and marketing sites across every venture",
-            "Build and maintain a shared design system engineers can actually implement",
-            "Sit in on engineering handoff and stay involved through build, not just at kickoff",
-            "Review shipped builds against design intent before release",
+            "Design mobile apps, web products and marketing sites from scratch, taking each one from a blank canvas to a finished, ready-to-build interface",
+            "Build and maintain a shared design system used across every venture",
+            "Revise and iterate on designs based on feedback from founders, venture teams and users",
             "Create vector assets in Inkscape and build Lottie animations for onboarding flows and marketing sites"
           ],
           "whatWeLookFor": [
-            "A portfolio spanning both mobile and web product design",
-            "Comfortable enough in HTML/CSS or Tailwind to speak the same language as engineering",
-            "Experience building or maintaining a design system, not just individual screens",
-            "Comfortable in Figma for interface design, Inkscape for vector/icon work, and Lottie for lightweight animation"
+            "A portfolio showing genuine 0-to-1 work — products you designed from a blank page, not just redesigns",
+            "Strong hands-on skills in Figma for interface design, Inkscape for vector and icon work, and Lottie for animation",
+            "Comfortable taking feedback and reworking a design based on it, more than once if needed",
+            "Bonus: some coding knowledge is nice to have, but this is a pure design role — it's not a requirement"
           ],
           "facts": {
             "location": "Remote",
@@ -850,7 +849,7 @@
             "Run technical and content SEO across venture sites, including the backlink program",
             "Build outbound lead-gen sequences in Apollo for B2B ventures",
             "Coordinate door-to-door and local outreach campaigns for Dine's restaurant sales motion",
-            "Report pipeline and organic growth numbers back through HubSpot"
+            "Report pipeline and organic growth numbers back through HubSpot, and build dashboards in Metabase or Apache Superset for the numbers HubSpot doesn't cover"
           ],
           "whatWeLookFor": [
             "Demonstrated SEO results — real ranking movement, not just an audit",
