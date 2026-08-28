@@ -474,10 +474,14 @@ section{ position:relative; }
 
 /* ---------- pillars ---------- */
 .pillars{ display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
-.pillar{ background:var(--navy-950); padding:30px 26px; }
+.pillar{ display:block; background:var(--navy-950); padding:30px 26px; transition:background .2s var(--ease); }
 .pillar .mono{ font-size:11px; color:var(--amber); letter-spacing:.1em; }
 .pillar h3{ font-family:'Orbitron'; font-size:16px; margin-top:14px; font-weight:600; }
 .pillar p{ color:var(--ink-dim); font-size:13.5px; margin-top:8px; line-height:1.6; }
+a.pillar{ cursor:pointer; }
+a.pillar:hover{ background:rgba(231,236,243,0.03); }
+a.pillar:hover .pillar-link{ color:var(--teal-bright); }
+.pillar-link{ display:inline-block; margin-top:12px; color:var(--teal); font-family:'IBM Plex Mono', monospace; font-size:12.5px; letter-spacing:.03em; transition:color .2s var(--ease); }
 @media (max-width:880px){ .pillars{ grid-template-columns:1fr 1fr; } }
 @media (max-width:560px){ .pillars{ grid-template-columns:1fr; } }
 
@@ -705,6 +709,7 @@ footer{ border-top:1px solid var(--line); padding:70px 0 30px; }
 .split-copy h2{ font-size:clamp(24px,3vw,34px); }
 .split-copy p{ color:var(--ink-dim); font-size:15px; margin-top:16px; line-height:1.75; }
 .split.reverse .split-img{ order:2; }
+.split.img-left .split-img{ order:-1; }
 @media (max-width:880px){ .split{ grid-template-columns:1fr; } .split-img{ order:-1 !important; } }
 
 /* ---------- app landing page (Photo Journal etc.) ---------- */

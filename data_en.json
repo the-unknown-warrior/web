@@ -498,12 +498,12 @@
   "degoogle": {
     "meta": {
       "title": "Glazni DeGoogle — Privacy-First Guides, Apps & Phones",
-      "description": "Glazni DeGoogle publishes comprehensive GrapheneOS guides, builds its own privacy-first apps, and de-googles phones to order."
+      "description": "Glazni DeGoogle publishes comprehensive GrapheneOS, LineageOS, /e/OS and CalyxOS guides, builds its own privacy-first apps, and de-googles phones to order."
     },
     "hero": {
       "eyebrow": "Venture 06 — Glazni DeGoogle",
       "title": "We're huge DeGoogle fans. So we made it a venture.",
-      "sub": "GrapheneOS guides written to actually be followed, our own privacy-first apps, and phones we de-google ourselves before they ship to you.",
+      "sub": "Guides for GrapheneOS, LineageOS, /e/OS and CalyxOS written to actually be followed, our own privacy-first apps, and phones we de-google ourselves before they ship to you.",
       "ctaPhones": "See de-googled phones",
       "ctaGuides": "Read the guides"
     },
@@ -512,7 +512,36 @@
       "title": "Comprehensive, step-by-step, kept up to date.",
       "p1": "We write and maintain in-depth guides for installing and living on GrapheneOS — from flashing your first Pixel to sandboxing Google Play services, choosing alternative app stores, and hardening the OS beyond its defaults.",
       "p2": "No sponsored placements, no affiliate detours. Just the steps, written by people who run this setup daily.",
-      "imgAlt": "GrapheneOS setup guide"
+      "imgAlt": "GrapheneOS setup guide",
+      "noticeLabel": "Supported devices:",
+      "notice": "Google Pixel only, current generation plus several years back — GrapheneOS depends on Pixel's hardware security module, which is also why it's the strictest of the four ROMs we support."
+    },
+    "guidesLineage": {
+      "eyebrow": "LineageOS guides",
+      "title": "The widest hardware support of any ROM we cover.",
+      "p1": "LineageOS runs on far more phones than any other option on this page — Google Pixel, OnePlus, Xiaomi and Poco, Samsung, Sony, Motorola, Nothing, Fairphone and dozens more, spanning flagship and budget devices going back several years. We maintain full install guides for the models we sell directly, plus general unlocking, flashing and recovery guidance for the rest.",
+      "p2": "Nothing's installed by default that you didn't ask for — add back microG for app compatibility, or run it fully Google-free. No sponsored placements, just the steps.",
+      "noticeLabel": "Supported devices:",
+      "notice": "hundreds of officially supported models across Pixel, OnePlus, Xiaomi/Poco, Samsung, Sony, Motorola, Nothing, Fairphone and more. Support for any single model depends on an active community maintainer and can be dropped if nobody keeps it going, so we always confirm current official status before we flash or sell a device.",
+      "imgAlt": "LineageOS setup guide"
+    },
+    "guidesEos": {
+      "eyebrow": "/e/OS guides",
+      "title": "De-googled, without giving up your everyday apps.",
+      "p1": "/e/OS trades a little hardening for everyday convenience: its App Lounge store installs Google Play apps without ever signing into a Google account, so the switch feels far less disruptive than GrapheneOS or CalyxOS. We cover setup, App Lounge, and the built-in Murena Workspace account it can optionally use for mail, contacts and calendar.",
+      "p2": "We write full install guides for the devices we support directly, and general flashing guidance for everything else officially supported. No sponsored placements, just the steps.",
+      "noticeLabel": "Supported devices:",
+      "notice": "one of the broadest device lists of any privacy ROM — Samsung Galaxy, Google Pixel, Fairphone, Motorola, Nokia and more. Murena also sells Fairphone and its own Murena-branded handsets with /e/OS pre-installed from the factory, if you'd rather skip flashing altogether.",
+      "imgAlt": "/e/OS setup guide"
+    },
+    "guidesCalyx": {
+      "eyebrow": "CalyxOS guides",
+      "title": "Pixel-grade hardening, with Google apps if you still need them.",
+      "p1": "CalyxOS sits between GrapheneOS and /e/OS: Pixel-focused hardening plus a sandboxed Google Play option and built-in microG, so you keep most of the security benefits without losing every Google-tied app. We cover installation, the sandboxed Play option, and the Datura firewall and Tor features it ships with.",
+      "p2": "We keep our CalyxOS guides current with each release and flag any device or feature caveats up front. No sponsored placements, just the steps.",
+      "noticeLabel": "Supported devices:",
+      "notice": "primarily Google Pixel (current generation plus several years back), with select Fairphone and Motorola models also supported. CalyxOS is run by the non-profit Calyx Institute and its release pace has had gaps in the past, so we only recommend or sell a device once we've confirmed it's on an actively maintained build.",
+      "imgAlt": "CalyxOS setup guide"
     },
     "ownApps": {
       "eyebrow": "Our own apps",
@@ -551,8 +580,8 @@
     "phones": {
       "eyebrow": "De-googled phones",
       "title": "We flash them, harden them, and ship them ready to use.",
-      "p1": "We source supported handsets, install GrapheneOS ourselves, strip Google services out, and set up sane defaults before the phone ever reaches you — no setup guide required on your end, though we'll happily walk you through it.",
-      "p2": "Available models depend on current stock. Get in touch and we'll confirm what's ready to ship.",
+      "p1": "We source supported handsets and flash them ourselves — GrapheneOS, LineageOS, /e/OS or CalyxOS, whichever fits what you need — stripping Google out and setting up sane defaults before the phone ever reaches you. Flashing the wrong image or missing a step can brick a phone, so we handle that risk in-house and ship it ready to use, no setup guide required on your end (though we'll happily walk you through it anyway).",
+      "p2": "Available models and ROMs depend on current stock and what's officially supported for that device. Get in touch and we'll confirm what's ready to ship.",
       "ctaAvailability": "Ask about availability",
       "imgAlt": "A de-googled phone ready to ship"
     },
@@ -802,14 +831,14 @@
           "whatYouDo": [
             "Run and scale Kubernetes clusters, with Karpenter handling node autoscaling, across client and in-house workloads",
             "Build and maintain CI/CD pipelines in Jenkins for Golang and Flutter builds",
-            "Keep local dev environments reproducible with Kind, so \"works on my machine\" stops being a real problem",
+            "Keep local dev environments reproducible with Kind",
             "Own core AWS infrastructure — EC2, S3, and the networking between them",
             "Run monitoring and logging with Prometheus, Grafana and the EFK stack (Elasticsearch, Fluentd, Kibana) across every environment"
           ],
           "whatWeLookFor": [
-            "Production experience running Kubernetes at more than toy scale",
-            "Comfortable scripting infrastructure in Golang, not just writing YAML",
-            "Real AWS experience beyond the console — cost awareness, incident response",
+            "Production experience running Kubernetes",
+            "Comfortable scripting infrastructure in Golang, YAML etc",
+            "Real AWS experience — cost awareness, incident response",
             "Bonus: Bazel or CMake experience from a past build-systems role",
             "Hands-on experience with Prometheus/Grafana-based monitoring and centralized logging (EFK or ELK)"
           ],

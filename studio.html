@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glazni Studio — Mobile-First Software Engineering</title>
+<meta name="description" content="Glazni Studio builds mobile apps, websites, desktop software and internal tools — mobile-first, on Flutter, Golang and AWS.">
+<link rel="icon" href="small_logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-page="studio">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-logo-plate"><img src="logo.png" alt="Glazni" class="brand-logo"></span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#ventures" data-i18n="nav.ventures">Ventures</a></li>
+      <li><a href="careers.html" data-i18n="nav.careers">Careers</a></li>
+      <li><a href="index.html#about" data-i18n="nav.about">About</a></li>
+      <li><a href="index.html#contact" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="index.html#contact" class="btn btn-ghost" data-i18n="nav.getInTouch">Get in touch</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" data-i18n-attr="aria-label:nav.toggleLabel">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 4.5H16M2 9H16M2 13.5H16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow reveal visible" data-i18n="hero.eyebrow">Venture 05 — Glazni Studio</div>
+    <h1 class="reveal visible" data-i18n="hero.title">Software built to your spec — mobile first.</h1>
+    <p class="reveal visible" data-i18n="hero.sub">Glazni Studio builds mobile apps, websites, desktop software and internal tools for businesses. We started as a mobile-first studio in Moscow, but have since moved towards web, desktop and internal tools including CLI applications.</p>
+    <div class="hero-actions reveal visible" style="margin-top:32px;">
+      <a href="mailto:hello@glazni.com?subject=Glazni%20Studio%20project%20inquiry" class="btn btn-primary"><span data-i18n="hero.ctaTalk">Start a project</span>
+        <svg viewBox="0 0 14 14" fill="none"><path d="M7 2V12M7 12L2.5 7.5M7 12L11.5 7.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#stack" class="btn btn-ghost" data-i18n="hero.ctaStack">See our stack</a>
+    </div>
+  </div>
+</header>
+
+<!-- ================= WHAT WE BUILD ================= -->
+<section class="section">
+  <div class="wrap">
+
+    <div class="app-grid reveal" style="margin-top:48px;">
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="mobile-apps">MB</div>
+        <h3 data-i18n="build.mobile.title">Mobile apps</h3>
+        <p data-i18n="build.mobile.desc">Android and iOS from one Flutter codebase, with Kotlin and Swift written in wherever native features are required.</p>
+        <span class="app-status" data-i18n="build.mobile.status">Primary focus</span>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="websites">WB</div>
+        <h3 data-i18n="build.web.title">Websites</h3>
+        <p data-i18n="build.web.desc">Lean, server-rendered interfaces — fast to load, simple to maintain, no framework for its own sake.</p>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="desktop-apps">DT</div>
+        <h3 data-i18n="build.desktop.title">Desktop apps</h3>
+        <p data-i18n="build.desktop.desc">Today we only build Linux applications. Debien, RHEL, Arch. Windows coming soon.</p>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="internal-software">IN</div>
+        <h3 data-i18n="build.internal.title">Internal software</h3>
+        <p data-i18n="build.internal.desc">Custom tools built for your own team to use. Eg CLI tools, OCR tools etc. That helps improve effeciency & speed of your organisation</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= TECH STACK ================= -->
+<section class="section" id="stack">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow" data-i18n="stack.eyebrow">How we build it</div>
+        <h2 class="section-title" data-i18n="stack.title">Three tools, most of the work.</h2>
+      </div>
+      <p class="section-desc" data-i18n="stack.desc">Everything else in the stack exists to support these three — the rest is chosen per project, not by default.</p>
+    </div>
+
+    <div class="app-grid reveal">
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="flutter">FL</div>
+        <h3 data-i18n="stack.flutter.title">Flutter</h3>
+        <p data-i18n="stack.flutter.desc">A single codebase for Android and iOS that still feels native on both — our default starting point for mobile work.</p>
+        <span class="app-status" data-i18n="stack.flutter.tag">01 · Frontend</span>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="golang">GO</div>
+        <h3 data-i18n="stack.golang.title">Golang</h3>
+        <p data-i18n="stack.golang.desc">Typed, fast, boring in the best way — the backend language we reach for when a service has to stay up.</p>
+        <span class="app-status" data-i18n="stack.golang.tag">02 · Server</span>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="aws">AW</div>
+        <h3 data-i18n="stack.aws.title">AWS</h3>
+        <p data-i18n="stack.aws.desc">Infrastructure that scales with usage instead of ahead of it, provisioned and monitored as code.</p>
+        <span class="app-status" data-i18n="stack.aws.tag">03 · Infra</span>
+      </div>
+    </div>
+
+    <div class="section-head reveal" style="margin-top:56px;">
+      <div>
+        <div class="eyebrow" data-i18n="arsenal.eyebrow">The rest of the arsenal</div>
+        <h2 class="section-title" data-i18n="arsenal.title">Chosen per project, not by default.</h2>
+      </div>
+    </div>
+
+    <div class="app-grid reveal">
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="native-mobile">NM</div>
+        <h3 data-i18n="arsenal.native.title">Mobile</h3>
+        <p data-i18n="arsenal.native.desc">Flutter, Kotlin, Swift.</p>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="backend-ai">BA</div>
+        <h3 data-i18n="arsenal.backend.title">Backend &amp; AI</h3>
+        <p data-i18n="arsenal.backend.desc">Golang, Node.js, Java Spring Boot, Langchain.</p>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="data">DA</div>
+        <h3 data-i18n="arsenal.data.title">Data</h3>
+        <p data-i18n="arsenal.data.desc">PostgreSQL, SQLite, Firebase, Neo4j, Metabase, Apache Superset.</p>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="cloud-ops">CO</div>
+        <h3 data-i18n="arsenal.cloud.title">Cloud &amp; ops</h3>
+        <p data-i18n="arsenal.cloud.desc">AWS, Google Cloud, Kubernetes, DevOps.</p>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="observability">OB</div>
+        <h3 data-i18n="arsenal.observability.title">Observability</h3>
+        <p data-i18n="arsenal.observability.desc">Prometheus, Grafana, EFK Stack, Fluent Bit.</p>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="web">WE</div>
+        <h3 data-i18n="arsenal.web.title">Web</h3>
+        <p data-i18n="arsenal.web.desc">HTMX, HTML, CSS, JS.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHERE WE OPERATE ================= -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow" data-i18n="geo.eyebrow">Where we operate</div>
+        <h2 class="section-title" data-i18n="geo.title">Distributed by design.</h2>
+      </div>
+      <p class="section-desc" data-i18n="geo.desc">No single office to route everything through — just teams positioned where the work is.</p>
+    </div>
+    <div class="app-grid reveal">
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="geo-moscow">MO</div>
+        <h3 data-i18n="geo.moscow.title">Moscow, Russia</h3>
+        <p data-i18n="geo.moscow.desc">Where Glazni started, and where most of the engineering team is based.</p>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="geo-berlin">BE</div>
+        <h3 data-i18n="geo.berlin.title">Berlin, Germany</h3>
+        <p data-i18n="geo.berlin.desc">Our hub for European projects and on-the-ground meetings.</p>
+      </div>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="geo-europe">EU</div>
+        <h3 data-i18n="geo.europe.title">Europe-wide</h3>
+        <p data-i18n="geo.europe.desc">Remote-first delivery anywhere else on the continent.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-band">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center" data-i18n="cta.eyebrow">Building something?</div>
+    <h2 style="margin-top:16px;" data-i18n="cta.title">Tell us what you're building.</h2>
+    <p data-i18n="cta.desc">It starts with a conversation.</p>
+    <div class="cta-actions">
+      <a href="mailto:hello@glazni.com?subject=Glazni Studio inquiry" class="btn btn-primary" data-i18n="cta.ctaEmail">Email hello@glazni.com</a>
+      <a href="index.html#contact" class="btn btn-ghost" data-i18n="cta.ctaContact">Contact the team</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand"><span class="brand-logo-plate"><img src="logo.png" alt="Glazni" class="brand-logo"></span></div>
+        <p data-i18n="footer.brand">A holding company building and operating a growing index of ventures across software, marketing, talent, hospitality technology, privacy-first computing and website hosting — grown from an original mobile-first studio founded in Moscow.</p>
+        <div class="socials" style="margin-top:22px;">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="X / Twitter">x</a>
+          <a href="#" aria-label="Instagram">ig</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.companyHeading">Company</h4>
+        <ul>
+          <li><a href="index.html#about" data-i18n="footer.companyLinks.about">About</a></li>
+          <li><a href="index.html#ventures" data-i18n="footer.companyLinks.ventures">Ventures</a></li>
+          <li><a href="careers.html" data-i18n="footer.companyLinks.careers">Careers</a></li>
+          <li><a href="index.html#contact" data-i18n="footer.companyLinks.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.venturesHeading">Ventures</h4>
+        <ul>
+          <li><a href="apps.html">Glazni Apps</a></li>
+          <li><a href="index.html#ventures">Glazni Growth</a></li>
+          <li><a href="talent.html">Glazni Talent</a></li>
+          <li><a href="dine.html">Glazni Dine</a></li>
+          <li><a href="studio.html">Glazni Studio</a></li>
+          <li><a href="degoogle.html">Glazni DeGoogle</a></li>
+          <li><a href="migrate.html">Glazni Migrate</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.legalHeading">Legal</h4>
+        <ul>
+          <li><a href="#" data-i18n="footer.legalLinks.privacy">Privacy policy</a></li>
+          <li><a href="#" data-i18n="footer.legalLinks.terms">Terms of service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span class="js-year"></span> <span data-i18n="footer.copyright">Glazni. All rights reserved.</span></span>
+      <span data-i18n="footer.builtBy">Built in-house by the Glazni team.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="icons.js"></script>
+</body>
+</html>
