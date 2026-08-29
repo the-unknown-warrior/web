@@ -62,11 +62,14 @@
         <p data-i18n="idea.p1">The usual note app asks you to pick a notebook, a folder or a tag before you've even written the thought down — so the good ones get lost hunting for the right place to put them. Ideas removes that step. You create one idea, once, as a single heading. Every note you add after that — a line, a link, a half-formed thought at 2am — drops straight underneath it, in order, with nothing else to decide.</p>
         <p data-i18n="idea.p2">There's no second level. Notes don't get their own sub-notes, and ideas don't nest inside other ideas. If a thought belongs to an idea, it goes under that idea's heading and stays there — a running page per idea instead of a tree you have to maintain.</p>
       </div>
-      <div class="split-img">
-        <div class="screen-frame">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M12 3V6M12 3C8 3 6 6 6 9.5C6 12 7.5 13.2 8.5 14.5C9 15.2 9 16 9 17H15C15 16 15 15.2 15.5 14.5C16.5 13.2 18 12 18 9.5C18 6 16 3 12 3Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M9.5 20H14.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M10 22H14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-          <span class="screen-label" data-i18n="idea.frameLabel">Screenshot placeholder</span>
-          <span class="screen-sub" data-i18n="idea.frameSub">An idea with its notes stacked underneath goes here</span>
+      <div class="split-img" style="display:flex; justify-content:flex-end;">
+        <div class="screen-frame screen-frame--fixed-h">
+          <img src="image/ideas_1.png" data-i18n-attr="alt:idea.imgAlt" alt="An idea with its notes stacked underneath in the Ideas app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="screen-frame-placeholder">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3V6M12 3C8 3 6 6 6 9.5C6 12 7.5 13.2 8.5 14.5C9 15.2 9 16 9 17H15C15 16 15 15.2 15.5 14.5C16.5 13.2 18 12 18 9.5C18 6 16 3 12 3Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M9.5 20H14.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M10 22H14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            <span class="screen-label" data-i18n="idea.frameLabel">Screenshot placeholder</span>
+            <span class="screen-sub" data-i18n="idea.frameSub">An idea with its notes stacked underneath goes here</span>
+          </div>
         </div>
       </div>
     </div>
@@ -115,19 +118,28 @@
     </div>
     <div class="screens reveal">
       <div class="screen-frame">
-        <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="4" width="17" height="4.5" rx="1.2" stroke="currentColor" stroke-width="1.4"/><rect x="3.5" y="10.5" width="17" height="4.5" rx="1.2" stroke="currentColor" stroke-width="1.4"/><rect x="3.5" y="17" width="17" height="4.5" rx="1.2" stroke="currentColor" stroke-width="1.4"/></svg>
-        <span class="screen-label" data-i18n="screens.list.label">All ideas</span>
-        <span class="screen-sub" data-i18n="screens.list.sub">Every idea you've started, one row each</span>
+        <img src="image/ideas_2.png" alt="All ideas screen in the Ideas app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="4" width="17" height="4.5" rx="1.2" stroke="currentColor" stroke-width="1.4"/><rect x="3.5" y="10.5" width="17" height="4.5" rx="1.2" stroke="currentColor" stroke-width="1.4"/><rect x="3.5" y="17" width="17" height="4.5" rx="1.2" stroke="currentColor" stroke-width="1.4"/></svg>
+          <span class="screen-label" data-i18n="screens.list.label">All ideas</span>
+          <span class="screen-sub" data-i18n="screens.list.sub">Every idea you've started, one row each</span>
+        </div>
       </div>
       <div class="screen-frame">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M4 5H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6 10H18M6 13.5H18M6 17H14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-        <span class="screen-label" data-i18n="screens.notes.label">One idea, opened</span>
-        <span class="screen-sub" data-i18n="screens.notes.sub">Its subheading at the top, every note stacked below</span>
+        <img src="image/ideas_3.png" alt="One idea, opened screen in the Ideas app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 5H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6 10H18M6 13.5H18M6 17H14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span class="screen-label" data-i18n="screens.notes.label">One idea, opened</span>
+          <span class="screen-sub" data-i18n="screens.notes.sub">Its subheading at the top, every note stacked below</span>
+        </div>
       </div>
       <div class="screen-frame">
-        <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.4"/><path d="M12 8V16M8 12H16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-        <span class="screen-label" data-i18n="screens.capture.label">Quick capture</span>
-        <span class="screen-sub" data-i18n="screens.capture.sub">Add a note to an idea in two taps, from anywhere</span>
+        <img src="image/ideas_4.png" alt="Quick capture screen in the Ideas app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.4"/><path d="M12 8V16M8 12H16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span class="screen-label" data-i18n="screens.capture.label">Quick capture</span>
+          <span class="screen-sub" data-i18n="screens.capture.sub">Add a note to an idea in two taps, from anywhere</span>
+        </div>
       </div>
     </div>
   </div>

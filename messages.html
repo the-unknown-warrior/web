@@ -62,11 +62,14 @@
         <p data-i18n="idea.p1">Plenty of messaging apps route ordinary texts through company servers, or hold onto delivery metadata even when the message itself is a plain SMS. Messages doesn't have a server to route through — it talks to your carrier's SMS and MMS network directly, the same way texting has worked for two decades, and nothing about that requires a cloud account.</p>
         <p data-i18n="idea.p2">Like Phone, it's built to run completely offline. No sign-in, no background sync, no message content ever leaving the device except over the network already carrying your calls — which is what makes it a real degoogle replacement rather than a different company holding the same data.</p>
       </div>
-      <div class="split-img">
-        <div class="screen-frame">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M4 5H20V16H8L4 19V5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M8 9H16M8 12H13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-          <span class="screen-label" data-i18n="idea.frameLabel">Screenshot placeholder</span>
-          <span class="screen-sub" data-i18n="idea.frameSub">Conversation thread screen goes here</span>
+      <div class="split-img" style="display:flex; justify-content:flex-end;">
+        <div class="screen-frame screen-frame--fixed-h">
+          <img src="image/messages_1.png" data-i18n-attr="alt:idea.imgAlt" alt="Conversation thread screen in the Messages app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="screen-frame-placeholder">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 5H20V16H8L4 19V5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M8 9H16M8 12H13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            <span class="screen-label" data-i18n="idea.frameLabel">Screenshot placeholder</span>
+            <span class="screen-sub" data-i18n="idea.frameSub">Conversation thread screen goes here</span>
+          </div>
         </div>
       </div>
     </div>
@@ -115,19 +118,28 @@
     </div>
     <div class="screens reveal">
       <div class="screen-frame">
-        <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="4" width="17" height="16" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M7 8H17M7 11.5H14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-        <span class="screen-label" data-i18n="screens.list.label">Conversations</span>
-        <span class="screen-sub" data-i18n="screens.list.sub">Every thread, newest first, stored locally</span>
+        <img src="image/messages_2.png" alt="Conversations screen in the Messages app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="4" width="17" height="16" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M7 8H17M7 11.5H14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span class="screen-label" data-i18n="screens.list.label">Conversations</span>
+          <span class="screen-sub" data-i18n="screens.list.sub">Every thread, newest first, stored locally</span>
+        </div>
       </div>
       <div class="screen-frame">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M4 5H20V16H8L4 19V5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M8 9H16M8 12H13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-        <span class="screen-label" data-i18n="screens.thread.label">Thread</span>
-        <span class="screen-sub" data-i18n="screens.thread.sub">A single conversation, sent straight over SMS/MMS</span>
+        <img src="image/messages_3.png" alt="Thread screen in the Messages app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4 5H20V16H8L4 19V5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/><path d="M8 9H16M8 12H13" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span class="screen-label" data-i18n="screens.thread.label">Thread</span>
+          <span class="screen-sub" data-i18n="screens.thread.sub">A single conversation, sent straight over SMS/MMS</span>
+        </div>
       </div>
       <div class="screen-frame">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M7 1V9M7 9L3.5 5.5M7 9L10.5 5.5M2 12H12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <span class="screen-label" data-i18n="screens.compose.label">Compose</span>
-        <span class="screen-sub" data-i18n="screens.compose.sub">Start a new message, no data connection required</span>
+        <img src="image/messages_4.png" alt="Compose screen in the Messages app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M7 1V9M7 9L3.5 5.5M7 9L10.5 5.5M2 12H12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="screen-label" data-i18n="screens.compose.label">Compose</span>
+          <span class="screen-sub" data-i18n="screens.compose.sub">Start a new message, no data connection required</span>
+        </div>
       </div>
     </div>
   </div>

@@ -62,11 +62,14 @@
         <p data-i18n="idea.p1">Most task apps grow into project managers — boards, tags, recurring rules, reminders stacked on reminders. Tasks stays a list: add an item, check it off when it's done, delete it if it isn't happening.</p>
         <p data-i18n="idea.p2">Nothing rolls over automatically and nothing nags you. What's left at the end of the day is still there tomorrow, exactly where you left it.</p>
       </div>
-      <div class="split-img">
-        <div class="screen-frame">
-          <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.4"/><path d="M11 7H20" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><rect x="4" y="13" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.4"/><path d="M11 15H20" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-          <span class="screen-label" data-i18n="idea.frameLabel">Screenshot placeholder</span>
-          <span class="screen-sub" data-i18n="idea.frameSub">Today's list screen goes here</span>
+      <div class="split-img" style="display:flex; justify-content:flex-end;">
+        <div class="screen-frame screen-frame--fixed-h">
+          <img src="image/tasks_1.png" data-i18n-attr="alt:idea.imgAlt" alt="Today's list screen in the Tasks app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="screen-frame-placeholder">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.4"/><path d="M11 7H20" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><rect x="4" y="13" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.4"/><path d="M11 15H20" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            <span class="screen-label" data-i18n="idea.frameLabel">Screenshot placeholder</span>
+            <span class="screen-sub" data-i18n="idea.frameSub">Today's list screen goes here</span>
+          </div>
         </div>
       </div>
     </div>
@@ -115,19 +118,28 @@
     </div>
     <div class="screens reveal">
       <div class="screen-frame">
-        <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.4"/><path d="M11 7H20" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><rect x="4" y="13" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.4"/><path d="M11 15H20" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-        <span class="screen-label" data-i18n="screens.today.label">Today's list</span>
-        <span class="screen-sub" data-i18n="screens.today.sub">Everything open right now, in the order you added it</span>
+        <img src="image/tasks_2.png" alt="Today's list screen in the Tasks app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="5" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.4"/><path d="M11 7H20" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><rect x="4" y="13" width="4" height="4" rx="1" stroke="currentColor" stroke-width="1.4"/><path d="M11 15H20" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span class="screen-label" data-i18n="screens.today.label">Today's list</span>
+          <span class="screen-sub" data-i18n="screens.today.sub">Everything open right now, in the order you added it</span>
+        </div>
       </div>
       <div class="screen-frame">
-        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5L9.5 17L19 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <span class="screen-label" data-i18n="screens.done.label">Done</span>
-        <span class="screen-sub" data-i18n="screens.done.sub">What you've already checked off, kept until you clear it</span>
+        <img src="image/tasks_3.png" alt="Done screen in the Tasks app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5L9.5 17L19 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="screen-label" data-i18n="screens.done.label">Done</span>
+          <span class="screen-sub" data-i18n="screens.done.sub">What you've already checked off, kept until you clear it</span>
+        </div>
       </div>
       <div class="screen-frame">
-        <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M12 7.5V16.5M7.5 12H16.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-        <span class="screen-label" data-i18n="screens.add.label">Add</span>
-        <span class="screen-sub" data-i18n="screens.add.sub">Type a task and it's on the list</span>
+        <img src="image/tasks_4.png" alt="Add screen in the Tasks app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.4"/><path d="M12 7.5V16.5M7.5 12H16.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span class="screen-label" data-i18n="screens.add.label">Add</span>
+          <span class="screen-sub" data-i18n="screens.add.sub">Type a task and it's on the list</span>
+        </div>
       </div>
     </div>
   </div>
