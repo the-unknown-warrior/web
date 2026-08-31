@@ -98,7 +98,7 @@
         "tag": "Hospitality tech"
       },
       "studio": {
-        "tag": "Design"
+        "tag": "Client builds"
       },
       "degoogle": {
         "tag": "Privacy-first devices"
@@ -128,7 +128,8 @@
           "link": "Compare packages →"
         },
         "studio": {
-          "desc": "Product design across the index, from first sketch to shipped screen."
+          "desc": "The venture that builds mobile apps and websites for clients — same mobile-first team the original studio started with.",
+          "link": "See how it works →"
         },
         "degoogle": {
           "desc": "GrapheneOS guides, our own privacy-first apps, and de-googled phones we build and sell.",
@@ -144,7 +145,7 @@
       "eyebrow": "About",
       "title": "From a single studio to an index of ventures.",
       "desc": "Same craft and ownership standards, now spread across seven teams instead of one.",
-      "copy": "Glazni started as a mobile-first software studio in Moscow, building fast, native-feeling Android and iOS apps — plus the websites, desktop tools, and infrastructure around them — for clients across Russia, Germany and the rest of Europe. As that studio grew, the teams around it — marketing, talent, hospitality tech, design, privacy-first computing, and website migration — grew into ventures of their own. Glazni is now the holding company that sits above all of them: still rooted in Moscow, with Berlin as its European hub and remote coverage across the rest of the continent.",
+      "copy": "Glazni started as a mobile-first software studio in Moscow — an idea Aleksandr Gabushev first put together, with Franz Graaf joining not long after to help build it out — building fast, native-feeling Android and iOS apps, plus the websites, desktop tools, and infrastructure around them, for clients across Russia, Germany and the rest of Europe. As that studio grew, the teams around it — marketing, talent, hospitality tech, design, privacy-first computing, and website migration — grew into ventures of their own, each now run day to day by its own team. Glazni is now the holding company that sits above all of them: still rooted in Moscow, with Berlin as its European hub and remote coverage across the rest of the continent.",
       "culture": [
         {
           "title": "Independently run",
@@ -259,7 +260,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "Planning"
+        "statusValue": "In development"
       }
     },
     "idea": {
@@ -268,7 +269,8 @@
       "p1": "Google ships a Phone app and a Contacts app. Fossify does too. So does almost everyone else — two separate apps, two separate permission prompts, and a contact list that has to sync between them to work at all. Phone drops that split entirely: the dialer, the call log and the full contact list live in one app, so adding a number, naming it and calling it happen without switching screens.",
       "p2": "It also runs completely offline. No account, no cloud contact sync, nothing phoning home to Google or anyone else — your contacts and call history stay on the device they're stored on, which is the whole point if you're trying to degoogle a phone rather than just rearrange which company holds the same data.",
       "frameLabel": "Screenshot placeholder",
-      "frameSub": "Combined dialer and contact screen goes here"
+      "frameSub": "Combined dialer and contact screen goes here",
+      "imgAlt": "Combined dialer and contact screen in the Phone app"
     },
     "how": {
       "eyebrow": "How it works",
@@ -330,23 +332,26 @@
     "hero": {
       "eyebrow": "Venture 01 — Glazni Apps",
       "title": "Where Glazni started, and where most of it still runs.",
-      "sub": "Before there was a holding company, there was a small studio in Moscow building fast, native-feeling iOS and Android apps. That's still what Glazni Apps does — for clients, and occasionally for ourselves.",
+      "sub": "No briefs, no NDAs, no one paying us to build these. We pick a small problem we actually have, build a focused, privacy-first app to solve it, put it on the store, and try to make it work as a real product — on its own.",
       "ctaTalk": "Talk to us about a build",
-      "ctaRoles": "See open roles"
+      "ctaRoles": "See open roles",
+      "titleHtml": "We make Premium, <span>Privacy-focused</span><br/>Mobile applications",
+      "ctaSee": "See what we're building"
     },
     "build": {
       "eyebrow": "What we build",
-      "title": "Native apps, built the way the original studio built them.",
-      "p1": "The team behind Glazni Apps ships production iOS and Android software on Flutter, Golang and AWS — the same stack the studio was founded on. A number of these apps are live on the App Store and Google Play today, and several more are in active development.",
+      "title": "Premium, privacy-first apps — built for one job each.",
+      "p1": "Every app on this page exists because someone on the team wanted it. Tech Stack includes — Flutter, Golang, HTMX and AWS — along with a few other things as necessary. Every project is different: pick one job, do it well, keep it private and simple by default.",
       "p2": "Most of what we build is commissioned work: client products we design, ship and maintain under our own name or theirs. What's public and what isn't is a decision each client makes, not us.",
-      "imgAlt": "Mobile engineering at Glazni Apps"
+      "imgAlt": "Building our own apps at Glazni Apps",
+      "p2Html": "We fund and ship these ourselves, on our own timeline. Some will stay free, some may carry a small one-time price or a light subscription — whatever makes sense for that app to keep existing. <br/><br/>NOTE: If what you actually want is something built to your spec, that's a different venture: see Glazni Studio."
     },
     "private": {
       "eyebrow": "Private, by design",
-      "title": "We don't list or link to our own apps here.",
+      "title": "We don't list or link to our own apps here — yet.",
       "desc": "If you already have a link to one of our apps, that link works. This site just won't hand it to you.",
       "noticeLabel": "Why:",
-      "notice": "most of what we build is client work, and several of our own apps are still early or invite-based. Rather than publish a partial, half-public list, we simply don't route traffic to any Glazni-built app from this website. If you were sent a Play Store or App Store link directly, it's valid — go ahead and open it. Nothing here will redirect you to one."
+      "notice": "most of what's below is still early, invite-based, or mid-build. Rather than publish a partial, half-public list, we simply don't route traffic to any Glazni app from this website. If you were sent a Play Store or App Store link directly, it's valid — go ahead and open it. Nothing here will redirect you to one."
     },
     "rebuild": {
       "eyebrow": "Also available",
@@ -363,7 +368,7 @@
       "photoJournal": {
         "title": "Photo Journal",
         "desc": "One photo a day, building into a visual autobiography — and a record for the people who come looking after you're gone.",
-        "status": "In development"
+        "status": "Published"
       },
       "resumeBuilder": {
         "title": "Resume Builder",
@@ -409,11 +414,19 @@
       "itemDesc": "We're building a language-learning app in-house. It's early — no public link yet, and no date to share — but it'll follow the same privacy-first approach as everything else Glazni ships."
     },
     "cta": {
-      "eyebrow": "Building something?",
-      "title": "Tell us whether it's new, or whether it needs rebuilding.",
-      "desc": "Either way, it starts with the same conversation.",
+      "eyebrow": "Got an idea this size?",
+      "title": "We're always looking for the next small problem worth solving.",
+      "desc": "We're not taking client work here — but if you've got a good idea for a focused, privacy-first app, we're happy to hear it.",
       "ctaEmail": "Email hello@glazni.com",
-      "ctaContact": "Contact the team"
+      "ctaContact": "Contact the team",
+      "ctaStudio": "Looking to commission a build? Visit Glazni Studio"
+    },
+    "studioPointer": {
+      "eyebrow": "Not what you're looking for?",
+      "title": "Need something built to your spec instead?",
+      "p1": "Everything on this page is ours — our idea, our budget, our call on when it ships. If you're looking to commission an app or a website, that's a different part of the company.",
+      "p2Html": "<a href=\"studio.html\">Glazni Studio</a> is our client-work venture: the same team, the same standards, building mobile apps and websites for people who are paying us to build them.",
+      "imgAlt": "Glazni Studio builds for clients"
     }
   },
   "contactsExporter": {
@@ -441,7 +454,8 @@
       "p1": "For most people, \"backing up contacts\" quietly means \"trusting Google to keep them forever.\" That's fine right up until you want to leave — a new phone, a new operating system, a decision to de-Google — and discover your own address book was never really a file you could just take with you.",
       "p2": "Contacts Exporter fixes that by producing the most boring, portable format there is: a CSV. Names, numbers, emails — one row per contact, readable by literally anything, forever. It's not trying to replace Google Contacts. It's just making sure you don't need it to.",
       "frameLabel": "Screenshot placeholder",
-      "frameSub": "Export screen goes here"
+      "frameSub": "Export screen goes here",
+      "imgAlt": "Export screen in the Contacts Exporter app"
     },
     "how": {
       "eyebrow": "How it works",
@@ -705,7 +719,8 @@
       "p1": "Most phones show the same static wallpaper whether it's sunrise or midnight. Background Changer treats the wallpaper as something that should move with the day — brighter, warmer tones in the morning, something calmer once it's dark.",
       "p2": "Add your own photos or pick from a built-in set, and the app keeps circling through them on its own schedule, tied to morning, evening and night — no manual switching, no third-party widget to babysit.",
       "frameLabel": "Screenshot placeholder",
-      "frameSub": "Time-of-day preview screen goes here"
+      "frameSub": "Time-of-day preview screen goes here",
+      "imgAlt": "Time-of-day preview screen in the Background Changer app"
     },
     "how": {
       "eyebrow": "How it works",
@@ -826,7 +841,7 @@
         "gz102": {
           "name": "DevOps Engineer",
           "meta": "Remote · Full-time",
-          "about": "You'll build and run the infrastructure every Glazni Apps build ships on — from a developer's first local build to the cluster that serves it in production, and eventually the infra other ventures like Migrate lean on too.",
+          "about": "Build infrastructure for Glazni Apps — from a developer's first local build to the cluster that serves it in production, and eventually the infra other ventures like Migrate lean on too.",
           "whatYouDo": [
             "Run and scale Kubernetes clusters, with Karpenter handling node autoscaling, across client and in-house workloads",
             "Build and maintain CI/CD pipelines in Jenkins and AWS CodePipeline for Golang and Flutter builds",
@@ -978,7 +993,7 @@
             "Report open, click, conversion and pipeline numbers back through HubSpot"
           ],
           "whatWeLookFor": [
-            "Hands-on experience with Brevo, HubSpot, Mailchimp, Mailmeteor and Apollo",
+            "Hands-on experience with Brevo, HubSpot, Mailchimp, Mailmeteor, Listmonk and Apollo",
             "Comfortable writing copy as well as building the flow itself",
             "Direct experience negotiating with clients and closing sales",
             "Track record improving open and click-through rates",
@@ -993,19 +1008,20 @@
         "gz119": {
           "name": "Product Manager",
           "meta": "Remote · Full-time",
-          "about": "You'll own product decisions end to end for one or more ventures — reading the data, working directly with engineering, and deciding what actually ships next.",
+          "about": "Own product decisions end to end — reading the data, working directly with engineering, and decide what actually ships next.",
           "whatYouDo": [
-            "Define and prioritize the product roadmap, working directly with Golang and Flutter engineers",
-            "Dig into usage and funnel data in Metabase to find what's working and what isn't",
+            "Define and prioritize the product roadmap, working directly with Developers",
+            "Dig into usage and funnel data in Metabase / Aparche Superset to find what's working and what isn't",
             "Turn data findings into concrete feature and growth decisions",
             "Bring a marketing lens to positioning and messaging on top of the roadmap"
           ],
           "whatWeLookFor": [
-            "Past experience as a full-stack developer, not just a PM who's read about code",
-            "A track record owning a product end to end — spec, build, launch, and the numbers after",
-            "Strong general programming ability; Golang and Flutter exposure is a plus",
-            "Comfortable reading dashboards in Metabase and turning data into product calls",
-            "Some marketing fluency — you don't need to run campaigns, but you should understand what makes one work"
+            "Past experience as a full-stack developer",
+            "A track record owning a product end to end — spec, build, launch, improve",
+            "Strong general programming ability; Golang, Flutter or Mobile Developement experience is a plus",
+            "Comfortable reading dashboards in Metabase / Aparche Superset and turning data into product calls",
+            "Excelent knowledge of SQL - for data analysis",
+            "Some marketing fluency"
           ],
           "facts": {
             "location": "Remote",
@@ -1062,7 +1078,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "Planning"
+        "statusValue": "In development"
       }
     },
     "idea": {
@@ -1071,7 +1087,8 @@
       "p1": "The usual note app asks you to pick a notebook, a folder or a tag before you've even written the thought down — so the good ones get lost hunting for the right place to put them. Ideas removes that step. You create one idea, once, as a single heading. Every note you add after that — a line, a link, a half-formed thought at 2am — drops straight underneath it, in order, with nothing else to decide.",
       "p2": "There's no second level. Notes don't get their own sub-notes, and ideas don't nest inside other ideas. If a thought belongs to an idea, it goes under that idea's heading and stays there — a running page per idea instead of a tree you have to maintain.",
       "frameLabel": "Screenshot placeholder",
-      "frameSub": "An idea with its notes stacked underneath goes here"
+      "frameSub": "An idea with its notes stacked underneath goes here",
+      "imgAlt": "An idea with its notes stacked underneath in the Ideas app"
     },
     "how": {
       "eyebrow": "How it works",
@@ -1141,7 +1158,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "Planning"
+        "statusValue": "In development"
       }
     },
     "idea": {
@@ -1221,7 +1238,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "Concept"
+        "statusValue": "In development"
       }
     },
     "idea": {
@@ -1230,7 +1247,8 @@
       "p1": "Plenty of messaging apps route ordinary texts through company servers, or hold onto delivery metadata even when the message itself is a plain SMS. Messages doesn't have a server to route through — it talks to your carrier's SMS and MMS network directly, the same way texting has worked for two decades, and nothing about that requires a cloud account.",
       "p2": "Like Phone, it's built to run completely offline. No sign-in, no background sync, no message content ever leaving the device except over the network already carrying your calls — which is what makes it a real degoogle replacement rather than a different company holding the same data.",
       "frameLabel": "Screenshot placeholder",
-      "frameSub": "Conversation thread screen goes here"
+      "frameSub": "Conversation thread screen goes here",
+      "imgAlt": "Conversation thread screen in the Messages app"
     },
     "how": {
       "eyebrow": "How it works",
@@ -1292,7 +1310,7 @@
     "hero": {
       "eyebrow": "Venture 03 — Glazni Talent",
       "title": "Build a team abroad, without opening an entity yourself.",
-      "sub": "Glazni Talent runs recruiting and people operations for every venture in the index — and for outside companies who want to hire in global talent markets like India without the overhead of a local entity. We work as your Employer of Record, help you stand up your own branch office, or simply source and vet the hire — so you get skilled talent at a fraction of the cost of hiring locally.",
+      "sub": "Glazni Talent runs recruiting and people operations for every venture in the index — and for EU companies who want to hire in global talent markets like India without the overhead of a local entity. We work as your Employer of Record, help you stand up your own branch office, or simply source and vet the hire — so you get skilled talent at a fraction of the cost of hiring locally.",
       "ctaTalk": "Talk to us about hiring",
       "ctaServices": "See our services"
     },
@@ -1422,7 +1440,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "Released"
+        "statusValue": "In development"
       }
     },
     "idea": {
@@ -1431,7 +1449,8 @@
       "p1": "Most journaling fails for the same reason: the blank page. Photo Journal removes it. Once a day, open the app, take or pick one photo, done. It doesn't ask why the day mattered — most days you won't know until years later, looking back.",
       "p2": "Every entry drops into a running timeline, one frame per day, in order. Scroll back a year from now and you're not reading notes about your life — you're looking at it. It's the raw material for an autobiography you never had to write a first draft of.",
       "frameLabel": "Screenshot placeholder",
-      "frameSub": "Today's capture screen goes here"
+      "frameSub": "Today's capture screen goes here",
+      "imgAlt": "Today's capture screen in the Photo Journal app"
     },
     "how": {
       "eyebrow": "How it works",
@@ -1510,7 +1529,8 @@
       "p1": "Most resume tools give you one free layout and hide the rest — the fonts, the spacing, the export formats — behind a subscription, right when you can least afford one. Resume Builder flips that: the premium layouts are the default, not the upsell.",
       "p2": "You fill in your experience once. The app handles the layout, the hierarchy, the margins — the parts that actually make a resume look considered instead of copy-pasted from a Word template.",
       "frameLabel": "Screenshot placeholder",
-      "frameSub": "Resume editor screen goes here"
+      "frameSub": "Resume editor screen goes here",
+      "imgAlt": "Resume editor screen in the Resume Builder app"
     },
     "how": {
       "eyebrow": "How it works",
@@ -1580,7 +1600,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "Planning"
+        "statusValue": "In development"
       }
     },
     "idea": {
@@ -1589,7 +1609,8 @@
       "p1": "Most task apps grow into project managers — boards, tags, recurring rules, reminders stacked on reminders. Tasks stays a list: add an item, check it off when it's done, delete it if it isn't happening.",
       "p2": "Nothing rolls over automatically and nothing nags you. What's left at the end of the day is still there tomorrow, exactly where you left it.",
       "frameLabel": "Screenshot placeholder",
-      "frameSub": "Today's list screen goes here"
+      "frameSub": "Today's list screen goes here",
+      "imgAlt": "Today's list screen in the Tasks app"
     },
     "how": {
       "eyebrow": "How it works",
@@ -1641,6 +1662,106 @@
       "desc": "Talk to us about a build, or see what else the studio is shipping.",
       "ctaEmail": "Email hello@glazni.com",
       "ctaApps": "Back to Glazni Apps"
+    }
+  },
+  "studio": {
+    "hero": {
+      "eyebrow": "Venture 05 — Glazni Studio",
+      "title": "Software built to your spec — mobile first.",
+      "sub": "Glazni Studio builds mobile apps, websites, desktop software and internal tools for businesses. We started as a mobile-first studio in Moscow, but have since moved towards web, desktop and internal tools including CLI applications.",
+      "ctaTalk": "Start a project",
+      "ctaStack": "See our stack"
+    },
+    "build": {
+      "mobile": {
+        "title": "Mobile apps",
+        "desc": "Android and iOS from one Flutter codebase, with Kotlin and Swift written in wherever native features are required.",
+        "status": "Primary focus"
+      },
+      "web": {
+        "title": "Websites",
+        "desc": "Lean, server-rendered interfaces — fast to load, simple to maintain, no framework for its own sake."
+      },
+      "desktop": {
+        "title": "Desktop apps",
+        "desc": "Today we only build Linux applications. Debien, RHEL, Arch. Windows coming soon."
+      },
+      "internal": {
+        "title": "Internal software",
+        "desc": "Custom tools built for your own team to use. Eg CLI tools, OCR tools etc. That helps improve effeciency & speed of your organisation"
+      }
+    },
+    "stack": {
+      "eyebrow": "How we build it",
+      "title": "Three tools, most of the work.",
+      "desc": "Everything else in the stack exists to support these three — the rest is chosen per project, not by default.",
+      "flutter": {
+        "title": "Flutter",
+        "desc": "A single codebase for Android and iOS that still feels native on both — our default starting point for mobile work.",
+        "tag": "01 · Frontend"
+      },
+      "golang": {
+        "title": "Golang",
+        "desc": "Typed, fast, boring in the best way — the backend language we reach for when a service has to stay up.",
+        "tag": "02 · Server"
+      },
+      "aws": {
+        "title": "AWS",
+        "desc": "Infrastructure that scales with usage instead of ahead of it, provisioned and monitored as code.",
+        "tag": "03 · Infra"
+      }
+    },
+    "arsenal": {
+      "eyebrow": "The rest of the arsenal",
+      "title": "Chosen per project, not by default.",
+      "native": {
+        "title": "Mobile",
+        "desc": "Flutter, Kotlin, Swift."
+      },
+      "backend": {
+        "title": "Backend & AI",
+        "desc": "Golang, Node.js, Java Spring Boot, Langchain."
+      },
+      "data": {
+        "title": "Data",
+        "desc": "PostgreSQL, SQLite, Firebase, Neo4j, Metabase, Apache Superset."
+      },
+      "cloud": {
+        "title": "Cloud & ops",
+        "desc": "AWS, Google Cloud, Kubernetes, DevOps, Terraform."
+      },
+      "observability": {
+        "title": "Observability",
+        "desc": "Prometheus, Grafana, EFK Stack, Fluent Bit."
+      },
+      "web": {
+        "title": "Web",
+        "desc": "HTMX, HTML, CSS, JS."
+      }
+    },
+    "geo": {
+      "eyebrow": "Where we operate",
+      "title": "Distributed by design.",
+      "desc": "No single office to route everything through — just teams positioned where the work is.",
+      "moscow": {
+        "title": "Moscow, Russia",
+        "desc": "Where Glazni started, and where most of the engineering team is based."
+      },
+      "berlin": {
+        "title": "Berlin, Germany",
+        "desc": "Our hub for European projects and on-the-ground meetings."
+      },
+      "europe": {
+        "title": "Europe-wide",
+        "desc": "Remote-first delivery anywhere else on the continent."
+      }
+    },
+    "cta": {
+      "eyebrow": "Building something?",
+      "title": "Tell us what you're building.",
+      "desc": "It starts with a conversation.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaContact": "Contact the team"
     }
   }
 }
