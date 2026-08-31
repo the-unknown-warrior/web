@@ -767,7 +767,7 @@
     "hero": {
       "eyebrow": "Careers at Glazni",
       "title": "Work on more than one problem worth solving.",
-      "sub": "Every venture in the index is staffed by people who wanted more than one lane — engineers who ship, marketers who build systems, and operators who run real teams across every market we hire from.",
+      "sub": "Every venture in the index is staffed by people who didn't want to specialize in just one problem — engineers who ship, marketers who build systems, and operators who run real teams, spread across every market we hire from.",
       "ctaRoles": "See open roles",
       "ctaProcess": "How hiring works"
     },
@@ -815,8 +815,7 @@
         "whatWeLookFor": "What we're looking for",
         "quickFacts": "Quick facts",
         "techTools": "Tech & tools",
-        "tools": "Tools",
-        "focus": "Focus"
+        "tools": "Tools"
       },
       "factsLabels": {
         "location": "Location",
@@ -825,22 +824,23 @@
       "moreRoles": "+ more roles open as new ventures join the index — write to us anyway",
       "items": {
         "gz102": {
-          "name": "Platform / DevOps Engineer",
+          "name": "DevOps Engineer",
           "meta": "Remote · Full-time",
           "about": "You'll build and run the infrastructure every Glazni Apps build ships on — from a developer's first local build to the cluster that serves it in production, and eventually the infra other ventures like Migrate lean on too.",
           "whatYouDo": [
             "Run and scale Kubernetes clusters, with Karpenter handling node autoscaling, across client and in-house workloads",
-            "Build and maintain CI/CD pipelines in Jenkins for Golang and Flutter builds",
+            "Build and maintain CI/CD pipelines in Jenkins and AWS CodePipeline for Golang and Flutter builds",
             "Keep local dev environments reproducible with Kind",
             "Own core AWS infrastructure — EC2, S3, and the networking between them",
-            "Run monitoring and logging with Prometheus, Grafana and the EFK stack (Elasticsearch, Fluentd, Kibana) across every environment"
+            "Run monitoring and logging with Prometheus, Grafana and the EFK stack across every environment"
           ],
           "whatWeLookFor": [
             "Production experience running Kubernetes",
             "Comfortable scripting infrastructure in Golang, YAML etc",
             "Real AWS experience — cost awareness, incident response",
-            "Bonus: Bazel or CMake experience from a past build-systems role",
-            "Hands-on experience with Prometheus/Grafana-based monitoring and centralized logging (EFK or ELK)"
+            "Hands-on with Jenkins and AWS CodePipeline for CI/CD",
+            "Hands-on experience with Prometheus/Grafana-based monitoring and centralized logging",
+            "Bonus: Bazel or CMake experience"
           ],
           "facts": {
             "location": "Remote",
@@ -853,16 +853,16 @@
           "meta": "Remote · Full-time",
           "about": "You'll design products from a blank page to a finished 0-to-1 experience across the index — mobile, web, and the marketing sites in between — then keep refining each one as feedback comes in.",
           "whatYouDo": [
-            "Design mobile apps, web products and marketing sites from scratch, taking each one from a blank canvas to a finished, ready-to-build interface",
+            "Design mobile apps, web products and marketing sites from scratch",
             "Build and maintain a shared design system used across every venture",
             "Revise and iterate on designs based on feedback from founders, venture teams and users",
-            "Create vector assets in Inkscape and build Lottie animations for onboarding flows and marketing sites"
+            "Create vector assets in Inkscape and build Lottie animations"
           ],
           "whatWeLookFor": [
-            "A portfolio showing genuine 0-to-1 work — products you designed from a blank page, not just redesigns",
-            "Strong hands-on skills in Figma for interface design, Inkscape for vector and icon work, and Lottie for animation",
-            "Comfortable taking feedback and reworking a design based on it, more than once if needed",
-            "Bonus: some coding knowledge is nice to have, but this is a pure design role — it's not a requirement"
+            "A portfolio showing genuine 0-to-1 work",
+            "Strong hands-on skills in Figma, Inkscape and Lottie",
+            "Comfortable taking feedback and reworking a design",
+            "Bonus: some coding knowledge"
           ],
           "facts": {
             "location": "Remote",
@@ -870,42 +870,22 @@
           },
           "apply": "Apply for GZ-107"
         },
-        "gz113": {
-          "name": "SEO & Lead Generation Specialist",
-          "meta": "Remote · Full-time",
-          "about": "You'll own organic growth and outbound lead generation for the ventures that run on a real sales pipeline — Dine, Migrate and Talent chief among them.",
-          "whatYouDo": [
-            "Run technical and content SEO across venture sites, including the backlink program",
-            "Build outbound lead-gen sequences in Apollo for B2B ventures",
-            "Coordinate door-to-door and local outreach campaigns for Dine's restaurant sales motion",
-            "Report pipeline and organic growth numbers back through HubSpot, and build dashboards in Metabase or Apache Superset for the numbers HubSpot doesn't cover"
-          ],
-          "whatWeLookFor": [
-            "Demonstrated SEO results — real ranking movement, not just an audit",
-            "Outbound or lead-gen tooling experience (Apollo or similar)",
-            "Comfortable owning a number, not just a list of tasks"
-          ],
-          "facts": {
-            "location": "Remote",
-            "type": "Full-time"
-          },
-          "apply": "Apply for GZ-113"
-        },
         "gz114": {
           "name": "Senior Flutter Developer",
           "meta": "Remote · Full-time",
           "about": "You'll own Flutter app architecture end to end for client and in-house builds, setting the patterns the rest of the mobile team follows and mentoring them along the way.",
           "whatYouDo": [
-            "Architect and ship production Flutter apps for iOS and Android, setting the patterns the rest of the team follows",
-            "Write native Kotlin/Swift modules where the platform demands it",
+            "Architect and ship production Flutter apps for iOS and Android",
+            "Write native Kotlin/Swift modules",
             "Review mobile pull requests and mentor middle and junior Flutter developers",
             "Work directly with clients on architecture decisions for their apps"
           ],
           "whatWeLookFor": [
-            "5+ years shipping Flutter apps to production, with at least one app you've owned end to end",
+            "5+ years shipping Flutter apps to production",
             "Comfortable mentoring less experienced engineers and setting technical direction",
             "Working knowledge of native iOS/Android development (Kotlin/Swift)",
-            "Bonus: exposure to Golang, gRPC, or CI/CD pipelines for mobile releases"
+            "Experience setting up and maintaining CI/CD pipelines for mobile releases",
+            "Bonus: exposure to Golang, gRPC, or Jenkins specifically (we use Jenkins in-house)"
           ],
           "facts": {
             "location": "Remote",
@@ -921,13 +901,15 @@
             "Build and ship Flutter features for iOS and Android across client and in-house apps",
             "Write clean, testable Dart code against the existing app architecture",
             "Fix bugs and improve performance on apps already live in production",
-            "Pair with senior engineers on trickier native integrations"
+            "Pair with senior engineers on trickier native integrations",
+            "Integrate app features against REST backend APIs"
           ],
           "whatWeLookFor": [
             "2-4 years shipping Flutter apps to production",
             "Comfortable with state management (Bloc, Riverpod or Provider)",
-            "Some exposure to native Kotlin/Swift is a plus",
-            "Bonus: exposure to Golang, or to consuming REST/gRPC APIs"
+            "Solid experience consuming REST backend APIs",
+            "Some working exposure to native Kotlin/Swift",
+            "Bonus: exposure to Golang or gRPC APIs"
           ],
           "facts": {
             "location": "Remote",
@@ -942,14 +924,14 @@
           "whatYouDo": [
             "Build UI screens and small features in Flutter under senior guidance",
             "Fix bugs and write tests for existing app codebases",
-            "Learn the app's architecture and gradually take on bigger pieces",
-            "Sit in on client calls and architecture discussions to learn the process"
+            "Learn the app's architecture and gradually take on bigger pieces"
           ],
           "whatWeLookFor": [
-            "0-2 years of Flutter/Dart experience, including personal or bootcamp projects",
-            "Eager to learn production practices, not just tutorials",
+            "0-2 years of Flutter/Dart experience",
+            "Eager to learn production practices",
             "Comfortable receiving and acting on code review feedback",
-            "Bonus: any exposure to Golang or backend APIs"
+            "Bonus: any exposure to Golang or backend APIs",
+            "Bonus: slight familiarity with Kotlin or Swift — nice to have, not required at this level"
           ],
           "facts": {
             "location": "Remote",
@@ -963,15 +945,19 @@
           "about": "You'll build and maintain the Golang services and APIs that power Glazni Apps' client and in-house Flutter apps.",
           "whatYouDo": [
             "Design and build Golang APIs and services deployed on AWS",
-            "Model and evolve PostgreSQL schemas for apps carrying real production traffic",
+            "Model and evolve PostgreSQL schemas",
             "Write and maintain gRPC services where they fit an app's architecture",
             "Work with mobile engineers to shape the APIs their apps depend on"
           ],
           "whatWeLookFor": [
             "3+ years writing production Golang services",
             "Comfortable designing and evolving PostgreSQL schemas",
+            "Production experience with gRPC and Kubernetes",
             "Working knowledge of AWS (EC2, S3) and Docker-based deployments",
-            "Bonus: exposure to gRPC or Kubernetes"
+            "Comfortable with Jenkins-based CI/CD pipelines",
+            "Some experience with a graph database, like Neo4j",
+            "Basic understanding of server security practices",
+            "Bonus: Java or Node.js experience"
           ],
           "facts": {
             "location": "Remote",
@@ -980,26 +966,52 @@
           "apply": "Apply for GZ-117"
         },
         "gz118": {
-          "name": "Email Marketing Specialist",
+          "name": "Email Marketing & Lead Generation Specialist",
           "meta": "Remote · Full-time",
-          "about": "You'll own lifecycle and campaign email across every venture in the index, from welcome flows to newsletters that keep customers coming back.",
+          "about": "Own your own lifecycle and campaign emails, drive outbound lead generation through Apollo, and work deals through to close with prospective clients.",
           "whatYouDo": [
-            "Build and manage lifecycle email flows in Brevo and Mailchimp",
+            "Build and manage lifecycle email flows in Brevo, Mailchimp and Mailmeteor",
             "Write and schedule campaign and newsletter sends per venture",
+            "Build and run outbound lead-generation sequences in Apollo",
+            "Negotiate directly with prospects and close sales, not just hand off warm leads",
             "Segment lists and personalize sends based on customer behavior",
-            "Report open, click and conversion rates back through HubSpot"
+            "Report open, click, conversion and pipeline numbers back through HubSpot"
           ],
           "whatWeLookFor": [
-            "Hands-on experience with at least one major ESP (Brevo, Mailchimp, or similar)",
+            "Hands-on experience with Brevo, HubSpot, Mailchimp, Mailmeteor and Apollo",
             "Comfortable writing copy as well as building the flow itself",
-            "Track record improving open and click-through rates, not just sending on schedule",
-            "Bonus: exposure to Apollo for combining email with outbound lead generation"
+            "Direct experience negotiating with clients and closing sales",
+            "Track record improving open and click-through rates",
+            "Bonus: backlink or SEO knowledge"
           ],
           "facts": {
             "location": "Remote",
             "type": "Full-time"
           },
           "apply": "Apply for GZ-118"
+        },
+        "gz119": {
+          "name": "Product Manager",
+          "meta": "Remote · Full-time",
+          "about": "You'll own product decisions end to end for one or more ventures — reading the data, working directly with engineering, and deciding what actually ships next.",
+          "whatYouDo": [
+            "Define and prioritize the product roadmap, working directly with Golang and Flutter engineers",
+            "Dig into usage and funnel data in Metabase to find what's working and what isn't",
+            "Turn data findings into concrete feature and growth decisions",
+            "Bring a marketing lens to positioning and messaging on top of the roadmap"
+          ],
+          "whatWeLookFor": [
+            "Past experience as a full-stack developer, not just a PM who's read about code",
+            "A track record owning a product end to end — spec, build, launch, and the numbers after",
+            "Strong general programming ability; Golang and Flutter exposure is a plus",
+            "Comfortable reading dashboards in Metabase and turning data into product calls",
+            "Some marketing fluency — you don't need to run campaigns, but you should understand what makes one work"
+          ],
+          "facts": {
+            "location": "Remote",
+            "type": "Full-time"
+          },
+          "apply": "Apply for GZ-119"
         }
       }
     },
