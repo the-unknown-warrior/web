@@ -24,7 +24,16 @@
         "terms": "Terms of service"
       },
       "copyright": "Glazni. All rights reserved.",
-      "builtBy": "Built in-house by the Glazni team."
+      "builtBy": "Built in-house by the Glazni team.",
+      "venturesLinks": {
+        "apps": "Glazni Apps",
+        "growth": "Glazni Growth",
+        "talent": "Glazni Talent",
+        "dine": "Glazni Dine",
+        "studio": "Glazni Studio",
+        "degoogle": "Glazni DeGoogle",
+        "migrate": "Glazni Migrate"
+      }
     }
   },
   "index": {
@@ -56,16 +65,20 @@
     },
     "media": {
       "apps": {
-        "sub": "Mobile & web engineering"
+        "sub": "Mobile & web engineering",
+        "name": "Glazni Apps"
       },
       "degoogle": {
-        "sub": "Privacy-first devices"
+        "sub": "Privacy-first devices",
+        "name": "Glazni DeGoogle"
       },
       "dine": {
-        "sub": "Restaurant & delivery tech"
+        "sub": "Restaurant & delivery tech",
+        "name": "Glazni Dine"
       },
       "talent": {
-        "sub": "Global hiring"
+        "sub": "Global hiring",
+        "name": "Glazni Talent"
       }
     },
     "ticker": {
@@ -86,25 +99,32 @@
         "tag": "6+ years ago"
       },
       "apps": {
-        "tag": "Mobile & web"
+        "tag": "Mobile & web",
+        "name": "Glazni Apps"
       },
       "growth": {
-        "tag": "Marketing"
+        "tag": "Marketing",
+        "name": "Glazni Growth"
       },
       "talent": {
-        "tag": "People"
+        "tag": "People",
+        "name": "Glazni Talent"
       },
       "dine": {
-        "tag": "Hospitality tech"
+        "tag": "Hospitality tech",
+        "name": "Glazni Dine"
       },
       "studio": {
-        "tag": "Client builds"
+        "tag": "Client builds",
+        "name": "Glazni Studio"
       },
       "degoogle": {
-        "tag": "Privacy-first devices"
+        "tag": "Privacy-first devices",
+        "name": "Glazni DeGoogle"
       },
       "migrate": {
-        "tag": "Website hosting"
+        "tag": "Website hosting",
+        "name": "Glazni Migrate"
       }
     },
     "ventures": {
@@ -114,30 +134,37 @@
       "pillars": {
         "apps": {
           "desc": "Where it started. Premium, privacy-focused iOS and Android apps, most built for clients under NDA.",
-          "link": "See how it works →"
+          "link": "See how it works →",
+          "title": "Glazni Apps"
         },
         "growth": {
-          "desc": "Performance marketing and brand strategy — for the ventures, and for outside clients."
+          "desc": "Performance marketing and brand strategy — for the ventures, and for outside clients.",
+          "title": "Glazni Growth"
         },
         "talent": {
           "desc": "Recruiting and people operations — including access to skilled hires across global talent markets.",
-          "link": "Learn more →"
+          "link": "Learn more →",
+          "title": "Glazni Talent"
         },
         "dine": {
           "desc": "Software for restaurants and hospitality operators, sold as ready-made packages.",
-          "link": "Compare packages →"
+          "link": "Compare packages →",
+          "title": "Glazni Dine"
         },
         "studio": {
           "desc": "The venture that builds mobile apps and websites for clients — same mobile-first team the original studio started with.",
-          "link": "See how it works →"
+          "link": "See how it works →",
+          "title": "Glazni Studio"
         },
         "degoogle": {
           "desc": "GrapheneOS guides, our own privacy-first apps, and de-googled phones we build and sell.",
-          "link": "Learn more →"
+          "link": "Learn more →",
+          "title": "Glazni DeGoogle"
         },
         "migrate": {
           "desc": "We rebuild websites off subscription website builders and host them ourselves, typically around half the ongoing cost.",
-          "link": "See how it works →"
+          "link": "See how it works →",
+          "title": "Glazni Migrate"
         }
       }
     },
