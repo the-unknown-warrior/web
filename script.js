@@ -1,4 +1,4 @@
-const DATA_FILE = 'data_ru.json';
+const DATA_FILE = '/data_ru.json';
 
 function getI18nValue(dict, key) {
   return key.split('.').reduce((obj, part) => (obj && obj[part] !== undefined ? obj[part] : undefined), dict);
