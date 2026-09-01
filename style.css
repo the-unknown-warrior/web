@@ -216,6 +216,28 @@ h1,h2,h3,.font-display{
 .nav-links a:hover{ color:var(--ink); }
 .nav-links a.active{ color:var(--teal); }
 .nav-cta{ display:flex; align-items:center; gap:18px; }
+.lang-switch{
+  display:flex;
+  align-items:center;
+  border:1px solid var(--line-strong);
+  border-radius:var(--radius-sm);
+  overflow:hidden;
+  flex-shrink:0;
+}
+.lang-btn{
+  background:none;
+  border:none;
+  font-family:'IBM Plex Mono', monospace;
+  font-size:12px;
+  letter-spacing:.03em;
+  color:var(--ink-dim);
+  padding:7px 11px;
+  cursor:pointer;
+  transition:color .2s var(--ease), background-color .2s var(--ease);
+}
+.lang-btn + .lang-btn{ border-left:1px solid var(--line-strong); }
+.lang-btn:hover{ color:var(--ink); }
+.lang-btn.active{ color:var(--navy-950); background:var(--teal); }
 .nav-toggle{
   display:none;
   background:none; border:1px solid var(--line-strong); border-radius:var(--radius-sm);

@@ -1,4 +1,33 @@
-const DATA_FILE = '/data_ru.json';
+const SUPPORTED_LANGS = ['en', 'ru'];
+const DEFAULT_LANG = 'en';
+const LANG_STORAGE_KEY = 'glazniLang';
+
+function dataFileFor(lang) {
+  return `/data_${lang}.json`;
+}
+
+// Reads a previously-picked language out of localStorage, if any. Wrapped in
+// try/catch because localStorage can throw in some privacy modes / sandboxed
+// iframes — we just fall back to the default language in that case.
+function getStoredLang() {
+  try {
+    const stored = localStorage.getItem(LANG_STORAGE_KEY);
+    if (SUPPORTED_LANGS.includes(stored)) return stored;
+  } catch (err) {
+    /* localStorage unavailable — ignore and use the default */
+  }
+  return null;
+}
+
+function storeLang(lang) {
+  try {
+    localStorage.setItem(LANG_STORAGE_KEY, lang);
+  } catch (err) {
+    /* localStorage unavailable — the toggle still works for this page load */
+  }
+}
+
+let currentLang = getStoredLang() || DEFAULT_LANG;
 
 function getI18nValue(dict, key) {
   return key.split('.').reduce((obj, part) => (obj && obj[part] !== undefined ? obj[part] : undefined), dict);
@@ -57,24 +86,50 @@ function toCamelCase(slug) {
   return slug.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase());
 }
 
-async function loadI18n() {
+async function loadI18n(lang) {
   const page = document.body.dataset.page;
   if (page) {
+    const dataFile = dataFileFor(lang);
     try {
-      const res = await fetch(DATA_FILE);
-      if (!res.ok) throw new Error(`${DATA_FILE} responded with ${res.status}`);
+      const res = await fetch(dataFile);
+      if (!res.ok) throw new Error(`${dataFile} responded with ${res.status}`);
       const data = await res.json();
       // Merge page-agnostic strings (nav, footer) with this page's own strings.
       const dict = Object.assign({}, data.shared, data[toCamelCase(page)]);
       applyI18n(dict);
+      document.documentElement.setAttribute('lang', lang);
     } catch (err) {
-      console.warn(`Could not load ${DATA_FILE}, keeping the built-in page text.`, err);
+      console.warn(`Could not load ${dataFile}, keeping the current page text.`, err);
     }
   }
   initTicker();
 }
 
-loadI18n();
+// ---------- language switch ----------
+// Reflects `lang` on the toggle buttons (the .active class + aria-pressed),
+// persists the choice, and re-fetches/applies the matching dictionary.
+// Pass persist:false for the very first call so simply loading a page
+// doesn't overwrite a saved preference with the same value pointlessly.
+function setLanguage(lang, { persist = true } = {}) {
+  if (!SUPPORTED_LANGS.includes(lang)) return;
+  currentLang = lang;
+  if (persist) storeLang(lang);
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    const isActive = btn.dataset.lang === lang;
+    btn.classList.toggle('active', isActive);
+    btn.setAttribute('aria-pressed', String(isActive));
+  });
+  loadI18n(lang);
+}
+
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    if (btn.dataset.lang === currentLang) return;
+    setLanguage(btn.dataset.lang);
+  });
+});
+
+setLanguage(currentLang, { persist: false });
 
 // ---------- nav ----------
 const nav = document.querySelector('.nav');
