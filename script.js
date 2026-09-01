@@ -236,17 +236,61 @@ document.querySelectorAll('.registry-toggle').forEach(toggle => {
   });
 });
 
-// ---------- contact form (no backend — mailto handoff) ----------
+// ---------- contact form (posts straight to a Discord webhook) ----------
+// Paste your webhook URL below — Discord → Server Settings → Integrations →
+// Webhooks → New Webhook → Copy Webhook URL. Anyone with this URL can post
+// to the channel, so keep it out of any public repo (e.g. load it from a
+// server-side proxy instead) if that matters to you.
+const DISCORD_WEBHOOK_URL = 'https://discord.com/api/webhooks/1355795922856181901/17Cl93WNtsJVhE1GeLoIreKicxMTEIpc5FGIvnXHAlfxvMoX1-c2tcnSZ_KyVsaWC8bO';
+
 const contactForm = document.getElementById('contact-form');
 if (contactForm) {
-  contactForm.addEventListener('submit', (e) => {
+  const submitBtn = contactForm.querySelector('button[type="submit"]');
+  const formNote = contactForm.querySelector('.form-note');
+  const submitBtnDefaultText = submitBtn ? submitBtn.textContent : '';
+
+  function setFormNote(text, state) {
+    if (!formNote) return;
+    formNote.textContent = text;
+    formNote.classList.remove('form-note-error', 'form-note-success');
+    if (state) formNote.classList.add(`form-note-${state}`);
+  }
+
+  contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
+
+    if (!DISCORD_WEBHOOK_URL || DISCORD_WEBHOOK_URL.includes('PASTE_YOUR')) {
+      setFormNote("This form isn't connected yet — add a Discord webhook URL in script.js.", 'error');
+      return;
+    }
+
     const name = contactForm.querySelector('#c-name').value.trim();
     const email = contactForm.querySelector('#c-email').value.trim();
     const msg = contactForm.querySelector('#c-message').value.trim();
-    const subject = encodeURIComponent(`Website inquiry from ${name || 'a visitor'}`);
-    const body = encodeURIComponent(`${msg}\n\n— ${name} (${email})`);
-    window.location.href = `mailto:hello@glazni.com?subject=${subject}&body=${body}`;
+
+    if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Sending…'; }
+    setFormNote('Sending your message…');
+
+    try {
+      const res = await fetch(DISCORD_WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          content: `📩 **New Contact Form Submission**\n👤 **Name:** ${name || '—'}\n✉️ **Email:** ${email || '—'}\n📝 **Message:**\n${msg || '—'}`
+        })
+      });
+
+      // Discord webhooks return 204 No Content on success.
+      if (!res.ok) throw new Error(`Discord responded with ${res.status}`);
+
+      contactForm.reset();
+      setFormNote('Message sent — we usually reply within a business day.', 'success');
+    } catch (err) {
+      console.warn('Could not send message to Discord:', err);
+      setFormNote('Something went wrong sending your message — please email hello@glazni.com instead.', 'error');
+    } finally {
+      if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = submitBtnDefaultText; }
+    }
   });
 }
 
