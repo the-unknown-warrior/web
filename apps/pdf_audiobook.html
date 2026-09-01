@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDF to Audiobook — Glazni Apps</title>
+<meta name="description" content="PDF to Audiobook is a Glazni Apps project: turn any PDF into a listenable audiobook. Free with a queue of up to a week, or instant if you pay — either way, your document is deleted once your audio is ready.">
+<link rel="icon" href="../image/small_logo.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body data-page="pdf-audiobook">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="brand"><span class="brand-logo-plate"><img src="../image/logo.png" alt="Glazni" class="brand-logo"></span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html#ventures" data-i18n="nav.ventures">Ventures</a></li>
+      <li><a href="../careers.html" data-i18n="nav.careers">Careers</a></li>
+      <li><a href="../index.html#about" data-i18n="nav.about">About</a></li>
+      <li><a href="../index.html#contact" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" class="lang-btn" data-lang="ru" aria-pressed="false">RU</button>
+      </div>
+      <a href="../index.html#contact" class="btn btn-ghost" data-i18n="nav.getInTouch">Get in touch</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" data-i18n-attr="aria-label:nav.toggleLabel">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 4.5H16M2 9H16M2 13.5H16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="app-hero-top reveal visible">
+      <div class="app-icon-lg mono" data-icon="pdf-audiobook">AB</div>
+      <div>
+        <div class="eyebrow" data-i18n="hero.eyebrow">Glazni Apps — PDF to Audiobook</div>
+        <span class="app-status-pill" data-i18n="hero.status">In development</span>
+      </div>
+    </div>
+    <h1 class="reveal visible" data-i18n="hero.title">Turn any PDF into something you can listen to.</h1>
+    <p class="reveal visible" data-i18n="hero.sub">Drop in a PDF, get back an audiobook. It's free if you can wait — conversions queue up and can take up to about a week depending on demand. Pay, and yours jumps the line and comes back instantly. Either way, your document is only ever used to make your audio and is deleted afterward — not stored, not scanned for anything else.</p>
+    <div class="hero-actions reveal visible" style="margin-top:32px;">
+      <a href="../downloads/pdf-audiobook.apk" class="btn btn-primary" download><span data-i18n="hero.ctaDownload">Download APK</span>
+        <svg viewBox="0 0 14 14" fill="none"><path d="M7 1V9M7 9L3.5 5.5M7 9L10.5 5.5M2 12H12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="../apps.html" class="btn btn-ghost" data-i18n="hero.ctaBack">← Back to Glazni Apps</a>
+    </div>
+    <div class="app-meta-strip reveal visible">
+      <span><strong data-i18n="hero.meta.platformLabel">Platform</strong> <span data-i18n="hero.meta.platformValue">Android (APK)</span></span>
+      <span><strong data-i18n="hero.meta.statusLabel">Status</strong> <span data-i18n="hero.meta.statusValue">In development</span></span>
+      <span><strong data-i18n="hero.meta.pricingLabel">Pricing</strong> <span data-i18n="hero.meta.pricingValue">Free (queued) or paid (instant)</span></span>
+    </div>
+  </div>
+</header>
+
+<!-- ================= THE IDEA ================= -->
+<section class="section">
+  <div class="wrap">
+    <div class="split reveal">
+      <div class="split-copy">
+        <div class="eyebrow" data-i18n="idea.eyebrow">The idea</div>
+        <h2 data-i18n="idea.title">Books don't need an account to become audio.</h2>
+        <p data-i18n="idea.p1">PDF to Audiobook does exactly what it sounds like — upload a document, get back a finished audio file. No reading app to switch to, no library account, no subscription you forgot you had. The conversion itself works the same whichever way you go; the only difference is where you sit in the queue.</p>
+        <p data-i18n="idea.p2">This is one of the few Glazni Apps projects that mostly runs as a paid service, because the compute to convert a document into natural-sounding narration isn't free — but it's never locked behind a subscription. Pay per book if you want it now, or don't pay at all and it still arrives, just later.</p>
+      </div>
+      <div class="split-img" style="display:flex; justify-content:flex-end;">
+        <div class="screen-frame screen-frame--fixed-h">
+          <img src="../image/pdf-audiobook_1.png" data-i18n-attr="alt:idea.imgAlt" alt="Upload screen in the PDF to Audiobook app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="screen-frame-placeholder">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7 1V9M7 9L3.5 5.5M7 9L10.5 5.5M2 12H12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="screen-label" data-i18n="idea.frameLabel">Screenshot placeholder</span>
+            <span class="screen-sub" data-i18n="idea.frameSub">Upload screen goes here</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRICING ================= -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow" data-i18n="pricing.eyebrow">Pricing</div>
+        <h2 class="section-title" data-i18n="pricing.title">Free if you can wait. Instant if you can't.</h2>
+      </div>
+      <p class="section-desc" data-i18n="pricing.desc">The app itself is a free download. Each conversion is either queued for free or paid to skip the line.</p>
+    </div>
+    <div class="packages reveal" style="grid-template-columns:repeat(2,1fr); max-width:760px; margin:0 auto;">
+      <div class="package-card">
+        <div class="package-eyebrow" data-i18n="pricing.free.eyebrow">Free</div>
+        <div class="package-name" data-i18n="pricing.free.name">Wait for it</div>
+        <ul class="package-includes">
+          <li data-i18n-html="pricing.free.items.0"><b>No cost</b>, ever — no card required</li>
+          <li data-i18n-html="pricing.free.items.1">Joins a shared conversion queue</li>
+          <li data-i18n-html="pricing.free.items.2">Turnaround of <b>up to about a week</b>, depending on demand</li>
+          <li data-i18n-html="pricing.free.items.3">Same narration quality as paid</li>
+          <li data-i18n-html="pricing.free.items.4">Document deleted once the audio is ready</li>
+        </ul>
+      </div>
+      <div class="package-card featured">
+        <div class="package-eyebrow" data-i18n="pricing.paid.eyebrow">Paid</div>
+        <div class="package-name" data-i18n="pricing.paid.name">Instant</div>
+        <ul class="package-includes">
+          <li data-i18n-html="pricing.paid.items.0"><b>Pay per book</b>, no subscription forced</li>
+          <li data-i18n-html="pricing.paid.items.1">Skips straight to the front of the queue</li>
+          <li data-i18n-html="pricing.paid.items.2">Ready in <b>minutes</b>, not days</li>
+          <li data-i18n-html="pricing.paid.items.3">Same narration quality as free</li>
+          <li data-i18n-html="pricing.paid.items.4">Document deleted once the audio is ready</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow" data-i18n="how.eyebrow">How it works</div>
+        <h2 class="section-title" data-i18n="how.title">Three steps, either way you go</h2>
+      </div>
+      <p class="section-desc" data-i18n="how.desc">Upload once — the only choice you're making is how long you're willing to wait.</p>
+    </div>
+    <div class="process cols-3 reveal">
+      <div class="process-step">
+        <div class="process-num">01</div>
+        <h3 data-i18n="how.steps.0.title">Upload</h3>
+        <p data-i18n="how.steps.0.desc">Drop in a PDF and the app pulls out the readable text — works best on text-based documents; heavily scanned pages may need OCR first.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">02</div>
+        <h3 data-i18n="how.steps.1.title">Convert</h3>
+        <p data-i18n="how.steps.1.desc">Choose free and it joins the queue — up to about a week depending on demand — or pay and it's processed right away, usually in minutes.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">03</div>
+        <h3 data-i18n="how.steps.2.title">Listen</h3>
+        <p data-i18n="how.steps.2.desc">Download the finished audio file straight to your device. It's yours to keep — no app lock-in, no streaming required.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SCREENS ================= -->
+<section class="section" id="screens">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow" data-i18n="screens.eyebrow">Screens</div>
+        <h2 class="section-title" data-i18n="screens.title">What it looks like</h2>
+      </div>
+      <p class="section-desc" data-i18n="screens.desc">Real screenshots are going in these three slots as the build lands.</p>
+    </div>
+    <div class="screens reveal">
+      <div class="screen-frame">
+        <img src="../image/pdf-audiobook_2.png" alt="Upload screen in the PDF to Audiobook app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M8 8H16M8 12H16M8 16H12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span class="screen-label" data-i18n="screens.upload.label">Upload a PDF</span>
+          <span class="screen-sub" data-i18n="screens.upload.sub">Pick a file and choose free or paid conversion</span>
+        </div>
+      </div>
+      <div class="screen-frame">
+        <img src="../image/pdf-audiobook_3.png" alt="Conversion status screen in the PDF to Audiobook app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.4"/><path d="M12 7V12L15.5 14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="screen-label" data-i18n="screens.status.label">Conversion status</span>
+          <span class="screen-sub" data-i18n="screens.status.sub">Queue position for free, or a progress bar for instant</span>
+        </div>
+      </div>
+      <div class="screen-frame">
+        <img src="../image/pdf-audiobook_4.png" alt="Finished audiobooks screen in the PDF to Audiobook app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="9" y="3" width="6" height="11" rx="3" stroke="currentColor" stroke-width="1.4"/><path d="M6 11.5C6 15 8.7 17 12 17C15.3 17 18 15 18 11.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M12 17V21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span class="screen-label" data-i18n="screens.finished.label">Finished audiobooks</span>
+          <span class="screen-sub" data-i18n="screens.finished.sub">Ready to download and keep, on-device</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOWNLOAD ================= -->
+<section class="section" id="download">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow" data-i18n="download.eyebrow">Get it</div>
+        <h2 class="section-title" data-i18n="download.title">Install it directly, for now</h2>
+      </div>
+    </div>
+    <div class="download-card reveal">
+      <div class="download-card-info">
+        <div class="app-icon-lg mono" data-icon="pdf-audiobook">AB</div>
+        <div>
+          <h4 data-i18n="download.cardTitle">PDF to Audiobook — Android APK</h4>
+          <p data-i18n="download.cardMeta">Version pending · file goes live once it's uploaded</p>
+        </div>
+      </div>
+      <a href="../downloads/pdf-audiobook.apk" class="btn btn-primary" download><span data-i18n="download.cta">Download APK</span>
+        <svg viewBox="0 0 14 14" fill="none"><path d="M7 1V9M7 9L3.5 5.5M7 9L10.5 5.5M2 12H12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+    <p class="download-note reveal" data-i18n="download.note">Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android. The app itself is free; conversions are free-and-queued or paid-and-instant.</p>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-band">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center" data-i18n="cta.eyebrow">Building something like this too?</div>
+    <h2 style="margin-top:16px;" data-i18n="cta.title">This is one app from Glazni Apps — there's more where it came from.</h2>
+    <p data-i18n="cta.desc">Talk to us about a build, or see what else the studio is shipping.</p>
+    <div class="cta-actions">
+      <a href="mailto:hello@glazni.com?subject=PDF to Audiobook" class="btn btn-primary" data-i18n="cta.ctaEmail">Email hello@glazni.com</a>
+      <a href="../apps.html" class="btn btn-ghost" data-i18n="cta.ctaApps">Back to Glazni Apps</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand"><span class="brand-logo-plate"><img src="../image/logo.png" alt="Glazni" class="brand-logo"></span></div>
+        <p data-i18n="footer.brand">A holding company building and operating a growing index of ventures across software, marketing, talent, hospitality technology, privacy-first computing and website hosting — grown from an original mobile-first studio founded in Moscow.</p>
+        <div class="socials" style="margin-top:22px;">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="X / Twitter">x</a>
+          <a href="#" aria-label="Instagram">ig</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.companyHeading">Company</h4>
+        <ul>
+          <li><a href="../index.html#about" data-i18n="footer.companyLinks.about">About</a></li>
+          <li><a href="../index.html#ventures" data-i18n="footer.companyLinks.ventures">Ventures</a></li>
+          <li><a href="../careers.html" data-i18n="footer.companyLinks.careers">Careers</a></li>
+          <li><a href="../index.html#contact" data-i18n="footer.companyLinks.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.venturesHeading">Ventures</h4>
+        <ul>
+          <li><a href="../apps.html" data-i18n="footer.venturesLinks.apps">Glazni Apps</a></li>
+          <li><a href="../index.html#ventures" data-i18n="footer.venturesLinks.growth">Glazni Growth</a></li>
+          <li><a href="../talent.html" data-i18n="footer.venturesLinks.talent">Glazni Talent</a></li>
+          <li><a href="../dine.html" data-i18n="footer.venturesLinks.dine">Glazni Dine</a></li>
+          <li><a href="../index.html#ventures" data-i18n="footer.venturesLinks.studio">Glazni Studio</a></li>
+          <li><a href="../degoogle.html" data-i18n="footer.venturesLinks.degoogle">Glazni DeGoogle</a></li>
+          <li><a href="../migrate.html" data-i18n="footer.venturesLinks.migrate">Glazni Migrate</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.legalHeading">Legal</h4>
+        <ul>
+          <li><a href="#" data-i18n="footer.legalLinks.privacy">Privacy policy</a></li>
+          <li><a href="#" data-i18n="footer.legalLinks.terms">Terms of service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span class="js-year"></span> <span data-i18n="footer.copyright">Glazni. All rights reserved.</span></span>
+      <span data-i18n="footer.builtBy">Built in-house by the Glazni team.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+<script src="../icons.js"></script>
+</body>
+</html>

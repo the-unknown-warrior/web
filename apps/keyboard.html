@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glazni Keyboard — Glazni Apps</title>
+<meta name="description" content="Glazni Keyboard is a Glazni Apps project: a full replacement for the Google keyboard with built-in, on-device speech-to-text — no audio or keystrokes ever leave your phone.">
+<link rel="icon" href="../image/small_logo.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body data-page="keyboard">
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="../index.html" class="brand"><span class="brand-logo-plate"><img src="../image/logo.png" alt="Glazni" class="brand-logo"></span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html#ventures" data-i18n="nav.ventures">Ventures</a></li>
+      <li><a href="../careers.html" data-i18n="nav.careers">Careers</a></li>
+      <li><a href="../index.html#about" data-i18n="nav.about">About</a></li>
+      <li><a href="../index.html#contact" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" class="lang-btn" data-lang="ru" aria-pressed="false">RU</button>
+      </div>
+      <a href="../index.html#contact" class="btn btn-ghost" data-i18n="nav.getInTouch">Get in touch</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" data-i18n-attr="aria-label:nav.toggleLabel">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 4.5H16M2 9H16M2 13.5H16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="app-hero-top reveal visible">
+      <div class="app-icon-lg mono" data-icon="keyboard">KB</div>
+      <div>
+        <div class="eyebrow" data-i18n="hero.eyebrow">Glazni Apps — Glazni Keyboard</div>
+        <span class="app-status-pill" data-i18n="hero.status">In development</span>
+      </div>
+    </div>
+    <h1 class="reveal visible" data-i18n="hero.title">A keyboard that doesn't listen in — until you ask it to.</h1>
+    <p class="reveal visible" data-i18n="hero.sub">Glazni Keyboard is a full replacement for the Google keyboard: everyday typing, plus a built-in mic button for speech-to-text that runs entirely on your phone. Nothing you type or say is sent anywhere to get transcribed. Built for anyone trying to leave the Google ecosystem without losing the keyboard features they actually rely on.</p>
+    <div class="hero-actions reveal visible" style="margin-top:32px;">
+      <a href="../downloads/keyboard.apk" class="btn btn-primary" download><span data-i18n="hero.ctaDownload">Download APK</span>
+        <svg viewBox="0 0 14 14" fill="none"><path d="M7 1V9M7 9L3.5 5.5M7 9L10.5 5.5M2 12H12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="../apps.html" class="btn btn-ghost" data-i18n="hero.ctaBack">← Back to Glazni Apps</a>
+    </div>
+    <div class="app-meta-strip reveal visible">
+      <span><strong data-i18n="hero.meta.platformLabel">Platform</strong> <span data-i18n="hero.meta.platformValue">Android (APK)</span></span>
+      <span><strong data-i18n="hero.meta.statusLabel">Status</strong> <span data-i18n="hero.meta.statusValue">In development</span></span>
+      <span><strong data-i18n="hero.meta.sttLabel">Speech-to-text</strong> <span data-i18n="hero.meta.sttValue">On-device via VOSK</span></span>
+    </div>
+  </div>
+</header>
+
+<!-- ================= THE IDEA ================= -->
+<section class="section">
+  <div class="wrap">
+    <div class="split reveal">
+      <div class="split-copy">
+        <div class="eyebrow" data-i18n="idea.eyebrow">The idea</div>
+        <h2 data-i18n="idea.title">Type or talk — nothing leaves the phone either way.</h2>
+        <p data-i18n="idea.p1">The Google keyboard is hard to avoid, which is exactly the problem: every keystroke and every dictated word is a data point flowing through someone else's servers by default. Glazni Keyboard is a drop-in replacement — same everyday typing experience, same shortcuts and suggestions — built to work completely offline.</p>
+        <p data-i18n="idea.p2">Speech-to-text is built in, not bolted on. Tap the mic and dictation runs through a local VOSK model right on your device — no audio upload, no cloud transcription service in the middle. Whisper model support is planned for a future release, so you'll be able to choose the model that fits your phone and your accuracy needs, all still processed locally.</p>
+      </div>
+      <div class="split-img" style="display:flex; justify-content:flex-end;">
+        <div class="screen-frame screen-frame--fixed-h">
+          <img src="../image/keyboard_1.png" data-i18n-attr="alt:idea.imgAlt" alt="Everyday typing layout in the Glazni Keyboard app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="screen-frame-placeholder">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="7" width="18" height="11" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M6 11H6.01M9 11H9.01M12 11H12.01M15 11H15.01M18 11H18.01M7 14.5H17" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            <span class="screen-label" data-i18n="idea.frameLabel">Screenshot placeholder</span>
+            <span class="screen-sub" data-i18n="idea.frameSub">Everyday keyboard layout goes here</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow" data-i18n="how.eyebrow">How it works</div>
+        <h2 class="section-title" data-i18n="how.title">Everything a keyboard does — plus a private mic</h2>
+      </div>
+      <p class="section-desc" data-i18n="how.desc">One app, installed once, that handles both typing and dictation without calling home.</p>
+    </div>
+    <div class="process cols-3 reveal">
+      <div class="process-step">
+        <div class="process-num">01</div>
+        <h3 data-i18n="how.steps.0.title">Type</h3>
+        <p data-i18n="how.steps.0.desc">A full system keyboard with standard suggestions and shortcuts, set as your default in place of Gboard — nothing it learns leaves your device.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">02</div>
+        <h3 data-i18n="how.steps.1.title">Speak</h3>
+        <p data-i18n="how.steps.1.desc">Tap the mic and speak — a local VOSK model transcribes it on-device in real time, with no audio ever sent off your phone to get turned into text.</p>
+      </div>
+      <div class="process-step">
+        <div class="process-num">03</div>
+        <h3 data-i18n="how.steps.2.title">Use anywhere</h3>
+        <p data-i18n="how.steps.2.desc">Works in any app that accepts a keyboard — including Journal and Photo Journal, for dictating an entry instead of typing it out.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PAIRS WELL WITH ================= -->
+<section class="section">
+  <div class="wrap">
+    <div class="split reverse reveal">
+      <div class="split-copy">
+        <div class="eyebrow" data-i18n="pairs.eyebrow">Pairs well with</div>
+        <h2 data-i18n="pairs.title">Dictate straight into Journal and Photo Journal.</h2>
+        <p data-i18n="pairs.p1">Glazni Keyboard works as your system keyboard everywhere, but it's a particularly good match for the other apps in this lineup. Speak a day's entry instead of typing it, still with the same guarantee — the words never leave your phone to become text.</p>
+        <p data-i18n-html="pairs.p2Html">Use it with <a href="journal.html">Journal</a> for a spoken daily entry, or with <a href="photo_journal.html">Photo Journal</a> to add a quick note to a day's photo — private speech-to-text, on a private archive.</p>
+      </div>
+      <div class="split-img"><img src="../image/keyboard_pairs.webp" alt="Glazni Keyboard used with Journal and Photo Journal" data-i18n-attr="alt:pairs.imgAlt"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SCREENS ================= -->
+<section class="section" id="screens">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow" data-i18n="screens.eyebrow">Screens</div>
+        <h2 class="section-title" data-i18n="screens.title">What it looks like</h2>
+      </div>
+      <p class="section-desc" data-i18n="screens.desc">Real screenshots are going in these three slots as the build lands.</p>
+    </div>
+    <div class="screens reveal">
+      <div class="screen-frame">
+        <img src="../image/keyboard_2.png" alt="Everyday typing layout in the Glazni Keyboard app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="7" width="18" height="11" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M6 11H6.01M9 11H9.01M12 11H12.01M15 11H15.01M18 11H18.01M7 14.5H17" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span class="screen-label" data-i18n="screens.typing.label">Everyday typing</span>
+          <span class="screen-sub" data-i18n="screens.typing.sub">The standard layout, set as your default keyboard</span>
+        </div>
+      </div>
+      <div class="screen-frame">
+        <img src="../image/keyboard_3.png" alt="Voice input screen in the Glazni Keyboard app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><rect x="9" y="3" width="6" height="11" rx="3" stroke="currentColor" stroke-width="1.4"/><path d="M6 11.5C6 15 8.7 17 12 17C15.3 17 18 15 18 11.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M12 17V21" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span class="screen-label" data-i18n="screens.voice.label">Voice input</span>
+          <span class="screen-sub" data-i18n="screens.voice.sub">Live on-device transcription, no upload in progress</span>
+        </div>
+      </div>
+      <div class="screen-frame">
+        <img src="../image/keyboard_4.png" alt="Model settings screen in the Glazni Keyboard app" class="screen-frame-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="screen-frame-placeholder">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.4"/><path d="M12 4V6M12 18V20M4 12H6M18 12H20M6.3 6.3L7.7 7.7M16.3 16.3L17.7 17.7M6.3 17.7L7.7 16.3M16.3 7.7L17.7 6.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+          <span class="screen-label" data-i18n="screens.model.label">Model settings</span>
+          <span class="screen-sub" data-i18n="screens.model.sub">Choose your VOSK model size — Whisper models coming later</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DOWNLOAD ================= -->
+<section class="section" id="download">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow" data-i18n="download.eyebrow">Get it</div>
+        <h2 class="section-title" data-i18n="download.title">Install it directly, for now</h2>
+      </div>
+    </div>
+    <div class="download-card reveal">
+      <div class="download-card-info">
+        <div class="app-icon-lg mono" data-icon="keyboard">KB</div>
+        <div>
+          <h4 data-i18n="download.cardTitle">Glazni Keyboard — Android APK</h4>
+          <p data-i18n="download.cardMeta">Version pending · file goes live once it's uploaded</p>
+        </div>
+      </div>
+      <a href="../downloads/keyboard.apk" class="btn btn-primary" download><span data-i18n="download.cta">Download APK</span>
+        <svg viewBox="0 0 14 14" fill="none"><path d="M7 1V9M7 9L3.5 5.5M7 9L10.5 5.5M2 12H12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+    <p class="download-note reveal" data-i18n="download.note">Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android, and set it as your default keyboard once it's installed.</p>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-band">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center" data-i18n="cta.eyebrow">Building something like this too?</div>
+    <h2 style="margin-top:16px;" data-i18n="cta.title">This is one app from Glazni Apps — there's more where it came from.</h2>
+    <p data-i18n="cta.desc">Talk to us about a build, or see what else the studio is shipping.</p>
+    <div class="cta-actions">
+      <a href="mailto:hello@glazni.com?subject=Glazni Keyboard" class="btn btn-primary" data-i18n="cta.ctaEmail">Email hello@glazni.com</a>
+      <a href="../apps.html" class="btn btn-ghost" data-i18n="cta.ctaApps">Back to Glazni Apps</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand"><span class="brand-logo-plate"><img src="../image/logo.png" alt="Glazni" class="brand-logo"></span></div>
+        <p data-i18n="footer.brand">A holding company building and operating a growing index of ventures across software, marketing, talent, hospitality technology, privacy-first computing and website hosting — grown from an original mobile-first studio founded in Moscow.</p>
+        <div class="socials" style="margin-top:22px;">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="X / Twitter">x</a>
+          <a href="#" aria-label="Instagram">ig</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.companyHeading">Company</h4>
+        <ul>
+          <li><a href="../index.html#about" data-i18n="footer.companyLinks.about">About</a></li>
+          <li><a href="../index.html#ventures" data-i18n="footer.companyLinks.ventures">Ventures</a></li>
+          <li><a href="../careers.html" data-i18n="footer.companyLinks.careers">Careers</a></li>
+          <li><a href="../index.html#contact" data-i18n="footer.companyLinks.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.venturesHeading">Ventures</h4>
+        <ul>
+          <li><a href="../apps.html" data-i18n="footer.venturesLinks.apps">Glazni Apps</a></li>
+          <li><a href="../index.html#ventures" data-i18n="footer.venturesLinks.growth">Glazni Growth</a></li>
+          <li><a href="../talent.html" data-i18n="footer.venturesLinks.talent">Glazni Talent</a></li>
+          <li><a href="../dine.html" data-i18n="footer.venturesLinks.dine">Glazni Dine</a></li>
+          <li><a href="../index.html#ventures" data-i18n="footer.venturesLinks.studio">Glazni Studio</a></li>
+          <li><a href="../degoogle.html" data-i18n="footer.venturesLinks.degoogle">Glazni DeGoogle</a></li>
+          <li><a href="../migrate.html" data-i18n="footer.venturesLinks.migrate">Glazni Migrate</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.legalHeading">Legal</h4>
+        <ul>
+          <li><a href="#" data-i18n="footer.legalLinks.privacy">Privacy policy</a></li>
+          <li><a href="#" data-i18n="footer.legalLinks.terms">Terms of service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span class="js-year"></span> <span data-i18n="footer.copyright">Glazni. All rights reserved.</span></span>
+      <span data-i18n="footer.builtBy">Built in-house by the Glazni team.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+<script src="../icons.js"></script>
+</body>
+</html>

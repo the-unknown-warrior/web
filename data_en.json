@@ -438,7 +438,17 @@
         "status": "In development"
       },
       "itemTitle": "Language Learning",
-      "itemDesc": "We're building a language-learning app in-house. It's early — no public link yet, and no date to share — but it'll follow the same privacy-first approach as everything else Glazni ships."
+      "itemDesc": "We're building a language-learning app in-house. It's early — no public link yet, and no date to share — but it'll follow the same privacy-first approach as everything else Glazni ships.",
+      "keyboard": {
+        "title": "Glazni Keyboard",
+        "desc": "A full replacement for the Google keyboard with speech-to-text built in and processed on-device — nothing typed or spoken leaves your phone.",
+        "status": "In development"
+      },
+      "pdfAudiobook": {
+        "title": "PDF to Audiobook",
+        "desc": "Turn any PDF into an audiobook — free with a queue of up to a week, or instant if you pay to skip the line.",
+        "status": "In development"
+      }
     },
     "cta": {
       "eyebrow": "Got an idea this size?",
@@ -589,34 +599,67 @@
       "title": "Small, private-by-default tools",
       "desc": "Built for the DeGoogle stack — no Google services required, no tracking, no account needed to get started.",
       "items": {
-        "contacts": {
-          "name": "Contacts",
-          "desc": "A local-first contacts app with no cloud sync required by default.",
+        "phone": {
+          "name": "Phone",
+          "desc": "A dialer and address book in one app instead of two, running fully offline with nothing synced to the cloud.",
           "status": "In development"
         },
-        "notes": {
-          "name": "Notes",
-          "desc": "Fast, offline notes with optional end-to-end encrypted backup.",
+        "journal": {
+          "name": "Journal",
+          "desc": "A plain daily journal — write, close the app, come back tomorrow. No prompts, no streaks, no photo required.",
           "status": "In development"
         },
-        "tasks": {
-          "name": "Tasks",
-          "desc": "A minimal task manager for people who don't want another dashboard.",
+        "resumeBuilder": {
+          "name": "Resume Builder",
+          "desc": "Premium, professionally designed resumes, offered free or almost free instead of gated behind a subscription.",
           "status": "In development"
         },
-        "keyboard": {
-          "name": "Keyboard",
-          "desc": "An offline keyboard with no network permission at all — nothing to leak.",
+        "backgroundChanger": {
+          "name": "Background Changer",
+          "desc": "A wallpaper that shifts with morning, evening and night, circling through your own collection automatically.",
+          "status": "In development"
+        },
+        "ideas": {
+          "name": "Ideas",
+          "desc": "Start an idea, then drop every note and thought about it underneath — one subheading per idea, nothing to file.",
           "status": "In development"
         },
         "photoJournal": {
           "name": "Photo Journal",
-          "desc": "A private, offline photo diary. Our first app to ship publicly.",
-          "status": "Live on Google Play"
+          "desc": "One photo a day, building into a visual autobiography — and a record for the people who come looking after you're gone.",
+          "status": "Published"
+        },
+        "messages": {
+          "name": "Messages",
+          "desc": "SMS and MMS sent straight over your carrier, completely offline, with no account and no cloud relay.",
+          "status": "In development"
+        },
+        "pdfAudiobook": {
+          "name": "PDF to Audiobook",
+          "desc": "Turn any PDF into an audiobook — free with a queue of up to a week, or instant if you pay to skip the line.",
+          "status": "In development"
+        },
+        "tasks": {
+          "name": "Tasks",
+          "desc": "A short list of what needs doing today, kept short on purpose — nothing synced, nothing gamified.",
+          "status": "In development"
+        },
+        "keyboard": {
+          "name": "Glazni Keyboard",
+          "desc": "A full replacement for the Google keyboard with speech-to-text built in and processed on-device — nothing typed or spoken leaves your phone.",
+          "status": "In development"
+        },
+        "contactsExporter": {
+          "name": "Contacts Exporter",
+          "desc": "Every contact, out of Google and into a CSV you keep locally — ready for whatever phone comes next.",
+          "status": "In development"
+        },
+        "languageLearning": {
+          "name": "Language Learning",
+          "desc": "We're building a language-learning app in-house. It's early — no public link yet, and no date to share — but it'll follow the same privacy-first approach as everything else Glazni ships.",
+          "status": "In development"
         }
-      },
-      "noticeLabel": "Note:",
-      "notice": "these app names are working titles used internally — none of them ship under the \"Glazni\" name. Final branding is decided per app closer to release."
+      }
     },
     "phones": {
       "eyebrow": "De-googled phones",
@@ -1801,6 +1844,204 @@
       "titleHtml": "Wrong turn.<br><span>This page doesn't exist.</span>",
       "sub": "The link that brought you here is broken, or the page moved. Nothing lost — everything else is exactly where it should be.",
       "ctaHome": "Go to homepage",
+      "ctaApps": "Back to Glazni Apps"
+    }
+  },
+  "keyboard": {
+    "meta": {
+      "title": "Glazni Keyboard — Glazni Apps",
+      "description": "Glazni Keyboard is a Glazni Apps project: a full replacement for the Google keyboard with built-in, on-device speech-to-text — no audio or keystrokes ever leave your phone."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Glazni Keyboard",
+      "status": "In development",
+      "title": "A keyboard that doesn't listen in — until you ask it to.",
+      "sub": "Glazni Keyboard is a full replacement for the Google keyboard: everyday typing, plus a built-in mic button for speech-to-text that runs entirely on your phone. Nothing you type or say is sent anywhere to get transcribed. Built for anyone trying to leave the Google ecosystem without losing the keyboard features they actually rely on.",
+      "ctaDownload": "Download APK",
+      "ctaBack": "← Back to Glazni Apps",
+      "meta": {
+        "platformLabel": "Platform",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Status",
+        "statusValue": "In development",
+        "sttLabel": "Speech-to-text",
+        "sttValue": "On-device via VOSK"
+      }
+    },
+    "idea": {
+      "eyebrow": "The idea",
+      "title": "Type or talk — nothing leaves the phone either way.",
+      "p1": "The Google keyboard is hard to avoid, which is exactly the problem: every keystroke and every dictated word is a data point flowing through someone else's servers by default. Glazni Keyboard is a drop-in replacement — same everyday typing experience, same shortcuts and suggestions — built to work completely offline.",
+      "p2": "Speech-to-text is built in, not bolted on. Tap the mic and dictation runs through a local VOSK model right on your device — no audio upload, no cloud transcription service in the middle. Whisper model support is planned for a future release, so you'll be able to choose the model that fits your phone and your accuracy needs, all still processed locally.",
+      "frameLabel": "Screenshot placeholder",
+      "frameSub": "Everyday keyboard layout goes here",
+      "imgAlt": "Everyday typing layout in the Glazni Keyboard app"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Everything a keyboard does — plus a private mic",
+      "desc": "One app, installed once, that handles both typing and dictation without calling home.",
+      "steps": [
+        {
+          "title": "Type",
+          "desc": "A full system keyboard with standard suggestions and shortcuts, set as your default in place of Gboard — nothing it learns leaves your device."
+        },
+        {
+          "title": "Speak",
+          "desc": "Tap the mic and speak — a local VOSK model transcribes it on-device in real time, with no audio ever sent off your phone to get turned into text."
+        },
+        {
+          "title": "Use anywhere",
+          "desc": "Works in any app that accepts a keyboard — including Journal and Photo Journal, for dictating an entry instead of typing it out."
+        }
+      ]
+    },
+    "pairs": {
+      "eyebrow": "Pairs well with",
+      "title": "Dictate straight into Journal and Photo Journal.",
+      "p1": "Glazni Keyboard works as your system keyboard everywhere, but it's a particularly good match for the other apps in this lineup. Speak a day's entry instead of typing it, still with the same guarantee — the words never leave your phone to become text.",
+      "p2Html": "Use it with <a href=\"journal.html\">Journal</a> for a spoken daily entry, or with <a href=\"photo_journal.html\">Photo Journal</a> to add a quick note to a day's photo — private speech-to-text, on a private archive.",
+      "imgAlt": "Glazni Keyboard used with Journal and Photo Journal"
+    },
+    "screens": {
+      "eyebrow": "Screens",
+      "title": "What it looks like",
+      "desc": "Real screenshots are going in these three slots as the build lands.",
+      "typing": {
+        "label": "Everyday typing",
+        "sub": "The standard layout, set as your default keyboard"
+      },
+      "voice": {
+        "label": "Voice input",
+        "sub": "Live on-device transcription, no upload in progress"
+      },
+      "model": {
+        "label": "Model settings",
+        "sub": "Choose your VOSK model size — Whisper models coming later"
+      }
+    },
+    "download": {
+      "eyebrow": "Get it",
+      "title": "Install it directly, for now",
+      "cardTitle": "Glazni Keyboard — Android APK",
+      "cardMeta": "Version pending · file goes live once it's uploaded",
+      "cta": "Download APK",
+      "note": "Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android, and set it as your default keyboard once it's installed."
+    },
+    "cta": {
+      "eyebrow": "Building something like this too?",
+      "title": "This is one app from Glazni Apps — there's more where it came from.",
+      "desc": "Talk to us about a build, or see what else the studio is shipping.",
+      "ctaEmail": "Email hello@glazni.com",
+      "ctaApps": "Back to Glazni Apps"
+    }
+  },
+  "pdfAudiobook": {
+    "meta": {
+      "title": "PDF to Audiobook — Glazni Apps",
+      "description": "PDF to Audiobook is a Glazni Apps project: turn any PDF into a listenable audiobook. Free with a queue of up to a week, or instant if you pay — either way, your document is deleted once your audio is ready."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — PDF to Audiobook",
+      "status": "In development",
+      "title": "Turn any PDF into something you can listen to.",
+      "sub": "Drop in a PDF, get back an audiobook. It's free if you can wait — conversions queue up and can take up to about a week depending on demand. Pay, and yours jumps the line and comes back instantly. Either way, your document is only ever used to make your audio and is deleted afterward — not stored, not scanned for anything else.",
+      "ctaDownload": "Download APK",
+      "ctaBack": "← Back to Glazni Apps",
+      "meta": {
+        "platformLabel": "Platform",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Status",
+        "statusValue": "In development",
+        "pricingLabel": "Pricing",
+        "pricingValue": "Free (queued) or paid (instant)"
+      }
+    },
+    "idea": {
+      "eyebrow": "The idea",
+      "title": "Books don't need an account to become audio.",
+      "p1": "PDF to Audiobook does exactly what it sounds like — upload a document, get back a finished audio file. No reading app to switch to, no library account, no subscription you forgot you had. The conversion itself works the same whichever way you go; the only difference is where you sit in the queue.",
+      "p2": "This is one of the few Glazni Apps projects that mostly runs as a paid service, because the compute to convert a document into natural-sounding narration isn't free — but it's never locked behind a subscription. Pay per book if you want it now, or don't pay at all and it still arrives, just later.",
+      "frameLabel": "Screenshot placeholder",
+      "frameSub": "Upload screen goes here",
+      "imgAlt": "Upload screen in the PDF to Audiobook app"
+    },
+    "pricing": {
+      "eyebrow": "Pricing",
+      "title": "Free if you can wait. Instant if you can't.",
+      "desc": "The app itself is a free download. Each conversion is either queued for free or paid to skip the line.",
+      "free": {
+        "eyebrow": "Free",
+        "name": "Wait for it",
+        "items": [
+          "<b>No cost</b>, ever — no card required",
+          "Joins a shared conversion queue",
+          "Turnaround of <b>up to about a week</b>, depending on demand",
+          "Same narration quality as paid",
+          "Document deleted once the audio is ready"
+        ]
+      },
+      "paid": {
+        "eyebrow": "Paid",
+        "name": "Instant",
+        "items": [
+          "<b>Pay per book</b>, no subscription forced",
+          "Skips straight to the front of the queue",
+          "Ready in <b>minutes</b>, not days",
+          "Same narration quality as free",
+          "Document deleted once the audio is ready"
+        ]
+      }
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Three steps, either way you go",
+      "desc": "Upload once — the only choice you're making is how long you're willing to wait.",
+      "steps": [
+        {
+          "title": "Upload",
+          "desc": "Drop in a PDF and the app pulls out the readable text — works best on text-based documents; heavily scanned pages may need OCR first."
+        },
+        {
+          "title": "Convert",
+          "desc": "Choose free and it joins the queue — up to about a week depending on demand — or pay and it's processed right away, usually in minutes."
+        },
+        {
+          "title": "Listen",
+          "desc": "Download the finished audio file straight to your device. It's yours to keep — no app lock-in, no streaming required."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Screens",
+      "title": "What it looks like",
+      "desc": "Real screenshots are going in these three slots as the build lands.",
+      "upload": {
+        "label": "Upload a PDF",
+        "sub": "Pick a file and choose free or paid conversion"
+      },
+      "status": {
+        "label": "Conversion status",
+        "sub": "Queue position for free, or a progress bar for instant"
+      },
+      "finished": {
+        "label": "Finished audiobooks",
+        "sub": "Ready to download and keep, on-device"
+      }
+    },
+    "download": {
+      "eyebrow": "Get it",
+      "title": "Install it directly, for now",
+      "cardTitle": "PDF to Audiobook — Android APK",
+      "cardMeta": "Version pending · file goes live once it's uploaded",
+      "cta": "Download APK",
+      "note": "Google Play and the App Store are on the roadmap. Until then, this installs straight from the APK above — you'll need to allow installs from outside the Play Store on Android. The app itself is free; conversions are free-and-queued or paid-and-instant."
+    },
+    "cta": {
+      "eyebrow": "Building something like this too?",
+      "title": "This is one app from Glazni Apps — there's more where it came from.",
+      "desc": "Talk to us about a build, or see what else the studio is shipping.",
+      "ctaEmail": "Email hello@glazni.com",
       "ctaApps": "Back to Glazni Apps"
     }
   }
