@@ -1763,5 +1763,18 @@
       "ctaEmail": "Email hello@glazni.com",
       "ctaContact": "Contact the team"
     }
+  },
+  "notFound": {
+    "meta": {
+      "title": "Page not found — Glazni",
+      "description": "This page doesn't exist. Head back to the Glazni homepage or browse our ventures."
+    },
+    "hero": {
+      "eyebrow": "404",
+      "titleHtml": "Wrong turn.<br><span>This page doesn't exist.</span>",
+      "sub": "The link that brought you here is broken, or the page moved. Nothing lost — everything else is exactly where it should be.",
+      "ctaHome": "Go to homepage",
+      "ctaApps": "Back to Glazni Apps"
+    }
   }
 }
