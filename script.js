@@ -26,8 +26,18 @@ const LANG_FLAGS = {
   it: '🇮🇹'
 };
 
+// Resolve locale files relative to where script.js itself was loaded from,
+// not relative to the including page. Root pages include this as
+// "script.js" and pages one level down (e.g. apps/phone.html) include it as
+// "../script.js" — both point at the same physical file, so anchoring to
+// document.currentScript.src means the locale/ lookup keeps working no
+// matter how deeply nested the page is. document.currentScript is only
+// valid during this initial synchronous run, so it's captured up front,
+// before any of the async functions below are defined or called.
+const SCRIPT_URL = document.currentScript ? document.currentScript.src : window.location.href;
+
 function dataFileFor(lang) {
-  return `locale/data_${lang}.json`;
+  return new URL(`locale/data_${lang}.json`, SCRIPT_URL).href;
 }
 
 // Reads a previously-picked language out of localStorage, if any. Wrapped in
