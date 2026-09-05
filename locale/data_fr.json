@@ -1,0 +1,2048 @@
+{
+  "shared": {
+    "nav": {
+      "ventures": "Entreprises",
+      "careers": "Carrières",
+      "about": "À propos",
+      "contact": "Contact",
+      "getInTouch": "Nous contacter",
+      "toggleLabel": "Basculer le menu"
+    },
+    "footer": {
+      "brand": "Une société holding qui développe et gère un portefeuille croissant d'entreprises dans les logiciels, le marketing, le recrutement, les technologies hôtelières, l'informatique axée sur la confidentialité et l'hébergement de sites web — née d'un studio mobile-first fondé à Moscou.",
+      "companyHeading": "Entreprise",
+      "companyLinks": {
+        "about": "À propos",
+        "ventures": "Entreprises",
+        "careers": "Carrières",
+        "contact": "Contact"
+      },
+      "venturesHeading": "Entreprises",
+      "legalHeading": "Mentions légales",
+      "legalLinks": {
+        "privacy": "Politique de confidentialité",
+        "terms": "Conditions d'utilisation"
+      },
+      "copyright": "Glazni. Tous droits réservés.",
+      "builtBy": "Développé en interne par l'équipe Glazni.",
+      "venturesLinks": {
+        "apps": "Glazni Apps",
+        "growth": "Glazni Growth",
+        "talent": "Glazni Talent",
+        "dine": "Glazni Dine",
+        "studio": "Glazni Studio",
+        "degoogle": "Glazni DeGoogle",
+        "migrate": "Glazni Migrate"
+      }
+    }
+  },
+  "index": {
+    "meta": {
+      "title": "Glazni — Une société holding d'entreprises",
+      "description": "Glazni est une société holding qui gère un portefeuille croissant d'entreprises dans les logiciels, le marketing, le recrutement, les technologies hôtelières, l'informatique axée sur la confidentialité et l'hébergement de sites web — née d'un studio mobile-first fondé à Moscou."
+    },
+    "hero": {
+      "eyebrow": "Glazni — Moscou · Berlin · Toute l'Europe",
+      "titleHtml": "Une société holding.<br><span>Un portefeuille d'entreprises.</span>",
+      "sub": "Glazni a démarré comme un studio logiciel mobile-first, développant des applications iOS et Android haut de gamme et axées sur la confidentialité pour des clients en Russie, en Allemagne et dans le reste de l'Europe. Aujourd'hui, c'est la société holding derrière un portefeuille croissant d'entreprises indépendantes — couvrant les logiciels, le marketing, le recrutement, les technologies hôtelières, l'informatique axée sur la confidentialité et l'hébergement de sites web.",
+      "ctaExplore": "Découvrir les entreprises",
+      "ctaRoles": "Voir les postes ouverts",
+      "orbitLabel": "PORTEFEUILLE D'ENTREPRISES",
+      "stats": [
+        {
+          "num": "7 entreprises",
+          "desc": "Logiciels, marketing, recrutement, hôtellerie, confidentialité et hébergement"
+        },
+        {
+          "num": "6+ ans",
+          "desc": "En production depuis notre premier studio"
+        },
+        {
+          "num": "Moscou · Berlin",
+          "desc": "Racines d'ingénierie et hub européen"
+        }
+      ]
+    },
+    "media": {
+      "apps": {
+        "sub": "Ingénierie mobile et web",
+        "name": "Glazni Apps"
+      },
+      "degoogle": {
+        "sub": "Appareils axés sur la confidentialité",
+        "name": "Glazni DeGoogle"
+      },
+      "dine": {
+        "sub": "Technologie pour restaurants et livraison",
+        "name": "Glazni Dine"
+      },
+      "talent": {
+        "sub": "Recrutement international",
+        "name": "Glazni Talent"
+      }
+    },
+    "ticker": {
+      "moscow": {
+        "place": "Moscou",
+        "tag": "Siège d'ingénierie"
+      },
+      "berlin": {
+        "place": "Berlin",
+        "tag": "Hub européen"
+      },
+      "europe": {
+        "place": "Toute l'Europe",
+        "tag": "Couverture à distance"
+      },
+      "founded": {
+        "text": "Fondée à Moscou",
+        "tag": "il y a 6+ ans"
+      },
+      "apps": {
+        "tag": "Mobile et web",
+        "name": "Glazni Apps"
+      },
+      "growth": {
+        "tag": "Marketing",
+        "name": "Glazni Growth"
+      },
+      "talent": {
+        "tag": "Ressources humaines",
+        "name": "Glazni Talent"
+      },
+      "dine": {
+        "tag": "Technologie hôtelière",
+        "name": "Glazni Dine"
+      },
+      "studio": {
+        "tag": "Projets clients",
+        "name": "Glazni Studio"
+      },
+      "degoogle": {
+        "tag": "Appareils axés sur la confidentialité",
+        "name": "Glazni DeGoogle"
+      },
+      "migrate": {
+        "tag": "Hébergement de sites web",
+        "name": "Glazni Migrate"
+      }
+    },
+    "ventures": {
+      "eyebrow": "Portefeuille d'entreprises",
+      "title": "Une société holding. Sept entreprises.",
+      "desc": "Chaque entreprise avance selon sa propre feuille de route et gère son propre compte de résultat — tout en partageant la même infrastructure Glazni.",
+      "pillars": {
+        "apps": {
+          "desc": "Là où tout a commencé. Des applications iOS et Android haut de gamme et axées sur la confidentialité, la plupart développées pour des clients sous accord de confidentialité (NDA).",
+          "link": "Voir comment ça fonctionne →",
+          "title": "Glazni Apps"
+        },
+        "growth": {
+          "desc": "Marketing à la performance et stratégie de marque — pour les entreprises du groupe, et pour des clients externes.",
+          "title": "Glazni Growth"
+        },
+        "talent": {
+          "desc": "Recrutement et gestion des ressources humaines — avec accès à des profils qualifiés sur les marchés mondiaux du talent.",
+          "link": "En savoir plus →",
+          "title": "Glazni Talent"
+        },
+        "dine": {
+          "desc": "Des logiciels pour restaurants et exploitants hôteliers, vendus sous forme de forfaits clé en main.",
+          "link": "Comparer les forfaits →",
+          "title": "Glazni Dine"
+        },
+        "studio": {
+          "desc": "L'entreprise qui conçoit des applications mobiles et des sites web pour des clients — la même équipe mobile-first qui a lancé le studio d'origine.",
+          "link": "Voir comment ça fonctionne →",
+          "title": "Glazni Studio"
+        },
+        "degoogle": {
+          "desc": "Des guides GrapheneOS, nos propres applications axées sur la confidentialité, et des téléphones dégooglisés que nous concevons et vendons.",
+          "link": "En savoir plus →",
+          "title": "Glazni DeGoogle"
+        },
+        "migrate": {
+          "desc": "Nous reconstruisons des sites web pour les sortir des créateurs de sites par abonnement et les hébergeons nous-mêmes, généralement pour environ la moitié du coût récurrent.",
+          "link": "Voir comment ça fonctionne →",
+          "title": "Glazni Migrate"
+        }
+      }
+    },
+    "about": {
+      "eyebrow": "À propos",
+      "title": "D'un studio unique à un portefeuille d'entreprises.",
+      "desc": "Les mêmes exigences de savoir-faire et de responsabilité, désormais réparties sur sept équipes au lieu d'une seule.",
+      "copy": "Glazni a débuté comme un studio logiciel mobile-first à Moscou — une idée initialement montée par Aleksandr Gabushev, rejoint peu après par Franz Graaf pour aider à la développer — en construisant des applications Android et iOS rapides et à l'aspect natif, ainsi que les sites web, outils de bureau et infrastructures qui les entourent, pour des clients en Russie, en Allemagne et dans le reste de l'Europe. À mesure que ce studio grandissait, les équipes qui l'entouraient — marketing, recrutement, technologie hôtelière, design, informatique axée sur la confidentialité et migration de sites web — sont devenues des entreprises à part entière, chacune désormais gérée au quotidien par sa propre équipe. Glazni est aujourd'hui la société holding qui chapeaute l'ensemble : toujours ancrée à Moscou, avec Berlin comme hub européen et une couverture à distance sur le reste du continent.",
+      "culture": [
+        {
+          "title": "Gérées de façon indépendante",
+          "desc": "Chaque entreprise gère sa propre feuille de route et son propre compte de résultat. Personne n'attend dans la file d'une société mère."
+        },
+        {
+          "title": "Infrastructure commune",
+          "desc": "Le recrutement et la gestion des ressources humaines sont construits une seule fois — chez Glazni Talent — et chaque entreprise du groupe puise dans le même vivier de recrutement."
+        },
+        {
+          "title": "Mêmes racines",
+          "desc": "Chaque entreprise respecte les mêmes exigences de savoir-faire et de responsabilité sur lesquelles le studio moscovite d'origine a été bâti."
+        }
+      ],
+      "foundersEyebrow": "Fondateurs",
+      "foundersTitle": "Construit par deux personnes, pas par un conseil d'administration.",
+      "foundersDesc": "Le studio d'origine était le projet d'une seule personne. Le portefeuille d'entreprises est la construction de deux.",
+      "founders": [
+        {
+          "name": "Aleksandr Gabushev",
+          "desc": "Fondateur. Aleksandr a défini l'orientation initiale de Glazni — d'abord le studio mobile moscovite, puis l'idée de le faire grandir en un portefeuille d'entreprises indépendantes."
+        },
+        {
+          "name": "Franz Graaf",
+          "desc": "Cofondateur. Franz a rejoint l'aventure une fois cette orientation initiale définie, et a contribué à transformer le modèle de portefeuille d'entreprises en la société opérationnelle qu'elle est aujourd'hui."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Comment ça grandit",
+      "title": "Quatre étapes, de l'idée à l'entreprise.",
+      "desc": "Le même chemin que chaque entreprise du groupe a suivi jusqu'ici.",
+      "steps": [
+        {
+          "title": "Identifier",
+          "desc": "Nous cherchons des problèmes qui méritent d'être résolus — généralement ceux qu'une équipe de Glazni a déjà rencontrés de première main."
+        },
+        {
+          "title": "Construire",
+          "desc": "Une petite équipe livre un produit fonctionnel comme le faisait le studio d'origine : rapidement, et en production."
+        },
+        {
+          "title": "Exploiter",
+          "desc": "Une fois ses preuves faites, l'équipe la gère comme sa propre entreprise — son propre nom, sa propre feuille de route, son propre recrutement."
+        },
+        {
+          "title": "Passer à l'échelle",
+          "desc": "L'entreprise s'appuie sur Glazni Talent et l'infrastructure d'ingénierie commune pour se développer sans avoir à reconstruire les fondations."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Rejoindre le groupe",
+      "title": "Nous recherchons toujours des personnes qui veulent diriger quelque chose de concret.",
+      "desc": "Chaque entreprise recrute — consultez les postes ouverts, ou écrivez-nous à propos de la prochaine.",
+      "ctaRoles": "Voir les postes ouverts",
+      "ctaEmail": "Écrire à hello@glazni.com"
+    },
+    "contact": {
+      "eyebrow": "Nous contacter",
+      "title": "Dites-nous ce que vous construisez.",
+      "desc": "À propos d'une entreprise existante, d'une nouvelle, ou de tout autre chose.",
+      "form": {
+        "name": "Nom",
+        "email": "E-mail",
+        "message": "Message",
+        "submit": "Envoyer le message",
+        "note": "Ceci ouvre votre client de messagerie avec le message pré-rempli — nous répondons généralement sous un jour ouvré."
+      },
+      "info": {
+        "general": {
+          "label": "GÉNÉRAL",
+          "desc": "Réponse généralement sous un jour ouvré",
+          "phone": "+7 495 100 00 10"
+        },
+        "careers": {
+          "label": "CARRIÈRES",
+          "desc": "Postes ouverts dans toutes les entreprises"
+        },
+        "moscow": {
+          "label": "MOSCOU",
+          "title": "Siège d'ingénierie",
+          "address": "Tverskaya St. 22, Moscou, 125009, Russie",
+          "phone": "+7 495 100 20 30"
+        },
+        "berlin": {
+          "label": "BERLIN",
+          "title": "Hub européen",
+          "address": "Torstraße 140, 10119 Berlin, Allemagne",
+          "phone": "+49 30 2200 4410"
+        },
+        "europe": {
+          "label": "EUROPE",
+          "title": "Couverture à distance"
+        }
+      }
+    }
+  },
+  "phone": {
+    "meta": {
+      "title": "Phone — Glazni Apps",
+      "description": "Phone est un projet Glazni Apps : un composeur et un carnet d'adresses réunis dans une seule application, fonctionnant entièrement hors ligne, afin qu'appeler quelqu'un et conserver ses coordonnées ne nécessite jamais de compte Google ni de connexion de données."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Phone",
+      "status": "En développement",
+      "title": "Une seule application pour les appels et les contacts. Rien d'autre n'y touche.",
+      "sub": "Phone est un composeur et un carnet d'adresses conçus comme une seule application, et non deux. Aucun compte à créer, aucune synchronisation de contacts en arrière-plan, aucune donnée ne quitte l'appareil — composer un numéro et rechercher un contact se font sur le même écran, entièrement hors ligne.",
+      "ctaDownload": "Télécharger l'APK",
+      "ctaBack": "← Retour à Glazni Apps",
+      "meta": {
+        "platformLabel": "Plateforme",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Statut",
+        "statusValue": "En développement"
+      }
+    },
+    "idea": {
+      "eyebrow": "L'idée",
+      "title": "Votre composeur et votre carnet d'adresses n'ont jamais eu vocation à être deux applications distinctes.",
+      "p1": "Google propose une application d'appels et une application de contacts séparées. Fossify aussi. Comme presque tout le monde — deux applications distinctes, deux demandes d'autorisation différentes, et une liste de contacts qui doit se synchroniser entre elles pour fonctionner. Phone supprime entièrement cette séparation : le composeur, le journal d'appels et la liste de contacts complète vivent dans une seule application, de sorte qu'ajouter un numéro, le nommer et l'appeler se fait sans changer d'écran.",
+      "p2": "Elle fonctionne aussi entièrement hors ligne. Aucun compte, aucune synchronisation des contacts dans le cloud, rien qui ne communique avec Google ou qui que ce soit d'autre — vos contacts et votre historique d'appels restent sur l'appareil où ils sont stockés, ce qui est tout l'intérêt de dégoogliser un téléphone plutôt que de simplement changer l'entreprise qui détient les mêmes données.",
+      "frameLabel": "Emplacement de capture d'écran",
+      "frameSub": "L'écran combiné composeur et contacts sera affiché ici",
+      "imgAlt": "Écran combiné composeur et contacts dans l'application Phone"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Une application, trois choses qu'elle fait bien",
+      "desc": "Aucune seconde application à installer, à connecter ou à synchroniser.",
+      "steps": [
+        {
+          "title": "Composer",
+          "desc": "Tapez un numéro ou recherchez vos contacts depuis le même écran — pas besoin de basculer vers une autre application au préalable."
+        },
+        {
+          "title": "Enregistrer",
+          "desc": "Ajoutez ou modifiez un contact directement depuis le journal d'appels ou un appel manqué, tout étant stocké localement sur l'appareil."
+        },
+        {
+          "title": "Appeler",
+          "desc": "Composer un numéro et rechercher un contact fonctionnent exactement de la même manière avec la connexion de données désactivée — rien ici ne dépend d'internet."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Écrans",
+      "title": "À quoi ça ressemble",
+      "desc": "De vraies captures d'écran viendront occuper ces trois emplacements au fil du développement.",
+      "contacts": {
+        "label": "Contacts",
+        "sub": "Tout votre carnet d'adresses, stocké uniquement sur l'appareil"
+      },
+      "dialer": {
+        "label": "Composeur",
+        "sub": "Tapez un numéro ou recherchez un nom depuis le même clavier"
+      },
+      "log": {
+        "label": "Journal d'appels",
+        "sub": "Appels manqués, répondus et sortants, associés au contact"
+      }
+    },
+    "download": {
+      "eyebrow": "Se le procurer",
+      "title": "Installez-la directement, pour l'instant",
+      "cardTitle": "Phone — Android APK",
+      "cardMeta": "Version en attente · le fichier sera disponible une fois mis en ligne",
+      "cta": "Télécharger l'APK",
+      "note": "Google Play et l'App Store sont prévus dans la feuille de route. En attendant, l'installation se fait directement depuis l'APK ci-dessus — vous devrez autoriser les installations depuis en dehors du Play Store sur Android."
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose de similaire ?",
+      "title": "Ceci est une application parmi celles de Glazni Apps — il y en a d'autres du même genre.",
+      "desc": "Parlez-nous de votre projet, ou découvrez ce que le studio prépare d'autre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  },
+  "apps": {
+    "meta": {
+      "title": "Glazni Apps — Ingénierie mobile et web",
+      "description": "Glazni Apps est l'endroit où l'entreprise a commencé — de l'ingénierie iOS et Android haut de gamme et axée sur la confidentialité, développée principalement pour des clients sous accord de confidentialité (NDA)."
+    },
+    "hero": {
+      "eyebrow": "Entreprise 01 — Glazni Apps",
+      "title": "Là où Glazni a commencé, et où l'essentiel tourne encore.",
+      "sub": "Pas de cahier des charges, pas de NDA, personne ne nous paie pour les développer. Nous choisissons un petit problème que nous rencontrons réellement, développons une application ciblée et axée sur la confidentialité pour le résoudre, la publions sur le store, et tentons d'en faire un vrai produit — capable de tenir seul.",
+      "ctaTalk": "Parlez-nous de votre projet",
+      "ctaRoles": "Voir les postes ouverts",
+      "titleHtml": "Nous créons des applications mobiles<br/><span>Premium et axées sur la confidentialité</span>",
+      "ctaSee": "Voir ce que nous construisons"
+    },
+    "build": {
+      "eyebrow": "Ce que nous construisons",
+      "title": "Des applications haut de gamme et axées sur la confidentialité — chacune conçue pour une seule tâche.",
+      "p1": "Chaque application sur cette page existe parce que quelqu'un dans l'équipe la voulait. La stack technique comprend Flutter, Golang, HTMX et AWS — ainsi que quelques autres outils selon les besoins. Chaque projet est différent : choisir une tâche, bien la faire, et la garder privée et simple par défaut.",
+      "p2": "L'essentiel de ce que nous construisons est du travail commandité : des produits clients que nous concevons, livrons et maintenons sous notre nom ou le leur. Ce qui est public ou non est une décision de chaque client, pas la nôtre.",
+      "imgAlt": "Développement de nos propres applications chez Glazni Apps",
+      "p2Html": "Nous les finançons et les livrons nous-mêmes, selon notre propre calendrier. Certaines resteront gratuites, d'autres pourront avoir un petit prix unique ou un abonnement léger — selon ce qui a du sens pour que l'application continue d'exister. <br/><br/>REMARQUE : si ce que vous recherchez réellement, c'est quelque chose de conçu sur mesure, c'est une autre entreprise qu'il vous faut voir : Glazni Studio."
+    },
+    "private": {
+      "eyebrow": "Privé, par conception",
+      "title": "Nous ne référençons ni ne lions nos propres applications ici — pas encore.",
+      "desc": "Si vous avez déjà un lien vers l'une de nos applications, ce lien fonctionne. Ce site ne vous le fournira simplement pas.",
+      "noticeLabel": "Pourquoi :",
+      "notice": "l'essentiel de ce qui suit est encore récent, sur invitation, ou en cours de développement. Plutôt que de publier une liste partielle, à moitié publique, nous ne dirigeons tout simplement aucun trafic vers une application Glazni depuis ce site. Si l'on vous a directement envoyé un lien Play Store ou App Store, il est valide — allez-y, ouvrez-le. Rien ici ne vous y redirigera."
+    },
+    "rebuild": {
+      "eyebrow": "Également disponible",
+      "title": "Vous avez déjà un produit ? Nous le reconstruisons dans les règles de l'art.",
+      "p1": "Tous nos projets ne partent pas d'une page blanche. Une bonne partie de notre travail client consiste à réingénierer : prendre un site web, une application ou un outil interne existant devenu lent, fragile ou obsolète, et le reconstruire sur une stack réellement maintenable.",
+      "p2": "Si c'est ce dont vous avez besoin, c'est l'entreprise à qui en parler — même équipe, mêmes exigences, appliquées à quelque chose qui existe déjà.",
+      "imgAlt": "Reconstruction d'un produit existant"
+    },
+    "announce": {
+      "eyebrow": "Nouvelles annonces",
+      "title": "Ce que l'équipe construit en ce moment",
+      "desc": "Une poignée de nos propres applications, construites de la même manière que tout le reste — petites, privées par défaut, et publiques une fois prêtes.",
+      "tag": "En développement",
+      "photoJournal": {
+        "title": "Photo Journal",
+        "desc": "Une photo par jour, se transformant en autobiographie visuelle — et une trace pour ceux qui chercheront après votre départ.",
+        "status": "Publiée"
+      },
+      "resumeBuilder": {
+        "title": "Resume Builder",
+        "desc": "Des CV haut de gamme, conçus de façon professionnelle, proposés gratuitement ou presque plutôt que verrouillés derrière un abonnement.",
+        "status": "En développement"
+      },
+      "journal": {
+        "title": "Journal",
+        "desc": "Un simple journal quotidien — écrivez, fermez l'application, revenez demain. Aucune suggestion, aucune série à maintenir, aucune photo requise.",
+        "status": "En développement"
+      },
+      "tasks": {
+        "title": "Tasks",
+        "desc": "Une courte liste de ce qu'il y a à faire aujourd'hui, volontairement limitée — rien de synchronisé, rien de gamifié.",
+        "status": "En développement"
+      },
+      "contactsExporter": {
+        "title": "Contacts Exporter",
+        "desc": "Chaque contact, sorti de Google et placé dans un CSV que vous gardez localement — prêt pour le prochain téléphone, quel qu'il soit.",
+        "status": "En développement"
+      },
+      "backgroundChanger": {
+        "title": "Background Changer",
+        "desc": "Un fond d'écran qui évolue avec le matin, le soir et la nuit, parcourant automatiquement votre propre collection.",
+        "status": "En développement"
+      },
+      "phone": {
+        "title": "Phone",
+        "desc": "Un composeur et un carnet d'adresses réunis dans une seule application au lieu de deux, fonctionnant entièrement hors ligne, sans rien de synchronisé dans le cloud.",
+        "status": "En développement"
+      },
+      "messages": {
+        "title": "Messages",
+        "desc": "Des SMS et MMS envoyés directement via votre opérateur, entièrement hors ligne, sans compte ni relais dans le cloud.",
+        "status": "En développement"
+      },
+      "ideas": {
+        "title": "Ideas",
+        "desc": "Démarrez une idée, puis ajoutez toutes vos notes et réflexions à sa suite — un sous-titre par idée, rien à classer.",
+        "status": "En développement"
+      },
+      "itemTitle": "Apprentissage des langues",
+      "itemDesc": "Nous développons en interne une application d'apprentissage des langues. C'est encore tôt — pas encore de lien public, ni de date à annoncer — mais elle suivra la même approche axée sur la confidentialité que tout ce que Glazni publie.",
+      "keyboard": {
+        "title": "Glazni Keyboard",
+        "desc": "Un remplacement complet du clavier Google, avec reconnaissance vocale intégrée et traitée directement sur l'appareil — rien de ce qui est tapé ou dit ne quitte votre téléphone.",
+        "status": "En développement"
+      },
+      "pdfAudiobook": {
+        "title": "PDF to Audiobook",
+        "desc": "Transformez n'importe quel PDF en livre audio — gratuit avec une file d'attente pouvant aller jusqu'à une semaine, ou instantané si vous payez pour passer devant.",
+        "status": "En développement"
+      }
+    },
+    "cta": {
+      "eyebrow": "Vous avez une idée de cette envergure ?",
+      "title": "Nous sommes toujours à la recherche du prochain petit problème qui mérite d'être résolu.",
+      "desc": "Nous ne prenons pas de travail client ici — mais si vous avez une bonne idée pour une application ciblée et axée sur la confidentialité, nous serions ravis de l'entendre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaContact": "Contacter l'équipe",
+      "ctaStudio": "Vous cherchez à commander un développement ? Visitez Glazni Studio"
+    },
+    "studioPointer": {
+      "eyebrow": "Ce n'est pas ce que vous cherchez ?",
+      "title": "Besoin de quelque chose conçu sur mesure à la place ?",
+      "p1": "Tout ce qui figure sur cette page nous appartient — notre idée, notre budget, notre décision quant à la date de sortie. Si vous cherchez à commander une application ou un site web, c'est une autre branche de l'entreprise qu'il vous faut.",
+      "p2Html": "<a href=\"studio.html\">Glazni Studio</a> est notre entreprise dédiée au travail client : la même équipe, les mêmes exigences, développant des applications mobiles et des sites web pour des personnes qui nous paient pour les construire.",
+      "imgAlt": "Glazni Studio développe pour des clients"
+    }
+  },
+  "contactsExporter": {
+    "meta": {
+      "title": "Contacts Exporter — Glazni Apps",
+      "description": "Contacts Exporter est un projet Glazni Apps : extrayez tous les contacts de votre téléphone dans un simple fichier CSV que vous possédez, afin que changer de téléphone ne signifie jamais les perdre — ni avoir besoin que Google les conserve pour vous."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Contacts Exporter",
+      "status": "En développement",
+      "title": "Chaque contact, sorti de Google et placé dans un fichier que vous possédez réellement.",
+      "sub": "Contacts Exporter fait une seule chose : lire tous les contacts stockés sur votre téléphone et les transformer en un simple fichier CSV, enregistré localement. Aucun compte à créer, aucune synchronisation dans le cloud à laquelle faire confiance, rien qui ne reste dans la base de données de quelqu'un d'autre. La prochaine fois que vous changerez de téléphone — ou d'écosystème entier — vos contacts vous suivront, pas votre identifiant.",
+      "ctaDownload": "Télécharger l'APK",
+      "ctaBack": "← Retour à Glazni Apps",
+      "meta": {
+        "platformLabel": "Plateforme",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Statut",
+        "statusValue": "En développement"
+      }
+    },
+    "idea": {
+      "eyebrow": "L'idée",
+      "title": "Votre carnet d'adresses ne devrait pas exister uniquement dans le compte de quelqu'un d'autre.",
+      "p1": "Pour la plupart des gens, « sauvegarder ses contacts » signifie discrètement « faire confiance à Google pour les conserver pour toujours ». Cela fonctionne très bien jusqu'au jour où vous voulez partir — un nouveau téléphone, un nouveau système d'exploitation, la décision de dégoogliser — et où vous découvrez que votre propre carnet d'adresses n'a jamais vraiment été un fichier que vous pouviez simplement emporter avec vous.",
+      "p2": "Contacts Exporter résout ce problème en produisant le format le plus banal et le plus portable qui soit : un CSV. Noms, numéros, e-mails — une ligne par contact, lisible par absolument n'importe quoi, pour toujours. Il ne cherche pas à remplacer Google Contacts. Il s'assure simplement que vous n'en ayez pas besoin.",
+      "frameLabel": "Emplacement de capture d'écran",
+      "frameSub": "L'écran d'exportation sera affiché ici",
+      "imgAlt": "Écran d'exportation dans l'application Contacts Exporter"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Trois étapes, aucun compte requis",
+      "desc": "L'application ne renvoie jamais votre carnet d'adresses vers un serveur — c'est tout l'intérêt : elle n'en a pas besoin.",
+      "steps": [
+        {
+          "title": "Lire",
+          "desc": "Avec votre autorisation, l'application lit les contacts déjà stockés sur votre téléphone — rien n'est ajouté, rien n'est modifié."
+        },
+        {
+          "title": "Convertir",
+          "desc": "Chaque contact devient une ligne dans un fichier CSV propre : nom, numéros, e-mails et le reste, présentés simplement."
+        },
+        {
+          "title": "Conserver",
+          "desc": "Enregistrez le fichier localement, sauvegardez-le où vous le souhaitez, ou importez-le directement dans votre prochain téléphone — avec ou sans Google au milieu."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Écrans",
+      "title": "À quoi ça ressemble",
+      "desc": "De vraies captures d'écran viendront occuper ces trois emplacements au fil du développement.",
+      "list": {
+        "label": "Liste de contacts",
+        "sub": "Tout ce que l'application a trouvé sur l'appareil, avant toute modification"
+      },
+      "review": {
+        "label": "Vérification avant l'exportation",
+        "sub": "Vérifiez ce qui va être inclus dans le fichier avant qu'il ne soit écrit"
+      },
+      "export": {
+        "label": "Votre fichier CSV",
+        "sub": "Enregistré localement, prêt à être déplacé n'importe où"
+      }
+    },
+    "download": {
+      "eyebrow": "Se le procurer",
+      "title": "Installez-la directement, pour l'instant",
+      "cardTitle": "Contacts Exporter — Android APK",
+      "cardMeta": "Version en attente · le fichier sera disponible une fois mis en ligne",
+      "cta": "Télécharger l'APK",
+      "note": "Google Play et l'App Store sont prévus dans la feuille de route. En attendant, l'installation se fait directement depuis l'APK ci-dessus — vous devrez autoriser les installations depuis en dehors du Play Store sur Android."
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose de similaire ?",
+      "title": "Ceci est une application parmi celles de Glazni Apps — il y en a d'autres du même genre.",
+      "desc": "Parlez-nous de votre projet, ou découvrez ce que le studio prépare d'autre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  },
+  "degoogle": {
+    "meta": {
+      "title": "Glazni DeGoogle — Guides, applications et téléphones axés sur la confidentialité",
+      "description": "Glazni DeGoogle publie des guides complets sur GrapheneOS, LineageOS, /e/OS et CalyxOS, développe ses propres applications axées sur la confidentialité, et dégooglise des téléphones sur commande."
+    },
+    "hero": {
+      "eyebrow": "Entreprise 06 — Glazni DeGoogle",
+      "title": "Échappez à l'Empire. Dégooglisez votre téléphone dès aujourd'hui",
+      "sub": "Des guides pour GrapheneOS, LineageOS, /e/OS et CalyxOS écrits pour être vraiment suivis, nos propres applications axées sur la confidentialité, et des téléphones que nous dégooglisons nous-mêmes avant qu'ils ne vous soient expédiés.",
+      "ctaPhones": "Voir les téléphones dégooglisés",
+      "ctaGuides": "Lire les guides"
+    },
+    "guides": {
+      "eyebrow": "Guides GrapheneOS",
+      "title": "Complets, étape par étape, tenus à jour.",
+      "p1": "Nous rédigeons et maintenons des guides approfondis pour installer et vivre au quotidien sous GrapheneOS — du flashage de votre premier Pixel à la mise en bac à sable des services Google Play, en passant par le choix de stores alternatifs et le renforcement du système au-delà de ses réglages par défaut.",
+      "p2": "Aucun placement sponsorisé, aucun détour par des liens d'affiliation. Juste les étapes, écrites par des personnes qui utilisent cette configuration au quotidien.",
+      "imgAlt": "Guide d'installation GrapheneOS",
+      "noticeLabel": "Appareils pris en charge :",
+      "notice": "Uniquement les Google Pixel, génération actuelle et plusieurs années en arrière — GrapheneOS dépend du module de sécurité matériel du Pixel, ce qui explique aussi pourquoi c'est la plus stricte des quatre ROM que nous prenons en charge."
+    },
+    "guidesLineage": {
+      "eyebrow": "Guides LineageOS",
+      "title": "La prise en charge matérielle la plus large de toutes les ROM que nous couvrons.",
+      "p1": "LineageOS fonctionne sur bien plus de téléphones que toute autre option de cette page — Google Pixel, OnePlus, Xiaomi et Poco, Samsung, Sony, Motorola, Nothing, Fairphone et des dizaines d'autres, couvrant des appareils haut de gamme comme d'entrée de gamme sur plusieurs années. Nous maintenons des guides d'installation complets pour les modèles que nous vendons directement, ainsi que des conseils généraux de déverrouillage, de flashage et de récupération pour le reste.",
+      "p2": "Rien n'est installé par défaut que vous n'ayez pas demandé — réintégrez microG pour la compatibilité des applications, ou utilisez-le entièrement sans Google. Aucun placement sponsorisé, juste les étapes.",
+      "noticeLabel": "Appareils pris en charge :",
+      "notice": "des centaines de modèles officiellement pris en charge chez Pixel, OnePlus, Xiaomi/Poco, Samsung, Sony, Motorola, Nothing, Fairphone et bien d'autres. La prise en charge d'un modèle donné dépend d'un mainteneur communautaire actif et peut être abandonnée si personne ne la poursuit, c'est pourquoi nous vérifions toujours le statut officiel actuel avant de flasher ou de vendre un appareil.",
+      "imgAlt": "Guide d'installation LineageOS"
+    },
+    "guidesEos": {
+      "eyebrow": "Guides /e/OS",
+      "title": "Dégooglisé, sans renoncer à vos applications du quotidien.",
+      "p1": "/e/OS échange un peu de renforcement contre plus de confort au quotidien : son store App Lounge installe les applications Google Play sans jamais se connecter à un compte Google, ce qui rend la transition bien moins déroutante qu'avec GrapheneOS ou CalyxOS. Nous couvrons l'installation, App Lounge, et le compte Murena Workspace intégré qu'il peut utiliser en option pour le courrier, les contacts et le calendrier.",
+      "p2": "Nous rédigeons des guides d'installation complets pour les appareils que nous prenons en charge directement, et des conseils généraux de flashage pour tout le reste officiellement pris en charge. Aucun placement sponsorisé, juste les étapes.",
+      "noticeLabel": "Appareils pris en charge :",
+      "notice": "l'une des listes d'appareils les plus larges parmi les ROM axées sur la confidentialité — Samsung Galaxy, Google Pixel, Fairphone, Motorola, Nokia et bien d'autres. Murena vend également des Fairphone et ses propres appareils de marque Murena avec /e/OS préinstallé en usine, si vous préférez éviter complètement le flashage.",
+      "imgAlt": "Guide d'installation /e/OS"
+    },
+    "guidesCalyx": {
+      "eyebrow": "Guides CalyxOS",
+      "title": "Un renforcement digne des Pixel, avec les applications Google si vous en avez encore besoin.",
+      "p1": "CalyxOS se situe entre GrapheneOS et /e/OS : un renforcement axé sur les Pixel, associé à une option Google Play en bac à sable et à microG intégré, de sorte que vous conservez l'essentiel des avantages de sécurité sans perdre toutes les applications liées à Google. Nous couvrons l'installation, l'option Play en bac à sable, ainsi que le pare-feu Datura et les fonctionnalités Tor livrés avec le système.",
+      "p2": "Nous tenons nos guides CalyxOS à jour à chaque nouvelle version et signalons d'emblée toute réserve concernant un appareil ou une fonctionnalité. Aucun placement sponsorisé, juste les étapes.",
+      "noticeLabel": "Appareils pris en charge :",
+      "notice": "principalement les Google Pixel (génération actuelle et plusieurs années en arrière), avec également la prise en charge de certains modèles Fairphone et Motorola. CalyxOS est géré par l'organisation à but non lucratif Calyx Institute, dont le rythme de publication a connu des interruptions par le passé ; nous ne recommandons ou ne vendons donc un appareil qu'une fois confirmé qu'il tourne sur une version activement maintenue.",
+      "imgAlt": "Guide d'installation CalyxOS"
+    },
+    "ownApps": {
+      "eyebrow": "Nos propres applications",
+      "title": "De petits outils privés par défaut",
+      "desc": "Conçus pour la stack DeGoogle — aucun service Google requis, aucun suivi, aucun compte nécessaire pour commencer.",
+      "items": {
+        "phone": {
+          "name": "Phone",
+          "desc": "Un composeur et un carnet d'adresses réunis dans une seule application au lieu de deux, fonctionnant entièrement hors ligne, sans rien de synchronisé dans le cloud.",
+          "status": "En développement"
+        },
+        "journal": {
+          "name": "Journal",
+          "desc": "Un simple journal quotidien — écrivez, fermez l'application, revenez demain. Aucune suggestion, aucune série à maintenir, aucune photo requise.",
+          "status": "En développement"
+        },
+        "resumeBuilder": {
+          "name": "Resume Builder",
+          "desc": "Des CV haut de gamme, conçus de façon professionnelle, proposés gratuitement ou presque plutôt que verrouillés derrière un abonnement.",
+          "status": "En développement"
+        },
+        "backgroundChanger": {
+          "name": "Background Changer",
+          "desc": "Un fond d'écran qui évolue avec le matin, le soir et la nuit, parcourant automatiquement votre propre collection.",
+          "status": "En développement"
+        },
+        "ideas": {
+          "name": "Ideas",
+          "desc": "Démarrez une idée, puis ajoutez toutes vos notes et réflexions à sa suite — un sous-titre par idée, rien à classer.",
+          "status": "En développement"
+        },
+        "photoJournal": {
+          "name": "Photo Journal",
+          "desc": "Une photo par jour, se transformant en autobiographie visuelle — et une trace pour ceux qui chercheront après votre départ.",
+          "status": "Publiée"
+        },
+        "messages": {
+          "name": "Messages",
+          "desc": "Des SMS et MMS envoyés directement via votre opérateur, entièrement hors ligne, sans compte ni relais dans le cloud.",
+          "status": "En développement"
+        },
+        "pdfAudiobook": {
+          "name": "PDF to Audiobook",
+          "desc": "Transformez n'importe quel PDF en livre audio — gratuit avec une file d'attente pouvant aller jusqu'à une semaine, ou instantané si vous payez pour passer devant.",
+          "status": "En développement"
+        },
+        "tasks": {
+          "name": "Tasks",
+          "desc": "Une courte liste de ce qu'il y a à faire aujourd'hui, volontairement limitée — rien de synchronisé, rien de gamifié.",
+          "status": "En développement"
+        },
+        "keyboard": {
+          "name": "Glazni Keyboard",
+          "desc": "Un remplacement complet du clavier Google, avec reconnaissance vocale intégrée et traitée directement sur l'appareil — rien de ce qui est tapé ou dit ne quitte votre téléphone.",
+          "status": "En développement"
+        },
+        "contactsExporter": {
+          "name": "Contacts Exporter",
+          "desc": "Chaque contact, sorti de Google et placé dans un CSV que vous gardez localement — prêt pour le prochain téléphone, quel qu'il soit.",
+          "status": "En développement"
+        },
+        "languageLearning": {
+          "name": "Apprentissage des langues",
+          "desc": "Nous développons en interne une application d'apprentissage des langues. C'est encore tôt — pas encore de lien public, ni de date à annoncer — mais elle suivra la même approche axée sur la confidentialité que tout ce que Glazni publie.",
+          "status": "En développement"
+        }
+      }
+    },
+    "phones": {
+      "eyebrow": "Téléphones dégooglisés",
+      "title": "Nous les flashons, les renforçons, et les expédions prêts à l'emploi.",
+      "p1": "Nous nous procurons des appareils pris en charge et les flashons nous-mêmes — GrapheneOS, LineageOS, /e/OS ou CalyxOS, selon ce qui correspond à vos besoins — en retirant Google et en configurant des réglages par défaut sensés avant même que le téléphone ne vous parvienne. Flasher la mauvaise image ou sauter une étape peut rendre un téléphone inutilisable, c'est pourquoi nous gérons ce risque en interne et l'expédions prêt à l'emploi, sans qu'aucun guide d'installation ne soit nécessaire de votre côté (même si nous serons ravis de vous accompagner malgré tout).",
+      "p2": "Les modèles et ROM disponibles dépendent du stock actuel et de ce qui est officiellement pris en charge pour cet appareil. Contactez-nous et nous vous confirmerons ce qui est prêt à être expédié.",
+      "ctaAvailability": "Demander la disponibilité",
+      "imgAlt": "Un téléphone dégooglisé prêt à être expédié"
+    },
+    "cta": {
+      "eyebrow": "Vous passez au privé ?",
+      "title": "Commencez par un guide, ou par un téléphone déjà prêt.",
+      "desc": "Dans tous les cas, nous serons ravis de vous orienter dans la bonne direction.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaContact": "Contacter l'équipe"
+    }
+  },
+  "dine": {
+    "meta": {
+      "title": "Glazni Dine — Logiciels pour restaurants et livraison",
+      "description": "Glazni Dine regroupe des logiciels pour restaurants et livraison en combinaisons prêtes à l'emploi — application de livraison, panneau d'administration et application partenaire — chacune disponible dans plusieurs thèmes visuels."
+    },
+    "hero": {
+      "eyebrow": "Entreprise 04 — Glazni Dine",
+      "title": "Des logiciels pour restaurants, packagés comme les restaurants les achètent réellement.",
+      "sub": "Tous les restaurants n'ont pas besoin de la même chose dès le premier jour. Glazni Dine est vendu sous forme d'un ensemble de forfaits prêts à l'emploi — choisissez les éléments dont vous avez besoin maintenant, et évoluez vers le reste — chacun disponible dans un choix de thèmes visuels.",
+      "ctaPackages": "Voir les forfaits",
+      "ctaThemes": "Parcourir les thèmes"
+    },
+    "packages": {
+      "eyebrow": "Forfaits",
+      "title": "Trois façons d'entrer",
+      "desc": "Chaque forfait repose sur la même plateforme sous-jacente — vous choisissez simplement la part que vous souhaitez activer.",
+      "items": {
+        "starter": {
+          "eyebrow": "Débutant",
+          "name": "Application de livraison",
+          "includesHtml": [
+            "<b>Application de livraison pour les clients</b>, pour iOS et Android",
+            "Menu, commande et paiement, à l'image de votre restaurant",
+            "Notifications de commande directement vers votre installation existante"
+          ],
+          "cta": "Se renseigner sur ce forfait"
+        },
+        "standard": {
+          "eyebrow": "Standard",
+          "name": "Livraison + Administration",
+          "includesHtml": [
+            "Tout ce qui est inclus dans <b>Application de livraison</b>",
+            "<b>Panneau d'administration</b> pour la gestion du menu, des prix et des commandes",
+            "Suivi des commandes en temps réel et rapports de ventes de base"
+          ],
+          "cta": "Se renseigner sur ce forfait"
+        },
+        "complete": {
+          "eyebrow": "Complet",
+          "name": "Suite complète",
+          "includesHtml": [
+            "Tout ce qui est inclus dans <b>Livraison + Administration</b>",
+            "<b>Application partenaire</b> pour les livreurs ou le personnel de livraison interne",
+            "Transfert des itinéraires entre le panneau d'administration et l'application partenaire"
+          ],
+          "cta": "Se renseigner sur ce forfait"
+        }
+      }
+    },
+    "themes": {
+      "eyebrow": "Thèmes",
+      "title": "Choisissez un style visuel, gardez la même plateforme en dessous",
+      "desc": "Chaque forfait ci-dessus est disponible dans n'importe lequel de ces styles — changez de thème sans toucher à la structure sous-jacente.",
+      "gallery": {
+        "minimal": {
+          "name": "Minimaliste",
+          "desc": "Épuré, neutre, convient à presque tous les menus"
+        },
+        "bistro": {
+          "name": "Bistro Chaleureux",
+          "desc": "Tons chauds et terreux, conçu pour les restaurants avec service à table"
+        },
+        "fastcasual": {
+          "name": "Rapide et Décontracté",
+          "desc": "Contrastes marqués, facile à parcourir sur mobile"
+        },
+        "noir": {
+          "name": "Noir Gastronomique",
+          "desc": "Sombre, éditorial, pour les menus haut de gamme"
+        },
+        "bakery": {
+          "name": "Pâtisserie Pastel",
+          "desc": "Palette douce, conçu pour les cafés et boulangeries"
+        },
+        "cloud": {
+          "name": "Cuisine Fantôme",
+          "desc": "Utilitaire, pensé pour les cuisines dédiées uniquement à la livraison"
+        }
+      }
+    },
+    "cta": {
+      "eyebrow": "Vous ne savez pas quel forfait choisir ?",
+      "title": "Parlez-nous de votre restaurant et nous vous suggérerons un point de départ.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaContact": "Contacter l'équipe"
+    }
+  },
+  "backgroundChanger": {
+    "meta": {
+      "title": "Background Changer — Glazni Apps",
+      "description": "Background Changer est un projet Glazni Apps : un fond d'écran qui change avec le matin, le soir et la nuit, en parcourant automatiquement votre propre collection."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Background Changer",
+      "status": "En développement",
+      "title": "Un fond d'écran qui sait quelle heure il est.",
+      "sub": "Background Changer change votre fond d'écran au fil de la journée — matin, soir, nuit — pour que votre téléphone reste fidèle à lui-même à 8h comme à 20h, sans que vous ayez à toucher un seul réglage. Ajoutez votre propre collection et l'application continue d'y circuler, calée sur le rythme de la journée.",
+      "ctaDownload": "Télécharger l'APK",
+      "ctaBack": "← Retour à Glazni Apps",
+      "meta": {
+        "platformLabel": "Plateforme",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Statut",
+        "statusValue": "En développement"
+      }
+    },
+    "idea": {
+      "eyebrow": "L'idée",
+      "title": "Réglez-le une fois, et votre fond d'écran fait le reste.",
+      "p1": "La plupart des téléphones affichent le même fond d'écran statique, qu'il soit l'aube ou minuit. Background Changer considère que le fond d'écran devrait évoluer avec la journée — des tons plus clairs et plus chauds le matin, quelque chose de plus apaisé une fois la nuit tombée.",
+      "p2": "Ajoutez vos propres photos ou choisissez parmi un ensemble intégré, et l'application continue de les faire défiler selon son propre calendrier, calé sur le matin, le soir et la nuit — aucun changement manuel, aucun widget tiers à surveiller.",
+      "frameLabel": "Emplacement de capture d'écran",
+      "frameSub": "L'écran d'aperçu selon l'heure de la journée sera affiché ici",
+      "imgAlt": "Écran d'aperçu selon l'heure de la journée dans l'application Background Changer"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Trois réglages, puis tout se fait tout seul",
+      "desc": "Constituez la collection une fois — le calendrier prend ensuite le relais.",
+      "steps": [
+        {
+          "title": "Ajouter",
+          "desc": "Déposez vos propres fonds d'écran, ou partez de la collection intégrée — autant ou aussi peu que vous le souhaitez en rotation."
+        },
+        {
+          "title": "Programmer",
+          "desc": "L'application associe chaque fond d'écran au matin, au soir ou à la nuit, et change automatiquement selon le moment de la journée."
+        },
+        {
+          "title": "Circuler",
+          "desc": "À l'intérieur de chaque créneau horaire, elle continue de faire défiler tout ce que vous avez ajouté, pour ne jamais avoir le même aspect deux jours de suite."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Écrans",
+      "title": "À quoi ça ressemble",
+      "desc": "De vraies captures d'écran viendront occuper ces trois emplacements au fil du développement.",
+      "today": {
+        "label": "Actuellement affiché",
+        "sub": "Le fond d'écran actuel et le créneau horaire dans lequel il se trouve"
+      },
+      "collection": {
+        "label": "Votre collection",
+        "sub": "Tous les fonds d'écran que vous avez ajoutés, triés par créneau horaire"
+      },
+      "schedule": {
+        "label": "Le calendrier",
+        "sub": "Définissez le début du matin, du soir et de la nuit"
+      }
+    },
+    "download": {
+      "eyebrow": "Se le procurer",
+      "title": "Installez-la directement, pour l'instant",
+      "cardTitle": "Background Changer — Android APK",
+      "cardMeta": "Version en attente · le fichier sera disponible une fois mis en ligne",
+      "cta": "Télécharger l'APK",
+      "note": "Google Play et l'App Store sont prévus dans la feuille de route. En attendant, l'installation se fait directement depuis l'APK ci-dessus — vous devrez autoriser les installations depuis en dehors du Play Store sur Android."
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose de similaire ?",
+      "title": "Ceci est une application parmi celles de Glazni Apps — il y en a d'autres du même genre.",
+      "desc": "Parlez-nous de votre projet, ou découvrez ce que le studio prépare d'autre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  },
+  "careers": {
+    "meta": {
+      "title": "Carrières — Glazni",
+      "description": "Postes ouverts dans l'ensemble du portefeuille d'entreprises de Glazni — ingénierie, marketing, recrutement, technologie hôtelière, appareils axés sur la confidentialité, et opérations. Travail à distance par défaut."
+    },
+    "hero": {
+      "eyebrow": "Carrières chez Glazni",
+      "title": "Travaillez sur plus d'un problème qui mérite d'être résolu.",
+      "sub": "Chaque entreprise du portefeuille est composée de personnes qui n'ont pas voulu se spécialiser dans un seul problème — des ingénieurs qui livrent, des marketeurs qui construisent des systèmes, et des opérationnels qui dirigent de vraies équipes, répartis sur tous les marchés où nous recrutons.",
+      "ctaRoles": "Voir les postes ouverts",
+      "ctaProcess": "Comment se déroule le recrutement"
+    },
+    "culture": {
+      "eyebrow": "Comment nous travaillons",
+      "title": "Trois principes restent vrais dans toutes nos entreprises",
+      "items": [
+        {
+          "title": "L'autonomie avant les instructions",
+          "desc": "On vous fera confiance pour piloter une vraie partie d'une entreprise, pas seulement exécuter un ticket. Nous recrutons des personnes qui recherchent cela."
+        },
+        {
+          "title": "Le savoir-faire, pas seulement la vitesse",
+          "desc": "Nous avançons vite, mais une fonctionnalité livrée doit tout de même fonctionner, avoir l'air juste, et tenir la route en conditions réelles."
+        },
+        {
+          "title": "Mondial par défaut",
+          "desc": "Nos équipes couvrent volontairement plusieurs fuseaux horaires. Le travail à distance n'est pas une politique ici — c'est ainsi que l'entreprise a été construite."
+        }
+      ]
+    },
+    "rolesSection": {
+      "eyebrow": "Postes ouverts",
+      "title": "Postes dans tout le portefeuille",
+      "desc": "Vous ne trouvez pas exactement ce qu'il vous faut ? Écrivez-nous quand même — de nouveaux postes s'ouvrent à mesure que de nouvelles entreprises rejoignent le portefeuille.",
+      "filters": {
+        "all": "Tous les postes",
+        "eng": "Ingénierie",
+        "growth": "Marketing et croissance",
+        "talent": "Recrutement et RH",
+        "dine": "Technologie hôtelière",
+        "degoogle": "DeGoogle",
+        "migrate": "Migrate",
+        "ops": "Design et opérations"
+      },
+      "registryHead": {
+        "code": "Code",
+        "role": "Poste",
+        "location": "Lieu"
+      },
+      "detailsLabel": "Détails",
+      "headings": {
+        "about": "À propos du poste",
+        "whatYouDo": "Ce que vous ferez",
+        "whatWeLookFor": "Ce que nous recherchons",
+        "quickFacts": "En bref",
+        "techTools": "Tech et outils",
+        "tools": "Outils"
+      },
+      "factsLabels": {
+        "location": "Lieu",
+        "type": "Type"
+      },
+      "moreRoles": "+ d'autres postes s'ouvrent à mesure que de nouvelles entreprises rejoignent le portefeuille — écrivez-nous quand même",
+      "items": {
+        "gz102": {
+          "name": "Ingénieur DevOps",
+          "meta": "À distance · Temps plein",
+          "about": "Construisez l'infrastructure de Glazni Apps — du premier build local d'un développeur jusqu'au cluster qui le sert en production, et à terme l'infrastructure sur laquelle s'appuient aussi d'autres entreprises comme Migrate.",
+          "whatYouDo": [
+            "Exploiter et faire évoluer des clusters Kubernetes, avec Karpenter pour l'autoscaling des nœuds, sur des charges de travail clients comme internes",
+            "Construire et maintenir des pipelines CI/CD dans Jenkins et AWS CodePipeline pour les builds Golang et Flutter",
+            "Maintenir des environnements de développement locaux reproductibles avec Kind",
+            "Être responsable de l'infrastructure AWS de base — EC2, S3, et le réseau qui les relie",
+            "Assurer le monitoring et la journalisation avec Prometheus, Grafana et la stack EFK sur tous les environnements"
+          ],
+          "whatWeLookFor": [
+            "Expérience en production de l'exploitation de Kubernetes",
+            "À l'aise pour scripter de l'infrastructure en Golang, YAML, etc.",
+            "Véritable expérience AWS — maîtrise des coûts, gestion des incidents",
+            "Expérience concrète de Jenkins et AWS CodePipeline pour le CI/CD",
+            "Expérience concrète du monitoring basé sur Prometheus/Grafana et de la journalisation centralisée",
+            "Un plus : expérience avec Bazel ou CMake"
+          ],
+          "facts": {
+            "location": "À distance",
+            "type": "Temps plein"
+          },
+          "apply": "Postuler pour GZ-102"
+        },
+        "gz107": {
+          "name": "Product Designer",
+          "meta": "À distance · Temps plein",
+          "about": "Vous concevrez des produits depuis la page blanche jusqu'à une expérience 0-to-1 aboutie, dans tout le portefeuille — mobile, web, et les sites marketing entre les deux — puis continuerez à affiner chacun d'eux au fil des retours.",
+          "whatYouDo": [
+            "Concevoir des applications mobiles, des produits web et des sites marketing à partir de zéro",
+            "Construire et maintenir un design system partagé, utilisé dans toutes les entreprises",
+            "Revoir et itérer sur les designs en fonction des retours des fondateurs, des équipes des entreprises et des utilisateurs",
+            "Créer des éléments vectoriels dans Inkscape et réaliser des animations Lottie"
+          ],
+          "whatWeLookFor": [
+            "Un portfolio démontrant un véritable travail 0-to-1",
+            "De solides compétences pratiques en Figma, Inkscape et Lottie",
+            "À l'aise pour recevoir des retours et retravailler un design",
+            "Un plus : quelques notions de code"
+          ],
+          "facts": {
+            "location": "À distance",
+            "type": "Temps plein"
+          },
+          "apply": "Postuler pour GZ-107"
+        },
+        "gz114": {
+          "name": "Développeur Flutter Senior",
+          "meta": "À distance · Temps plein",
+          "about": "Vous serez responsable de bout en bout de l'architecture des applications Flutter, pour les projets clients comme internes, en définissant les patterns que le reste de l'équipe mobile suivra et en l'accompagnant au passage.",
+          "whatYouDo": [
+            "Concevoir l'architecture et livrer en production des applications Flutter pour iOS et Android",
+            "Écrire des modules natifs en Kotlin/Swift",
+            "Relire les pull requests mobiles et accompagner les développeurs Flutter confirmés et juniors",
+            "Travailler directement avec les clients sur les décisions d'architecture de leurs applications"
+          ],
+          "whatWeLookFor": [
+            "5 ans ou plus d'expérience dans la livraison d'applications Flutter en production",
+            "À l'aise pour accompagner des ingénieurs moins expérimentés et définir une direction technique",
+            "Bonne connaissance du développement natif iOS/Android (Kotlin/Swift)",
+            "Expérience dans la mise en place et la maintenance de pipelines CI/CD pour les releases mobiles",
+            "Un plus : une expérience de Golang, gRPC, ou plus spécifiquement de Jenkins (que nous utilisons en interne)"
+          ],
+          "facts": {
+            "location": "À distance",
+            "type": "Temps plein"
+          },
+          "apply": "Postuler pour GZ-114"
+        },
+        "gz115": {
+          "name": "Développeur Flutter Confirmé",
+          "meta": "À distance · Temps plein",
+          "about": "Vous développerez et maintiendrez des fonctionnalités Flutter en production pour des applications clients et internes, au sein d'une architecture déjà définie par un ingénieur senior.",
+          "whatYouDo": [
+            "Développer et livrer des fonctionnalités Flutter pour iOS et Android, sur des applications clients et internes",
+            "Écrire du code Dart propre et testable, conforme à l'architecture existante de l'application",
+            "Corriger des bugs et améliorer les performances sur des applications déjà en production",
+            "Travailler en binôme avec des ingénieurs senior sur les intégrations natives les plus délicates",
+            "Intégrer des fonctionnalités applicatives avec des API backend REST"
+          ],
+          "whatWeLookFor": [
+            "2 à 4 ans d'expérience dans la livraison d'applications Flutter en production",
+            "À l'aise avec la gestion d'état (Bloc, Riverpod ou Provider)",
+            "Solide expérience de la consommation d'API backend REST",
+            "Une expérience pratique du natif Kotlin/Swift",
+            "Un plus : une expérience de Golang ou des API gRPC"
+          ],
+          "facts": {
+            "location": "À distance",
+            "type": "Temps plein"
+          },
+          "apply": "Postuler pour GZ-115"
+        },
+        "gz116": {
+          "name": "Développeur Flutter Junior",
+          "meta": "À distance · Temps plein",
+          "about": "Vous acquerrez une expérience concrète en livrant de vraies applications Flutter en production, en travaillant étroitement avec des ingénieurs senior qui reliront votre code et vous accompagneront dans la montée en compétences.",
+          "whatYouDo": [
+            "Construire des écrans d'interface et de petites fonctionnalités en Flutter, sous la supervision d'ingénieurs senior",
+            "Corriger des bugs et écrire des tests pour des bases de code d'applications existantes",
+            "Apprendre l'architecture de l'application et prendre en charge progressivement des tâches plus importantes"
+          ],
+          "whatWeLookFor": [
+            "0 à 2 ans d'expérience en Flutter/Dart",
+            "Envie d'apprendre les pratiques de production",
+            "À l'aise pour recevoir des retours de code review et en tenir compte",
+            "Un plus : une expérience, même limitée, de Golang ou des API backend",
+            "Un plus : une légère familiarité avec Kotlin ou Swift — apprécié, mais pas requis à ce niveau"
+          ],
+          "facts": {
+            "location": "À distance",
+            "type": "Temps plein"
+          },
+          "apply": "Postuler pour GZ-116"
+        },
+        "gz117": {
+          "name": "Développeur Golang",
+          "meta": "À distance · Temps plein",
+          "about": "Vous développerez et maintiendrez les services et API Golang qui font fonctionner les applications Flutter clients et internes de Glazni Apps.",
+          "whatYouDo": [
+            "Concevoir et développer des API et services Golang déployés sur AWS",
+            "Modéliser et faire évoluer des schémas PostgreSQL",
+            "Écrire et maintenir des services gRPC lorsqu'ils s'intègrent à l'architecture d'une application",
+            "Travailler avec les ingénieurs mobiles pour concevoir les API dont dépendent leurs applications"
+          ],
+          "whatWeLookFor": [
+            "3 ans ou plus d'expérience dans le développement de services Golang en production",
+            "À l'aise pour concevoir et faire évoluer des schémas PostgreSQL",
+            "Expérience en production de gRPC et Kubernetes",
+            "Bonne connaissance d'AWS (EC2, S3) et des déploiements basés sur Docker",
+            "À l'aise avec les pipelines CI/CD basés sur Jenkins",
+            "Une expérience avec une base de données orientée graphe, comme Neo4j",
+            "Compréhension de base des pratiques de sécurité serveur",
+            "Un plus : une expérience de Java ou Node.js"
+          ],
+          "facts": {
+            "location": "À distance",
+            "type": "Temps plein"
+          },
+          "apply": "Postuler pour GZ-117"
+        },
+        "gz118": {
+          "name": "Spécialiste Marketing Email et Génération de Leads",
+          "meta": "À distance · Temps plein",
+          "about": "Prenez en charge vos propres e-mails de cycle de vie et de campagne, pilotez la génération de leads sortants via Apollo, et menez les négociations jusqu'à la signature avec les clients potentiels.",
+          "whatYouDo": [
+            "Construire et gérer des flux d'e-mails de cycle de vie dans Brevo, Mailchimp et Mailmeteor",
+            "Rédiger et planifier l'envoi des campagnes et newsletters pour chaque entreprise",
+            "Construire et exécuter des séquences de génération de leads sortants dans Apollo",
+            "Négocier directement avec les prospects et conclure des ventes, pas seulement transmettre des leads qualifiés",
+            "Segmenter les listes et personnaliser les envois en fonction du comportement des clients",
+            "Rendre compte des taux d'ouverture, de clic, de conversion et des chiffres du pipeline via HubSpot"
+          ],
+          "whatWeLookFor": [
+            "Expérience concrète de Brevo, HubSpot, Mailchimp, Mailmeteor, Listmonk et Apollo",
+            "À l'aise aussi bien pour rédiger le contenu que pour construire le flux lui-même",
+            "Expérience directe de la négociation avec les clients et de la conclusion de ventes",
+            "Historique concret d'amélioration des taux d'ouverture et de clic",
+            "Un plus : connaissances en backlinks ou en SEO"
+          ],
+          "facts": {
+            "location": "À distance",
+            "type": "Temps plein"
+          },
+          "apply": "Postuler pour GZ-118"
+        },
+        "gz119": {
+          "name": "Product Manager",
+          "meta": "À distance · Temps plein",
+          "about": "Prenez en charge les décisions produit de bout en bout — analysez les données, travaillez directement avec l'ingénierie, et décidez de ce qui sera réellement livré ensuite.",
+          "whatYouDo": [
+            "Définir et prioriser la roadmap produit, en travaillant directement avec les développeurs",
+            "Explorer les données d'usage et de funnel dans Metabase / Aparche Superset pour identifier ce qui fonctionne et ce qui ne fonctionne pas",
+            "Transformer les enseignements tirés des données en décisions concrètes de fonctionnalités et de croissance",
+            "Apporter un regard marketing sur le positionnement et les messages, en plus de la roadmap"
+          ],
+          "whatWeLookFor": [
+            "Expérience antérieure en tant que développeur full-stack",
+            "Une expérience avérée de la prise en charge d'un produit de bout en bout — spécification, développement, lancement, amélioration",
+            "De solides compétences générales en programmation ; une expérience de Golang, Flutter ou du développement mobile est un plus",
+            "À l'aise pour lire des tableaux de bord dans Metabase / Aparche Superset et transformer les données en décisions produit",
+            "Excellente connaissance de SQL - pour l'analyse de données",
+            "Une certaine aisance en marketing"
+          ],
+          "facts": {
+            "location": "À distance",
+            "type": "Temps plein"
+          },
+          "apply": "Postuler pour GZ-119"
+        }
+      }
+    },
+    "process": {
+      "eyebrow": "Comment se déroule le recrutement",
+      "title": "Quatre étapes, du début à l'offre",
+      "desc": "Pas d'étapes surprises. Vous saurez ce qui vous attend après chaque échange.",
+      "steps": [
+        {
+          "title": "Postuler",
+          "desc": "Envoyez vos coordonnées et un mot sur ce sur quoi vous aimeriez travailler — via l'un des postes ci-dessus, ou par un message général à careers@glazni.com."
+        },
+        {
+          "title": "Appel de découverte",
+          "desc": "Un échange de 30 minutes sur votre parcours et l'entreprise que vous rejoindriez."
+        },
+        {
+          "title": "Session de travail",
+          "desc": "Un échange pratique et rémunéré autour d'un vrai cas de travail — pas de test à faire chez vous pour rien."
+        },
+        {
+          "title": "Offre",
+          "desc": "Si le courant passe des deux côtés, vous recevrez une offre en quelques jours, pas en quelques semaines."
+        }
+      ]
+    },
+    "cta": {
+      "eyebrow": "Vous ne voyez pas votre poste ?",
+      "title": "Nous intégrons régulièrement de nouvelles entreprises à notre portefeuille — et recrutons pour chacune d'elles.",
+      "desc": "Écrivez-nous. Nous conservons chaque candidature pour la prochaine entreprise qui correspondra.",
+      "ctaEmail": "Écrire à careers@glazni.com",
+      "ctaContact": "Contacter l'équipe"
+    }
+  },
+  "ideas": {
+    "meta": {
+      "title": "Ideas — Glazni Apps",
+      "description": "Ideas est un projet Glazni Apps : démarrez une idée, puis déposez-y toutes les notes et pensées que vous avez à son sujet — une page continue par idée, plutôt qu'un dédale de dossiers et d'étiquettes."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Ideas",
+      "status": "En développement",
+      "title": "Une idée. Tout ce que vous en pensez, au même endroit.",
+      "sub": "Ideas fait l'impasse sur les dossiers, les étiquettes et les bases de données que la plupart des applications de notes vous demandent de configurer en premier. Démarrez une idée — c'est la seule structure qui existe — et chaque pensée que vous avez ensuite à son sujet devient une note empilée sous ce même titre. Pas de classement, pas à décider où quelque chose doit aller. Ça y est déjà.",
+      "ctaDownload": "Télécharger l'APK",
+      "ctaBack": "← Retour à Glazni Apps",
+      "meta": {
+        "platformLabel": "Plateforme",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Statut",
+        "statusValue": "En développement"
+      }
+    },
+    "idea": {
+      "eyebrow": "L'idée",
+      "title": "La plupart des applications de notes vous obligent à organiser avant même d'avoir pensé à quoi que ce soit.",
+      "p1": "L'application de notes classique vous demande de choisir un carnet, un dossier ou une étiquette avant même d'avoir écrit la pensée — si bien que les bonnes idées se perdent à force de chercher le bon endroit où les ranger. Ideas supprime cette étape. Vous créez une idée, une seule fois, comme un simple titre. Chaque note que vous ajoutez ensuite — une ligne, un lien, une pensée à moitié formée à 2 heures du matin — vient se placer juste en dessous, dans l'ordre, sans rien d'autre à décider.",
+      "p2": "Il n'y a pas de second niveau. Les notes n'ont pas leurs propres sous-notes, et les idées ne s'imbriquent pas les unes dans les autres. Si une pensée appartient à une idée, elle va sous le titre de cette idée et y reste — une page continue par idée plutôt qu'une arborescence à entretenir.",
+      "frameLabel": "Emplacement de capture d'écran",
+      "frameSub": "Une idée avec ses notes empilées en dessous sera affichée ici",
+      "imgAlt": "Une idée avec ses notes empilées en dessous dans l'application Ideas"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Démarrez-la, nourrissez-la, retrouvez-la",
+      "desc": "Toute l'application tient en trois étapes, et la troisième consiste juste à faire défiler.",
+      "steps": [
+        {
+          "title": "Démarrer une idée",
+          "desc": "Donnez-lui un nom, rien d'autre. Ce nom devient le seul sous-titre sous lequel tout ce qui la concerne va se retrouver."
+        },
+        {
+          "title": "Ajouter des notes",
+          "desc": "Dès qu'une pensée à son sujet vous vient, ouvrez l'idée et ajoutez-la comme note. Pas de nouvel écran, pas de dossier à choisir — elle vient simplement s'ajouter à la pile."
+        },
+        {
+          "title": "Y revenir",
+          "desc": "Ouvrez l'idée à tout moment et chaque note est là, dans l'ordre où vous y avez pensé — toute la forme de l'idée en un coup d'œil."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Écrans",
+      "title": "À quoi ça ressemble",
+      "desc": "De vraies captures d'écran viendront occuper ces trois emplacements au fil du développement.",
+      "list": {
+        "label": "Toutes les idées",
+        "sub": "Chaque idée que vous avez démarrée, une ligne chacune"
+      },
+      "notes": {
+        "label": "Une idée, ouverte",
+        "sub": "Son sous-titre en haut, chaque note empilée en dessous"
+      },
+      "capture": {
+        "label": "Capture rapide",
+        "sub": "Ajoutez une note à une idée en deux appuis, depuis n'importe où"
+      }
+    },
+    "download": {
+      "eyebrow": "Se le procurer",
+      "title": "Installez-la directement, pour l'instant",
+      "cardTitle": "Ideas — Android APK",
+      "cardMeta": "Version en attente · le fichier sera disponible une fois mis en ligne",
+      "cta": "Télécharger l'APK",
+      "note": "Google Play et l'App Store sont prévus dans la feuille de route. En attendant, l'installation se fait directement depuis l'APK ci-dessus — vous devrez autoriser les installations depuis en dehors du Play Store sur Android."
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose de similaire ?",
+      "title": "Ceci est une application parmi celles de Glazni Apps — il y en a d'autres du même genre.",
+      "desc": "Parlez-nous de votre projet, ou découvrez ce que le studio prépare d'autre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  },
+  "journal": {
+    "meta": {
+      "title": "Journal — Glazni Apps",
+      "description": "Journal est un projet Glazni Apps : une simple entrée par jour, datée automatiquement — aucune suggestion, aucune série à maintenir, aucune photo requise."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Journal",
+      "status": "En développement",
+      "title": "Une page blanche, une fois par jour.",
+      "sub": "Journal est exactement ce que son nom indique — une entrée en texte brut, datée automatiquement, sans rien d'autre demandé. Aucun suivi d'humeur, aucune suggestion, aucun compteur de série qui vous culpabilise d'écrire. Juste un endroit pour noter ce qui s'est passé, ou ce que vous pensez, quand l'envie vous en prend.",
+      "ctaDownload": "Télécharger l'APK",
+      "ctaBack": "← Retour à Glazni Apps",
+      "meta": {
+        "platformLabel": "Plateforme",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Statut",
+        "statusValue": "En développement"
+      }
+    },
+    "idea": {
+      "eyebrow": "L'idée",
+      "title": "Tout n'a pas besoin d'une fonctionnalité.",
+      "p1": "La plupart des applications de journaling rivalisent sur les suggestions, les graphiques d'humeur et les séries à maintenir — autant de couches supplémentaires entre vous et le simple fait d'écrire quelque chose. Journal fait l'impasse sur tout ça. Ouvrez l'application, l'entrée vierge du jour est là, et vous y écrivez ou pas.",
+      "p2": "Les entrées sont en texte brut, triées par date, rien de plus. Manquez un jour et il n'y a aucune série brisée dont se sentir coupable — juste une journée vide dans la chronologie, et l'entrée de demain qui attend juste en dessous.",
+      "frameLabel": "Emplacement de capture d'écran",
+      "frameSub": "L'écran de l'entrée du jour sera affiché ici",
+      "imgAlt": "Écran de l'entrée du jour dans l'application Journal"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Trois choses, c'est toute l'application",
+      "desc": "Aucun réglage à configurer avant de pouvoir commencer à écrire.",
+      "steps": [
+        {
+          "title": "Écrire",
+          "desc": "Ouvrez l'application sur l'entrée du jour et commencez à taper. Elle enregistre au fur et à mesure — pas de bouton d'enregistrement à penser à cliquer."
+        },
+        {
+          "title": "Parcourir",
+          "desc": "Chaque entrée passée s'aligne par date en dessous, en texte brut, facile à parcourir ou à rechercher."
+        },
+        {
+          "title": "Conserver",
+          "desc": "Exportez tout le journal sous forme de sauvegarde en texte brut à tout moment — il est à vous, pas enfermé dans l'application."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Écrans",
+      "title": "À quoi ça ressemble",
+      "desc": "De vraies captures d'écran viendront occuper ces trois emplacements au fil du développement.",
+      "today": {
+        "label": "L'entrée du jour",
+        "sub": "Une page blanche pour aujourd'hui, datée automatiquement"
+      },
+      "entries": {
+        "label": "Entrées passées",
+        "sub": "Chaque jour où vous avez écrit, dans l'ordre"
+      },
+      "search": {
+        "label": "Recherche",
+        "sub": "Retrouvez un mot ou une date dans toutes les entrées passées"
+      }
+    },
+    "download": {
+      "eyebrow": "Se le procurer",
+      "title": "Installez-la directement, pour l'instant",
+      "cardTitle": "Journal — Android APK",
+      "cardMeta": "Version en attente · le fichier sera disponible une fois mis en ligne",
+      "cta": "Télécharger l'APK",
+      "note": "Google Play et l'App Store sont prévus dans la feuille de route. En attendant, l'installation se fait directement depuis l'APK ci-dessus — vous devrez autoriser les installations depuis en dehors du Play Store sur Android."
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose de similaire ?",
+      "title": "Ceci est une application parmi celles de Glazni Apps — il y en a d'autres du même genre.",
+      "desc": "Parlez-nous de votre projet, ou découvrez ce que le studio prépare d'autre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  },
+  "messages": {
+    "meta": {
+      "title": "Messages — Glazni Apps",
+      "description": "Messages est un projet Glazni Apps : une application de messagerie qui fonctionne entièrement hors ligne, envoyant et recevant des SMS et MMS sans relais dans le cloud ni compte associé."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Messages",
+      "status": "En développement",
+      "title": "Des SMS qui ne touchent jamais internet.",
+      "sub": "Messages envoie et reçoit des SMS et MMS directement via votre opérateur — aucun relais dans le cloud, aucun compte à créer, rien qui ne synchronise vos conversations ailleurs. Elle fonctionne entièrement hors ligne, si bien que le contenu d'une conversation reste entre les téléphones qui l'échangent.",
+      "ctaDownload": "Télécharger l'APK",
+      "ctaBack": "← Retour à Glazni Apps",
+      "meta": {
+        "platformLabel": "Plateforme",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Statut",
+        "statusValue": "En développement"
+      }
+    },
+    "idea": {
+      "eyebrow": "L'idée",
+      "title": "Un SMS reste un SMS — il ne devrait pas avoir besoin d'un serveur.",
+      "p1": "De nombreuses applications de messagerie font transiter les SMS ordinaires par des serveurs d'entreprise, ou conservent les métadonnées de livraison même quand le message lui-même n'est qu'un simple SMS. Messages n'a pas de serveur par lequel transiter — elle communique directement avec le réseau SMS et MMS de votre opérateur, de la même façon que les SMS fonctionnent depuis deux décennies, et rien de tout cela ne nécessite de compte dans le cloud.",
+      "p2": "Comme Phone, elle est conçue pour fonctionner entièrement hors ligne. Aucune connexion, aucune synchronisation en arrière-plan, aucun contenu de message ne quitte jamais l'appareil si ce n'est via le réseau qui achemine déjà vos appels — ce qui en fait un véritable remplacement dégooglisé plutôt qu'une autre entreprise détenant les mêmes données.",
+      "frameLabel": "Emplacement de capture d'écran",
+      "frameSub": "L'écran de fil de conversation sera affiché ici",
+      "imgAlt": "Écran de fil de conversation dans l'application Messages"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Rien entre vous et le message",
+      "desc": "Aucun compte, aucun relais, aucune connexion de données requise.",
+      "steps": [
+        {
+          "title": "Écrire",
+          "desc": "Choisissez un contact — récupéré directement depuis Phone si vous utilisez les deux — et démarrez une conversation comme les SMS ont toujours fonctionné."
+        },
+        {
+          "title": "Envoyer",
+          "desc": "Les messages partent en SMS ou en MMS directement via votre opérateur — aucun serveur d'application au milieu, aucune connexion de données nécessaire."
+        },
+        {
+          "title": "Conserver",
+          "desc": "Chaque conversation reste stockée sur l'appareil, et non dans une sauvegarde cloud, elle n'existe donc que tant que vous décidez de la conserver."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Écrans",
+      "title": "À quoi ça ressemble",
+      "desc": "De vraies captures d'écran viendront occuper ces trois emplacements au fil du développement.",
+      "list": {
+        "label": "Conversations",
+        "sub": "Chaque conversation, la plus récente en premier, stockée localement"
+      },
+      "thread": {
+        "label": "Conversation",
+        "sub": "Une seule conversation, envoyée directement en SMS/MMS"
+      },
+      "compose": {
+        "label": "Composer",
+        "sub": "Démarrez un nouveau message, aucune connexion de données requise"
+      }
+    },
+    "download": {
+      "eyebrow": "Se le procurer",
+      "title": "Installez-la directement, pour l'instant",
+      "cardTitle": "Messages — Android APK",
+      "cardMeta": "Version en attente · le fichier sera disponible une fois mis en ligne",
+      "cta": "Télécharger l'APK",
+      "note": "Google Play et l'App Store sont prévus dans la feuille de route. En attendant, l'installation se fait directement depuis l'APK ci-dessus — vous devrez autoriser les installations depuis en dehors du Play Store sur Android."
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose de similaire ?",
+      "title": "Ceci est une application parmi celles de Glazni Apps — il y en a d'autres du même genre.",
+      "desc": "Parlez-nous de votre projet, ou découvrez ce que le studio prépare d'autre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  },
+  "talent": {
+    "meta": {
+      "title": "Glazni Talent — Recrutement international",
+      "description": "Glazni Talent gère le recrutement et la gestion des ressources humaines, avec un accès à des profils qualifiés sur les marchés mondiaux du talent, à moindre coût."
+    },
+    "hero": {
+      "eyebrow": "Entreprise 03 — Glazni Talent",
+      "title": "Constituez une équipe à l'étranger, sans avoir à ouvrir votre propre entité.",
+      "sub": "Glazni Talent gère le recrutement et la gestion des ressources humaines pour chaque entreprise du portefeuille — ainsi que pour les entreprises européennes qui souhaitent recruter sur des marchés mondiaux du talent comme l'Inde, le Pakistan, le Bangladesh, le Nigeria et d'autres pays, sans la lourdeur d'une entité locale. Nous intervenons comme votre Employer of Record, vous aidons à mettre en place votre propre filiale, ou nous chargeons simplement de sourcer et qualifier le candidat — pour que vous obteniez des talents qualifiés à une fraction du coût d'un recrutement local.",
+      "ctaTalk": "Parlez-nous de vos besoins en recrutement",
+      "ctaServices": "Voir nos services"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Nous sourçons, qualifions et gérons le recrutement — vous choisissez la structure.",
+      "p1": "Nous avons créé Glazni Talent pour résoudre d'abord notre propre problème de recrutement : sourcer des ingénieurs, marketeurs et opérationnels qualifiés sur des marchés émergents — l'Inde, le Pakistan, le Bangladesh et le Nigeria en tête — à un coût bien inférieur à celui d'un recrutement local des mêmes compétences. Une fois le modèle éprouvé pour nous-mêmes, nous l'avons ouvert à d'autres.",
+      "p2": "À partir de là, vous choisissez jusqu'où aller : recrutez via nous en tant qu'Employer of Record, sans besoin d'entité, embauchez directement un candidat sourcé et qualifié, ou laissez-nous vous aider à créer et staffer votre propre filiale si vous êtes prêt à vous implanter durablement sur le marché.",
+      "imgAlt": "Recrutement international chez Glazni Talent"
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "Trois façons de constituer une équipe à l'étranger",
+      "desc": "Chaque mission commence par le même processus de sourcing et de qualification — vous décidez ensuite du niveau de structure dont vous avez besoin autour.",
+      "packages": {
+        "sourcing": {
+          "eyebrow": "Le plus léger",
+          "name": "Sourcing et qualification de talents",
+          "includes": [
+            "Nous sourçons, présélectionnons et établissons une shortlist de candidats, en commençant par l'Inde, le Pakistan, le Bangladesh, le Nigeria et d'autres marchés émergents",
+            "Vous interviewez, embauchez et gérez directement la personne",
+            "Aucune entité requise, aucun engagement continu de notre part"
+          ],
+          "cta": "Se renseigner sur ce service"
+        },
+        "eor": {
+          "eyebrow": "Le plus populaire",
+          "name": "Employer of Record (EOR)",
+          "includes": [
+            "Nous employons légalement la personne recrutée en votre nom — <b>aucune entité locale nécessaire</b>",
+            "Paie, conformité et droit du travail local pris en charge pour vous",
+            "Vous gérez le travail au quotidien, nous gérons la paperasse"
+          ],
+          "cta": "Se renseigner sur ce service"
+        },
+        "branch": {
+          "eyebrow": "Long terme",
+          "name": "Création de filiale",
+          "includes": [
+            "Nous vous aidons à enregistrer et mettre en place votre propre bureau local",
+            "Support RH et gestion des ressources humaines continu une fois opérationnel",
+            "Idéal pour les équipes qui prévoient une présence durable sur le marché"
+          ],
+          "cta": "Se renseigner sur ce service"
+        }
+      },
+      "noticeLabel": "Où nous recrutons :",
+      "notice": "Notre pipeline de sourcing le plus solide couvre aujourd'hui l'Inde, le Pakistan, le Bangladesh et le Nigeria, sur des postes d'ingénierie, de marketing et d'opérations, avec une couverture élargie à d'autres marchés émergents à mesure que le portefeuille grandit."
+    },
+    "cta": {
+      "eyebrow": "Vous recrutez pour un poste ?",
+      "title": "Dites-nous quel poste, et nous vous dirons ce qui est possible.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaContact": "Contacter l'équipe"
+    }
+  },
+  "migrate": {
+    "meta": {
+      "title": "Glazni Migrate — Refontes et hébergement de sites web",
+      "description": "Glazni Migrate reconstruit des sites web actuellement hébergés sur des créateurs de sites par abonnement et les héberge de façon indépendante — généralement pour environ la moitié du coût récurrent, facturé au cas par cas selon le client."
+    },
+    "hero": {
+      "eyebrow": "Entreprise 07 — Glazni Migrate",
+      "title": "Le même site. La moitié de la facture.",
+      "sub": "Si votre site tourne sur un créateur de sites par abonnement, nous le reconstruisons dans les règles et l'hébergeons nous-mêmes — pour arriver généralement à environ la moitié de ce que vous payez aujourd'hui.",
+      "ctaQuote": "Demander un devis de migration",
+      "ctaHow": "Voir comment ça marche"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Nous le reconstruisons, puis nous l'hébergeons.",
+      "p1": "Envoyez-nous un lien vers votre site actuel. Nous reconstruisons les mêmes pages sur une infrastructure que nous gérons nous-mêmes — même contenu, même apparence si vous souhaitez la conserver, ou un rafraîchissement si vous préférez — sans plus aucun abonnement à un créateur de sites entre les deux.",
+      "p2": "Une fois la version reconstruite en ligne sur notre hébergement, vous annulez l'ancien abonnement. Modifier et gérer le site au quotidien ne devient pas plus compliqué — au contraire, c'est plus rapide, puisqu'il ne tourne plus à l'intérieur de la plateforme de quelqu'un d'autre.",
+      "imgAlt": "Reconstruction d'un site web en dehors d'un créateur de sites par abonnement"
+    },
+    "whatMoves": {
+      "eyebrow": "Ce qui est transféré",
+      "title": "Tout ce que vos visiteurs utilisent déjà, reconstruit dans les règles",
+      "desc": "Une migration couvre les éléments du site avec lesquels les visiteurs interagissent réellement, pas seulement les pages.",
+      "items": {
+        "design": {
+          "name": "Design",
+          "desc": "Votre mise en page et votre identité visuelle actuelles, reprises aussi fidèlement que vous le souhaitez — ou rafraîchies, si vous préférez profiter du transfert pour les mettre à jour."
+        },
+        "content": {
+          "name": "Contenu et pages",
+          "desc": "Chaque page, article et texte du site actuel est transféré, vérifié, et remis en place."
+        },
+        "forms": {
+          "name": "Formulaires et réservations",
+          "desc": "Les formulaires de contact, les modules de réservation et tout ce que les visiteurs soumettent sont reconstruits pour fonctionner de la même façon, ou mieux."
+        },
+        "domain": {
+          "name": "Domaine et e-mail",
+          "desc": "Nous nous occupons de pointer votre domaine vers le nouvel hébergement et veillons à ce que les e-mails liés à ce domaine continuent de fonctionner pendant la transition."
+        }
+      }
+    },
+    "pricing": {
+      "eyebrow": "Tarifs",
+      "title": "Environ la moitié de ce que vous payez actuellement — déterminé avec vous.",
+      "desc": "Chaque site actuel est différent, donc chaque devis l'est aussi. Ce n'est pas un hasard s'il n'y a pas de calculateur sur cette page.",
+      "noticeLabel": "À titre indicatif :",
+      "notice": "un site coûtant environ 20 $/mois sur un créateur de sites par abonnement classique tombe généralement autour de 10 $/mois une fois reconstruit et hébergé chez nous — environ la moitié. C'est un point de départ pour discuter, pas un prix automatique. Nous examinerons votre site réel, son trafic et ses besoins avant de nous mettre d'accord ensemble sur un montant."
+    },
+    "cta": {
+      "eyebrow": "Vous envisagez de changer ?",
+      "title": "Envoyez-nous un lien vers votre site actuel.",
+      "desc": "Nous vous dirons ce qu'impliquerait une reconstruction, et discuterons ensemble du coût.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaContact": "Contacter l'équipe"
+    }
+  },
+  "photoJournal": {
+    "meta": {
+      "title": "Photo Journal — Glazni Apps",
+      "description": "Photo Journal est un projet Glazni Apps : une photo par jour, se transformant en autobiographie visuelle — et une trace de vie pour les personnes qui viendront la chercher, une fois que vous ne serez plus là."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Photo Journal",
+      "status": "En développement",
+      "title": "Une photo par jour. Une vie sur laquelle vous pourrez vraiment revenir.",
+      "sub": "Photo Journal ne demande qu'une chose : une seule photo, une fois par jour. Aucune légende à écrire, aucune série à maintenir au-delà de ça. Enchaînez suffisamment de jours et cela devient quelque chose qu'un journal parvient rarement à offrir — une autobiographie visuelle que vous n'avez pas eu à vous asseoir pour écrire, et un jour, un moyen pour ceux qui vous aimaient de voir comment vous avez vraiment vécu.",
+      "ctaDownload": "Télécharger l'APK",
+      "ctaBack": "← Retour à Glazni Apps",
+      "meta": {
+        "platformLabel": "Plateforme",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Statut",
+        "statusValue": "En développement"
+      }
+    },
+    "idea": {
+      "eyebrow": "L'idée",
+      "title": "Une simple image est plus facile à conserver qu'un paragraphe.",
+      "p1": "La plupart des tentatives de tenir un journal échouent pour la même raison : la page blanche. Photo Journal la supprime. Une fois par jour, ouvrez l'application, prenez ou choisissez une photo, et c'est terminé. Elle ne demande pas pourquoi la journée comptait — la plupart du temps, vous ne le saurez que des années plus tard, en regardant en arrière.",
+      "p2": "Chaque entrée vient s'ajouter à une chronologie continue, une image par jour, dans l'ordre. Faites défiler un an en arrière et vous ne lirez pas des notes sur votre vie — vous la regarderez. C'est la matière première d'une autobiographie dont vous n'avez jamais eu à écrire un premier brouillon.",
+      "frameLabel": "Emplacement de capture d'écran",
+      "frameSub": "L'écran de capture du jour sera affiché ici",
+      "imgAlt": "Écran de capture du jour dans l'application Photo Journal"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Trois habitudes, pas cent",
+      "desc": "Toute l'application est volontairement minimaliste — l'important, c'est l'archive, pas les fonctionnalités.",
+      "steps": [
+        {
+          "title": "Capturer",
+          "desc": "Une fois par jour, l'application vous le rappelle. Prenez une nouvelle photo ou choisissez-en une déjà présente dans votre pellicule — ce à quoi ressemblait vraiment votre journée."
+        },
+        {
+          "title": "Rassembler",
+          "desc": "Chaque entrée vient s'aligner sur une seule chronologie, de la plus ancienne à la plus récente. Pas de fil d'actualité, pas de likes, pas d'algorithme — seulement l'ordre dans lequel vous les avez vraiment vécues."
+        },
+        {
+          "title": "Conserver",
+          "desc": "Votre archive s'exporte sous la forme d'un fichier qui vous appartient entièrement, si bien qu'elle survit aux mises à jour de l'application, aux changements de téléphone, et finalement, à vous — un héritage privé, pas une statistique de croissance pour une plateforme."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Écrans",
+      "title": "À quoi ça ressemble",
+      "desc": "De vraies captures d'écran viendront occuper ces trois emplacements au fil du développement.",
+      "today": {
+        "label": "Capture du jour",
+        "sub": "Une pression, une photo, et c'est réglé pour la journée"
+      },
+      "timeline": {
+        "label": "La chronologie",
+        "sub": "Chaque jour, dans l'ordre, à faire défiler aussi loin que vous l'avez conservé"
+      },
+      "detail": {
+        "label": "Une journée, ouverte",
+        "sub": "La photo, la date, rien d'autre pour distraire"
+      }
+    },
+    "download": {
+      "eyebrow": "Se le procurer",
+      "title": "Installez-la directement, pour l'instant",
+      "cardTitle": "Photo Journal — Android APK",
+      "cardMeta": "Version en attente · le fichier sera disponible une fois mis en ligne",
+      "cta": "Télécharger l'APK",
+      "note": "Google Play et l'App Store sont prévus dans la feuille de route. En attendant, l'installation se fait directement depuis l'APK ci-dessus — vous devrez autoriser les installations depuis en dehors du Play Store sur Android."
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose de similaire ?",
+      "title": "Ceci est une application parmi celles de Glazni Apps — il y en a d'autres du même genre.",
+      "desc": "Parlez-nous de votre projet, ou découvrez ce que le studio prépare d'autre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  },
+  "resumeBuilder": {
+    "meta": {
+      "title": "Resume Builder — Glazni Apps",
+      "description": "Resume Builder est un projet Glazni Apps : des CV haut de gamme, conçus de façon professionnelle, rendus gratuits ou presque, afin qu'un excellent CV ne soit pas verrouillé derrière un paywall."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Resume Builder",
+      "status": "En développement",
+      "title": "Un CV vraiment réussi, sans le paywall.",
+      "sub": "Resume Builder met à la portée de tous, gratuitement ou presque, le type de design de CV habituellement vendu comme modèle premium — mises en page soignées, véritable typographie, formatage qui passe les ATS. Répondez à quelques questions, choisissez une mise en page, et exportez quelque chose que vous seriez réellement fier d'envoyer.",
+      "ctaDownload": "Télécharger l'APK",
+      "ctaBack": "← Retour à Glazni Apps",
+      "meta": {
+        "platformLabel": "Plateforme",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Statut",
+        "statusValue": "En développement"
+      }
+    },
+    "idea": {
+      "eyebrow": "L'idée",
+      "title": "Un bon design ne devrait pas être la partie qu'il faut payer pour débloquer.",
+      "p1": "La plupart des outils de CV vous offrent une mise en page gratuite et cachent le reste — les polices, l'espacement, les formats d'export — derrière un abonnement, au moment même où vous en avez le moins les moyens. Resume Builder inverse cette logique : les mises en page premium sont la norme, pas l'option payante.",
+      "p2": "Vous renseignez votre expérience une seule fois. L'application se charge de la mise en page, de la hiérarchie, des marges — les éléments qui font qu'un CV a l'air réfléchi plutôt que copié-collé d'un modèle Word.",
+      "frameLabel": "Emplacement de capture d'écran",
+      "frameSub": "L'écran de l'éditeur de CV sera affiché ici",
+      "imgAlt": "Écran de l'éditeur de CV dans l'application Resume Builder"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Trois étapes pour un CV terminé",
+      "desc": "Aucune décision de design à prendre — juste vos informations et une mise en page qui vous plaît.",
+      "steps": [
+        {
+          "title": "Remplir",
+          "desc": "Saisissez votre expérience, votre formation et vos compétences une seule fois, dans des champs simples — aucun formatage à combattre pendant que vous tapez."
+        },
+        {
+          "title": "Choisir",
+          "desc": "Choisissez parmi un ensemble de mises en page premium, toutes conçues pour rester nettes à l'écran, sur papier et lorsqu'elles sont analysées par un ATS."
+        },
+        {
+          "title": "Exporter",
+          "desc": "Téléchargez un PDF terminé, gratuitement ou pour une somme symbolique — aucun abonnement récurrent juste pour récupérer votre propre CV."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Écrans",
+      "title": "À quoi ça ressemble",
+      "desc": "De vraies captures d'écran viendront occuper ces trois emplacements au fil du développement.",
+      "editor": {
+        "label": "L'éditeur",
+        "sub": "Renseignez vos informations, voyez la mise en page se mettre à jour en direct"
+      },
+      "templates": {
+        "label": "Sélecteur de modèles",
+        "sub": "Une galerie de mises en page premium, à changer à tout moment"
+      },
+      "export": {
+        "label": "Export",
+        "sub": "Un PDF terminé, prêt à imprimer, prêt à envoyer"
+      }
+    },
+    "download": {
+      "eyebrow": "Se le procurer",
+      "title": "Installez-la directement, pour l'instant",
+      "cardTitle": "Resume Builder — Android APK",
+      "cardMeta": "Version en attente · le fichier sera disponible une fois mis en ligne",
+      "cta": "Télécharger l'APK",
+      "note": "Google Play et l'App Store sont prévus dans la feuille de route. En attendant, l'installation se fait directement depuis l'APK ci-dessus — vous devrez autoriser les installations depuis en dehors du Play Store sur Android."
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose de similaire ?",
+      "title": "Ceci est une application parmi celles de Glazni Apps — il y en a d'autres du même genre.",
+      "desc": "Parlez-nous de votre projet, ou découvrez ce que le studio prépare d'autre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  },
+  "tasks": {
+    "meta": {
+      "title": "Tasks — Glazni Apps",
+      "description": "Tasks est un projet Glazni Apps : une simple liste de tâches — ajoutez ce qu'il faut faire, cochez-le, terminé. Pas de tableaux, pas d'étiquettes, pas de système de productivité."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Tasks",
+      "status": "En développement",
+      "title": "Une courte liste, pas un système.",
+      "sub": "Tasks est une simple liste de tâches — ajoutez ce qu'il faut faire, cochez-le, terminé. Pas de projets, pas d'étiquettes, pas de système de productivité à entretenir, juste la liste du jour et ce qui reste encore ouvert depuis avant.",
+      "ctaDownload": "Télécharger l'APK",
+      "ctaBack": "← Retour à Glazni Apps",
+      "meta": {
+        "platformLabel": "Plateforme",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Statut",
+        "statusValue": "En développement"
+      }
+    },
+    "idea": {
+      "eyebrow": "L'idée",
+      "title": "La liste, c'est toute l'application.",
+      "p1": "La plupart des applications de tâches finissent par devenir des gestionnaires de projets — tableaux, étiquettes, règles récurrentes, rappels empilés sur d'autres rappels. Tasks reste une liste : ajoutez un élément, cochez-le une fois terminé, supprimez-le si ça ne se fait pas.",
+      "p2": "Rien ne se reporte automatiquement et rien ne vous relance. Ce qui reste à la fin de la journée est toujours là demain, exactement là où vous l'avez laissé.",
+      "frameLabel": "Emplacement de capture d'écran",
+      "frameSub": "L'écran de la liste du jour sera affiché ici",
+      "imgAlt": "Écran de la liste du jour dans l'application Tasks"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Trois choses, c'est toute l'application",
+      "desc": "Rien à configurer avant de pouvoir commencer à ajouter à la liste.",
+      "steps": [
+        {
+          "title": "Ajouter",
+          "desc": "Tapez une tâche et elle est sur la liste — aucune date d'échéance, priorité ou projet à assigner, sauf si vous voulez l'écrire directement dans le texte."
+        },
+        {
+          "title": "Cocher",
+          "desc": "Appuyez pour marquer quelque chose comme terminé. Ça reste visible, barré, jusqu'à ce que vous l'effaciez."
+        },
+        {
+          "title": "Effacer",
+          "desc": "Effacez les tâches terminées quand vous voulez repartir sur une liste vierge — rien ne disparaît tout seul."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Écrans",
+      "title": "À quoi ça ressemble",
+      "desc": "De vraies captures d'écran viendront occuper ces trois emplacements au fil du développement.",
+      "today": {
+        "label": "La liste du jour",
+        "sub": "Tout ce qui est encore ouvert, dans l'ordre où vous l'avez ajouté"
+      },
+      "done": {
+        "label": "Terminé",
+        "sub": "Ce que vous avez déjà coché, conservé jusqu'à ce que vous l'effaciez"
+      },
+      "add": {
+        "label": "Ajouter",
+        "sub": "Tapez une tâche et elle est sur la liste"
+      }
+    },
+    "download": {
+      "eyebrow": "Se le procurer",
+      "title": "Installez-la directement, pour l'instant",
+      "cardTitle": "Tasks — Android APK",
+      "cardMeta": "Version en attente · le fichier sera disponible une fois mis en ligne",
+      "cta": "Télécharger l'APK",
+      "note": "Google Play et l'App Store sont prévus dans la feuille de route. En attendant, l'installation se fait directement depuis l'APK ci-dessus — vous devrez autoriser les installations depuis en dehors du Play Store sur Android."
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose de similaire ?",
+      "title": "Ceci est une application parmi celles de Glazni Apps — il y en a d'autres du même genre.",
+      "desc": "Parlez-nous de votre projet, ou découvrez ce que le studio prépare d'autre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  },
+  "studio": {
+    "hero": {
+      "eyebrow": "Entreprise 05 — Glazni Studio",
+      "title": "Des logiciels conçus selon vos besoins — mobile d'abord.",
+      "sub": "Glazni Studio conçoit des applications mobiles, des sites web, des logiciels de bureau et des outils internes pour les entreprises. Nous avons commencé comme un studio axé sur le mobile à Moscou, mais nous nous sommes depuis orientés vers le web, le bureau et les outils internes, y compris les applications CLI.",
+      "ctaTalk": "Démarrer un projet",
+      "ctaStack": "Voir notre stack"
+    },
+    "build": {
+      "mobile": {
+        "title": "Applications mobiles",
+        "desc": "Android et iOS à partir d'une seule base de code Flutter, avec du Kotlin et du Swift ajoutés là où des fonctionnalités natives sont nécessaires.",
+        "status": "Priorité principale"
+      },
+      "web": {
+        "title": "Sites web",
+        "desc": "Des interfaces légères, rendues côté serveur — rapides à charger, simples à maintenir, sans framework pour le plaisir d'en utiliser un."
+      },
+      "desktop": {
+        "title": "Applications de bureau",
+        "desc": "Aujourd'hui, nous ne développons que des applications Linux. Debien, RHEL, Arch. Windows arrive bientôt."
+      },
+      "internal": {
+        "title": "Logiciels internes",
+        "desc": "Des outils sur mesure conçus pour être utilisés par votre propre équipe. Par exemple des outils CLI, des outils OCR, etc. Cela aide à améliorer l'efficacité et la rapidité de votre organisation"
+      }
+    },
+    "stack": {
+      "eyebrow": "Comment nous le construisons",
+      "title": "Trois outils, l'essentiel du travail.",
+      "desc": "Tout le reste de la stack existe pour soutenir ces trois-là — le reste est choisi projet par projet, pas par défaut.",
+      "flutter": {
+        "title": "Flutter",
+        "desc": "Une seule base de code pour Android et iOS qui garde malgré tout une sensation native sur les deux — notre point de départ par défaut pour le travail mobile.",
+        "tag": "01 · Frontend"
+      },
+      "golang": {
+        "title": "Golang",
+        "desc": "Typé, rapide, ennuyeux dans le bon sens du terme — le langage backend vers lequel nous nous tournons quand un service doit rester disponible.",
+        "tag": "02 · Serveur"
+      },
+      "aws": {
+        "title": "AWS",
+        "desc": "Une infrastructure qui s'adapte à l'usage plutôt que de l'anticiper, provisionnée et surveillée sous forme de code.",
+        "tag": "03 · Infra"
+      }
+    },
+    "arsenal": {
+      "eyebrow": "Le reste de l'arsenal",
+      "title": "Choisi projet par projet, pas par défaut.",
+      "native": {
+        "title": "Mobile",
+        "desc": "Flutter, Kotlin, Swift."
+      },
+      "backend": {
+        "title": "Backend & IA",
+        "desc": "Golang, Node.js, Java Spring Boot, Langchain."
+      },
+      "data": {
+        "title": "Données",
+        "desc": "PostgreSQL, SQLite, Firebase, Neo4j, Metabase, Apache Superset."
+      },
+      "cloud": {
+        "title": "Cloud & ops",
+        "desc": "AWS, Google Cloud, Kubernetes, DevOps, Terraform."
+      },
+      "observability": {
+        "title": "Observabilité",
+        "desc": "Prometheus, Grafana, EFK Stack, Fluent Bit."
+      },
+      "web": {
+        "title": "Web",
+        "desc": "HTMX, HTML, CSS, JS."
+      }
+    },
+    "geo": {
+      "eyebrow": "Où nous opérons",
+      "title": "Distribué dès la conception.",
+      "desc": "Pas de bureau unique par lequel tout doit transiter — juste des équipes positionnées là où se trouve le travail.",
+      "moscow": {
+        "title": "Moscou, Russie",
+        "desc": "Là où Glazni a démarré, et où se trouve la majorité de l'équipe d'ingénierie."
+      },
+      "berlin": {
+        "title": "Berlin, Allemagne",
+        "desc": "Notre pôle pour les projets européens et les rencontres sur place."
+      },
+      "europe": {
+        "title": "À l'échelle de l'Europe",
+        "desc": "Une livraison à distance en priorité partout ailleurs sur le continent."
+      }
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose ?",
+      "title": "Dites-nous ce que vous construisez.",
+      "desc": "Tout commence par une conversation.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaContact": "Contacter l'équipe"
+    }
+  },
+  "notFound": {
+    "meta": {
+      "title": "Page introuvable — Glazni",
+      "description": "Cette page n'existe pas. Retournez à la page d'accueil de Glazni ou parcourez nos entreprises."
+    },
+    "hero": {
+      "eyebrow": "404",
+      "titleHtml": "Mauvaise direction.<br><span>Cette page n'existe pas.</span>",
+      "sub": "Le lien qui vous a menés ici est cassé, ou la page a été déplacée. Rien n'est perdu — tout le reste est exactement là où il devrait être.",
+      "ctaHome": "Aller à la page d'accueil",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  },
+  "keyboard": {
+    "meta": {
+      "title": "Glazni Keyboard — Glazni Apps",
+      "description": "Glazni Keyboard est un projet Glazni Apps : un remplacement complet du clavier Google avec reconnaissance vocale intégrée et traitée directement sur l'appareil — aucun audio ni aucune frappe ne quitte jamais votre téléphone."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — Glazni Keyboard",
+      "status": "En développement",
+      "title": "Un clavier qui n'écoute pas — à moins que vous ne le lui demandiez.",
+      "sub": "Glazni Keyboard est un remplacement complet du clavier Google : la frappe au quotidien, plus un bouton micro intégré pour la reconnaissance vocale qui fonctionne entièrement sur votre téléphone. Rien de ce que vous tapez ou dites n'est envoyé où que ce soit pour être transcrit. Conçu pour quiconque cherche à quitter l'écosystème Google sans perdre les fonctionnalités de clavier dont il a réellement besoin.",
+      "ctaDownload": "Télécharger l'APK",
+      "ctaBack": "← Retour à Glazni Apps",
+      "meta": {
+        "platformLabel": "Plateforme",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Statut",
+        "statusValue": "En développement",
+        "sttLabel": "Reconnaissance vocale",
+        "sttValue": "Sur l'appareil, via VOSK"
+      }
+    },
+    "idea": {
+      "eyebrow": "L'idée",
+      "title": "Tapez ou parlez — dans les deux cas, rien ne quitte le téléphone.",
+      "p1": "Le clavier Google est difficile à éviter, et c'est bien tout le problème : chaque frappe et chaque mot dicté est par défaut une donnée qui transite par les serveurs de quelqu'un d'autre. Glazni Keyboard est un remplacement direct — la même expérience de frappe au quotidien, les mêmes raccourcis et suggestions — conçu pour fonctionner entièrement hors ligne.",
+      "p2": "La reconnaissance vocale est intégrée dès l'origine, pas ajoutée après coup. Appuyez sur le micro et la dictée passe par un modèle VOSK local, directement sur votre appareil — aucun envoi audio, aucun service de transcription dans le cloud entre les deux. La prise en charge des modèles Whisper est prévue pour une future version, afin que vous puissiez choisir le modèle adapté à votre téléphone et à vos besoins de précision, le tout toujours traité localement.",
+      "frameLabel": "Emplacement de capture d'écran",
+      "frameSub": "La disposition du clavier au quotidien sera affichée ici",
+      "imgAlt": "Disposition de frappe au quotidien dans l'application Glazni Keyboard"
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Tout ce que fait un clavier — plus un micro privé",
+      "desc": "Une seule application, installée une fois, qui gère à la fois la frappe et la dictée sans jamais communiquer avec l'extérieur.",
+      "steps": [
+        {
+          "title": "Taper",
+          "desc": "Un clavier système complet avec suggestions et raccourcis standards, à définir par défaut à la place de Gboard — rien de ce qu'il apprend ne quitte votre appareil."
+        },
+        {
+          "title": "Parler",
+          "desc": "Appuyez sur le micro et parlez — un modèle VOSK local transcrit en temps réel directement sur l'appareil, sans qu'aucun audio ne quitte jamais votre téléphone pour être converti en texte."
+        },
+        {
+          "title": "Utiliser partout",
+          "desc": "Fonctionne dans n'importe quelle application acceptant un clavier — y compris Journal et Photo Journal, pour dicter une entrée au lieu de la taper."
+        }
+      ]
+    },
+    "pairs": {
+      "eyebrow": "Fonctionne bien avec",
+      "title": "Dictez directement dans Journal et Photo Journal.",
+      "p1": "Glazni Keyboard fonctionne comme votre clavier système partout, mais s'accorde particulièrement bien avec les autres applications de cette gamme. Dictez l'entrée du jour au lieu de la taper, avec la même garantie que toujours — les mots ne quittent jamais votre téléphone pour devenir du texte.",
+      "p2Html": "Utilisez-le avec <a href=\"journal.html\">Journal</a> pour une entrée quotidienne dictée, ou avec <a href=\"photo_journal.html\">Photo Journal</a> pour ajouter une courte note à la photo du jour — une reconnaissance vocale privée, sur une archive privée.",
+      "imgAlt": "Glazni Keyboard utilisé avec Journal et Photo Journal"
+    },
+    "screens": {
+      "eyebrow": "Écrans",
+      "title": "À quoi ça ressemble",
+      "desc": "De vraies captures d'écran viendront occuper ces trois emplacements au fil du développement.",
+      "typing": {
+        "label": "Frappe au quotidien",
+        "sub": "La disposition standard, définie comme clavier par défaut"
+      },
+      "voice": {
+        "label": "Saisie vocale",
+        "sub": "Transcription en direct sur l'appareil, aucun envoi en cours"
+      },
+      "model": {
+        "label": "Réglages du modèle",
+        "sub": "Choisissez la taille de votre modèle VOSK — les modèles Whisper arriveront plus tard"
+      }
+    },
+    "download": {
+      "eyebrow": "Se le procurer",
+      "title": "Installez-la directement, pour l'instant",
+      "cardTitle": "Glazni Keyboard — Android APK",
+      "cardMeta": "Version en attente · le fichier sera disponible une fois mis en ligne",
+      "cta": "Télécharger l'APK",
+      "note": "Google Play et l'App Store sont prévus dans la feuille de route. En attendant, l'installation se fait directement depuis l'APK ci-dessus — vous devrez autoriser les installations depuis en dehors du Play Store sur Android, et le définir comme clavier par défaut une fois installé."
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose de similaire ?",
+      "title": "Ceci est une application parmi celles de Glazni Apps — il y en a d'autres du même genre.",
+      "desc": "Parlez-nous de votre projet, ou découvrez ce que le studio prépare d'autre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  },
+  "pdfAudiobook": {
+    "meta": {
+      "title": "PDF to Audiobook — Glazni Apps",
+      "description": "PDF to Audiobook est un projet Glazni Apps : transformez n'importe quel PDF en livre audio à écouter. Gratuit avec une file d'attente pouvant aller jusqu'à une semaine, ou instantané si vous payez — dans les deux cas, votre document est supprimé une fois votre audio prêt."
+    },
+    "hero": {
+      "eyebrow": "Glazni Apps — PDF to Audiobook",
+      "status": "En développement",
+      "title": "Transformez n'importe quel PDF en quelque chose que vous pouvez écouter.",
+      "sub": "Déposez un PDF, récupérez un livre audio. C'est gratuit si vous pouvez patienter — les conversions se mettent en file d'attente et peuvent prendre jusqu'à une semaine environ selon la demande. Payez, et la vôtre passe devant la file et revient instantanément. Dans tous les cas, votre document n'est utilisé que pour créer votre audio puis il est supprimé — jamais stocké, jamais analysé pour autre chose.",
+      "ctaDownload": "Télécharger l'APK",
+      "ctaBack": "← Retour à Glazni Apps",
+      "meta": {
+        "platformLabel": "Plateforme",
+        "platformValue": "Android (APK)",
+        "statusLabel": "Statut",
+        "statusValue": "En développement",
+        "pricingLabel": "Tarifs",
+        "pricingValue": "Gratuit (en file d'attente) ou payant (instantané)"
+      }
+    },
+    "idea": {
+      "eyebrow": "L'idée",
+      "title": "Un livre n'a pas besoin de compte pour devenir un audio.",
+      "p1": "PDF to Audiobook fait exactement ce que son nom indique — importez un document, récupérez un fichier audio terminé. Pas d'application de lecture à laquelle passer, pas de compte de bibliothèque, pas d'abonnement que vous auriez oublié. La conversion elle-même fonctionne de la même façon quel que soit le choix ; la seule différence est votre position dans la file d'attente.",
+      "p2": "C'est l'un des rares projets Glazni Apps qui fonctionne surtout comme un service payant, parce que la puissance de calcul nécessaire pour convertir un document en narration au son naturel n'est pas gratuite — mais elle n'est jamais verrouillée derrière un abonnement. Payez à la pièce si vous le voulez tout de suite, ou ne payez rien du tout et il arrivera quand même, juste plus tard.",
+      "frameLabel": "Emplacement de capture d'écran",
+      "frameSub": "L'écran d'importation sera affiché ici",
+      "imgAlt": "Écran d'importation dans l'application PDF to Audiobook"
+    },
+    "pricing": {
+      "eyebrow": "Tarifs",
+      "title": "Gratuit si vous pouvez attendre. Instantané si vous ne pouvez pas.",
+      "desc": "L'application elle-même est un téléchargement gratuit. Chaque conversion est soit mise en file d'attente gratuitement, soit payante pour passer devant.",
+      "free": {
+        "eyebrow": "Gratuit",
+        "name": "Patientez",
+        "items": [
+          "<b>Aucun coût</b>, jamais — aucune carte requise",
+          "Rejoint une file d'attente de conversion partagée",
+          "Délai <b>allant jusqu'à environ une semaine</b>, selon la demande",
+          "Même qualité de narration que la version payante",
+          "Document supprimé une fois l'audio prêt"
+        ]
+      },
+      "paid": {
+        "eyebrow": "Payant",
+        "name": "Instantané",
+        "items": [
+          "<b>Payez à la pièce</b>, aucun abonnement imposé",
+          "Passe directement en tête de file",
+          "Prêt en <b>quelques minutes</b>, pas en jours",
+          "Même qualité de narration que la version gratuite",
+          "Document supprimé une fois l'audio prêt"
+        ]
+      }
+    },
+    "how": {
+      "eyebrow": "Comment ça marche",
+      "title": "Trois étapes, quel que soit votre choix",
+      "desc": "Importez une fois — le seul choix à faire est de savoir combien de temps vous êtes prêt à attendre.",
+      "steps": [
+        {
+          "title": "Importer",
+          "desc": "Déposez un PDF et l'application en extrait le texte lisible — fonctionne mieux sur les documents à base de texte ; les pages fortement scannées peuvent nécessiter un passage par l'OCR au préalable."
+        },
+        {
+          "title": "Convertir",
+          "desc": "Choisissez gratuit et il rejoint la file d'attente — jusqu'à environ une semaine selon la demande — ou payez et il est traité immédiatement, généralement en quelques minutes."
+        },
+        {
+          "title": "Écouter",
+          "desc": "Téléchargez le fichier audio terminé directement sur votre appareil. Il est à vous pour toujours — aucun verrouillage applicatif, aucun streaming requis."
+        }
+      ]
+    },
+    "screens": {
+      "eyebrow": "Écrans",
+      "title": "À quoi ça ressemble",
+      "desc": "De vraies captures d'écran viendront occuper ces trois emplacements au fil du développement.",
+      "upload": {
+        "label": "Importer un PDF",
+        "sub": "Choisissez un fichier et optez pour une conversion gratuite ou payante"
+      },
+      "status": {
+        "label": "Statut de la conversion",
+        "sub": "Position dans la file pour le gratuit, ou une barre de progression pour l'instantané"
+      },
+      "finished": {
+        "label": "Livres audio terminés",
+        "sub": "Prêts à télécharger et à conserver, sur l'appareil"
+      }
+    },
+    "download": {
+      "eyebrow": "Se le procurer",
+      "title": "Installez-la directement, pour l'instant",
+      "cardTitle": "PDF to Audiobook — Android APK",
+      "cardMeta": "Version en attente · le fichier sera disponible une fois mis en ligne",
+      "cta": "Télécharger l'APK",
+      "note": "Google Play et l'App Store sont prévus dans la feuille de route. En attendant, l'installation se fait directement depuis l'APK ci-dessus — vous devrez autoriser les installations depuis en dehors du Play Store sur Android. L'application elle-même est gratuite ; les conversions sont gratuites-et-en-file-d'attente ou payantes-et-instantanées."
+    },
+    "cta": {
+      "eyebrow": "Vous construisez quelque chose de similaire ?",
+      "title": "Ceci est une application parmi celles de Glazni Apps — il y en a d'autres du même genre.",
+      "desc": "Parlez-nous de votre projet, ou découvrez ce que le studio prépare d'autre.",
+      "ctaEmail": "Écrire à hello@glazni.com",
+      "ctaApps": "Retour à Glazni Apps"
+    }
+  }
+}

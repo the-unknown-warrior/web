@@ -216,28 +216,73 @@ h1,h2,h3,.font-display{
 .nav-links a:hover{ color:var(--ink); }
 .nav-links a.active{ color:var(--teal); }
 .nav-cta{ display:flex; align-items:center; gap:18px; }
+/* Language switcher — a single trigger that opens a dropdown list, so it
+   scales to any number of languages (EN/RU/DE/ES/FR/IT and beyond) without
+   the nav bar overflowing on narrow screens the way a flat button-strip would. */
 .lang-switch{
-  display:flex;
-  align-items:center;
-  border:1px solid var(--line-strong);
-  border-radius:var(--radius-sm);
-  overflow:hidden;
+  position:relative;
   flex-shrink:0;
 }
-.lang-btn{
+.lang-trigger{
+  display:flex;
+  align-items:center;
+  gap:7px;
   background:none;
-  border:none;
+  border:1px solid var(--line-strong);
+  border-radius:var(--radius-sm);
   font-family:'IBM Plex Mono', monospace;
   font-size:12px;
   letter-spacing:.03em;
   color:var(--ink-dim);
   padding:7px 11px;
   cursor:pointer;
+  transition:color .2s var(--ease), border-color .2s var(--ease);
+}
+.lang-trigger:hover{ color:var(--ink); border-color:var(--ink-dim); }
+.lang-caret{ flex-shrink:0; transition:transform .2s var(--ease); }
+.lang-switch.open .lang-trigger{ color:var(--ink); border-color:var(--teal); }
+.lang-switch.open .lang-caret{ transform:rotate(180deg); }
+
+.lang-menu{
+  position:absolute;
+  top:calc(100% + 8px);
+  right:0;
+  z-index:20;
+  min-width:152px;
+  margin:0;
+  padding:6px;
+  list-style:none;
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+  background:var(--navy-900);
+  border:1px solid var(--line-strong);
+  border-radius:var(--radius-sm);
+  box-shadow:0 16px 40px rgba(0,0,0,.45);
+}
+.lang-menu[hidden]{ display:none; }
+.lang-option{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  width:100%;
+  background:none;
+  border:none;
+  border-radius:2px;
+  font-family:'IBM Plex Mono', monospace;
+  font-size:13px;
+  letter-spacing:.02em;
+  color:var(--ink-dim);
+  padding:8px 10px;
+  cursor:pointer;
+  text-align:left;
   transition:color .2s var(--ease), background-color .2s var(--ease);
 }
-.lang-btn + .lang-btn{ border-left:1px solid var(--line-strong); }
-.lang-btn:hover{ color:var(--ink); }
-.lang-btn.active{ color:var(--navy-950); background:var(--teal); }
+.lang-option .lang-option-code{ color:var(--ink-faint); font-size:11px; }
+.lang-option:hover{ color:var(--ink); background:rgba(255,255,255,.05); }
+.lang-option.active{ color:var(--navy-950); background:var(--teal); }
+.lang-option.active .lang-option-code{ color:var(--navy-950); opacity:.7; }
 .nav-toggle{
   display:none;
   background:none; border:1px solid var(--line-strong); border-radius:var(--radius-sm);

@@ -1,9 +1,21 @@
-const SUPPORTED_LANGS = ['en', 'ru'];
+const SUPPORTED_LANGS = ['en', 'ru', 'de', 'es', 'fr', 'it'];
 const DEFAULT_LANG = 'en';
 const LANG_STORAGE_KEY = 'glazniLang';
 
+// Each language's own name, shown as-is regardless of the current UI
+// language (the normal convention — "Deutsch" isn't translated to "German"
+// just because the page is in English).
+const LANG_NAMES = {
+  en: 'English',
+  ru: 'Русский',
+  de: 'Deutsch',
+  es: 'Español',
+  fr: 'Français',
+  it: 'Italiano'
+};
+
 function dataFileFor(lang) {
-  return `/data_${lang}.json`;
+  return `locale/data_${lang}.json`;
 }
 
 // Reads a previously-picked language out of localStorage, if any. Wrapped in
@@ -106,28 +118,76 @@ async function loadI18n(lang) {
 }
 
 // ---------- language switch ----------
-// Reflects `lang` on the toggle buttons (the .active class + aria-pressed),
-// persists the choice, and re-fetches/applies the matching dictionary.
-// Pass persist:false for the very first call so simply loading a page
-// doesn't overwrite a saved preference with the same value pointlessly.
+// The switcher is a single trigger button (showing the current language
+// code) that opens a dropdown list of every supported language. Using a
+// dropdown instead of a flat row of buttons means adding more languages
+// later never risks overflowing the nav bar on small screens.
+const langSwitch = document.getElementById('langSwitch');
+const langTrigger = document.getElementById('langTrigger');
+const langTriggerCode = langTrigger ? langTrigger.querySelector('[data-lang-code]') : null;
+const langMenu = document.getElementById('langMenu');
+
+function closeLangMenu() {
+  if (!langSwitch || !langMenu) return;
+  langSwitch.classList.remove('open');
+  langMenu.hidden = true;
+  langTrigger.setAttribute('aria-expanded', 'false');
+}
+
+function openLangMenu() {
+  if (!langSwitch || !langMenu) return;
+  langSwitch.classList.add('open');
+  langMenu.hidden = false;
+  langTrigger.setAttribute('aria-expanded', 'true');
+  // Don't let the mobile full-screen nav sit open behind the dropdown.
+  if (typeof closeNavMenu === 'function') closeNavMenu();
+}
+
+// Reflects `lang` on the trigger label and the option list (.active class +
+// aria-selected), persists the choice, and re-fetches/applies the matching
+// dictionary. Pass persist:false for the very first call so simply loading
+// a page doesn't overwrite a saved preference with the same value pointlessly.
 function setLanguage(lang, { persist = true } = {}) {
   if (!SUPPORTED_LANGS.includes(lang)) return;
   currentLang = lang;
   if (persist) storeLang(lang);
-  document.querySelectorAll('.lang-btn').forEach(btn => {
-    const isActive = btn.dataset.lang === lang;
-    btn.classList.toggle('active', isActive);
-    btn.setAttribute('aria-pressed', String(isActive));
+  if (langTriggerCode) langTriggerCode.textContent = lang.toUpperCase();
+  document.querySelectorAll('.lang-option').forEach(opt => {
+    const isActive = opt.dataset.lang === lang;
+    opt.classList.toggle('active', isActive);
+    opt.setAttribute('aria-selected', String(isActive));
   });
   loadI18n(lang);
 }
 
-document.querySelectorAll('.lang-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    if (btn.dataset.lang === currentLang) return;
-    setLanguage(btn.dataset.lang);
+if (langTrigger && langMenu) {
+  langTrigger.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (langMenu.hidden) openLangMenu(); else closeLangMenu();
   });
-});
+
+  document.querySelectorAll('.lang-option').forEach(opt => {
+    opt.addEventListener('click', () => {
+      const lang = opt.dataset.lang;
+      closeLangMenu();
+      if (lang === currentLang) return;
+      setLanguage(lang);
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    if (langMenu.hidden) return;
+    if (langSwitch.contains(e.target)) return;
+    closeLangMenu();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !langMenu.hidden) {
+      closeLangMenu();
+      langTrigger.focus();
+    }
+  });
+}
 
 setLanguage(currentLang, { persist: false });
 
@@ -153,6 +213,7 @@ if (navToggle) {
     const isOpen = navLinks.classList.toggle('open');
     nav.classList.toggle('menu-open', isOpen);
     navToggle.setAttribute('aria-expanded', String(isOpen));
+    if (isOpen) closeLangMenu();
   });
   navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', closeNavMenu));
 
