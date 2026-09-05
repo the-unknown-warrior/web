@@ -26,13 +26,13 @@
       "copyright": "Glazni. Alle Rechte vorbehalten.",
       "builtBy": "Intern entwickelt vom Glazni-Team.",
       "venturesLinks": {
-        "apps": "Glazni Apps",
-        "growth": "Glazni Growth",
-        "talent": "Glazni Talent",
-        "dine": "Glazni Dine",
+        "apps": "Glazni Anwendungen",
+        "growth": "Glazni Wachstum",
+        "talent": "Glazni Talente",
+        "dine": "Glazni Gastronomie",
         "studio": "Glazni Studio",
         "degoogle": "Glazni DeGoogle",
-        "migrate": "Glazni Migrate"
+        "migrate": "Glazni Migration"
       }
     }
   },
@@ -66,7 +66,7 @@
     "media": {
       "apps": {
         "sub": "Mobile- & Web-Engineering",
-        "name": "Glazni Apps"
+        "name": "Glazni Anwendungen"
       },
       "degoogle": {
         "sub": "Privatsphärenorientierte Geräte",
@@ -74,11 +74,11 @@
       },
       "dine": {
         "sub": "Restaurant- & Liefertechnologie",
-        "name": "Glazni Dine"
+        "name": "Glazni Gastronomie"
       },
       "talent": {
         "sub": "Globales Recruiting",
-        "name": "Glazni Talent"
+        "name": "Glazni Talente"
       }
     },
     "ticker": {
@@ -100,19 +100,19 @@
       },
       "apps": {
         "tag": "Mobile & Web",
-        "name": "Glazni Apps"
+        "name": "Glazni Anwendungen"
       },
       "growth": {
         "tag": "Marketing",
-        "name": "Glazni Growth"
+        "name": "Glazni Wachstum"
       },
       "talent": {
         "tag": "Menschen",
-        "name": "Glazni Talent"
+        "name": "Glazni Talente"
       },
       "dine": {
         "tag": "Hospitality-Technologie",
-        "name": "Glazni Dine"
+        "name": "Glazni Gastronomie"
       },
       "studio": {
         "tag": "Kundenprojekte",
@@ -124,7 +124,7 @@
       },
       "migrate": {
         "tag": "Website-Hosting",
-        "name": "Glazni Migrate"
+        "name": "Glazni Migration"
       }
     },
     "ventures": {
@@ -135,21 +135,21 @@
         "apps": {
           "desc": "Wo alles begann. Hochwertige, auf Privatsphäre ausgerichtete iOS- und Android-Apps, meist für Kunden unter NDA entwickelt.",
           "link": "So funktioniert's →",
-          "title": "Glazni Apps"
+          "title": "Glazni Anwendungen"
         },
         "growth": {
           "desc": "Performance-Marketing und Markenstrategie — für die Ventures und für externe Kunden.",
-          "title": "Glazni Growth"
+          "title": "Glazni Wachstum"
         },
         "talent": {
           "desc": "Recruiting und Personalwesen — inklusive Zugang zu qualifizierten Fachkräften auf globalen Talentmärkten.",
           "link": "Mehr erfahren →",
-          "title": "Glazni Talent"
+          "title": "Glazni Talente"
         },
         "dine": {
           "desc": "Software für Restaurants und Hospitality-Betreiber, verkauft als fertige Pakete.",
           "link": "Pakete vergleichen →",
-          "title": "Glazni Dine"
+          "title": "Glazni Gastronomie"
         },
         "studio": {
           "desc": "Das Venture, das mobile Apps und Websites für Kunden entwickelt — dasselbe mobile-first Team, mit dem das ursprüngliche Studio begann.",
@@ -164,7 +164,7 @@
         "migrate": {
           "desc": "Wir bauen Websites von Abo-basierten Website-Baukästen ab und hosten sie selbst — meist zu etwa der Hälfte der laufenden Kosten.",
           "link": "So funktioniert's →",
-          "title": "Glazni Migrate"
+          "title": "Glazni Migration"
         }
       }
     },
@@ -180,7 +180,7 @@
         },
         {
           "title": "Gemeinsames Fundament",
-          "desc": "Recruiting und Personalwesen werden einmal aufgebaut — bei Glazni Talent — und jedes Venture im Index nutzt dieselbe Recruiting-Pipeline."
+          "desc": "Recruiting und Personalwesen werden einmal aufgebaut — bei Glazni Talente — und jedes Venture im Index nutzt dieselbe Recruiting-Pipeline."
         },
         {
           "title": "Dieselben Wurzeln",
@@ -220,7 +220,7 @@
         },
         {
           "title": "Skalieren",
-          "desc": "Das Venture nutzt Glazni Talent und das gemeinsame Engineering-Fundament, um zu wachsen, ohne die Grundlagen neu aufzubauen."
+          "desc": "Das Venture nutzt Glazni Talente und das gemeinsame Engineering-Fundament, um zu wachsen, ohne die Grundlagen neu aufzubauen."
         }
       ]
     },
@@ -273,16 +273,16 @@
   },
   "phone": {
     "meta": {
-      "title": "Telefon — Glazni Apps",
+      "title": "Telefon — Glazni Anwendungen",
       "description": "Telefon ist ein Glazni-Apps-Projekt: ein Wählgerät und Adressbuch in einer App, komplett offline, sodass Anrufen und das Verwalten von Kontakten nie ein Google-Konto oder eine Datenverbindung brauchen."
     },
     "hero": {
-      "eyebrow": "Glazni Apps — Telefon",
+      "eyebrow": "Glazni Anwendungen — Telefon",
       "status": "In Entwicklung",
       "title": "Eine App für Anrufe und Kontakte. Sonst nichts.",
       "sub": "Telefon ist ein Wählgerät und ein Adressbuch, gebaut als eine einzige App, nicht zwei. Kein Konto zum Anmelden, keine Kontaktsynchronisierung im Hintergrund, keine Daten, die das Gerät verlassen — eine Nummer wählen und jemanden nachschlagen passieren auf demselben Bildschirm, komplett offline.",
       "ctaDownload": "APK herunterladen",
-      "ctaBack": "← Zurück zu Glazni Apps",
+      "ctaBack": "← Zurück zu Glazni Anwendungen",
       "meta": {
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
@@ -345,19 +345,19 @@
     },
     "cta": {
       "eyebrow": "Baust du auch so etwas?",
-      "title": "Das ist eine App von Glazni Apps — es gibt noch mehr, wo die herkam.",
+      "title": "Das ist eine App von Glazni Anwendungen — es gibt noch mehr, wo die herkam.",
       "desc": "Sprich mit uns über ein Projekt, oder sieh, was das Studio sonst noch ausliefert.",
       "ctaEmail": "E-Mail an hello@glazni.com",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   },
   "apps": {
     "meta": {
-      "title": "Glazni Apps — Mobile- & Web-Engineering",
-      "description": "Glazni Apps ist der Ort, an dem das Unternehmen begann — hochwertiges, auf Privatsphäre ausgerichtetes iOS- und Android-Engineering, größtenteils für Kunden unter NDA entwickelt."
+      "title": "Glazni Anwendungen — Mobile- & Web-Engineering",
+      "description": "Glazni Anwendungen ist der Ort, an dem das Unternehmen begann — hochwertiges, auf Privatsphäre ausgerichtetes iOS- und Android-Engineering, größtenteils für Kunden unter NDA entwickelt."
     },
     "hero": {
-      "eyebrow": "Venture 01 — Glazni Apps",
+      "eyebrow": "Venture 01 — Glazni Anwendungen",
       "title": "Wo Glazni begann, und wo das meiste davon noch läuft.",
       "sub": "Keine Briefings, keine NDAs, niemand bezahlt uns dafür, das hier zu bauen. Wir suchen uns ein kleines Problem, das wir tatsächlich haben, entwickeln eine fokussierte, privatsphärenorientierte App, um es zu lösen, stellen sie in den Store und versuchen, sie als echtes Produkt funktionieren zu lassen — ganz auf sich gestellt.",
       "ctaTalk": "Sprich mit uns über ein Projekt",
@@ -370,7 +370,7 @@
       "title": "Hochwertige, privatsphärenorientierte Apps — jede für genau eine Aufgabe gebaut.",
       "p1": "Jede App auf dieser Seite existiert, weil jemand im Team sie wollte. Zum Tech-Stack gehören Flutter, Golang, HTMX und AWS — zusammen mit ein paar weiteren Dingen nach Bedarf. Jedes Projekt ist anders: eine Aufgabe wählen, sie gut machen, standardmäßig privat und einfach halten.",
       "p2": "Das meiste, was wir bauen, ist Auftragsarbeit: Kundenprodukte, die wir unter unserem eigenen Namen oder dem des Kunden entwerfen, ausliefern und pflegen. Was öffentlich ist und was nicht, entscheidet jeder Kunde selbst, nicht wir.",
-      "imgAlt": "Eigene Apps bei Glazni Apps entwickeln",
+      "imgAlt": "Eigene Apps bei Glazni Anwendungen entwickeln",
       "p2Html": "Wir finanzieren und veröffentlichen diese selbst, nach unserem eigenen Zeitplan. Manche bleiben kostenlos, manche bekommen vielleicht einen kleinen Einmalpreis oder ein leichtes Abo — je nachdem, was für diese App sinnvoll ist, um weiterzubestehen. <br/><br/>HINWEIS: Wenn du eigentlich etwas nach deiner Spezifikation gebaut haben willst, ist das ein anderes Venture: siehe Glazni Studio."
     },
     "private": {
@@ -468,16 +468,16 @@
   },
   "contactsExporter": {
     "meta": {
-      "title": "Kontakte-Exporter — Glazni Apps",
+      "title": "Kontakte-Exporter — Glazni Anwendungen",
       "description": "Kontakte-Exporter ist ein Glazni-Apps-Projekt: Zieh jeden Kontakt von deinem Telefon in eine einfache CSV-Datei, die dir gehört, damit ein Telefonwechsel nie bedeutet, sie zu verlieren — oder Google zu brauchen, um sie für dich zu verwahren."
     },
     "hero": {
-      "eyebrow": "Glazni Apps — Kontakte-Exporter",
+      "eyebrow": "Glazni Anwendungen — Kontakte-Exporter",
       "status": "In Entwicklung",
       "title": "Jeder Kontakt, raus aus Google und rein in eine Datei, die dir wirklich gehört.",
       "sub": "Kontakte-Exporter erledigt eine Aufgabe: Er liest jeden auf deinem Telefon gespeicherten Kontakt und wandelt ihn in eine einfache, lokal gespeicherte CSV-Datei um. Kein Konto anzulegen, keine Cloud-Synchronisierung, der man vertrauen muss, nichts, was in der Datenbank eines anderen zurückbleibt. Beim nächsten Telefonwechsel — oder einem kompletten Ökosystemwechsel — ziehen deine Kontakte mit dir um, nicht mit einem Login.",
       "ctaDownload": "APK herunterladen",
-      "ctaBack": "← Zurück zu Glazni Apps",
+      "ctaBack": "← Zurück zu Glazni Anwendungen",
       "meta": {
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
@@ -540,10 +540,10 @@
     },
     "cta": {
       "eyebrow": "Baust du auch so etwas?",
-      "title": "Das ist eine App von Glazni Apps — es gibt noch mehr, wo die herkam.",
+      "title": "Das ist eine App von Glazni Anwendungen — es gibt noch mehr, wo die herkam.",
       "desc": "Sprich mit uns über ein Projekt, oder sieh, was das Studio sonst noch ausliefert.",
       "ctaEmail": "E-Mail an hello@glazni.com",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   },
   "degoogle": {
@@ -679,13 +679,13 @@
   },
   "dine": {
     "meta": {
-      "title": "Glazni Dine — Restaurant- und Liefersoftware",
-      "description": "Glazni Dine bündelt Restaurant- und Liefersoftware in fertigen Kombinationen — Lieferapp, Admin-Panel und Partner-App — jeweils in mehreren visuellen Themes erhältlich."
+      "title": "Glazni Gastronomie — Restaurant- und Liefersoftware",
+      "description": "Glazni Gastronomie bündelt Restaurant- und Liefersoftware in fertigen Kombinationen — Lieferapp, Admin-Panel und Partner-App — jeweils in mehreren visuellen Themes erhältlich."
     },
     "hero": {
-      "eyebrow": "Venture 04 — Glazni Dine",
+      "eyebrow": "Venture 04 — Glazni Gastronomie",
       "title": "Restaurantsoftware, verpackt so, wie Restaurants sie tatsächlich kaufen.",
-      "sub": "Nicht jedes Restaurant braucht am ersten Tag dasselbe. Glazni Dine wird als Reihe fertiger Pakete verkauft — wähle die Teile, die du jetzt brauchst, und wachse in den Rest hinein — jedes davon in einer Auswahl an visuellen Themes erhältlich.",
+      "sub": "Nicht jedes Restaurant braucht am ersten Tag dasselbe. Glazni Gastronomie wird als Reihe fertiger Pakete verkauft — wähle die Teile, die du jetzt brauchst, und wachse in den Rest hinein — jedes davon in einer Auswahl an visuellen Themes erhältlich.",
       "ctaPackages": "Pakete ansehen",
       "ctaThemes": "Themes durchsehen"
     },
@@ -766,16 +766,16 @@
   },
   "backgroundChanger": {
     "meta": {
-      "title": "Hintergrundwechsler — Glazni Apps",
+      "title": "Hintergrundwechsler — Glazni Anwendungen",
       "description": "Hintergrundwechsler ist ein Glazni-Apps-Projekt: ein Hintergrundbild, das sich mit Morgen, Abend und Nacht verändert und automatisch durch deine eigene Sammlung kreist."
     },
     "hero": {
-      "eyebrow": "Glazni Apps — Hintergrundwechsler",
+      "eyebrow": "Glazni Anwendungen — Hintergrundwechsler",
       "status": "In Entwicklung",
       "title": "Ein Hintergrundbild, das weiß, wie spät es ist.",
       "sub": "Hintergrundwechsler tauscht dein Hintergrundbild aus, während der Tag voranschreitet — Morgen, Abend, Nacht —, sodass dein Telefon um 8 Uhr morgens und um 20 Uhr wie es selbst aussieht, ohne dass du eine Einstellung berührst. Füge deine eigene Sammlung hinzu, und es kreist weiter automatisch hindurch, abgestimmt auf den Tagesverlauf.",
       "ctaDownload": "APK herunterladen",
-      "ctaBack": "← Zurück zu Glazni Apps",
+      "ctaBack": "← Zurück zu Glazni Anwendungen",
       "meta": {
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
@@ -838,10 +838,10 @@
     },
     "cta": {
       "eyebrow": "Baust du auch so etwas?",
-      "title": "Das ist eine App von Glazni Apps — es gibt noch mehr, wo die herkam.",
+      "title": "Das ist eine App von Glazni Anwendungen — es gibt noch mehr, wo die herkam.",
       "desc": "Sprich mit uns über ein Projekt, oder sieh, was das Studio sonst noch ausliefert.",
       "ctaEmail": "E-Mail an hello@glazni.com",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   },
   "careers": {
@@ -911,7 +911,7 @@
         "gz102": {
           "name": "DevOps Engineer",
           "meta": "Remote · Vollzeit",
-          "about": "Baue Infrastruktur für Glazni Apps — vom ersten lokalen Build eines Entwicklers bis zum Cluster, der ihn in Produktion ausliefert, und irgendwann auch die Infrastruktur, auf die sich andere Ventures wie Migrate stützen.",
+          "about": "Baue Infrastruktur für Glazni Anwendungen — vom ersten lokalen Build eines Entwicklers bis zum Cluster, der ihn in Produktion ausliefert, und irgendwann auch die Infrastruktur, auf die sich andere Ventures wie Migrate stützen.",
           "whatYouDo": [
             "Kubernetes-Cluster betreiben und skalieren, mit Karpenter für Node-Autoscaling, über Kunden- und interne Workloads hinweg",
             "CI/CD-Pipelines in Jenkins und AWS CodePipeline für Golang- und Flutter-Builds aufbauen und pflegen",
@@ -1027,7 +1027,7 @@
         "gz117": {
           "name": "Golang Developer",
           "meta": "Remote · Vollzeit",
-          "about": "Du baust und pflegst die Golang-Services und APIs, die die Kunden- und internen Flutter-Apps von Glazni Apps antreiben.",
+          "about": "Du baust und pflegst die Golang-Services und APIs, die die Kunden- und internen Flutter-Apps von Glazni Anwendungen antreiben.",
           "whatYouDo": [
             "Golang-APIs und -Services entwerfen und bauen, die auf AWS bereitgestellt werden",
             "PostgreSQL-Schemas modellieren und weiterentwickeln",
@@ -1134,16 +1134,16 @@
   },
   "ideas": {
     "meta": {
-      "title": "Ideen — Glazni Apps",
+      "title": "Ideen — Glazni Anwendungen",
       "description": "Ideen ist ein Glazni-Apps-Projekt: eine Idee starten und dann jede Notiz und jeden Gedanken dazu darunter ablegen — eine laufende Seite pro Idee, statt eines Labyrinths aus Ordnern und Tags."
     },
     "hero": {
-      "eyebrow": "Glazni Apps — Ideen",
+      "eyebrow": "Glazni Anwendungen — Ideen",
       "status": "In Entwicklung",
       "title": "Eine Idee. Alles, was du darüber denkst, an einem Ort.",
       "sub": "Ideen überspringt die Ordner, Tags und Datenbanken, die die meisten Notiz-Apps dich zuerst einrichten lassen. Starte eine Idee — das ist die einzige Struktur, die es gibt — und jeder Gedanke, den du danach dazu hast, wird zu einer Notiz, die sich unter dieser einen Überschrift stapelt. Kein Einsortieren, kein Entscheiden, wohin etwas gehört. Es gehört schon dazu.",
       "ctaDownload": "APK herunterladen",
-      "ctaBack": "← Zurück zu Glazni Apps",
+      "ctaBack": "← Zurück zu Glazni Anwendungen",
       "meta": {
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
@@ -1206,24 +1206,24 @@
     },
     "cta": {
       "eyebrow": "Baust du auch so etwas?",
-      "title": "Das ist eine App von Glazni Apps — es gibt noch mehr, wo die herkam.",
+      "title": "Das ist eine App von Glazni Anwendungen — es gibt noch mehr, wo die herkam.",
       "desc": "Sprich mit uns über ein Projekt, oder sieh, was das Studio sonst noch ausliefert.",
       "ctaEmail": "E-Mail an hello@glazni.com",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   },
   "journal": {
     "meta": {
-      "title": "Journal — Glazni Apps",
+      "title": "Journal — Glazni Anwendungen",
       "description": "Journal ist ein Glazni-Apps-Projekt: ein schlichter Eintrag pro Tag, automatisch datiert — keine Prompts, keine Streaks, kein Foto erforderlich."
     },
     "hero": {
-      "eyebrow": "Glazni Apps — Journal",
+      "eyebrow": "Glazni Anwendungen — Journal",
       "status": "In Entwicklung",
       "title": "Eine leere Seite, einmal am Tag.",
       "sub": "Journal ist genau das, wonach es klingt — ein einfacher Texteintrag, automatisch datiert, ohne dass etwas anderes von dir verlangt wird. Keine Stimmungstracker, keine Prompts, kein Streak-Zähler, der dir ein schlechtes Gewissen wegen des Schreibens macht. Nur ein Ort, um festzuhalten, was passiert ist, oder woran du denkst, wann immer du Lust dazu hast.",
       "ctaDownload": "APK herunterladen",
-      "ctaBack": "← Zurück zu Glazni Apps",
+      "ctaBack": "← Zurück zu Glazni Anwendungen",
       "meta": {
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
@@ -1286,24 +1286,24 @@
     },
     "cta": {
       "eyebrow": "Baust du auch so etwas?",
-      "title": "Das ist eine App von Glazni Apps — es gibt noch mehr, wo die herkam.",
+      "title": "Das ist eine App von Glazni Anwendungen — es gibt noch mehr, wo die herkam.",
       "desc": "Sprich mit uns über ein Projekt, oder sieh, was das Studio sonst noch ausliefert.",
       "ctaEmail": "E-Mail an hello@glazni.com",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   },
   "messages": {
     "meta": {
-      "title": "Nachrichten — Glazni Apps",
+      "title": "Nachrichten — Glazni Anwendungen",
       "description": "Nachrichten ist ein Glazni-Apps-Projekt: eine SMS- und MMS-App, die komplett offline läuft, ganz ohne Cloud-Relay oder Konto."
     },
     "hero": {
-      "eyebrow": "Glazni Apps — Nachrichten",
+      "eyebrow": "Glazni Anwendungen — Nachrichten",
       "status": "In Entwicklung",
       "title": "Textnachrichten, die nie mit dem Internet in Berührung kommen.",
       "sub": "Nachrichten sendet und empfängt SMS und MMS direkt über deinen Mobilfunkanbieter — kein Cloud-Relay, kein Konto zum Anmelden, nichts, was deine Unterhaltungen anderswo synchronisiert. Die App läuft komplett offline, sodass das, was in einem Thread steht, zwischen den sendenden Telefonen bleibt.",
       "ctaDownload": "APK herunterladen",
-      "ctaBack": "← Zurück zu Glazni Apps",
+      "ctaBack": "← Zurück zu Glazni Anwendungen",
       "meta": {
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
@@ -1366,30 +1366,30 @@
     },
     "cta": {
       "eyebrow": "Baust du auch so etwas?",
-      "title": "Das ist eine App von Glazni Apps — es gibt noch mehr, wo die herkam.",
+      "title": "Das ist eine App von Glazni Anwendungen — es gibt noch mehr, wo die herkam.",
       "desc": "Sprich mit uns über ein Projekt, oder sieh, was das Studio sonst noch ausliefert.",
       "ctaEmail": "E-Mail an hello@glazni.com",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   },
   "talent": {
     "meta": {
-      "title": "Glazni Talent — Globales Recruiting",
-      "description": "Glazni Talent übernimmt Recruiting und Personalwesen, einschließlich des Zugangs zu qualifizierten Fachkräften aus globalen Talentmärkten zu geringeren Kosten."
+      "title": "Glazni Talente — Globales Recruiting",
+      "description": "Glazni Talente übernimmt Recruiting und Personalwesen, einschließlich des Zugangs zu qualifizierten Fachkräften aus globalen Talentmärkten zu geringeren Kosten."
     },
     "hero": {
-      "eyebrow": "Venture 03 — Glazni Talent",
+      "eyebrow": "Venture 03 — Glazni Talente",
       "title": "Baue ein Team im Ausland auf, ohne selbst eine Gesellschaft zu gründen.",
-      "sub": "Glazni Talent übernimmt Recruiting und Personalwesen für jedes Venture im Index — und für EU-Unternehmen, die in globalen Talentmärkten wie Indien, Pakistan, Bangladesch, Nigeria und anderen Ländern einstellen wollen, ohne den Aufwand einer lokalen Gesellschaft. Wir arbeiten als dein Employer of Record, helfen dir, eine eigene Niederlassung aufzubauen, oder übernehmen einfach die Suche und Prüfung der Kandidaten — sodass du qualifizierte Fachkräfte zu einem Bruchteil der Kosten einer lokalen Einstellung bekommst.",
+      "sub": "Glazni Talente übernimmt Recruiting und Personalwesen für jedes Venture im Index — und für EU-Unternehmen, die in globalen Talentmärkten wie Indien, Pakistan, Bangladesch, Nigeria und anderen Ländern einstellen wollen, ohne den Aufwand einer lokalen Gesellschaft. Wir arbeiten als dein Employer of Record, helfen dir, eine eigene Niederlassung aufzubauen, oder übernehmen einfach die Suche und Prüfung der Kandidaten — sodass du qualifizierte Fachkräfte zu einem Bruchteil der Kosten einer lokalen Einstellung bekommst.",
       "ctaTalk": "Sprich mit uns über Einstellungen",
       "ctaServices": "Unsere Leistungen ansehen"
     },
     "how": {
       "eyebrow": "So funktioniert's",
       "title": "Wir suchen, prüfen und verwalten die Einstellung — du wählst die Struktur.",
-      "p1": "Wir haben Glazni Talent zunächst gebaut, um unser eigenes Einstellungsproblem zu lösen: qualifizierte Entwickler, Marketer und Operator aus aufstrebenden Märkten zu finden — allen voran Indien, Pakistan, Bangladesch und Nigeria — zu Kosten weit unter denen einer lokalen Einstellung mit demselben Qualifikationsniveau. Als das Modell für uns funktionierte, öffneten wir es für andere.",
+      "p1": "Wir haben Glazni Talente zunächst gebaut, um unser eigenes Einstellungsproblem zu lösen: qualifizierte Entwickler, Marketer und Operator aus aufstrebenden Märkten zu finden — allen voran Indien, Pakistan, Bangladesch und Nigeria — zu Kosten weit unter denen einer lokalen Einstellung mit demselben Qualifikationsniveau. Als das Modell für uns funktionierte, öffneten wir es für andere.",
       "p2": "Von dort aus entscheidest du, wie tief du einsteigen willst: über uns als Employer of Record einstellen, ganz ohne eigene Gesellschaft, direkt eine von uns gesuchte und geprüfte Fachkraft übernehmen, oder dir von uns beim Aufbau und der Besetzung einer eigenen Niederlassung helfen lassen, wenn du bereit bist, im Markt Wurzeln zu schlagen.",
-      "imgAlt": "Globales Recruiting bei Glazni Talent"
+      "imgAlt": "Globales Recruiting bei Glazni Talente"
     },
     "services": {
       "eyebrow": "Leistungen",
@@ -1439,11 +1439,11 @@
   },
   "migrate": {
     "meta": {
-      "title": "Glazni Migrate — Website-Neuaufbau & Hosting",
-      "description": "Glazni Migrate baut Websites, die aktuell auf abo-basierten Website-Baukästen laufen, neu auf und hostet sie unabhängig — meist für etwa die Hälfte der laufenden Kosten, individuell pro Kunde bepreist."
+      "title": "Glazni Migration — Website-Neuaufbau & Hosting",
+      "description": "Glazni Migration baut Websites, die aktuell auf abo-basierten Website-Baukästen laufen, neu auf und hostet sie unabhängig — meist für etwa die Hälfte der laufenden Kosten, individuell pro Kunde bepreist."
     },
     "hero": {
-      "eyebrow": "Venture 07 — Glazni Migrate",
+      "eyebrow": "Venture 07 — Glazni Migration",
       "title": "Dieselbe Website. Halbe Rechnung.",
       "sub": "Wenn deine Website auf einem abo-basierten Website-Baukasten läuft, bauen wir sie richtig neu auf und hosten sie selbst — meist landest du bei etwa der Hälfte dessen, was du heute zahlst.",
       "ctaQuote": "Migrationsangebot einholen",
@@ -1496,16 +1496,16 @@
   },
   "photoJournal": {
     "meta": {
-      "title": "Foto-Journal — Glazni Apps",
+      "title": "Foto-Journal — Glazni Anwendungen",
       "description": "Foto-Journal ist ein Glazni-Apps-Projekt: ein Foto pro Tag, das sich zu einer visuellen Autobiografie zusammenfügt — und einem Nachlass für die Menschen, die nach dir suchen kommen."
     },
     "hero": {
-      "eyebrow": "Glazni Apps — Foto-Journal",
+      "eyebrow": "Glazni Anwendungen — Foto-Journal",
       "status": "In Entwicklung",
       "title": "Ein Foto am Tag. Ein Leben, auf das du wirklich zurückblicken kannst.",
       "sub": "Foto-Journal verlangt nur eine Sache: ein einziges Bild, einmal am Tag. Keine Bildunterschriften zu schreiben, kein Streak, der darüber hinausgeht. Reihe genug Tage aneinander, und es wird zu etwas, das einem Journal selten gelingt — eine visuelle Autobiografie, die du nicht extra schreiben musstest, und eines Tages ein Weg für die Menschen, die dich geliebt haben, zu sehen, wie du wirklich gelebt hast.",
       "ctaDownload": "APK herunterladen",
-      "ctaBack": "← Zurück zu Glazni Apps",
+      "ctaBack": "← Zurück zu Glazni Anwendungen",
       "meta": {
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
@@ -1568,24 +1568,24 @@
     },
     "cta": {
       "eyebrow": "Baust du auch so etwas?",
-      "title": "Das ist eine App von Glazni Apps — es gibt noch mehr, wo die herkam.",
+      "title": "Das ist eine App von Glazni Anwendungen — es gibt noch mehr, wo die herkam.",
       "desc": "Sprich mit uns über ein Projekt, oder sieh, was das Studio sonst noch ausliefert.",
       "ctaEmail": "E-Mail an hello@glazni.com",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   },
   "resumeBuilder": {
     "meta": {
-      "title": "Lebenslauf-Ersteller — Glazni Apps",
+      "title": "Lebenslauf-Ersteller — Glazni Anwendungen",
       "description": "Lebenslauf-Ersteller ist ein Glazni-Apps-Projekt: hochwertige, professionell gestaltete Lebensläufe, kostenlos oder fast kostenlos, damit ein guter Lebenslauf nicht hinter einer Bezahlschranke versteckt bleibt."
     },
     "hero": {
-      "eyebrow": "Glazni Apps — Lebenslauf-Ersteller",
+      "eyebrow": "Glazni Anwendungen — Lebenslauf-Ersteller",
       "status": "In Entwicklung",
       "title": "Ein wirklich guter Lebenslauf, ohne Bezahlschranke.",
       "sub": "Lebenslauf-Ersteller bringt die Art von Lebenslaufdesign, die normalerweise als Premium-Vorlage verkauft wird — klare Layouts, echte Typografie, Formatierung, die einen ATS übersteht — für jeden verfügbar, der einen braucht, kostenlos oder fast. Beantworte ein paar Fragen, wähle ein Layout, exportiere etwas, auf das du wirklich stolz sein kannst.",
       "ctaDownload": "APK herunterladen",
-      "ctaBack": "← Zurück zu Glazni Apps",
+      "ctaBack": "← Zurück zu Glazni Anwendungen",
       "meta": {
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
@@ -1648,24 +1648,24 @@
     },
     "cta": {
       "eyebrow": "Baust du auch so etwas?",
-      "title": "Das ist eine App von Glazni Apps — es gibt noch mehr, wo die herkam.",
+      "title": "Das ist eine App von Glazni Anwendungen — es gibt noch mehr, wo die herkam.",
       "desc": "Sprich mit uns über ein Projekt, oder sieh, was das Studio sonst noch ausliefert.",
       "ctaEmail": "E-Mail an hello@glazni.com",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   },
   "tasks": {
     "meta": {
-      "title": "Aufgaben — Glazni Apps",
+      "title": "Aufgaben — Glazni Anwendungen",
       "description": "Aufgaben ist ein Glazni-Apps-Projekt: eine einfache To-do-Liste — eintragen, was zu tun ist, abhaken, fertig. Keine Boards, keine Labels, kein Produktivitätssystem."
     },
     "hero": {
-      "eyebrow": "Glazni Apps — Aufgaben",
+      "eyebrow": "Glazni Anwendungen — Aufgaben",
       "status": "In Entwicklung",
       "title": "Eine kurze Liste, kein System.",
       "sub": "Aufgaben ist eine einfache To-do-Liste — eintragen, was zu tun ist, abhaken, fertig. Keine Projekte, keine Labels, kein Produktivitätssystem zum Pflegen, nur die heutige Liste und was von vorher noch offen ist.",
       "ctaDownload": "APK herunterladen",
-      "ctaBack": "← Zurück zu Glazni Apps",
+      "ctaBack": "← Zurück zu Glazni Anwendungen",
       "meta": {
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
@@ -1728,10 +1728,10 @@
     },
     "cta": {
       "eyebrow": "Baust du auch so etwas?",
-      "title": "Das ist eine App von Glazni Apps — es gibt noch mehr, wo die herkam.",
+      "title": "Das ist eine App von Glazni Anwendungen — es gibt noch mehr, wo die herkam.",
       "desc": "Sprich mit uns über ein Projekt, oder sieh, was das Studio sonst noch ausliefert.",
       "ctaEmail": "E-Mail an hello@glazni.com",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   },
   "studio": {
@@ -1844,21 +1844,21 @@
       "titleHtml": "Falsch abgebogen.<br><span>Diese Seite existiert nicht.</span>",
       "sub": "Der Link, der dich hierher gebracht hat, ist kaputt, oder die Seite wurde verschoben. Nichts verloren — alles andere ist genau dort, wo es sein sollte.",
       "ctaHome": "Zur Startseite",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   },
   "keyboard": {
     "meta": {
-      "title": "Glazni Keyboard — Glazni Apps",
+      "title": "Glazni Keyboard — Glazni Anwendungen",
       "description": "Glazni Keyboard ist ein Glazni-Apps-Projekt: ein vollständiger Ersatz für die Google-Tastatur mit eingebauter Sprache-zu-Text-Funktion direkt auf dem Gerät — weder Audio noch Tastatureingaben verlassen jemals dein Telefon."
     },
     "hero": {
-      "eyebrow": "Glazni Apps — Glazni Keyboard",
+      "eyebrow": "Glazni Anwendungen — Glazni Keyboard",
       "status": "In Entwicklung",
       "title": "Eine Tastatur, die nicht mithört — bis du sie darum bittest.",
       "sub": "Glazni Keyboard ist ein vollständiger Ersatz für die Google-Tastatur: alltägliches Tippen plus ein eingebauter Mikrofon-Button für Sprache-zu-Text, der komplett auf deinem Telefon läuft. Nichts, was du tippst oder sagst, wird irgendwohin gesendet, um transkribiert zu werden. Gebaut für alle, die das Google-Ökosystem verlassen wollen, ohne auf die Tastaturfunktionen zu verzichten, auf die sie sich wirklich verlassen.",
       "ctaDownload": "APK herunterladen",
-      "ctaBack": "← Zurück zu Glazni Apps",
+      "ctaBack": "← Zurück zu Glazni Anwendungen",
       "meta": {
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
@@ -1930,24 +1930,24 @@
     },
     "cta": {
       "eyebrow": "Baust du auch so etwas?",
-      "title": "Das ist eine App von Glazni Apps — es gibt noch mehr, wo die herkam.",
+      "title": "Das ist eine App von Glazni Anwendungen — es gibt noch mehr, wo die herkam.",
       "desc": "Sprich mit uns über ein Projekt, oder sieh, was das Studio sonst noch ausliefert.",
       "ctaEmail": "E-Mail an hello@glazni.com",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   },
   "pdfAudiobook": {
     "meta": {
-      "title": "PDF zu Hörbuch — Glazni Apps",
+      "title": "PDF zu Hörbuch — Glazni Anwendungen",
       "description": "PDF zu Hörbuch ist ein Glazni-Apps-Projekt: verwandle jedes PDF in ein anhörbares Hörbuch. Kostenlos mit einer Warteschlange von bis zu einer Woche, oder sofort, wenn du bezahlst — so oder so wird dein Dokument gelöscht, sobald deine Audiodatei fertig ist."
     },
     "hero": {
-      "eyebrow": "Glazni Apps — PDF zu Hörbuch",
+      "eyebrow": "Glazni Anwendungen — PDF zu Hörbuch",
       "status": "In Entwicklung",
       "title": "Verwandle jedes PDF in etwas, das du anhören kannst.",
       "sub": "Lade ein PDF hoch, bekomme ein Hörbuch zurück. Es ist kostenlos, wenn du warten kannst — Konvertierungen reihen sich in eine Warteschlange ein und können je nach Nachfrage bis zu etwa eine Woche dauern. Bezahl, und deine überspringt die Schlange und kommt sofort zurück. So oder so wird dein Dokument nur genutzt, um deine Audiodatei zu erstellen, und danach gelöscht — nicht gespeichert, nicht für irgendetwas anderes durchsucht.",
       "ctaDownload": "APK herunterladen",
-      "ctaBack": "← Zurück zu Glazni Apps",
+      "ctaBack": "← Zurück zu Glazni Anwendungen",
       "meta": {
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
@@ -2039,10 +2039,10 @@
     },
     "cta": {
       "eyebrow": "Baust du auch so etwas?",
-      "title": "Das ist eine App von Glazni Apps — es gibt noch mehr, wo die herkam.",
+      "title": "Das ist eine App von Glazni Anwendungen — es gibt noch mehr, wo die herkam.",
       "desc": "Sprich mit uns über ein Projekt, oder sieh, was das Studio sonst noch ausliefert.",
       "ctaEmail": "E-Mail an hello@glazni.com",
-      "ctaApps": "Zurück zu Glazni Apps"
+      "ctaApps": "Zurück zu Glazni Anwendungen"
     }
   }
 }
