@@ -1,382 +1,301 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glazni DeGoogle — Privacy-First Guides, Apps &amp; Phones</title>
-  <meta name="description"
-    content="Glazni DeGoogle publishes comprehensive GrapheneOS, LineageOS, /e/OS and CalyxOS guides, builds its own privacy-first apps, and de-googles phones to order.">
-  <link rel="icon" href="image/small_logo.png">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glazni DeGoogle — Privacy-First Guides, Apps &amp; Phones</title>
+<meta name="description" content="Glazni DeGoogle publishes comprehensive GrapheneOS, LineageOS, /e/OS and CalyxOS guides, builds its own privacy-first apps, and de-googles phones to order.">
+<link rel="icon" href="image/small_logo.png">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body data-page="degoogle">
 
-  <nav class="nav">
-    <div class="nav-inner">
-      <a href="index.html" class="brand"><span class="brand-logo-plate"><img src="image/logo.png" alt="Glazni"
-            class="brand-logo"></span></a>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="index.html#ventures" data-i18n="nav.ventures">Ventures</a></li>
-        <li><a href="careers.html" data-i18n="nav.careers">Careers</a></li>
-        <li><a href="index.html#about" data-i18n="nav.about">About</a></li>
-        <li><a href="index.html#contact" data-i18n="nav.contact">Contact</a></li>
-      </ul>
-      <div class="nav-cta">
-        <div class="lang-switch" id="langSwitch">
-          <button type="button" class="lang-trigger" id="langTrigger" aria-haspopup="true" aria-expanded="false"
-            aria-label="Change language">
-            <span data-lang-code>EN</span>
-            <svg class="lang-caret" width="9" height="6" viewBox="0 0 9 6" fill="none" aria-hidden="true">
-              <path d="M1 1L4.5 5L8 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
-          </button>
-          <ul class="lang-menu" id="langMenu" role="menu" aria-label="Language" hidden>
-            <li role="none"><button type="button" role="menuitem" class="lang-option active" data-lang="en"
-                aria-selected="true">English<span class="lang-option-code">EN</span></button></li>
-            <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="ru"
-                aria-selected="false">Русский<span class="lang-option-code">RU</span></button></li>
-            <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="de"
-                aria-selected="false">Deutsch<span class="lang-option-code">DE</span></button></li>
-            <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="es"
-                aria-selected="false">Español<span class="lang-option-code">ES</span></button></li>
-            <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="fr"
-                aria-selected="false">Français<span class="lang-option-code">FR</span></button></li>
-            <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="it"
-                aria-selected="false">Italiano<span class="lang-option-code">IT</span></button></li>
-          </ul>
-        </div>
-        <a href="index.html#contact" class="btn btn-ghost" data-i18n="nav.getInTouch">Get in touch</a>
-        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false"
-          data-i18n-attr="aria-label:nav.toggleLabel">
-          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-            <path d="M2 4.5H16M2 9H16M2 13.5H16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" />
-          </svg>
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-logo-plate"><img src="image/logo.png" alt="Glazni" class="brand-logo"></span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html#ventures" data-i18n="nav.ventures">Ventures</a></li>
+      <li><a href="careers.html" data-i18n="nav.careers">Careers</a></li>
+      <li><a href="index.html#about" data-i18n="nav.about">About</a></li>
+      <li><a href="index.html#contact" data-i18n="nav.contact">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <div class="lang-switch" id="langSwitch">
+        <button type="button" class="lang-trigger" id="langTrigger" aria-haspopup="true" aria-expanded="false" aria-label="Change language">
+          <span class="lang-trigger-flag" data-lang-flag>🇬🇧</span>
+          <svg class="lang-caret" width="9" height="6" viewBox="0 0 9 6" fill="none" aria-hidden="true"><path d="M1 1L4.5 5L8 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
+        <ul class="lang-menu" id="langMenu" role="menu" aria-label="Language" hidden>
+          <li role="none"><button type="button" role="menuitem" class="lang-option active" data-lang="en" aria-selected="true">English<span class="lang-option-code">🇬🇧</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="ru" aria-selected="false">Русский<span class="lang-option-code">🇷🇺</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="de" aria-selected="false">Deutsch<span class="lang-option-code">🇩🇪</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="es" aria-selected="false">Español<span class="lang-option-code">🇪🇸</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="fr" aria-selected="false">Français<span class="lang-option-code">🇫🇷</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="it" aria-selected="false">Italiano<span class="lang-option-code">🇮🇹</span></button></li>
+        </ul>
+      </div>
+      <a href="index.html#contact" class="btn btn-ghost" data-i18n="nav.getInTouch">Get in touch</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" data-i18n-attr="aria-label:nav.toggleLabel">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M2 4.5H16M2 9H16M2 13.5H16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow reveal visible" data-i18n="hero.eyebrow">Venture 06 — Glazni DeGoogle</div>
+    <h1 class="reveal visible" data-i18n="hero.title">Escape the Empire. DeGoogle your phone Today</h1>
+    <p class="reveal visible" data-i18n="hero.sub">Guides for GrapheneOS, LineageOS, /e/OS and CalyxOS written to actually be followed, our own privacy-first apps, and phones we de-google ourselves before they ship to you.</p>
+    <div class="hero-actions reveal visible" style="margin-top:32px;">
+      <a href="#phones" class="btn btn-primary"><span data-i18n="hero.ctaPhones">See de-googled phones</span>
+        <svg viewBox="0 0 14 14" fill="none"><path d="M7 2V12M7 12L2.5 7.5M7 12L11.5 7.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="#guides" class="btn btn-ghost" data-i18n="hero.ctaGuides">Read the guides</a>
+    </div>
+  </div>
+</header>
+
+<!-- ================= GUIDES ================= -->
+<section class="section" id="guides">
+  <div class="wrap">
+    <div class="split reveal">
+      <div class="split-copy">
+        <div class="eyebrow" data-i18n="guides.eyebrow">GrapheneOS guides</div>
+        <h2 data-i18n="guides.title">Comprehensive, step-by-step, kept up to date.</h2>
+        <p data-i18n="guides.p1">We write and maintain in-depth guides for installing and living on GrapheneOS — from flashing your first Pixel to sandboxing Google Play services, choosing alternative app stores, and hardening the OS beyond its defaults.</p>
+        <p data-i18n="guides.p2">No sponsored placements, no affiliate detours. Just the steps, written by people who run this setup daily.</p>
+        <div class="notice" style="margin-top:24px;">
+          <strong data-i18n="guides.noticeLabel">Supported devices:</strong> <span data-i18n="guides.notice">Google Pixel only, current generation plus several years back — GrapheneOS depends on Pixel's hardware security module, which is also why it's the strictest of the four ROMs we support.</span>
+        </div>
+      </div>
+      <div class="split-img"><img src="image/graphene.webp" alt="GrapheneOS setup guide" data-i18n-attr="alt:guides.imgAlt"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GUIDES: CalyxOS ================= -->
+<section class="section" id="guides-calyx">
+  <div class="wrap">
+    <div class="split img-left reveal">
+      <div class="split-copy">
+        <div class="eyebrow" data-i18n="guidesCalyx.eyebrow">CalyxOS guides</div>
+        <h2 data-i18n="guidesCalyx.title">Pixel-grade hardening, with Google apps if you still need them.</h2>
+        <p data-i18n="guidesCalyx.p1">CalyxOS sits between GrapheneOS and /e/OS: Pixel-focused hardening plus a sandboxed Google Play option and built-in microG, so you keep most of the security benefits without losing every Google-tied app. We cover installation, the sandboxed Play option, and the Datura firewall and Tor features it ships with.</p>
+        <p data-i18n="guidesCalyx.p2">We keep our CalyxOS guides current with each release and flag any device or feature caveats up front. No sponsored placements, just the steps.</p>
+        <div class="notice" style="margin-top:24px;">
+          <strong data-i18n="guidesCalyx.noticeLabel">Supported devices:</strong> <span data-i18n="guidesCalyx.notice">primarily Google Pixel (current generation plus several years back), with select Fairphone and Motorola models also supported. CalyxOS is run by the non-profit Calyx Institute and its release pace has had gaps in the past, so we only recommend or sell a device once we've confirmed it's on an actively maintained build.</span>
+        </div>
+      </div>
+      <div class="split-img"><img src="image/calyxos.webp" alt="CalyxOS setup guide" data-i18n-attr="alt:guidesCalyx.imgAlt"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GUIDES: LineageOS ================= -->
+<section class="section" id="guides-lineage">
+  <div class="wrap">
+    <div class="split img-left reveal">
+      <div class="split-copy">
+        <div class="eyebrow" data-i18n="guidesLineage.eyebrow">LineageOS guides</div>
+        <h2 data-i18n="guidesLineage.title">The widest hardware support of any ROM we cover.</h2>
+        <p data-i18n="guidesLineage.p1">LineageOS runs on far more phones than any other option on this page — Google Pixel, OnePlus, Xiaomi and Poco, Samsung, Sony, Motorola, Nothing, Fairphone and dozens more, spanning flagship and budget devices going back several years. We maintain full install guides for the models we sell directly, plus general unlocking, flashing and recovery guidance for the rest.</p>
+        <p data-i18n="guidesLineage.p2">Nothing's installed by default that you didn't ask for — add back microG for app compatibility, or run it fully Google-free. No sponsored placements, just the steps.</p>
+        <div class="notice" style="margin-top:24px;">
+          <strong data-i18n="guidesLineage.noticeLabel">Supported devices:</strong> <span data-i18n="guidesLineage.notice">hundreds of officially supported models across Pixel, OnePlus, Xiaomi/Poco, Samsung, Sony, Motorola, Nothing, Fairphone and more. Support for any single model depends on an active community maintainer and can be dropped if nobody keeps it going, so we always confirm current official status before we flash or sell a device.</span>
+        </div>
+      </div>
+      <div class="split-img"><img src="image/lineageos.webp" alt="LineageOS setup guide" data-i18n-attr="alt:guidesLineage.imgAlt"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GUIDES: /e/OS ================= -->
+<section class="section" id="guides-eos">
+  <div class="wrap">
+    <div class="split reveal">
+      <div class="split-copy">
+        <div class="eyebrow" data-i18n="guidesEos.eyebrow">/e/OS guides</div>
+        <h2 data-i18n="guidesEos.title">De-googled, without giving up your everyday apps.</h2>
+        <p data-i18n="guidesEos.p1">/e/OS trades a little hardening for everyday convenience: its App Lounge store installs Google Play apps without ever signing into a Google account, so the switch feels far less disruptive than GrapheneOS or CalyxOS. We cover setup, App Lounge, and the built-in Murena Workspace account it can optionally use for mail, contacts and calendar.</p>
+        <p data-i18n="guidesEos.p2">We write full install guides for the devices we support directly, and general flashing guidance for everything else officially supported. No sponsored placements, just the steps.</p>
+        <div class="notice" style="margin-top:24px;">
+          <strong data-i18n="guidesEos.noticeLabel">Supported devices:</strong> <span data-i18n="guidesEos.notice">one of the broadest device lists of any privacy ROM — Samsung Galaxy, Google Pixel, Fairphone, Motorola, Nokia and more. Murena also sells Fairphone and its own Murena-branded handsets with /e/OS pre-installed from the factory, if you'd rather skip flashing altogether.</span>
+        </div>
+      </div>
+      <div class="split-img"><img src="image/eos.webp" alt="/e/OS setup guide" data-i18n-attr="alt:guidesEos.imgAlt"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= OWN APPS ================= -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow" data-i18n="ownApps.eyebrow">Our own apps</div>
+        <h2 class="section-title" data-i18n="ownApps.title">Small, private-by-default tools</h2>
+      </div>
+      <p class="section-desc" data-i18n="ownApps.desc">Built for the DeGoogle stack — no Google services required, no tracking, no account needed to get started.</p>
+    </div>
+    <div class="app-grid reveal">
+      <a href="apps/phone.html" class="app-card">
+        <div class="app-icon mono" data-icon="phone">PH</div>
+        <h3 data-i18n="ownApps.items.phone.name">Phone</h3>
+        <p data-i18n="ownApps.items.phone.desc">A dialer and address book in one app instead of two, running fully offline with nothing synced to the cloud.</p>
+        <span class="app-status" data-i18n="ownApps.items.phone.status">In development</span>
+      </a>
+      <a href="apps/journal.html" class="app-card">
+        <div class="app-icon mono" data-icon="journal">JN</div>
+        <h3 data-i18n="ownApps.items.journal.name">Journal</h3>
+        <p data-i18n="ownApps.items.journal.desc">A plain daily journal — write, close the app, come back tomorrow. No prompts, no streaks, no photo required.</p>
+        <span class="app-status" data-i18n="ownApps.items.journal.status">In development</span>
+      </a>
+      <a href="apps/resume_builder.html" class="app-card">
+        <div class="app-icon mono" data-icon="resume-builder">RB</div>
+        <h3 data-i18n="ownApps.items.resumeBuilder.name">Resume Builder</h3>
+        <p data-i18n="ownApps.items.resumeBuilder.desc">Premium, professionally designed resumes, offered free or almost free instead of gated behind a subscription.</p>
+        <span class="app-status" data-i18n="ownApps.items.resumeBuilder.status">In development</span>
+      </a>
+      <a href="apps/background_changer.html" class="app-card">
+        <div class="app-icon mono" data-icon="background-changer">BC</div>
+        <h3 data-i18n="ownApps.items.backgroundChanger.name">Background Changer</h3>
+        <p data-i18n="ownApps.items.backgroundChanger.desc">A wallpaper that shifts with morning, evening and night, circling through your own collection automatically.</p>
+        <span class="app-status" data-i18n="ownApps.items.backgroundChanger.status">In development</span>
+      </a>
+      <a href="apps/ideas.html" class="app-card">
+        <div class="app-icon mono" data-icon="ideas">ID</div>
+        <h3 data-i18n="ownApps.items.ideas.name">Ideas</h3>
+        <p data-i18n="ownApps.items.ideas.desc">Start an idea, then drop every note and thought about it underneath — one subheading per idea, nothing to file.</p>
+        <span class="app-status" data-i18n="ownApps.items.ideas.status">In development</span>
+      </a>
+      <a href="apps/photo_journal.html" class="app-card">
+        <div class="app-icon mono" data-icon="photo-journal">PJ</div>
+        <h3 data-i18n="ownApps.items.photoJournal.name">Photo Journal</h3>
+        <p data-i18n="ownApps.items.photoJournal.desc">One photo a day, building into a visual autobiography — and a record for the people who come looking after you're gone.</p>
+        <span class="app-status" data-i18n="ownApps.items.photoJournal.status">Published</span>
+      </a>
+      <a href="apps/messages.html" class="app-card">
+        <div class="app-icon mono" data-icon="messages">MS</div>
+        <h3 data-i18n="ownApps.items.messages.name">Messages</h3>
+        <p data-i18n="ownApps.items.messages.desc">SMS and MMS sent straight over your carrier, completely offline, with no account and no cloud relay.</p>
+        <span class="app-status" data-i18n="ownApps.items.messages.status">In development</span>
+      </a>
+      <a href="apps/pdf_audiobook.html" class="app-card">
+        <div class="app-icon mono" data-icon="pdf-audiobook">AB</div>
+        <h3 data-i18n="ownApps.items.pdfAudiobook.name">PDF to Audiobook</h3>
+        <p data-i18n="ownApps.items.pdfAudiobook.desc">Turn any PDF into an audiobook — free with a queue of up to a week, or instant if you pay to skip the line.</p>
+        <span class="app-status" data-i18n="ownApps.items.pdfAudiobook.status">In development</span>
+      </a>
+      <a href="apps/tasks.html" class="app-card">
+        <div class="app-icon mono" data-icon="tasks">TK</div>
+        <h3 data-i18n="ownApps.items.tasks.name">Tasks</h3>
+        <p data-i18n="ownApps.items.tasks.desc">A short list of what needs doing today, kept short on purpose — nothing synced, nothing gamified.</p>
+        <span class="app-status" data-i18n="ownApps.items.tasks.status">In development</span>
+      </a>
+      <a href="apps/keyboard.html" class="app-card">
+        <div class="app-icon mono" data-icon="keyboard">KB</div>
+        <h3 data-i18n="ownApps.items.keyboard.name">Glazni Keyboard</h3>
+        <p data-i18n="ownApps.items.keyboard.desc">A full replacement for the Google keyboard with speech-to-text built in and processed on-device — nothing typed or spoken leaves your phone.</p>
+        <span class="app-status" data-i18n="ownApps.items.keyboard.status">In development</span>
+      </a>
+      <div class="app-card">
+        <div class="app-icon mono" data-icon="language-learning">LL</div>
+        <h3 data-i18n="ownApps.items.languageLearning.name">Language Learning</h3>
+        <p data-i18n="ownApps.items.languageLearning.desc">We're building a language-learning app in-house. It's early — no public link yet, and no date to share — but it'll follow the same privacy-first approach as everything else Glazni ships.</p>
+        <span class="app-status" data-i18n="ownApps.items.languageLearning.status">In development</span>
+      </div>
+      <a href="apps/contacts_exporter.html" class="app-card">
+        <div class="app-icon mono" data-icon="contacts-exporter">CE</div>
+        <h3 data-i18n="ownApps.items.contactsExporter.name">Contacts Exporter</h3>
+        <p data-i18n="ownApps.items.contactsExporter.desc">Every contact, out of Google and into a CSV you keep locally — ready for whatever phone comes next.</p>
+        <span class="app-status" data-i18n="ownApps.items.contactsExporter.status">In development</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PHONES ================= -->
+<section class="section" id="phones">
+  <div class="wrap">
+    <div class="split reverse reveal">
+      <div class="split-copy">
+        <div class="eyebrow" data-i18n="phones.eyebrow">De-googled phones</div>
+        <h2 data-i18n="phones.title">We flash them, harden them, and ship them ready to use.</h2>
+        <p data-i18n="phones.p1">We source supported handsets and flash them ourselves — GrapheneOS, LineageOS, /e/OS or CalyxOS, whichever fits what you need — stripping Google out and setting up sane defaults before the phone ever reaches you. Flashing the wrong image or missing a step can brick a phone, so we handle that risk in-house and ship it ready to use, no setup guide required on your end (though we'll happily walk you through it anyway).</p>
+        <p data-i18n="phones.p2">Available models and ROMs depend on current stock and what's officially supported for that device. Get in touch and we'll confirm what's ready to ship.</p>
+        <div class="hero-actions" style="margin-top:26px;">
+          <a href="mailto:hello@glazni.com?subject=De-googled phone inquiry" class="btn btn-primary" data-i18n="phones.ctaAvailability">Ask about availability</a>
+        </div>
+      </div>
+      <div class="split-img"><img src="image/degoogle.webp" alt="A de-googled phone ready to ship" data-i18n-attr="alt:phones.imgAlt"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="cta-band">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center" data-i18n="cta.eyebrow">Going private?</div>
+    <h2 style="margin-top:16px;" data-i18n="cta.title">Start with a guide, or start with a phone that's already done.</h2>
+    <p data-i18n="cta.desc">Either way, we're happy to point you in the right direction.</p>
+    <div class="cta-actions">
+      <a href="mailto:hello@glazni.com?subject=DeGoogle inquiry" class="btn btn-primary" data-i18n="cta.ctaEmail">Email hello@glazni.com</a>
+      <a href="index.html#contact" class="btn btn-ghost" data-i18n="cta.ctaContact">Contact the team</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="brand"><span class="brand-logo-plate"><img src="image/logo.png" alt="Glazni" class="brand-logo"></span></div>
+        <p data-i18n="footer.brand">A holding company building and operating a growing index of ventures across software, marketing, talent, hospitality technology, privacy-first computing and website hosting — grown from an original mobile-first studio founded in Moscow.</p>
+        <div class="socials" style="margin-top:22px;">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="X / Twitter">x</a>
+          <a href="#" aria-label="Instagram">ig</a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.companyHeading">Company</h4>
+        <ul>
+          <li><a href="index.html#about" data-i18n="footer.companyLinks.about">About</a></li>
+          <li><a href="index.html#ventures" data-i18n="footer.companyLinks.ventures">Ventures</a></li>
+          <li><a href="careers.html" data-i18n="footer.companyLinks.careers">Careers</a></li>
+          <li><a href="index.html#contact" data-i18n="footer.companyLinks.contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.venturesHeading">Ventures</h4>
+        <ul>
+          <li><a href="apps.html" data-i18n="footer.venturesLinks.apps">Glazni Apps</a></li>
+          <li><a href="index.html#ventures" data-i18n="footer.venturesLinks.growth">Glazni Growth</a></li>
+          <li><a href="talent.html" data-i18n="footer.venturesLinks.talent">Glazni Talent</a></li>
+          <li><a href="dine.html" data-i18n="footer.venturesLinks.dine">Glazni Dine</a></li>
+          <li><a href="index.html#ventures" data-i18n="footer.venturesLinks.studio">Glazni Studio</a></li>
+          <li><a href="degoogle.html" data-i18n="footer.venturesLinks.degoogle">Glazni DeGoogle</a></li>
+          <li><a href="migrate.html" data-i18n="footer.venturesLinks.migrate">Glazni Migrate</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4 data-i18n="footer.legalHeading">Legal</h4>
+        <ul>
+          <li><a href="#" data-i18n="footer.legalLinks.privacy">Privacy policy</a></li>
+          <li><a href="#" data-i18n="footer.legalLinks.terms">Terms of service</a></li>
+        </ul>
       </div>
     </div>
-  </nav>
-
-  <header class="page-hero">
-    <div class="wrap">
-      <div class="eyebrow reveal visible" data-i18n="hero.eyebrow">Venture 06 — Glazni DeGoogle</div>
-      <h1 class="reveal visible" data-i18n="hero.title">Escape the Empire. DeGoogle your phone Today</h1>
-      <p class="reveal visible" data-i18n="hero.sub">Guides for GrapheneOS, LineageOS, /e/OS and CalyxOS written to
-        actually be followed, our own privacy-first apps, and phones we de-google ourselves before they ship to you.</p>
-      <div class="hero-actions reveal visible" style="margin-top:32px;">
-        <a href="#phones" class="btn btn-primary"><span data-i18n="hero.ctaPhones">See de-googled phones</span>
-          <svg viewBox="0 0 14 14" fill="none">
-            <path d="M7 2V12M7 12L2.5 7.5M7 12L11.5 7.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </svg>
-        </a>
-        <a href="#guides" class="btn btn-ghost" data-i18n="hero.ctaGuides">Read the guides</a>
-      </div>
+    <div class="foot-bottom">
+      <span>© <span class="js-year"></span> <span data-i18n="footer.copyright">Glazni. All rights reserved.</span></span>
+      <span data-i18n="footer.builtBy">Built in-house by the Glazni team.</span>
     </div>
-  </header>
+  </div>
+</footer>
 
-  <!-- ================= GUIDES ================= -->
-  <section class="section" id="guides">
-    <div class="wrap">
-      <div class="split reveal">
-        <div class="split-copy">
-          <div class="eyebrow" data-i18n="guides.eyebrow">GrapheneOS guides</div>
-          <h2 data-i18n="guides.title">Comprehensive, step-by-step, kept up to date.</h2>
-          <p data-i18n="guides.p1">We write and maintain in-depth guides for installing and living on GrapheneOS — from
-            flashing your first Pixel to sandboxing Google Play services, choosing alternative app stores, and hardening
-            the OS beyond its defaults.</p>
-          <p data-i18n="guides.p2">No sponsored placements, no affiliate detours. Just the steps, written by people who
-            run this setup daily.</p>
-          <div class="notice" style="margin-top:24px;">
-            <strong data-i18n="guides.noticeLabel">Supported devices:</strong> <span data-i18n="guides.notice">Google
-              Pixel only, current generation plus several years back — GrapheneOS depends on Pixel's hardware security
-              module, which is also why it's the strictest of the four ROMs we support.</span>
-          </div>
-        </div>
-        <div class="split-img"><img src="image/graphene.webp" alt="GrapheneOS setup guide"
-            data-i18n-attr="alt:guides.imgAlt"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= GUIDES: CalyxOS ================= -->
-  <section class="section" id="guides-calyx">
-    <div class="wrap">
-      <div class="split img-left reveal">
-        <div class="split-copy">
-          <div class="eyebrow" data-i18n="guidesCalyx.eyebrow">CalyxOS guides</div>
-          <h2 data-i18n="guidesCalyx.title">Pixel-grade hardening, with Google apps if you still need them.</h2>
-          <p data-i18n="guidesCalyx.p1">CalyxOS sits between GrapheneOS and /e/OS: Pixel-focused hardening plus a
-            sandboxed Google Play option and built-in microG, so you keep most of the security benefits without losing
-            every Google-tied app. We cover installation, the sandboxed Play option, and the Datura firewall and Tor
-            features it ships with.</p>
-          <p data-i18n="guidesCalyx.p2">We keep our CalyxOS guides current with each release and flag any device or
-            feature caveats up front. No sponsored placements, just the steps.</p>
-          <div class="notice" style="margin-top:24px;">
-            <strong data-i18n="guidesCalyx.noticeLabel">Supported devices:</strong> <span
-              data-i18n="guidesCalyx.notice">primarily Google Pixel (current generation plus several years back), with
-              select Fairphone and Motorola models also supported. CalyxOS is run by the non-profit Calyx Institute and
-              its release pace has had gaps in the past, so we only recommend or sell a device once we've confirmed it's
-              on an actively maintained build.</span>
-          </div>
-        </div>
-        <div class="split-img"><img src="image/calyxos.webp" alt="CalyxOS setup guide"
-            data-i18n-attr="alt:guidesCalyx.imgAlt"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= GUIDES: LineageOS ================= -->
-  <section class="section" id="guides-lineage">
-    <div class="wrap">
-      <div class="split img-left reveal">
-        <div class="split-copy">
-          <div class="eyebrow" data-i18n="guidesLineage.eyebrow">LineageOS guides</div>
-          <h2 data-i18n="guidesLineage.title">The widest hardware support of any ROM we cover.</h2>
-          <p data-i18n="guidesLineage.p1">LineageOS runs on far more phones than any other option on this page — Google
-            Pixel, OnePlus, Xiaomi and Poco, Samsung, Sony, Motorola, Nothing, Fairphone and dozens more, spanning
-            flagship and budget devices going back several years. We maintain full install guides for the models we sell
-            directly, plus general unlocking, flashing and recovery guidance for the rest.</p>
-          <p data-i18n="guidesLineage.p2">Nothing's installed by default that you didn't ask for — add back microG for
-            app compatibility, or run it fully Google-free. No sponsored placements, just the steps.</p>
-          <div class="notice" style="margin-top:24px;">
-            <strong data-i18n="guidesLineage.noticeLabel">Supported devices:</strong> <span
-              data-i18n="guidesLineage.notice">hundreds of officially supported models across Pixel, OnePlus,
-              Xiaomi/Poco, Samsung, Sony, Motorola, Nothing, Fairphone and more. Support for any single model depends on
-              an active community maintainer and can be dropped if nobody keeps it going, so we always confirm current
-              official status before we flash or sell a device.</span>
-          </div>
-        </div>
-        <div class="split-img"><img src="image/lineageos.webp" alt="LineageOS setup guide"
-            data-i18n-attr="alt:guidesLineage.imgAlt"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= GUIDES: /e/OS ================= -->
-  <section class="section" id="guides-eos">
-    <div class="wrap">
-      <div class="split reveal">
-        <div class="split-copy">
-          <div class="eyebrow" data-i18n="guidesEos.eyebrow">/e/OS guides</div>
-          <h2 data-i18n="guidesEos.title">De-googled, without giving up your everyday apps.</h2>
-          <p data-i18n="guidesEos.p1">/e/OS trades a little hardening for everyday convenience: its App Lounge store
-            installs Google Play apps without ever signing into a Google account, so the switch feels far less
-            disruptive than GrapheneOS or CalyxOS. We cover setup, App Lounge, and the built-in Murena Workspace account
-            it can optionally use for mail, contacts and calendar.</p>
-          <p data-i18n="guidesEos.p2">We write full install guides for the devices we support directly, and general
-            flashing guidance for everything else officially supported. No sponsored placements, just the steps.</p>
-          <div class="notice" style="margin-top:24px;">
-            <strong data-i18n="guidesEos.noticeLabel">Supported devices:</strong> <span data-i18n="guidesEos.notice">one
-              of the broadest device lists of any privacy ROM — Samsung Galaxy, Google Pixel, Fairphone, Motorola, Nokia
-              and more. Murena also sells Fairphone and its own Murena-branded handsets with /e/OS pre-installed from
-              the factory, if you'd rather skip flashing altogether.</span>
-          </div>
-        </div>
-        <div class="split-img"><img src="image/eos.webp" alt="/e/OS setup guide" data-i18n-attr="alt:guidesEos.imgAlt">
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- ================= OWN APPS ================= -->
-  <section class="section">
-    <div class="wrap">
-      <div class="section-head reveal">
-        <div>
-          <div class="eyebrow" data-i18n="ownApps.eyebrow">Our own apps</div>
-          <h2 class="section-title" data-i18n="ownApps.title">Small, private-by-default tools</h2>
-        </div>
-        <p class="section-desc" data-i18n="ownApps.desc">Built for the DeGoogle stack — no Google services required, no
-          tracking, no account needed to get started.</p>
-      </div>
-      <div class="app-grid reveal">
-        <a href="apps/phone.html" class="app-card">
-          <div class="app-icon mono" data-icon="phone">PH</div>
-          <h3 data-i18n="ownApps.items.phone.name">Phone</h3>
-          <p data-i18n="ownApps.items.phone.desc">A dialer and address book in one app instead of two, running fully
-            offline with nothing synced to the cloud.</p>
-          <span class="app-status" data-i18n="ownApps.items.phone.status">In development</span>
-        </a>
-        <a href="apps/journal.html" class="app-card">
-          <div class="app-icon mono" data-icon="journal">JN</div>
-          <h3 data-i18n="ownApps.items.journal.name">Journal</h3>
-          <p data-i18n="ownApps.items.journal.desc">A plain daily journal — write, close the app, come back tomorrow. No
-            prompts, no streaks, no photo required.</p>
-          <span class="app-status" data-i18n="ownApps.items.journal.status">In development</span>
-        </a>
-        <a href="apps/resume_builder.html" class="app-card">
-          <div class="app-icon mono" data-icon="resume-builder">RB</div>
-          <h3 data-i18n="ownApps.items.resumeBuilder.name">Resume Builder</h3>
-          <p data-i18n="ownApps.items.resumeBuilder.desc">Premium, professionally designed resumes, offered free or
-            almost free instead of gated behind a subscription.</p>
-          <span class="app-status" data-i18n="ownApps.items.resumeBuilder.status">In development</span>
-        </a>
-        <a href="apps/background_changer.html" class="app-card">
-          <div class="app-icon mono" data-icon="background-changer">BC</div>
-          <h3 data-i18n="ownApps.items.backgroundChanger.name">Background Changer</h3>
-          <p data-i18n="ownApps.items.backgroundChanger.desc">A wallpaper that shifts with morning, evening and night,
-            circling through your own collection automatically.</p>
-          <span class="app-status" data-i18n="ownApps.items.backgroundChanger.status">In development</span>
-        </a>
-        <a href="apps/ideas.html" class="app-card">
-          <div class="app-icon mono" data-icon="ideas">ID</div>
-          <h3 data-i18n="ownApps.items.ideas.name">Ideas</h3>
-          <p data-i18n="ownApps.items.ideas.desc">Start an idea, then drop every note and thought about it underneath —
-            one subheading per idea, nothing to file.</p>
-          <span class="app-status" data-i18n="ownApps.items.ideas.status">In development</span>
-        </a>
-        <a href="apps/photo_journal.html" class="app-card">
-          <div class="app-icon mono" data-icon="photo-journal">PJ</div>
-          <h3 data-i18n="ownApps.items.photoJournal.name">Photo Journal</h3>
-          <p data-i18n="ownApps.items.photoJournal.desc">One photo a day, building into a visual autobiography — and a
-            record for the people who come looking after you're gone.</p>
-          <span class="app-status" data-i18n="ownApps.items.photoJournal.status">Published</span>
-        </a>
-        <a href="apps/messages.html" class="app-card">
-          <div class="app-icon mono" data-icon="messages">MS</div>
-          <h3 data-i18n="ownApps.items.messages.name">Messages</h3>
-          <p data-i18n="ownApps.items.messages.desc">SMS and MMS sent straight over your carrier, completely offline,
-            with no account and no cloud relay.</p>
-          <span class="app-status" data-i18n="ownApps.items.messages.status">In development</span>
-        </a>
-        <a href="apps/pdf_audiobook.html" class="app-card">
-          <div class="app-icon mono" data-icon="pdf-audiobook">AB</div>
-          <h3 data-i18n="ownApps.items.pdfAudiobook.name">PDF to Audiobook</h3>
-          <p data-i18n="ownApps.items.pdfAudiobook.desc">Turn any PDF into an audiobook — free with a queue of up to a
-            week, or instant if you pay to skip the line.</p>
-          <span class="app-status" data-i18n="ownApps.items.pdfAudiobook.status">In development</span>
-        </a>
-        <a href="apps/tasks.html" class="app-card">
-          <div class="app-icon mono" data-icon="tasks">TK</div>
-          <h3 data-i18n="ownApps.items.tasks.name">Tasks</h3>
-          <p data-i18n="ownApps.items.tasks.desc">A short list of what needs doing today, kept short on purpose —
-            nothing synced, nothing gamified.</p>
-          <span class="app-status" data-i18n="ownApps.items.tasks.status">In development</span>
-        </a>
-        <a href="apps/keyboard.html" class="app-card">
-          <div class="app-icon mono" data-icon="keyboard">KB</div>
-          <h3 data-i18n="ownApps.items.keyboard.name">Glazni Keyboard</h3>
-          <p data-i18n="ownApps.items.keyboard.desc">A full replacement for the Google keyboard with speech-to-text
-            built in and processed on-device — nothing typed or spoken leaves your phone.</p>
-          <span class="app-status" data-i18n="ownApps.items.keyboard.status">In development</span>
-        </a>
-        <div class="app-card">
-          <div class="app-icon mono" data-icon="language-learning">LL</div>
-          <h3 data-i18n="ownApps.items.languageLearning.name">Language Learning</h3>
-          <p data-i18n="ownApps.items.languageLearning.desc">We're building a language-learning app in-house. It's early
-            — no public link yet, and no date to share — but it'll follow the same privacy-first approach as everything
-            else Glazni ships.</p>
-          <span class="app-status" data-i18n="ownApps.items.languageLearning.status">In development</span>
-        </div>
-        <a href="apps/contacts_exporter.html" class="app-card">
-          <div class="app-icon mono" data-icon="contacts-exporter">CE</div>
-          <h3 data-i18n="ownApps.items.contactsExporter.name">Contacts Exporter</h3>
-          <p data-i18n="ownApps.items.contactsExporter.desc">Every contact, out of Google and into a CSV you keep
-            locally — ready for whatever phone comes next.</p>
-          <span class="app-status" data-i18n="ownApps.items.contactsExporter.status">In development</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= PHONES ================= -->
-  <section class="section" id="phones">
-    <div class="wrap">
-      <div class="split reverse reveal">
-        <div class="split-copy">
-          <div class="eyebrow" data-i18n="phones.eyebrow">De-googled phones</div>
-          <h2 data-i18n="phones.title">We flash them, harden them, and ship them ready to use.</h2>
-          <p data-i18n="phones.p1">We source supported handsets and flash them ourselves — GrapheneOS, LineageOS, /e/OS
-            or CalyxOS, whichever fits what you need — stripping Google out and setting up sane defaults before the
-            phone ever reaches you. Flashing the wrong image or missing a step can brick a phone, so we handle that risk
-            in-house and ship it ready to use, no setup guide required on your end (though we'll happily walk you
-            through it anyway).</p>
-          <p data-i18n="phones.p2">Available models and ROMs depend on current stock and what's officially supported for
-            that device. Get in touch and we'll confirm what's ready to ship.</p>
-          <div class="hero-actions" style="margin-top:26px;">
-            <a href="mailto:hello@glazni.com?subject=De-googled phone inquiry" class="btn btn-primary"
-              data-i18n="phones.ctaAvailability">Ask about availability</a>
-          </div>
-        </div>
-        <div class="split-img"><img src="image/degoogle.webp" alt="A de-googled phone ready to ship"
-            data-i18n-attr="alt:phones.imgAlt"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ================= CTA ================= -->
-  <section class="cta-band">
-    <div class="wrap">
-      <div class="eyebrow" style="justify-content:center" data-i18n="cta.eyebrow">Going private?</div>
-      <h2 style="margin-top:16px;" data-i18n="cta.title">Start with a guide, or start with a phone that's already done.
-      </h2>
-      <p data-i18n="cta.desc">Either way, we're happy to point you in the right direction.</p>
-      <div class="cta-actions">
-        <a href="mailto:hello@glazni.com?subject=DeGoogle inquiry" class="btn btn-primary"
-          data-i18n="cta.ctaEmail">Email hello@glazni.com</a>
-        <a href="index.html#contact" class="btn btn-ghost" data-i18n="cta.ctaContact">Contact the team</a>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="wrap">
-      <div class="foot-grid">
-        <div class="foot-brand">
-          <div class="brand"><span class="brand-logo-plate"><img src="image/logo.png" alt="Glazni"
-                class="brand-logo"></span></div>
-          <p data-i18n="footer.brand">A holding company building and operating a growing index of ventures across
-            software, marketing, talent, hospitality technology, privacy-first computing and website hosting — grown
-            from an original mobile-first studio founded in Moscow.</p>
-          <div class="socials" style="margin-top:22px;">
-            <a href="#" aria-label="LinkedIn">in</a>
-            <a href="#" aria-label="X / Twitter">x</a>
-            <a href="#" aria-label="Instagram">ig</a>
-          </div>
-        </div>
-        <div class="foot-col">
-          <h4 data-i18n="footer.companyHeading">Company</h4>
-          <ul>
-            <li><a href="index.html#about" data-i18n="footer.companyLinks.about">About</a></li>
-            <li><a href="index.html#ventures" data-i18n="footer.companyLinks.ventures">Ventures</a></li>
-            <li><a href="careers.html" data-i18n="footer.companyLinks.careers">Careers</a></li>
-            <li><a href="index.html#contact" data-i18n="footer.companyLinks.contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="foot-col">
-          <h4 data-i18n="footer.venturesHeading">Ventures</h4>
-          <ul>
-            <li><a href="apps.html" data-i18n="footer.venturesLinks.apps">Glazni Apps</a></li>
-            <li><a href="index.html#ventures" data-i18n="footer.venturesLinks.growth">Glazni Growth</a></li>
-            <li><a href="talent.html" data-i18n="footer.venturesLinks.talent">Glazni Talent</a></li>
-            <li><a href="dine.html" data-i18n="footer.venturesLinks.dine">Glazni Dine</a></li>
-            <li><a href="index.html#ventures" data-i18n="footer.venturesLinks.studio">Glazni Studio</a></li>
-            <li><a href="degoogle.html" data-i18n="footer.venturesLinks.degoogle">Glazni DeGoogle</a></li>
-            <li><a href="migrate.html" data-i18n="footer.venturesLinks.migrate">Glazni Migrate</a></li>
-          </ul>
-        </div>
-        <div class="foot-col">
-          <h4 data-i18n="footer.legalHeading">Legal</h4>
-          <ul>
-            <li><a href="#" data-i18n="footer.legalLinks.privacy">Privacy policy</a></li>
-            <li><a href="#" data-i18n="footer.legalLinks.terms">Terms of service</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="foot-bottom">
-        <span>© <span class="js-year"></span> <span data-i18n="footer.copyright">Glazni. All rights
-            reserved.</span></span>
-        <span data-i18n="footer.builtBy">Built in-house by the Glazni team.</span>
-      </div>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
-  <script src="icons.js"></script>
+<script src="script.js"></script>
+<script src="icons.js"></script>
 </body>
-
 </html>

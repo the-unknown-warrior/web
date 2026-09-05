@@ -239,6 +239,7 @@ h1,h2,h3,.font-display{
   transition:color .2s var(--ease), border-color .2s var(--ease);
 }
 .lang-trigger:hover{ color:var(--ink); border-color:var(--ink-dim); }
+.lang-trigger-flag{ font-size:15px; line-height:1; }
 .lang-caret{ flex-shrink:0; transition:transform .2s var(--ease); }
 .lang-switch.open .lang-trigger{ color:var(--ink); border-color:var(--teal); }
 .lang-switch.open .lang-caret{ transform:rotate(180deg); }
@@ -279,10 +280,9 @@ h1,h2,h3,.font-display{
   text-align:left;
   transition:color .2s var(--ease), background-color .2s var(--ease);
 }
-.lang-option .lang-option-code{ color:var(--ink-faint); font-size:11px; }
+.lang-option .lang-option-code{ font-size:16px; line-height:1; flex-shrink:0; }
 .lang-option:hover{ color:var(--ink); background:rgba(255,255,255,.05); }
 .lang-option.active{ color:var(--navy-950); background:var(--teal); }
-.lang-option.active .lang-option-code{ color:var(--navy-950); opacity:.7; }
 .nav-toggle{
   display:none;
   background:none; border:1px solid var(--line-strong); border-radius:var(--radius-sm);

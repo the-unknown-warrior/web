@@ -14,6 +14,18 @@ const LANG_NAMES = {
   it: 'Italiano'
 };
 
+// Flag shown on the trigger button and next to each option in the dropdown.
+// English maps to the UK flag rather than the US flag, in keeping with the
+// site's European base of operations.
+const LANG_FLAGS = {
+  en: '🇬🇧',
+  ru: '🇷🇺',
+  de: '🇩🇪',
+  es: '🇪🇸',
+  fr: '🇫🇷',
+  it: '🇮🇹'
+};
+
 function dataFileFor(lang) {
   return `locale/data_${lang}.json`;
 }
@@ -124,7 +136,7 @@ async function loadI18n(lang) {
 // later never risks overflowing the nav bar on small screens.
 const langSwitch = document.getElementById('langSwitch');
 const langTrigger = document.getElementById('langTrigger');
-const langTriggerCode = langTrigger ? langTrigger.querySelector('[data-lang-code]') : null;
+const langTriggerFlag = langTrigger ? langTrigger.querySelector('[data-lang-flag]') : null;
 const langMenu = document.getElementById('langMenu');
 
 function closeLangMenu() {
@@ -151,7 +163,7 @@ function setLanguage(lang, { persist = true } = {}) {
   if (!SUPPORTED_LANGS.includes(lang)) return;
   currentLang = lang;
   if (persist) storeLang(lang);
-  if (langTriggerCode) langTriggerCode.textContent = lang.toUpperCase();
+  if (langTriggerFlag) langTriggerFlag.textContent = LANG_FLAGS[lang] || lang.toUpperCase();
   document.querySelectorAll('.lang-option').forEach(opt => {
     const isActive = opt.dataset.lang === lang;
     opt.classList.toggle('active', isActive);

@@ -20,9 +20,19 @@
       <li><a href="/index.html#contact" data-i18n="nav.contact">Contact</a></li>
     </ul>
     <div class="nav-cta">
-      <div class="lang-switch" role="group" aria-label="Language">
-        <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
-        <button type="button" class="lang-btn" data-lang="ru" aria-pressed="false">RU</button>
+      <div class="lang-switch" id="langSwitch">
+        <button type="button" class="lang-trigger" id="langTrigger" aria-haspopup="true" aria-expanded="false" aria-label="Change language">
+          <span class="lang-trigger-flag" data-lang-flag>🇬🇧</span>
+          <svg class="lang-caret" width="9" height="6" viewBox="0 0 9 6" fill="none" aria-hidden="true"><path d="M1 1L4.5 5L8 1" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <ul class="lang-menu" id="langMenu" role="menu" aria-label="Language" hidden>
+          <li role="none"><button type="button" role="menuitem" class="lang-option active" data-lang="en" aria-selected="true">English<span class="lang-option-code">🇬🇧</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="ru" aria-selected="false">Русский<span class="lang-option-code">🇷🇺</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="de" aria-selected="false">Deutsch<span class="lang-option-code">🇩🇪</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="es" aria-selected="false">Español<span class="lang-option-code">🇪🇸</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="fr" aria-selected="false">Français<span class="lang-option-code">🇫🇷</span></button></li>
+          <li role="none"><button type="button" role="menuitem" class="lang-option" data-lang="it" aria-selected="false">Italiano<span class="lang-option-code">🇮🇹</span></button></li>
+        </ul>
       </div>
       <a href="/index.html#contact" class="btn btn-ghost" data-i18n="nav.getInTouch">Get in touch</a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" data-i18n-attr="aria-label:nav.toggleLabel">
