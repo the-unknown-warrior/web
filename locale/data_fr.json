@@ -1108,7 +1108,7 @@
       "steps": [
         {
           "title": "Postuler",
-          "desc": "Envoyez vos coordonnées et un mot sur ce sur quoi vous aimeriez travailler — via l'un des postes ci-dessus, ou par un message général à careers@glazni.com."
+          "desc": "Envoyez vos coordonnées et un mot sur ce sur quoi vous aimeriez travailler — via l'un des postes ci-dessus, ou par un message général à hr@glazni.com."
         },
         {
           "title": "Appel de découverte",
@@ -1128,7 +1128,7 @@
       "eyebrow": "Vous ne voyez pas votre poste ?",
       "title": "Nous intégrons régulièrement de nouvelles entreprises à notre portefeuille — et recrutons pour chacune d'elles.",
       "desc": "Écrivez-nous. Nous conservons chaque candidature pour la prochaine entreprise qui correspondra.",
-      "ctaEmail": "Écrire à careers@glazni.com",
+      "ctaEmail": "Écrire à hr@glazni.com",
       "ctaContact": "Contacter l'équipe"
     }
   },

@@ -1108,7 +1108,7 @@
       "steps": [
         {
           "title": "Apply",
-          "desc": "Send your details and a note on what you'd want to work on — through a role above or a general note to careers@glazni.com."
+          "desc": "Send your details and a note on what you'd want to work on — through a role above or a general note to hr@glazni.com."
         },
         {
           "title": "Intro call",
@@ -1128,7 +1128,7 @@
       "eyebrow": "Don't see your role?",
       "title": "We're indexing new ventures often — and hiring for each one.",
       "desc": "Send us a note. We keep every application on file for the next venture that fits.",
-      "ctaEmail": "Email careers@glazni.com",
+      "ctaEmail": "Email hr@glazni.com",
       "ctaContact": "Contact the team"
     }
   },

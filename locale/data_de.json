@@ -1108,7 +1108,7 @@
       "steps": [
         {
           "title": "Bewerben",
-          "desc": "Schick uns deine Angaben und eine Notiz dazu, woran du arbeiten möchtest — über eine der Rollen oben oder eine allgemeine Nachricht an careers@glazni.com."
+          "desc": "Schick uns deine Angaben und eine Notiz dazu, woran du arbeiten möchtest — über eine der Rollen oben oder eine allgemeine Nachricht an hr@glazni.com."
         },
         {
           "title": "Erstgespräch",
@@ -1128,7 +1128,7 @@
       "eyebrow": "Deine Rolle nicht dabei?",
       "title": "Wir nehmen häufig neue Ventures in den Index auf — und stellen für jedes ein.",
       "desc": "Schick uns eine Nachricht. Wir bewahren jede Bewerbung für das nächste passende Venture auf.",
-      "ctaEmail": "E-Mail an careers@glazni.com",
+      "ctaEmail": "E-Mail an hr@glazni.com",
       "ctaContact": "Team kontaktieren"
     }
   },

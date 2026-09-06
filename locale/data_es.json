@@ -2021,7 +2021,7 @@
       "steps": [
         {
           "title": "Postúlate",
-          "desc": "Envíanos tus datos y una nota sobre en qué te gustaría trabajar, a través de uno de los puestos anteriores o con una nota general a careers@glazni.com."
+          "desc": "Envíanos tus datos y una nota sobre en qué te gustaría trabajar, a través de uno de los puestos anteriores o con una nota general a hr@glazni.com."
         },
         {
           "title": "Llamada inicial",
@@ -2041,7 +2041,7 @@
       "eyebrow": "¿No ves tu puesto?",
       "title": "Añadimos nuevas compañías al índice con frecuencia, y contratamos para cada una.",
       "desc": "Escríbenos. Guardamos cada solicitud en archivo para la próxima compañía que encaje.",
-      "ctaEmail": "Escríbenos a careers@glazni.com",
+      "ctaEmail": "Escríbenos a hr@glazni.com",
       "ctaContact": "Contacta con el equipo"
     }
   }
