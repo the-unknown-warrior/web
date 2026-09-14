@@ -133,7 +133,7 @@
       "desc": "Each venture ships its own roadmap and owns its own P&L — while sharing the same Glazni backbone.",
       "pillars": {
         "apps": {
-          "desc": "Where it started. Premium, privacy-focused iOS and Android apps, most built for clients under NDA.",
+          "desc": "Where it started. Premium, privacy-focused software built by us. ",
           "link": "See how it works →",
           "title": "Glazni Apps"
         },
@@ -152,7 +152,7 @@
           "title": "Glazni Dine"
         },
         "studio": {
-          "desc": "The venture that builds mobile apps and websites for clients — same mobile-first team the original studio started with.",
+          "desc": "Build software solutions for clients. eg: mobile apps, internal tools, websites, support existing software etc",
           "link": "See how it works →",
           "title": "Glazni Studio"
         },
@@ -162,7 +162,7 @@
           "title": "Glazni DeGoogle"
         },
         "migrate": {
-          "desc": "We rebuild websites off subscription website builders and host them ourselves, typically around half the ongoing cost.",
+          "desc": "Rebuild websites off from subscription website builders and host them in our own servers, typically around half the cost.",
           "link": "See how it works →",
           "title": "Glazni Migrate"
         }
