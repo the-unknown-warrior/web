@@ -424,7 +424,7 @@
       },
       "phone": {
         "title": "Phone",
-        "desc": "A dialer and address book in one app instead of two, running fully offline with nothing synced to the cloud.",
+        "desc": "Phone and Contacts in one app instead of two. Alternative to both Google Phones & Google Contacts apps in Android. Privacy respecting Contacts app with nothing synced to the cloud.",
         "status": "Published"
       },
       "messages": {
@@ -601,7 +601,7 @@
       "items": {
         "phone": {
           "name": "Phone",
-          "desc": "A dialer and address book in one app instead of two, running fully offline with nothing synced to the cloud.",
+          "desc": "Phone and Contacts in one app instead of two. Alternative to both Google Phones & Google Contacts apps in Android. Privacy respecting Contacts app with nothing synced to the cloud.",
           "status": "Published"
         },
         "journal": {

@@ -18,7 +18,18 @@
       <a href="index.html" class="brand"><span class="brand-logo-plate"><img src="image/logo.png" alt="Glazni"
             class="brand-logo"></span></a>
       <ul class="nav-links" id="navLinks">
-        <li><a href="index.html#ventures" data-i18n="nav.ventures">Ventures</a></li>
+        <li class="nav-ventures-item">
+          <a href="index.html#ventures" data-i18n="nav.ventures">Ventures</a>
+          <ul class="ventures-dropdown" aria-label="Ventures">
+            <li><a href="apps.html"><span data-i18n="nav.venturesMenu.apps">Glazni Apps</span><svg class="ventures-dropdown-icon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="3.5" y="1" width="7" height="12" rx="1.2" stroke="currentColor" stroke-width="1.3"/><path d="M6 11.1H8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></a></li>
+            <li><a href="index.html#ventures"><span data-i18n="nav.venturesMenu.growth">Glazni Growth</span><svg class="ventures-dropdown-icon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M1.5 10.5L5.2 6.6L7.6 8.8L12.5 3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 3.5H12.5V7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+            <li><a href="talent.html"><span data-i18n="nav.venturesMenu.talent">Glazni Talent</span><svg class="ventures-dropdown-icon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="7" cy="4.2" r="2.2" stroke="currentColor" stroke-width="1.3"/><path d="M2 12.4C2 9.7 4.2 8 7 8C9.8 8 12 9.7 12 12.4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg></a></li>
+            <li><a href="dine.html"><span data-i18n="nav.venturesMenu.dine">Glazni Dine</span><svg class="ventures-dropdown-icon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3.2 1V5.5C3.2 6.2 3.75 6.75 4.4 6.75C5.05 6.75 5.6 6.2 5.6 5.5V1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.4 6.75V13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><path d="M10.5 1C9.4 1.6 8.8 2.7 8.8 4C8.8 5.2 9.4 6.2 10.2 6.7V13" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+            <li><a href="studio.html"><span data-i18n="nav.venturesMenu.studio">Glazni Studio</span><svg class="ventures-dropdown-icon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M5 3L1.5 7L5 11" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 3L12.5 7L9 11" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+            <li><a href="degoogle.html"><span data-i18n="nav.venturesMenu.degoogle">Glazni DeGoogle</span><svg class="ventures-dropdown-icon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M7 1.2L12 3V6.5C12 9.7 9.9 11.9 7 12.8C4.1 11.9 2 9.7 2 6.5V3L7 1.2Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/><path d="M4.8 6.9L6.2 8.3L9.2 5.1" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a></li>
+            <li><a href="migrate.html"><span data-i18n="nav.venturesMenu.migrate">Glazni Migrate</span><svg class="ventures-dropdown-icon" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="1.5" y="2" width="11" height="3.6" rx="0.8" stroke="currentColor" stroke-width="1.2"/><rect x="1.5" y="8.4" width="11" height="3.6" rx="0.8" stroke="currentColor" stroke-width="1.2"/><path d="M4 3.8H4.01M4 10.2H4.01" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg></a></li>
+          </ul>
+        </li>
         <li><a href="careers.html" data-i18n="nav.careers">Careers</a></li>
         <li><a href="index.html#about" data-i18n="nav.about">About</a></li>
         <li><a href="index.html#contact" data-i18n="nav.contact">Contact</a></li>
@@ -161,7 +172,7 @@
         <a href="apps/phone.html" class="app-card">
           <div class="app-icon mono" data-icon="phone">PH</div>
           <h3 data-i18n="announce.phone.title">Phone</h3>
-          <p data-i18n="announce.phone.desc">A dialer and address book in one app instead of two, running fully offline
+          <p data-i18n="announce.phone.desc">Phone and Contacts in one app instead of two. Alternative to both Google Phones & Google Contacts apps in Android. Privacy respecting Contacts app
             with nothing synced to the cloud.</p>
           <span class="app-status" data-i18n="announce.phone.status">Published</span>
         </a>
