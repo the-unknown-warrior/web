@@ -278,7 +278,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Apps — Phone",
-      "status": "In development",
+      "status": "Published",
       "title": "One app for calls and contacts. Nothing else touches it.",
       "sub": "Phone is a dialer and an address book built as a single app, not two. No account to sign in with, no contact sync running in the background, no data leaving the device — dialing a number and looking someone up happen in the same screen, entirely offline.",
       "ctaDownload": "Download APK",
@@ -287,7 +287,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development"
+        "statusValue": "Published"
       }
     },
     "idea": {
@@ -400,7 +400,7 @@
       "resumeBuilder": {
         "title": "Resume Builder",
         "desc": "Premium, professionally designed resumes, offered free or almost free instead of gated behind a subscription.",
-        "status": "In development"
+        "status": "Published"
       },
       "journal": {
         "title": "Journal",
@@ -410,22 +410,22 @@
       "tasks": {
         "title": "Tasks",
         "desc": "A short list of what needs doing today, kept short on purpose — nothing synced, nothing gamified.",
-        "status": "In development"
+        "status": "Published"
       },
       "contactsExporter": {
         "title": "Contacts Exporter",
         "desc": "Every contact, out of Google and into a CSV you keep locally — ready for whatever phone comes next.",
-        "status": "In development"
+        "status": "Published"
       },
       "backgroundChanger": {
         "title": "Background Changer",
         "desc": "A wallpaper that shifts with morning, evening and night, circling through your own collection automatically.",
-        "status": "In development"
+        "status": "Published"
       },
       "phone": {
         "title": "Phone",
         "desc": "A dialer and address book in one app instead of two, running fully offline with nothing synced to the cloud.",
-        "status": "In development"
+        "status": "Published"
       },
       "messages": {
         "title": "Messages",
@@ -473,7 +473,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Apps — Contacts Exporter",
-      "status": "In development",
+      "status": "Published",
       "title": "Every contact, out of Google and into a file you actually own.",
       "sub": "Contacts Exporter does one job: read every contact stored on your phone and turn it into a plain CSV file, saved locally. No account to create, no cloud sync to trust, nothing left behind in someone else's database. Next time you switch phones — or ecosystems entirely — your contacts move with you, not with a login.",
       "ctaDownload": "Download APK",
@@ -482,7 +482,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development"
+        "statusValue": "Published"
       }
     },
     "idea": {
@@ -596,13 +596,13 @@
     },
     "ownApps": {
       "eyebrow": "Our own apps",
-      "title": "Small, private-by-default tools",
-      "desc": "Built for the DeGoogle stack — no Google services required, no tracking, no account needed to get started.",
+      "title": "Our Degoogled Apps",
+      "desc": "No Google services, no account needed to get started. Private by Default",
       "items": {
         "phone": {
           "name": "Phone",
           "desc": "A dialer and address book in one app instead of two, running fully offline with nothing synced to the cloud.",
-          "status": "In development"
+          "status": "Published"
         },
         "journal": {
           "name": "Journal",
@@ -612,12 +612,12 @@
         "resumeBuilder": {
           "name": "Resume Builder",
           "desc": "Premium, professionally designed resumes, offered free or almost free instead of gated behind a subscription.",
-          "status": "In development"
+          "status": "Published"
         },
         "backgroundChanger": {
           "name": "Background Changer",
           "desc": "A wallpaper that shifts with morning, evening and night, circling through your own collection automatically.",
-          "status": "In development"
+          "status": "Published"
         },
         "ideas": {
           "name": "Ideas",
@@ -642,7 +642,7 @@
         "tasks": {
           "name": "Tasks",
           "desc": "A short list of what needs doing today, kept short on purpose — nothing synced, nothing gamified.",
-          "status": "In development"
+          "status": "Published"
         },
         "keyboard": {
           "name": "Glazni Keyboard",
@@ -652,7 +652,7 @@
         "contactsExporter": {
           "name": "Contacts Exporter",
           "desc": "Every contact, out of Google and into a CSV you keep locally — ready for whatever phone comes next.",
-          "status": "In development"
+          "status": "Published"
         },
         "languageLearning": {
           "name": "Language Learning",
@@ -771,7 +771,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Apps — Background Changer",
-      "status": "In development",
+      "status": "Published",
       "title": "A wallpaper that knows what time it is.",
       "sub": "Background Changer swaps your wallpaper as the day moves — morning, evening, night — so your phone looks like itself at 8am and 8pm without you touching a setting. Add your own collection and it keeps circling through it, timed to the day.",
       "ctaDownload": "Download APK",
@@ -780,7 +780,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development"
+        "statusValue": "Published"
       }
     },
     "idea": {
@@ -1501,7 +1501,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Apps — Photo Journal",
-      "status": "In development",
+      "status": "Published",
       "title": "One photo a day. A life you can actually look back on.",
       "sub": "Photo Journal only asks one thing: a single picture, once a day. No captions to write, no streak to keep beyond that. String enough days together and it becomes something a journal rarely manages — a visual autobiography you didn't have to sit down and write, and one day, a way for the people who loved you to see how you actually lived.",
       "ctaDownload": "Download APK",
@@ -1510,7 +1510,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development"
+        "statusValue": "Published"
       }
     },
     "idea": {
@@ -1581,7 +1581,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Apps — Resume Builder",
-      "status": "In development",
+      "status": "Published",
       "title": "A genuinely good resume, without the paywall.",
       "sub": "Resume Builder puts the kind of resume design normally sold as a premium template — clean layouts, real typography, formatting that survives an ATS — in front of anyone who needs one, for free or close to it. Answer a few prompts, pick a layout, export something you'd actually be proud to send.",
       "ctaDownload": "Download APK",
@@ -1590,7 +1590,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development"
+        "statusValue": "Published"
       }
     },
     "idea": {
@@ -1661,7 +1661,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Apps — Tasks",
-      "status": "In development",
+      "status": "Published",
       "title": "A short list, not a system.",
       "sub": "Tasks is a plain to-do list — add what needs doing, check it off, done. No projects, no labels, no productivity system to maintain, just today's list and whatever's still open from before.",
       "ctaDownload": "Download APK",
@@ -1670,7 +1670,7 @@
         "platformLabel": "Platform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In development"
+        "statusValue": "Published"
       }
     },
     "idea": {

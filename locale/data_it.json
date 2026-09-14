@@ -278,7 +278,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Applicazioni — Phone",
-      "status": "In sviluppo",
+      "status": "Pubblicata",
       "title": "Un'app per le chiamate e i contatti. Nient'altro la tocca.",
       "sub": "Phone è un dialer e una rubrica costruiti come un'unica app, non due. Nessun account con cui accedere, nessuna sincronizzazione dei contatti in background, nessun dato che lascia il dispositivo — comporre un numero e cercare un contatto avvengono nella stessa schermata, interamente offline.",
       "ctaDownload": "Scarica l'APK",
@@ -287,7 +287,7 @@
         "platformLabel": "Piattaforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Stato",
-        "statusValue": "In sviluppo"
+        "statusValue": "Pubblicata"
       }
     },
     "idea": {
@@ -400,7 +400,7 @@
       "resumeBuilder": {
         "title": "Resume Builder",
         "desc": "Curriculum premium, progettati professionalmente, offerti gratis o quasi gratis invece che bloccati dietro un abbonamento.",
-        "status": "In sviluppo"
+        "status": "Pubblicata"
       },
       "journal": {
         "title": "Journal",
@@ -410,22 +410,22 @@
       "tasks": {
         "title": "Tasks",
         "desc": "Un breve elenco di ciò che c'è da fare oggi, tenuto corto di proposito — niente sincronizzato, niente gamificato.",
-        "status": "In sviluppo"
+        "status": "Pubblicata"
       },
       "contactsExporter": {
         "title": "Contacts Exporter",
         "desc": "Ogni contatto, fuori da Google e dentro un CSV che tieni in locale — pronto per qualsiasi telefono verrà dopo.",
-        "status": "In sviluppo"
+        "status": "Pubblicata"
       },
       "backgroundChanger": {
         "title": "Background Changer",
         "desc": "Uno sfondo che cambia con mattina, sera e notte, scorrendo automaticamente tra la tua collezione.",
-        "status": "In sviluppo"
+        "status": "Pubblicata"
       },
       "phone": {
         "title": "Phone",
         "desc": "Un dialer e una rubrica in un'unica app invece di due, che funziona interamente offline senza nulla sincronizzato nel cloud.",
-        "status": "In sviluppo"
+        "status": "Pubblicata"
       },
       "messages": {
         "title": "Messages",
@@ -473,7 +473,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Applicazioni — Contacts Exporter",
-      "status": "In sviluppo",
+      "status": "Pubblicata",
       "title": "Ogni contatto, fuori da Google e dentro un file che possiedi davvero.",
       "sub": "Contacts Exporter fa una cosa sola: legge ogni contatto salvato sul tuo telefono e lo trasforma in un semplice file CSV, salvato in locale. Nessun account da creare, nessuna sincronizzazione nel cloud di cui fidarsi, niente che resti nel database di qualcun altro. La prossima volta che cambi telefono — o ecosistema del tutto — i tuoi contatti si spostano con te, non con un login.",
       "ctaDownload": "Scarica l'APK",
@@ -482,7 +482,7 @@
         "platformLabel": "Piattaforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Stato",
-        "statusValue": "In sviluppo"
+        "statusValue": "Pubblicata"
       }
     },
     "idea": {
@@ -602,7 +602,7 @@
         "phone": {
           "name": "Phone",
           "desc": "Un dialer e una rubrica in un'unica app invece di due, che funziona interamente offline senza nulla sincronizzato nel cloud.",
-          "status": "In sviluppo"
+          "status": "Pubblicata"
         },
         "journal": {
           "name": "Journal",
@@ -612,12 +612,12 @@
         "resumeBuilder": {
           "name": "Resume Builder",
           "desc": "Curriculum premium, progettati professionalmente, offerti gratis o quasi gratis invece che bloccati dietro un abbonamento.",
-          "status": "In sviluppo"
+          "status": "Pubblicata"
         },
         "backgroundChanger": {
           "name": "Background Changer",
           "desc": "Uno sfondo che cambia con mattina, sera e notte, scorrendo automaticamente tra la tua collezione.",
-          "status": "In sviluppo"
+          "status": "Pubblicata"
         },
         "ideas": {
           "name": "Ideas",
@@ -642,7 +642,7 @@
         "tasks": {
           "name": "Tasks",
           "desc": "Un breve elenco di ciò che c'è da fare oggi, tenuto corto di proposito — niente sincronizzato, niente gamificato.",
-          "status": "In sviluppo"
+          "status": "Pubblicata"
         },
         "keyboard": {
           "name": "Glazni Keyboard",
@@ -652,7 +652,7 @@
         "contactsExporter": {
           "name": "Contacts Exporter",
           "desc": "Ogni contatto, fuori da Google e dentro un CSV che tieni in locale — pronto per qualsiasi telefono verrà dopo.",
-          "status": "In sviluppo"
+          "status": "Pubblicata"
         },
         "languageLearning": {
           "name": "Apprendimento delle lingue",
@@ -771,7 +771,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Applicazioni — Background Changer",
-      "status": "In sviluppo",
+      "status": "Pubblicata",
       "title": "Uno sfondo che sa che ore sono.",
       "sub": "Background Changer sostituisce il tuo sfondo seguendo il ritmo della giornata — mattina, sera, notte — così il tuo telefono resta coerente con se stesso sia alle 8 del mattino sia alle 8 di sera, senza che tu debba toccare alcuna impostazione. Aggiungi la tua raccolta personale e l'app continuerà a scorrerla, sincronizzata con il momento della giornata.",
       "ctaDownload": "Scarica l'APK",
@@ -780,7 +780,7 @@
         "platformLabel": "Piattaforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Stato",
-        "statusValue": "In sviluppo"
+        "statusValue": "Pubblicata"
       }
     },
     "idea": {
@@ -1812,7 +1812,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Applicazioni — Photo Journal",
-      "status": "In sviluppo",
+      "status": "Pubblicata",
       "title": "Una foto al giorno. Una vita che potrai davvero ripercorrere.",
       "sub": "Photo Journal chiede una sola cosa: una foto, una volta al giorno. Nessuna didascalia da scrivere, nessuna serie da mantenere oltre a questo. Metti insieme abbastanza giorni e diventa qualcosa che un diario raramente riesce a fare — un'autobiografia visiva che non hai dovuto sederti a scrivere, e un giorno, un modo perché le persone che ti hanno amato vedano come hai davvero vissuto.",
       "ctaDownload": "Scarica l'APK",
@@ -1821,7 +1821,7 @@
         "platformLabel": "Piattaforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Stato",
-        "statusValue": "In sviluppo"
+        "statusValue": "Pubblicata"
       }
     },
     "idea": {
@@ -1892,7 +1892,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Applicazioni — Resume Builder",
-      "status": "In sviluppo",
+      "status": "Pubblicata",
       "title": "Un curriculum davvero valido, senza paywall.",
       "sub": "Resume Builder mette il tipo di design normalmente venduto come template premium — layout puliti, tipografia vera, una formattazione che sopravvive a un ATS — a disposizione di chiunque ne abbia bisogno, gratis o quasi. Rispondi a qualche domanda, scegli un layout, esporta qualcosa che saresti davvero orgoglioso di inviare.",
       "ctaDownload": "Scarica l'APK",
@@ -1901,7 +1901,7 @@
         "platformLabel": "Piattaforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Stato",
-        "statusValue": "In sviluppo"
+        "statusValue": "Pubblicata"
       }
     },
     "idea": {
@@ -1972,7 +1972,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Applicazioni — Tasks",
-      "status": "In sviluppo",
+      "status": "Pubblicata",
       "title": "Una lista breve, non un sistema.",
       "sub": "Tasks è una semplice lista di cose da fare — aggiungi quello che c'è da fare, spuntalo, fatto. Niente progetti, niente etichette, nessun sistema di produttività da mantenere, solo la lista di oggi e quello che è rimasto aperto da prima.",
       "ctaDownload": "Scarica l'APK",
@@ -1981,7 +1981,7 @@
         "platformLabel": "Piattaforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Stato",
-        "statusValue": "In sviluppo"
+        "statusValue": "Pubblicata"
       }
     },
     "idea": {

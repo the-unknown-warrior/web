@@ -278,7 +278,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Aplicaciones — Phone",
-      "status": "En desarrollo",
+      "status": "Publicada",
       "title": "Una sola aplicación para llamadas y contactos. Nada más interviene.",
       "sub": "Phone es un marcador telefónico y una agenda de contactos construidos como una sola aplicación, no dos. Sin cuenta con la que iniciar sesión, sin sincronización de contactos en segundo plano, sin datos que salgan del dispositivo: marcar un número y buscar a alguien ocurren en la misma pantalla, completamente sin conexión.",
       "ctaDownload": "Descargar APK",
@@ -287,7 +287,7 @@
         "platformLabel": "Plataforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Estado",
-        "statusValue": "En desarrollo"
+        "statusValue": "Publicada"
       }
     },
     "idea": {
@@ -400,7 +400,7 @@
       "resumeBuilder": {
         "title": "Resume Builder",
         "desc": "Currículums premium con diseño profesional, ofrecidos gratis o casi gratis en lugar de quedar atrapados detrás de una suscripción.",
-        "status": "En desarrollo"
+        "status": "Publicada"
       },
       "journal": {
         "title": "Journal",
@@ -410,22 +410,22 @@
       "tasks": {
         "title": "Tasks",
         "desc": "Una lista breve de lo que hay que hacer hoy, deliberadamente corta: nada sincronizado, nada gamificado.",
-        "status": "En desarrollo"
+        "status": "Publicada"
       },
       "contactsExporter": {
         "title": "Contacts Exporter",
         "desc": "Todos tus contactos, fuera de Google y en un CSV que guardas localmente, listo para el próximo teléfono que llegue.",
-        "status": "En desarrollo"
+        "status": "Publicada"
       },
       "backgroundChanger": {
         "title": "Background Changer",
         "desc": "Un fondo de pantalla que cambia con la mañana, la tarde y la noche, recorriendo automáticamente tu propia colección.",
-        "status": "En desarrollo"
+        "status": "Publicada"
       },
       "phone": {
         "title": "Phone",
         "desc": "Un marcador y una agenda de contactos en una sola aplicación en lugar de dos, funcionando completamente sin conexión y sin nada sincronizado con la nube.",
-        "status": "En desarrollo"
+        "status": "Publicada"
       },
       "messages": {
         "title": "Messages",
@@ -473,7 +473,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Aplicaciones — Contacts Exporter",
-      "status": "En desarrollo",
+      "status": "Publicada",
       "title": "Todos tus contactos, fuera de Google y en un archivo que realmente te pertenece.",
       "sub": "Contacts Exporter hace una sola cosa: lee todos los contactos almacenados en tu teléfono y los convierte en un archivo CSV sencillo, guardado localmente. Sin cuenta que crear, sin sincronización en la nube en la que confiar, nada que quede atrás en la base de datos de otra persona. La próxima vez que cambies de teléfono —o de ecosistema por completo— tus contactos se mueven contigo, no con un inicio de sesión.",
       "ctaDownload": "Descargar APK",
@@ -482,7 +482,7 @@
         "platformLabel": "Plataforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Estado",
-        "statusValue": "En desarrollo"
+        "statusValue": "Publicada"
       }
     },
     "idea": {
@@ -553,7 +553,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Aplicaciones — Background Changer",
-      "status": "En desarrollo",
+      "status": "Publicada",
       "title": "Un fondo de pantalla que sabe qué hora es.",
       "sub": "Background Changer cambia tu fondo de pantalla a medida que avanza el día —mañana, tarde, noche—, de modo que tu teléfono se ve como es a las 8 de la mañana y a las 8 de la tarde sin que toques ningún ajuste. Añade tu propia colección y la irá recorriendo automáticamente, sincronizada con el momento del día.",
       "ctaDownload": "Descargar APK",
@@ -562,7 +562,7 @@
         "platformLabel": "Plataforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Estado",
-        "statusValue": "En desarrollo"
+        "statusValue": "Publicada"
       }
     },
     "idea": {
@@ -793,7 +793,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Aplicaciones — Photo Journal",
-      "status": "En desarrollo",
+      "status": "Publicada",
       "title": "Una foto al día. Una vida a la que de verdad puedes mirar atrás.",
       "sub": "Photo Journal solo pide una cosa: una única foto, una vez al día. Sin pies de foto que escribir, sin más racha que mantener. Encadena suficientes días y se convierte en algo que un diario rara vez consigue —una autobiografía visual que no tuviste que sentarte a escribir, y algún día, una forma para que quienes te quisieron vean cómo viviste de verdad.",
       "ctaDownload": "Descargar APK",
@@ -802,7 +802,7 @@
         "platformLabel": "Plataforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Estado",
-        "statusValue": "En desarrollo"
+        "statusValue": "Publicada"
       }
     },
     "idea": {
@@ -953,7 +953,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Aplicaciones — Resume Builder",
-      "status": "En desarrollo",
+      "status": "Publicada",
       "title": "Un currículum realmente bueno, sin muro de pago.",
       "sub": "Resume Builder pone al alcance de cualquiera que lo necesite el tipo de diseño de currículum que normalmente se vende como plantilla premium —maquetaciones limpias, tipografía real, un formato que sobrevive a un ATS—, gratis o casi. Responde unas pocas preguntas, elige una maquetación y exporta algo que de verdad te enorgullecerá enviar.",
       "ctaDownload": "Descargar APK",
@@ -962,7 +962,7 @@
         "platformLabel": "Plataforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Estado",
-        "statusValue": "En desarrollo"
+        "statusValue": "Publicada"
       }
     },
     "idea": {
@@ -1033,7 +1033,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Aplicaciones — Tasks",
-      "status": "En desarrollo",
+      "status": "Publicada",
       "title": "Una lista corta, no un sistema.",
       "sub": "Tasks es una lista de tareas sencilla —añade lo que hay que hacer, márcalo como hecho, listo. Sin proyectos, sin etiquetas, sin sistema de productividad que mantener: solo la lista de hoy y lo que siga pendiente de antes.",
       "ctaDownload": "Descargar APK",
@@ -1042,7 +1042,7 @@
         "platformLabel": "Plataforma",
         "platformValue": "Android (APK)",
         "statusLabel": "Estado",
-        "statusValue": "En desarrollo"
+        "statusValue": "Publicada"
       }
     },
     "idea": {
@@ -1162,7 +1162,7 @@
         "phone": {
           "name": "Phone",
           "desc": "Un marcador y una agenda de contactos en una sola aplicación en lugar de dos, funcionando completamente sin conexión y sin nada sincronizado con la nube.",
-          "status": "En desarrollo"
+          "status": "Publicada"
         },
         "journal": {
           "name": "Journal",
@@ -1172,12 +1172,12 @@
         "resumeBuilder": {
           "name": "Resume Builder",
           "desc": "Currículums premium con diseño profesional, ofrecidos gratis o casi gratis en lugar de quedar atrapados detrás de una suscripción.",
-          "status": "En desarrollo"
+          "status": "Publicada"
         },
         "backgroundChanger": {
           "name": "Background Changer",
           "desc": "Un fondo de pantalla que cambia con la mañana, la tarde y la noche, recorriendo automáticamente tu propia colección.",
-          "status": "En desarrollo"
+          "status": "Publicada"
         },
         "ideas": {
           "name": "Ideas",
@@ -1202,7 +1202,7 @@
         "tasks": {
           "name": "Tasks",
           "desc": "Una lista breve de lo que hay que hacer hoy, deliberadamente corta: nada sincronizado, nada gamificado.",
-          "status": "En desarrollo"
+          "status": "Publicada"
         },
         "keyboard": {
           "name": "Glazni Keyboard",
@@ -1212,7 +1212,7 @@
         "contactsExporter": {
           "name": "Contacts Exporter",
           "desc": "Todos tus contactos, fuera de Google y en un CSV que guardas localmente, listo para el próximo teléfono que llegue.",
-          "status": "En desarrollo"
+          "status": "Publicada"
         },
         "languageLearning": {
           "name": "Aprendizaje de idiomas",

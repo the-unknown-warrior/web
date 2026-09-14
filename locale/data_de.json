@@ -278,7 +278,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Anwendungen — Telefon",
-      "status": "In Entwicklung",
+      "status": "Veröffentlicht",
       "title": "Eine App für Anrufe und Kontakte. Sonst nichts.",
       "sub": "Telefon ist ein Wählgerät und ein Adressbuch, gebaut als eine einzige App, nicht zwei. Kein Konto zum Anmelden, keine Kontaktsynchronisierung im Hintergrund, keine Daten, die das Gerät verlassen — eine Nummer wählen und jemanden nachschlagen passieren auf demselben Bildschirm, komplett offline.",
       "ctaDownload": "APK herunterladen",
@@ -287,7 +287,7 @@
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In Entwicklung"
+        "statusValue": "Veröffentlicht"
       }
     },
     "idea": {
@@ -400,7 +400,7 @@
       "resumeBuilder": {
         "title": "Lebenslauf-Ersteller",
         "desc": "Hochwertige, professionell gestaltete Lebensläufe, angeboten kostenlos oder fast kostenlos statt hinter einem Abo versteckt.",
-        "status": "In Entwicklung"
+        "status": "Veröffentlicht"
       },
       "journal": {
         "title": "Journal",
@@ -410,22 +410,22 @@
       "tasks": {
         "title": "Aufgaben",
         "desc": "Eine kurze Liste dessen, was heute zu erledigen ist, absichtlich kurz gehalten — nichts synchronisiert, nichts gamifiziert.",
-        "status": "In Entwicklung"
+        "status": "Veröffentlicht"
       },
       "contactsExporter": {
         "title": "Kontakte-Exporter",
         "desc": "Jeder Kontakt, raus aus Google und rein in eine CSV, die du lokal behältst — bereit für das nächste Telefon.",
-        "status": "In Entwicklung"
+        "status": "Veröffentlicht"
       },
       "backgroundChanger": {
         "title": "Hintergrundwechsler",
         "desc": "Ein Hintergrundbild, das sich mit Morgen, Abend und Nacht verändert und automatisch durch deine eigene Sammlung kreist.",
-        "status": "In Entwicklung"
+        "status": "Veröffentlicht"
       },
       "phone": {
         "title": "Telefon",
         "desc": "Ein Wählgerät und Adressbuch in einer App statt zwei, komplett offline, ohne Synchronisierung in die Cloud.",
-        "status": "In Entwicklung"
+        "status": "Veröffentlicht"
       },
       "messages": {
         "title": "Nachrichten",
@@ -473,7 +473,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Anwendungen — Kontakte-Exporter",
-      "status": "In Entwicklung",
+      "status": "Veröffentlicht",
       "title": "Jeder Kontakt, raus aus Google und rein in eine Datei, die dir wirklich gehört.",
       "sub": "Kontakte-Exporter erledigt eine Aufgabe: Er liest jeden auf deinem Telefon gespeicherten Kontakt und wandelt ihn in eine einfache, lokal gespeicherte CSV-Datei um. Kein Konto anzulegen, keine Cloud-Synchronisierung, der man vertrauen muss, nichts, was in der Datenbank eines anderen zurückbleibt. Beim nächsten Telefonwechsel — oder einem kompletten Ökosystemwechsel — ziehen deine Kontakte mit dir um, nicht mit einem Login.",
       "ctaDownload": "APK herunterladen",
@@ -482,7 +482,7 @@
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In Entwicklung"
+        "statusValue": "Veröffentlicht"
       }
     },
     "idea": {
@@ -602,7 +602,7 @@
         "phone": {
           "name": "Telefon",
           "desc": "Ein Wählgerät und Adressbuch in einer App statt zwei, komplett offline, ohne Synchronisierung in die Cloud.",
-          "status": "In Entwicklung"
+          "status": "Veröffentlicht"
         },
         "journal": {
           "name": "Journal",
@@ -612,12 +612,12 @@
         "resumeBuilder": {
           "name": "Lebenslauf-Ersteller",
           "desc": "Hochwertige, professionell gestaltete Lebensläufe, angeboten kostenlos oder fast kostenlos statt hinter einem Abo versteckt.",
-          "status": "In Entwicklung"
+          "status": "Veröffentlicht"
         },
         "backgroundChanger": {
           "name": "Hintergrundwechsler",
           "desc": "Ein Hintergrundbild, das sich mit Morgen, Abend und Nacht verändert und automatisch durch deine eigene Sammlung kreist.",
-          "status": "In Entwicklung"
+          "status": "Veröffentlicht"
         },
         "ideas": {
           "name": "Ideen",
@@ -642,7 +642,7 @@
         "tasks": {
           "name": "Aufgaben",
           "desc": "Eine kurze Liste dessen, was heute zu erledigen ist, absichtlich kurz gehalten — nichts synchronisiert, nichts gamifiziert.",
-          "status": "In Entwicklung"
+          "status": "Veröffentlicht"
         },
         "keyboard": {
           "name": "Glazni Keyboard",
@@ -652,7 +652,7 @@
         "contactsExporter": {
           "name": "Kontakte-Exporter",
           "desc": "Jeder Kontakt, raus aus Google und rein in eine CSV, die du lokal behältst — bereit für das nächste Telefon.",
-          "status": "In Entwicklung"
+          "status": "Veröffentlicht"
         },
         "languageLearning": {
           "name": "Language Learning",
@@ -771,7 +771,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Anwendungen — Hintergrundwechsler",
-      "status": "In Entwicklung",
+      "status": "Veröffentlicht",
       "title": "Ein Hintergrundbild, das weiß, wie spät es ist.",
       "sub": "Hintergrundwechsler tauscht dein Hintergrundbild aus, während der Tag voranschreitet — Morgen, Abend, Nacht —, sodass dein Telefon um 8 Uhr morgens und um 20 Uhr wie es selbst aussieht, ohne dass du eine Einstellung berührst. Füge deine eigene Sammlung hinzu, und es kreist weiter automatisch hindurch, abgestimmt auf den Tagesverlauf.",
       "ctaDownload": "APK herunterladen",
@@ -780,7 +780,7 @@
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In Entwicklung"
+        "statusValue": "Veröffentlicht"
       }
     },
     "idea": {
@@ -1501,7 +1501,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Anwendungen — Foto-Journal",
-      "status": "In Entwicklung",
+      "status": "Veröffentlicht",
       "title": "Ein Foto am Tag. Ein Leben, auf das du wirklich zurückblicken kannst.",
       "sub": "Foto-Journal verlangt nur eine Sache: ein einziges Bild, einmal am Tag. Keine Bildunterschriften zu schreiben, kein Streak, der darüber hinausgeht. Reihe genug Tage aneinander, und es wird zu etwas, das einem Journal selten gelingt — eine visuelle Autobiografie, die du nicht extra schreiben musstest, und eines Tages ein Weg für die Menschen, die dich geliebt haben, zu sehen, wie du wirklich gelebt hast.",
       "ctaDownload": "APK herunterladen",
@@ -1510,7 +1510,7 @@
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In Entwicklung"
+        "statusValue": "Veröffentlicht"
       }
     },
     "idea": {
@@ -1581,7 +1581,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Anwendungen — Lebenslauf-Ersteller",
-      "status": "In Entwicklung",
+      "status": "Veröffentlicht",
       "title": "Ein wirklich guter Lebenslauf, ohne Bezahlschranke.",
       "sub": "Lebenslauf-Ersteller bringt die Art von Lebenslaufdesign, die normalerweise als Premium-Vorlage verkauft wird — klare Layouts, echte Typografie, Formatierung, die einen ATS übersteht — für jeden verfügbar, der einen braucht, kostenlos oder fast. Beantworte ein paar Fragen, wähle ein Layout, exportiere etwas, auf das du wirklich stolz sein kannst.",
       "ctaDownload": "APK herunterladen",
@@ -1590,7 +1590,7 @@
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In Entwicklung"
+        "statusValue": "Veröffentlicht"
       }
     },
     "idea": {
@@ -1661,7 +1661,7 @@
     },
     "hero": {
       "eyebrow": "Glazni Anwendungen — Aufgaben",
-      "status": "In Entwicklung",
+      "status": "Veröffentlicht",
       "title": "Eine kurze Liste, kein System.",
       "sub": "Aufgaben ist eine einfache To-do-Liste — eintragen, was zu tun ist, abhaken, fertig. Keine Projekte, keine Labels, kein Produktivitätssystem zum Pflegen, nur die heutige Liste und was von vorher noch offen ist.",
       "ctaDownload": "APK herunterladen",
@@ -1670,7 +1670,7 @@
         "platformLabel": "Plattform",
         "platformValue": "Android (APK)",
         "statusLabel": "Status",
-        "statusValue": "In Entwicklung"
+        "statusValue": "Veröffentlicht"
       }
     },
     "idea": {
