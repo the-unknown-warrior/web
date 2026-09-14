@@ -375,10 +375,10 @@
     },
     "private": {
       "eyebrow": "Privat, per Design",
-      "title": "Wir listen unsere eigenen Apps hier nicht auf oder verlinken sie — noch nicht.",
-      "desc": "Wenn du bereits einen Link zu einer unserer Apps hast, funktioniert dieser Link. Diese Website gibt ihn dir nur nicht heraus.",
-      "noticeLabel": "Warum:",
-      "notice": "das meiste davon ist noch früh, einladungsbasiert oder mitten im Bau. Statt eine unvollständige, halb-öffentliche Liste zu veröffentlichen, leiten wir von dieser Website aus einfach keinen Traffic zu einer Glazni-App weiter. Wenn dir direkt ein Play-Store- oder App-Store-Link geschickt wurde, ist er gültig — öffne ihn ruhig. Nichts hier wird dich dorthin weiterleiten."
+      "title": "Glazni Store befindet sich derzeit in der Entwicklung.",
+      "desc": "Sobald er verfügbar ist, kannst du jede Glazni-App — einschließlich Pro-Modus — direkt von dort herunterladen.",
+      "noticeLabel": "Bis dahin:",
+      "notice": "kannst du die kostenlose APK direkt von dieser Website herunterladen, uns auf F-Droid finden oder unsere Apps in anderen App Stores holen. Jede Glazni-App ist standardmäßig privat und sicher — keine Google-Dienste, keine Tracker, kein Konto erforderlich — und wir arbeiten daran, jede davon als Open Source zu veröffentlichen. Der Pro-Modus ist das Einzige, das erst mit dem Start von Glazni Store freigeschaltet wird."
     },
     "rebuild": {
       "eyebrow": "Ebenfalls verfügbar",
