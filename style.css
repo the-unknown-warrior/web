@@ -301,7 +301,7 @@ h1,h2,h3,.font-display{
   .ventures-dropdown{
     position:static;
     opacity:1;
-    pointer-events:auto;
+    pointer-events:inherit; /* follow the drawer: none when closed, auto when open */
     transform:none;
     margin-top:12px;
     box-shadow:none;
@@ -397,11 +397,18 @@ h1,h2,h3,.font-display{
     gap:26px;
     transform:translateY(-8px);
     opacity:0;
+    visibility:hidden; /* closed drawer can't be clicked or tabbed into, whatever its children set */
     pointer-events:none;
-    transition:opacity .25s var(--ease), transform .25s var(--ease);
+    transition:opacity .25s var(--ease), transform .25s var(--ease), visibility 0s linear .25s;
     border-top:1px solid var(--line);
   }
-  .nav-links.open{ opacity:1; pointer-events:auto; transform:translateY(0); }
+  .nav-links.open{
+    opacity:1;
+    visibility:visible;
+    pointer-events:auto;
+    transform:translateY(0);
+    transition-delay:0s;
+  }
   .nav-links a{ font-size:15px; }
   .nav-toggle{ display:flex; }
   .nav-cta .btn-ghost{ display:none; }
@@ -412,6 +419,11 @@ h1,h2,h3,.font-display{
   .nav.menu-open{
     background:var(--navy-950);
     border-bottom-color:var(--line);
+    /* backdrop-filter turns .nav into the containing block for the
+       position:fixed drawer, collapsing it to the bar's height once the
+       page has scrolled. Dropping it while the menu is open fixes that. */
+    backdrop-filter:none;
+    -webkit-backdrop-filter:none;
   }
 }
 
