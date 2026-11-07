@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 2,
+  "apps": [
+    {
+      "package": "com.glazni.tasks",
+      "name": "Tasks",
+      "summary": "A short to-do list, not a system. Add, check off, clear.",
+      "apkUrl": "https://glazni.com/downloads/tasks.apk",
+      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323"
+    },
+    {
+      "package": "com.glazni.phone",
+      "name": "Phone",
+      "summary": "Dialer and contacts in one app. Fully offline, no account.",
+      "apkUrl": "https://glazni.com/downloads/phone.apk",
+      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323"
+    },
+    {
+      "package": "com.dddigitaldiary.dddigitaldiary",
+      "name": "Photo Journal",
+      "summary": "One photo a day, building into a visual autobiography.",
+      "apkUrl": "https://glazni.com/downloads/photo-journal.apk",
+      "signerSha256": "92602370c091ec78391e470d3df862d537ce93018a9ae051b288082e1ef1691b"
+    },
+    {
+      "package": "com.glazni.contacts_exporter",
+      "name": "Contacts Exporter",
+      "summary": "Export every contact on your phone to a CSV you own.",
+      "apkUrl": "https://glazni.com/downloads/contacts-exporter.apk",
+      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323"
+    },
+    {
+      "package": "com.example.resume_builder",
+      "name": "Resume Builder",
+      "summary": "Professionally designed resumes, free or almost free.",
+      "apkUrl": "https://glazni.com/downloads/resume-builder.apk",
+      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323"
+    },
+    {
+      "package": "com.example.wallpaper_theme_app",
+      "name": "Background Changer",
+      "summary": "A wallpaper that shifts with morning, evening and night.",
+      "apkUrl": "https://glazni.com/downloads/background-changer.apk",
+      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323"
+    }
+  ]
+}
