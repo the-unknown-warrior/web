@@ -6,42 +6,95 @@
       "name": "Tasks",
       "summary": "A short to-do list, not a system. Add, check off, clear.",
       "apkUrl": "https://glazni.com/downloads/tasks.apk",
-      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323"
+      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323",
+      "category": "Productivity",
+      "description": "Tasks is a plain to-do list. No projects, no labels, no productivity system to maintain, just today’s list and whatever’s still open from before.\n\nNothing rolls over automatically and nothing nags you. What’s left at the end of the day is still there tomorrow, exactly where you left it.\n\nPrivate and secure by default: no Google services, no trackers, no accounts required.",
+      "tags": [
+        "No account",
+        "Works offline",
+        "Free"
+      ],
+      "howItWorks": [
+        {
+          "title": "Add",
+          "text": "Type a task and it’s on the list. No due date or project to assign."
+        },
+        {
+          "title": "Check",
+          "text": "Tap to mark something done. It stays visible, struck through, until you clear it."
+        },
+        {
+          "title": "Clear",
+          "text": "Clear finished tasks whenever you want a fresh list."
+        }
+      ]
     },
     {
       "package": "com.glazni.phone",
       "name": "Phone",
       "summary": "Dialer and contacts in one app. Fully offline, no account.",
       "apkUrl": "https://glazni.com/downloads/phone.apk",
-      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323"
+      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323",
+      "category": "Communication",
+      "description": "Phone and Contacts in one app instead of two. An alternative to both Google Phone and Google Contacts on Android.\n\nA privacy-respecting contacts app with nothing synced to the cloud.\n\nPrivate and secure by default: no Google services, no trackers, no accounts required.",
+      "tags": [
+        "No cloud sync",
+        "No trackers",
+        "Free"
+      ]
     },
     {
       "package": "com.dddigitaldiary.dddigitaldiary",
       "name": "Photo Journal",
       "summary": "One photo a day, building into a visual autobiography.",
       "apkUrl": "https://glazni.com/downloads/photo-journal.apk",
-      "signerSha256": "92602370c091ec78391e470d3df862d537ce93018a9ae051b288082e1ef1691b"
+      "signerSha256": "92602370c091ec78391e470d3df862d537ce93018a9ae051b288082e1ef1691b",
+      "category": "Lifestyle",
+      "description": "One photo a day, building into a visual autobiography, and a record for the people who come looking after you’re gone.\n\nPrivate and secure by default: no Google services, no trackers, no accounts required.",
+      "tags": [
+        "Stays on device",
+        "No account",
+        "Free"
+      ]
     },
     {
       "package": "com.glazni.contacts_exporter",
       "name": "Contacts Exporter",
       "summary": "Export every contact on your phone to a CSV you own.",
       "apkUrl": "https://glazni.com/downloads/contacts-exporter.apk",
-      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323"
+      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323",
+      "category": "Tools",
+      "description": "Every contact, out of Google and into a CSV you keep locally, ready for whatever phone comes next.\n\nPrivate and secure by default: no Google services, no trackers, no accounts required.",
+      "tags": [
+        "No account",
+        "Free"
+      ]
     },
     {
       "package": "com.example.resume_builder",
       "name": "Resume Builder",
       "summary": "Professionally designed resumes, free or almost free.",
       "apkUrl": "https://glazni.com/downloads/resume-builder.apk",
-      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323"
+      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323",
+      "category": "Productivity",
+      "description": "Premium, professionally designed resumes, offered free or almost free instead of gated behind a subscription.\n\nPrivate and secure by default: no Google services, no trackers, no accounts required.",
+      "tags": [
+        "No subscription"
+      ]
     },
     {
       "package": "com.example.wallpaper_theme_app",
       "name": "Background Changer",
       "summary": "A wallpaper that shifts with morning, evening and night.",
       "apkUrl": "https://glazni.com/downloads/background-changer.apk",
-      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323"
+      "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323",
+      "category": "Personalisation",
+      "description": "A wallpaper that shifts with morning, evening and night, circling through your own collection automatically.\n\nPrivate and secure by default: no Google services, no trackers, no accounts required.",
+      "tags": [
+        "Your own photos",
+        "No trackers",
+        "Free"
+      ]
     }
   ]
 }
