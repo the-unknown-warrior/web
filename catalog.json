@@ -5,6 +5,7 @@
       "package": "com.glazni.tasks",
       "name": "Tasks",
       "summary": "A short to-do list, not a system. Add, check off, clear.",
+      "iconUrl": "",
       "apkUrl": "https://glazni.com/downloads/tasks.apk",
       "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323",
       "category": "Productivity",
@@ -27,12 +28,30 @@
           "title": "Clear",
           "text": "Clear finished tasks whenever you want a fresh list."
         }
+      ],
+      "screenshots": [
+        {
+          "url": "",
+          "title": "Today’s list",
+          "caption": "Everything open right now, in the order you added it"
+        },
+        {
+          "url": "",
+          "title": "Done",
+          "caption": "What you’ve already checked off, kept until you clear it"
+        },
+        {
+          "url": "",
+          "title": "Add",
+          "caption": "Type a task and it’s on the list"
+        }
       ]
     },
     {
       "package": "com.glazni.phone",
       "name": "Phone",
       "summary": "Dialer and contacts in one app. Fully offline, no account.",
+      "iconUrl": "",
       "apkUrl": "https://glazni.com/downloads/phone.apk",
       "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323",
       "category": "Communication",
@@ -41,12 +60,14 @@
         "No cloud sync",
         "No trackers",
         "Free"
-      ]
+      ],
+      "screenshots": []
     },
     {
       "package": "com.dddigitaldiary.dddigitaldiary",
       "name": "Photo Journal",
       "summary": "One photo a day, building into a visual autobiography.",
+      "iconUrl": "",
       "apkUrl": "https://glazni.com/downloads/photo-journal.apk",
       "signerSha256": "92602370c091ec78391e470d3df862d537ce93018a9ae051b288082e1ef1691b",
       "category": "Lifestyle",
@@ -55,12 +76,14 @@
         "Stays on device",
         "No account",
         "Free"
-      ]
+      ],
+      "screenshots": []
     },
     {
       "package": "com.glazni.contacts_exporter",
       "name": "Contacts Exporter",
       "summary": "Export every contact on your phone to a CSV you own.",
+      "iconUrl": "",
       "apkUrl": "https://glazni.com/downloads/contacts-exporter.apk",
       "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323",
       "category": "Tools",
@@ -68,24 +91,28 @@
       "tags": [
         "No account",
         "Free"
-      ]
+      ],
+      "screenshots": []
     },
     {
       "package": "com.example.resume_builder",
       "name": "Resume Builder",
       "summary": "Professionally designed resumes, free or almost free.",
+      "iconUrl": "",
       "apkUrl": "https://glazni.com/downloads/resume-builder.apk",
       "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323",
       "category": "Productivity",
       "description": "Premium, professionally designed resumes, offered free or almost free instead of gated behind a subscription.\n\nPrivate and secure by default: no Google services, no trackers, no accounts required.",
       "tags": [
         "No subscription"
-      ]
+      ],
+      "screenshots": []
     },
     {
       "package": "com.example.wallpaper_theme_app",
       "name": "Background Changer",
       "summary": "A wallpaper that shifts with morning, evening and night.",
+      "iconUrl": "",
       "apkUrl": "https://glazni.com/downloads/background-changer.apk",
       "signerSha256": "3bb083ba74a09a966f0b820f9eae51d9cc9edda496893465d71747540a34a323",
       "category": "Personalisation",
@@ -94,7 +121,8 @@
         "Your own photos",
         "No trackers",
         "Free"
-      ]
+      ],
+      "screenshots": []
     }
   ]
 }
